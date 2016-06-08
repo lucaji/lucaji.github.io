@@ -1,1 +1,32 @@
-Welcome.
+---
+layout: default
+title: The ExcelDna.NetOffice Diaries
+---
+<div class="blurb">
+	<h1><em>Excel Object Model</em> Techniques and patterns</h1>
+	<p>Interfacing with Excel's object model could be quirky.
+	These notes will depict some aspects of Office Add-In development.
+	</p>
+</div><!-- /.blurb -->
+<div>
+<h3>
+Nested <code>using</code> Pattern
+</h3>
+<p>
+I am using this kind of pattern when accessing some actual Excel object:
+</p>
+<pre>
+void StyleRedColorIfDifferent(Excel.Worksheet ws, string targetRange) {
+	using (var aRange = ws.Range(targetRange))
+	using (var theFont = aRange.Font) {
+		long theColor = Convert.ToInt64(theFont.Color);
+		if (theColor != 0xff)
+			theFont.Color = 0xff;
+	}
+}
+</pre>
+<p>With this pattern of accessing inner properties through nested <code>using</code>s
+I make sure all objects gets disposed correctly.
+</p>
+</div>
+		
