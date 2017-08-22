@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ios on Lucaji</title>
+    <link>lucaji.github.io/tags/ios/</link>
+    <description>Recent content in Ios on Lucaji</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Aug 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="lucaji.github.io/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CHATea 1.1</title>
+      <link>lucaji.github.io/2017/08/chatea-1.1/</link>
+      <pubDate>Tue, 15 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>lucaji.github.io/2017/08/chatea-1.1/</guid>
+      <description>&lt;p&gt;A free messaging app for iOS using wifi and bluetooth connectivity between nearby devices. Released version 1.1 with bug fixes and improved chat interface.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Antoine App</title>
+      <link>lucaji.github.io/2015/04/antoine-app/</link>
+      <pubDate>Wed, 15 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>lucaji.github.io/2015/04/antoine-app/</guid>
+      <description>&lt;p&gt;Antoine had the Little Prince’s story with translations in four different languages. Includes a shoot-em-all game with original music.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Start Rec App</title>
+      <link>lucaji.github.io/2015/04/start-rec-app/</link>
+      <pubDate>Wed, 15 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>lucaji.github.io/2015/04/start-rec-app/</guid>
+      <description>&lt;p&gt;Multicamera app for iOS: synchronized recording and time lapse support.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

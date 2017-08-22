@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Games on Lucaji</title>
+    <link>lucaji.github.io/tags/games/</link>
+    <description>Recent content in Games on Lucaji</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Aug 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="lucaji.github.io/tags/games/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rustiko 1st Edition Graphic Design</title>
+      <link>lucaji.github.io/2013/08/rustiko-1st-edition-graphic-design/</link>
+      <pubDate>Thu, 15 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>lucaji.github.io/2013/08/rustiko-1st-edition-graphic-design/</guid>
+      <description>&lt;p&gt;The old style Risiko table game graphics and packaging design. Instead of the world maps, features only Abruzzo’s map so that you conquer the provinces.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

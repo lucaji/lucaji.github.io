@@ -1,131 +1,154 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ゥカジ</title>
-    <link>http://lucaji.github.io/index.xml</link>
-    <description>Recent content on ゥカジ</description>
+    <title>Lucaji</title>
+    <link>lucaji.github.io/</link>
+    <description>Recent content on Lucaji</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy;2017 themilletgrainfromouterspace - lucaji. Except where otherwise stated, all the inner contents, images and texts are intellectual property of themilletgrainfromouterspace.</copyright>
-    <lastBuildDate>Sat, 05 Nov 2016 19:41:01 +0530</lastBuildDate>
-    <atom:link href="http://lucaji.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Aug 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="lucaji.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>Back To The Future Time Machine</title>
-      <link>http://lucaji.github.io/portfolio/BTTF%20Clock/</link>
-      <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
+      <title>Welcome to Lucaji’s Pages</title>
+      <link>lucaji.github.io/2017/08/welcome-to-lucajis-pages/</link>
+      <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://lucaji.github.io/portfolio/BTTF%20Clock/</guid>
+      <guid>lucaji.github.io/2017/08/welcome-to-lucajis-pages/</guid>
+      <description>&lt;p&gt;Within these pages you will find a selection of my projects, ideas, works and krim-krams.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>CHATea 1.1</title>
+      <link>lucaji.github.io/2017/08/chatea-1.1/</link>
+      <pubDate>Tue, 15 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>lucaji.github.io/2017/08/chatea-1.1/</guid>
+      <description>&lt;p&gt;A free messaging app for iOS using wifi and bluetooth connectivity between nearby devices. Released version 1.1 with bug fixes and improved chat interface.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Antoine App</title>
+      <link>lucaji.github.io/2015/04/antoine-app/</link>
+      <pubDate>Wed, 15 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>lucaji.github.io/2015/04/antoine-app/</guid>
+      <description>&lt;p&gt;Antoine had the Little Prince’s story with translations in four different languages. Includes a shoot-em-all game with original music.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Start Rec App</title>
+      <link>lucaji.github.io/2015/04/start-rec-app/</link>
+      <pubDate>Wed, 15 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>lucaji.github.io/2015/04/start-rec-app/</guid>
+      <description>&lt;p&gt;Multicamera app for iOS: synchronized recording and time lapse support.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Alessandra Arcieri - Proiezione Origami - Book Cover</title>
+      <link>lucaji.github.io/2015/01/alessandra-arcieri---proiezione-origami---book-cover/</link>
+      <pubDate>Thu, 15 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>lucaji.github.io/2015/01/alessandra-arcieri---proiezione-origami---book-cover/</guid>
+      <description>&lt;p&gt;I made the cover design for this enthralling &lt;strong&gt;cyberzen&lt;/strong&gt; book.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Diretta Iniezione</title>
+      <link>lucaji.github.io/2014/09/diretta-iniezione/</link>
+      <pubDate>Sat, 20 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>lucaji.github.io/2014/09/diretta-iniezione/</guid>
+      <description>&lt;p&gt;Audio preamplifier for dynamic microphones. Performs a FET input stage with high linearity and large bandwidth. XLR input with gain control and mini-jack 3.5mm line output.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Drawings, logos, misc</title>
+      <link>lucaji.github.io/2014/06/drawings-logos-misc/</link>
+      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>lucaji.github.io/2014/06/drawings-logos-misc/</guid>
+      <description>&lt;p&gt;This is a collection of miscellaneous works, ideas, drafts that may have been used, reused, changed, forgotten&amp;hellip;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fliers &#39;Campari Soda Ants&#39; jam session night in Serramonacesca</title>
+      <link>lucaji.github.io/2014/06/fliers-campari-soda-ants-jam-session-night-in-serramonacesca/</link>
+      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>lucaji.github.io/2014/06/fliers-campari-soda-ants-jam-session-night-in-serramonacesca/</guid>
+      <description>&lt;p&gt;I designed these leaflets for the jam session night at &lt;strong&gt;Bar dello Sport, Serramonacesca&lt;/strong&gt; using the images of &lt;em&gt;Tjalas&lt;/em&gt;, the aboriginal name for this specimen of &lt;em&gt;honey pot ants&lt;/em&gt; from central Australia, with their abdomen swollen with the sweetest honey you could ever think of.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Back To The Future alarm clock</title>
+      <link>lucaji.github.io/2014/04/back-to-the-future-alarm-clock/</link>
+      <pubDate>Mon, 07 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>lucaji.github.io/2014/04/back-to-the-future-alarm-clock/</guid>
       <description>&lt;p&gt;A full working replica of the time machine circuits from the Back To The Future blockbuster. Apart from actual time travel, it acts as a talking alarm clock.
-&lt;/p&gt;
-
-&lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
-
-&lt;p&gt;If you have already requested by permission and you were given the password, you can watch some video footage about the Back To The Future alarm clock project then follow this &lt;a href=&#34;https://vimeo.com/211174500&#34;&gt;link to the video&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://lucaji.github.io/img/portfolio/svegliolino.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Last updated: April 2017.&lt;/p&gt;</description>
+&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>DirettaInizione</title>
-      <link>http://lucaji.github.io/portfolio/DirettaIniezione/</link>
-      <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
+      <title>Theremin by lookaji</title>
+      <link>lucaji.github.io/2013/10/theremin-by-lookaji/</link>
+      <pubDate>Sun, 13 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lucaji.github.io/portfolio/DirettaIniezione/</guid>
-      <description>&lt;p&gt;Audio preamplifier for dynamic microphones. Performs a FET input stage with high linearity and large bandwidth. With gain control.
-&lt;/p&gt;
-
-&lt;h2 id=&#34;fet-input-stage&#34;&gt;FET Input stage&lt;/h2&gt;
-
-&lt;p&gt;This little AC powered preamplifiers has an input stage configuration with a single FET transistor, very linear for its simplicity giving the warm tone due to the voltage controlled feedback just like a vacuum tube.&lt;/p&gt;
-
-&lt;h2 id=&#34;audio-sample&#34;&gt;Audio Sample&lt;/h2&gt;
-
-&lt;p&gt;If you want to listen to a recording made with Diretta Iniezione, follow this &lt;a href=&#34;https://vimeo.com/97137760&#34;&gt;vimeo link&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid>lucaji.github.io/2013/10/theremin-by-lookaji/</guid>
+      <description>&lt;p&gt;A mighty theremin build from an open source project with Arduino.
+&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Antoine</title>
-      <link>http://lucaji.github.io/portfolio/AntoineApp/</link>
-      <pubDate>Sat, 05 Nov 2016 19:50:47 +0530</pubDate>
+      <title>Tube Amps by lookaji</title>
+      <link>lucaji.github.io/2013/10/tube-amps-by-lookaji/</link>
+      <pubDate>Sat, 12 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lucaji.github.io/portfolio/AntoineApp/</guid>
-      <description>&lt;p&gt;Based on the novel &amp;ldquo;The Little Prince&amp;rdquo; from Antoine de Saint Exupery, is an e-book like with translations in four different languages. Includes a shoot-em-all game with original music.
-&lt;/p&gt;
-
-&lt;h2 id=&#34;antoine-video-footage&#34;&gt;Antoine Video Footage&lt;/h2&gt;
-
-&lt;p&gt;If you have already requested by permission and you were given the password, you can watch some video footage about Antoine App project then follow this &lt;a href=&#34;https://vimeo.com/211160209&#34;&gt;link to the video&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Last updated: April 2017.&lt;/p&gt;</description>
+      <guid>lucaji.github.io/2013/10/tube-amps-by-lookaji/</guid>
+      <description>&lt;p&gt;I built a series of tube amps tested at both at home and on the road that performed nicely.
+&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>StartRecApp</title>
-      <link>http://lucaji.github.io/portfolio/StartRecApp/</link>
-      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <title>Lorena Fontana - A Vision - The Making Of</title>
+      <link>lucaji.github.io/2013/09/lorena-fontana---a-vision---the-making-of/</link>
+      <pubDate>Sun, 15 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lucaji.github.io/portfolio/StartRecApp/</guid>
-      <description>&lt;p&gt;A multicamera remote controlling iOS App. Synced recording and time lapse support. Manual camera controls and touch parameters. Background file transfer, audio and video chat.
-&lt;/p&gt;
-
-&lt;h2 id=&#34;video-footage-on-startrecapp&#34;&gt;Video Footage on StartRecApp&lt;/h2&gt;
-
-&lt;p&gt;If you have already requested by permission and you were given the password, you can watch some video footage about Start Rec App  then follow these links:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://vimeo.com/211158581&#34;&gt;Watch the Live Session Video&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://vimeo.com/211155832&#34;&gt;Watch the Promo Video&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://vimeo.com/211154409&#34;&gt;Watch the Touch Camera Controls Video&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;what-is-start-rec-for&#34;&gt;What is Start Rec for?&lt;/h2&gt;
-
-&lt;p&gt;Gather many iPhones and iPads running START REC in a local wi-fi network, decide one ADMIN role and set all the remaining to be POSERs before checking-in and enter into a camera session. Now each time the session admin takes a photograph, it will be taken by all connected posers.&lt;/p&gt;
-
-&lt;p&gt;Use the VOCAL CHAT to communicate with people in session.&lt;/p&gt;
-
-&lt;h2 id=&#34;touch-manual-camera-controls&#34;&gt;TOUCH MANUAL CAMERA CONTROLS&lt;/h2&gt;
-
-&lt;p&gt;Activate the Touchy feature and when using the Camera, you can change focus and exposure by sliding your finger across the display.&lt;/p&gt;
-
-&lt;h2 id=&#34;synchronization-and-timelapse&#34;&gt;SYNCHRONIZATION AND TIMELAPSE&lt;/h2&gt;
-
-&lt;p&gt;SYNCHRONISITY allows you to time-bind the devices. Shooting a photo at the very exact moment on every devices (always BEWARE about where the cameras are pointing at!). Synchronisity adds functionalities that could expose your privacy if misused.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Can take timed photographs and time lapse.&lt;/li&gt;
-&lt;li&gt;Can record audio and video.&lt;/li&gt;
-&lt;li&gt;Media file consolidation in background.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;what-is-startrec-up-to&#34;&gt;What is StartRec up to?&lt;/h2&gt;
-
-&lt;p&gt;The project is still active and new things are on the way. Stay tuned.&lt;/p&gt;
-
-&lt;p&gt;Last updated April 2017&lt;/p&gt;
-
-&lt;p&gt;THE SOFTWARE IS PROVIDED &amp;ldquo;AS IS&amp;rdquo;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.&lt;/p&gt;</description>
+      <guid>lucaji.github.io/2013/09/lorena-fontana---a-vision---the-making-of/</guid>
+      <description>&lt;p&gt;This video is about the studio recording of the Cd A Vision by Lorena Fontana, recorded in Los Angeles in January and August 2012.
+&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Get in touch</title>
-      <link>http://lucaji.github.io/contact/</link>
-      <pubDate>Sun, 06 Nov 2016 13:00:25 +0530</pubDate>
+      <title>Rustiko 1st Edition Graphic Design</title>
+      <link>lucaji.github.io/2013/08/rustiko-1st-edition-graphic-design/</link>
+      <pubDate>Thu, 15 Aug 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lucaji.github.io/contact/</guid>
-      <description>&lt;p&gt;You can use the provided links to contact &lt;strong&gt;themilletgrainfromouterspace&lt;/strong&gt; so, please help yourself. On my side, I thank you for visiting my pages. Cheers.&lt;/p&gt;
-
-&lt;p&gt;The facebook page Randomart is a group of friends wanting to share some ideas. Feel free to visit it.&lt;/p&gt;
-</description>
+      <guid>lucaji.github.io/2013/08/rustiko-1st-edition-graphic-design/</guid>
+      <description>&lt;p&gt;The old style Risiko table game graphics and packaging design. Instead of the world maps, features only Abruzzo’s map so that you conquer the provinces.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fire Makers Metal Empire - Demo</title>
+      <link>lucaji.github.io/2007/01/fire-makers-metal-empire---demo/</link>
+      <pubDate>Mon, 15 Jan 2007 00:00:00 +0000</pubDate>
+      
+      <guid>lucaji.github.io/2007/01/fire-makers-metal-empire---demo/</guid>
+      <description>&lt;p&gt;My contribution to the keyboard sounds and a CD cover draft for ’Metal Empire’ from the metal band ’Fire Makers’. Featuring Eugent Bushpepa at the vocals.
+&lt;/p&gt;</description>
     </item>
     
   </channel>

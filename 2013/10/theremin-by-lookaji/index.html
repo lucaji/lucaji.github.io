@@ -1,0 +1,1279 @@
+
+
+  
+    
+  
+
+
+  
+
+
+
+
+
+  
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.26">
+    <meta name="theme" content="Tranquilpeak 0.3.1-BETA">
+    <title>Theremin by lookaji</title>
+    <meta name="author" content="Luca Cipressi">
+    <meta name="keywords" content="">
+
+    <link rel="icon" href="lucaji.github.io/favicon.png">
+    
+
+    
+    <meta name="description" content="A mighty theremin build from an open source project with Arduino.
+">
+    <meta property="og:description" content="A mighty theremin build from an open source project with Arduino.
+">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="Theremin by lookaji">
+    <meta property="og:url" content="/2013/10/theremin-by-lookaji/">
+    <meta property="og:site_name" content="Lucaji">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Lucaji">
+    <meta name="twitter:description" content="A mighty theremin build from an open source project with Arduino.
+">
+    
+    
+
+    
+    
+
+    
+      <meta property="og:image" content="/img/avatar.jpg">
+    
+
+    
+      <meta property="og:image" content="/img/theremin-thumb.jpg">
+    
+    
+    
+
+    
+
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" />
+    
+    
+    <link rel="stylesheet" href="lucaji.github.io/css/style-u6mk0ojoywresbx8iepslrmmhl4stuhrsxuwhkpwrkrx7mryjcaimasnk4pi.min.css" />
+    
+    
+
+    
+      
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="3">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="lucaji.github.io/">Lucaji</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="lucaji.github.io/#about">
+    
+    
+    
+      
+        <img class="header-picture" src="lucaji.github.io/img/avatar.jpg" alt="Author&#39;s picture" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="3">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="lucaji.github.io/#about">
+          <img class="sidebar-profile-picture" src="lucaji.github.io/img/avatar.jpg" alt="Author&#39;s picture" />
+        </a>
+        <h4 class="sidebar-profile-name">Luca Cipressi</h4>
+        
+          <h5 class="sidebar-profile-bio">Hi, you just stumbled upon my pages where some of the things I&rsquo;ve done are showcased. Please mind the copyright and licensing informations if you fiddle with this site open source repository, while I am the author and copyright owner unless otherwise stated.</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="lucaji.github.io/categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">Categories</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="lucaji.github.io/tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">Tags</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="lucaji.github.io/archives">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      
+      <span class="sidebar-button-desc">Archives</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="lucaji.github.io/#about">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="lucaji.github.io/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://stackoverflow.com/users/4111774" target="_blank">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-stack-overflow"></i>
+      
+      <span class="sidebar-button-desc">Stack Overflow</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/lucaji" target="_blank">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="lucaji.github.io/index.xml">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+      
+      <span class="sidebar-button-desc">RSS</span>
+    </a>
+  </li>
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="3"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title" itemprop="headline">
+      Theremin by lookaji
+    </h1>
+  
+  <div class="postShorten-meta post-meta">
+  
+    <time itemprop="datePublished" datetime="2013-10-13T00:00:00Z">
+      
+  October 13, 2013
+
+    </time>
+  
+  
+  
+  
+    <span>in</span>
+    
+      <a class="category-link" href="lucaji.github.io/categories/diy">diy</a>, 
+    
+      <a class="category-link" href="lucaji.github.io/categories/music">music</a>
+    
+  
+
+
+</div>
+
+</div>
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <p>A mighty theremin build from an open source project with Arduino.
+</p>
+
+<p>One morning I stumbled across this open source theremin project: <a href="http://www.gaudi.ch/OpenTheremin/">OpenTheremin</a> on the web.
+They design and produce Arduino compatible theremin shields with two oscillators as you can control both tone and volume.
+I entered the theremin’s world and found it fashinating. And made my first attempt at it:</p>
+
+<p><img src="lucaji.github.io/img/theremin-01.jpg" alt="" /></p>
+
+<h2 id="analog-vs-digital">Analog vs Digital</h2>
+
+<p>The eternal fight. I do prefer the first though.</p>
+
+<p>I went through this paper from Robert Moog:</p>
+
+<h1 id="build-the-em-theremin">Build the EM Theremin</h1>
+
+<h2 id="this-classic-electronic-instrument-gives-good-vibrations-and-excitations"><em>This classic electronic instrument gives good vibrations and excitations.</em></h2>
+
+<h3 id="by-robert-moog">By Robert Moog</h3>
+
+<p>Most electronic musical instruments are sonic chameleons that try to sound like a wide variety of other things. However, there is one electronic instrument that makes no apologies for its single, immediately recognizable sound: the theremin. This monophonic instrument has added its distinctive, melodic character to the scores of many horror and suspense movies and made its pop debut on the Beach Boys&rsquo; &ldquo;Good Vibrations.&rdquo; It has also appeared on many concert stages, including Carnegie Hall.
+The theremin was named after its inventor, Russian physicist and musician <em>Leon Theremin</em>, who developed the instrument in the 1920s. Unlike most musical instruments, the theremin is played with absolutely no physical contact. Players wave their hands in the air near two antennas. As one hand gets closer to the straight vertical tube (called the <em>pitch antenna</em>), the pitch rises; as the other hand gets closer to the horizontal tubular loop (called the volume antenna), the volume decreases. Because the theremin&rsquo;s pitch and volume are intimately tied to the player&rsquo;s hand motions, the tone has a vibrant, wavering quality, not unlike a human voice or a violin.
+Among the requests for DIY projects that EM receives, by far the most common is a do-it-yourself theremin. The instrument presented here is an authentic theremin, with antenna response characteristics, pitch range, and tone color that closely emulate Leon Theremin&rsquo;s original designs. However, it is reasonably easy to build. It uses currently available components and materials that you can buy at your local hardware store or from mail-order electronic-parts distributors. If you know how to read a schematic diagram, solder, and use a voltmeter, and if you&rsquo;re comfortable with basic home tools, you should be able to build and adjust this theremin.</p>
+
+<h3 id="overview">OVERVIEW</h3>
+
+<p>When you bring your hand near a theremin antenna, you are actually forming a variable capacitor: the antenna is one &ldquo;plate&rdquo; and your hand is the other. With the high frequencies and very low currents used by the instrument, your hand is effectively grounded by being attached to your body, so the antenna and your hand form a variable capacitor to ground. This variable capacitance is called <em>hand capacitance</em>. You increase the hand capacitance by bringing your hand nearer to the antenna. During normal operation, the hand capacitance is less than one picofarad, which is a very small capacitance indeed!
+Each antenna forms a resonant circuit with a group of inductors collectively called an antenna coil. In this design, the resonant frequencies are about 260 kHz for the pitch antenna and about 450 kHz for the volume antenna. At or near the resonant frequency, a tiny change in hand capacitance results in a larger change in the impedance of the antenna circuit as a whole.
+Refer to Figure 1, the functional block diagram
+<img src="lucaji.github.io/img/theremin-fig01.jpg" alt="" />
+and Figure 2, the schematic diagram of the entire circuit:
+<img src="lucaji.github.io/img/theremin-fig02.jpg" alt="" /></p>
+
+<p>The <em>variable-pitch oscillator</em> (VPO), <em>fixed-pitch oscillator</em> (FPO), and <em>detector</em> sections form a <em>beat-frequency oscillator</em>. Q1, Q2, and their associated components constitute the VPO, the frequency of which is set slightly higher than the resonant frequency of the pitch-antenna circuit (established by adjusting L5). As a player brings a hand near the pitch antenna, the changing impedance of the pitch antenna circuit lowers the VPO frequency by about 3 kHz.
+Q3, Q4, and their associated components form the FPO, the frequency of which is set equal to the VPO frequency (by adjusting L6) when the player&rsquo;s hand is away from the pitch antenna. The difference, or beat, frequency is extracted by the detector and appears as an audio waveform at the junction of R23 and R24. As the player brings a hand near the pitch antenna, the frequency of the audio waveform goes from 0 to about 3 kHz (<sup>31</sup>&frasl;<sub>2</sub> octaves above middle C).
+Q5 and its associated components constitute the <em>pitch-tuning circuit</em>. This circuit presents a variable active impedance that is used to make fine adjustments to the FPO frequency while the instrument is being played. Front panel potentiometer P1 adjusts the current through Q5, thereby changing its active impedance.
+Q6, Q7, and their associated components form the volume oscillator. Its frequency is set slightly higher than the resonant frequency of the <em>volume-antenna circuit</em> by adjusting L11. As the player brings a hand near the volume antenna, the resonant frequency of the volume-antenna circuit is lowered, and the DC voltage appearing at the junction of D1 and C12 is reduced. The resulting current flowing through R14 is amplified and level-shifted by the VCA processor section (U3-B and associated components) and then fed through R30 to control the gain of the voltage-controlled amplifier (U3-A and associated components). The amplitude-controlled audio output is then fed to front-panel jack J1. The maximum level is about 0 dBm (0.8V RMS).
+Q8 and its associated components constitute the volume-tuning circuit, which is nearly identical to the pitchtuning circuit. Potentiometer P2 is used to make fine adjustments to the volume-oscillator frequency during performance.
+The audio waveform is applied to pin 3 of U3-A at a level high enough to clip it. This has the effect of reshaping the waveform from a skewed sine to a quasi-rectangular wave, which is very similar to
+the waveform of Professor Theremin&rsquo;s original instruments. P3 varies the input resistance of U3-A, which influences the amount by which the audio waveform is clipped. P4 shifts the bias at the input of U3-A, which changes the waveform width and therefore the output&rsquo;s harmonic spectrum. C24 and C26 roll off the high-frequency harmonics to produce a pleasant, cello-like tonal balance.</p>
+
+<h3 id="antennas">ANTENNAS</h3>
+
+<p>Making the antennas can be tricky. They should be metallic, rugged, attractively finished, capable of being rigidly mounted, and easy to fabricate by a home hobbyist. I have found that <sup>3</sup>&frasl;<sub>8</sub>-inch soft copper tubing of the sort that plumbers use with bathroom sinks works well. You can buy preplated, straight, short pieces at your local builders&rsquo; supply or hardware store. You can also purchase a simple tubing bender that will allow you to bend the volume antenna by hand without collapsing the tubing. You&rsquo;ll also need a tubing cutter or hacksaw to cut the tubing to length.
+The finished pitch antenna is a straight, vertical tube eighteen inches long and <sup>3</sup>&frasl;<sub>8</sub> inch in diameter, and the finished volume antenna is a horizontal, hairpin loop with a total length of nine inches. The ends of the volume antenna should be separated by <sup>31</sup>&frasl;<sub>4</sub>
+inches, center to center.
+I suggest you make the antennas longer than necessary and then cut them to length after they&rsquo;re formed and stiffened (discussed shortly). Start with a straight, 24- or 36-inch length of tubing for each antenna. To form the volume antenna, slip the tubing bender over the tube. Then, starting ,at the midpoint of the tube, bend it into a semicircular curve. Hold the tube in both hands and push into the curve with your thumbs while pulling down with your other fingers. Doublecheck to make sure that the two ends of the volume antenna are parallel and are the correct distance apart.
+Copper tubing has one drawback: because copper is soft enough to bend by hand, it is easy to put unwanted kinks in the tubing after it has been formed. You can stiffen the antennas by filling them with polyester resin (the liquid plus-hardener type used to repair car bodies) after you&rsquo;ve formed them. This is not particularly difficult, but the potential for making a mess is significant, so be sure you have plenty of time and you&rsquo;re at peace with the world.
+The pitch antenna is straight because this configuration is more sensitive to changing hand position when the hand is farther away and less sensitive when the hand is close. The change in hand capacitance is extremely small when the hand is far away, and the change in pitch as a function of distance must be as uniform as possible.
+The volume antenna is looped because this configuration is less sensitive when the hand is far away and more sensitive when the hand is close. This gives you greater control over the low end of the dynamic range and lets you articulate notes by quickly dipping your left hand into the loop (more in a moment)
+The two antennas are perpendicular to each other to minimize the interaction between them. For example, as you move your left hand tip and down above the volume antenna, its motion is parallel to the pitch antenna, which causes little or no change in pitch.</p>
+
+<h2 id="cabinet">CABINET</h2>
+
+<p>The entire cabinet is made of wood. Except for the front panel, large metal cabinet parts should not be used, as they may add unnecessary capacitance to the antennas. My materials of choice are hardwood plywood for the top and solid hardwood for the rest of the cabinet because they are rugged, easy to shape accurately, and can be attractively finished.
+The enclosure consists of a base and cover (see Fig. 3). The cover should fit snugly over the base. You may fasten the pieces together with any combination of nails, wood screws, and wood glue, depending on how you like to put cabinets together. After the cabinet parts have been assembled, sand them down well and finish them with the wood finish of your choice, except metallic paint.
+The antenna sockets are regular tube-to-pipe connectors that you can get when you buy the copper tubing for the antennas. The volume-antenna sockets are straight <sup>3</sup>&frasl;<sub>8</sub>-inch-tube-to-<sup>3</sup>&frasl;<sub>8</sub>- inch-male-pipe connectors, whereas the pitch-antenna socket is a right-angle, <sup>3</sup>&frasl;<sub>8</sub>-inch-tube-to-<sup>3</sup>&frasl;<sub>8</sub>-inch-male-pipe elbow. Drill <sup>3</sup>&frasl;<sub>8</sub>-inch holes for these fittings; then screw them in by hand. If you can&rsquo;t screw the <sup>3</sup>&frasl;<sub>8</sub>-inch pipe threads into the wood by hand, don&rsquo;t force it by using a pipe wrench: you may split the wood. Instead, enlarge the hole slightly with a large round file or a <sup>3</sup>&frasl;<sub>8</sub>-inch pipe tap.
+Once you&rsquo;re sure you can screw in the pipe fittings by hand, unscrew them, put a small amount of epoxy on the threads, and reinsert them by hand. Before the epoxy hardens, verify that the pitch-antenna socket is vertical by inserting the pitch antenna into the socket and adjusting the position of the socket as necessary.
+Two <sup>4</sup>&frasl;<sub>4</sub>-inch X <sup>3</sup>&frasl;<sub>4</sub>-inch blocks and one microphone-stand mounting flange are attached to the bottom of the enclosure. This lets you set the finished unit on a microphone stand (preferred) or on a wood (not metal) table when you play it.</p>
+
+<h2 id="front-panel">FRONT PANEL</h2>
+
+<p>The front panel should be made of <sup>1</sup>&frasl;<sub>16</sub>-inch sheet aluminum. It should be about nine inches long and should have bends at the top and bottom for mounting and stiffening. You can either cut and bend the panel yourself or have your local sheet-metal shop do it for you. Alternatively, you can buy a blank, single-space (1U) rack panel, which is <sup>13</sup>&frasl;<sub>4</sub> inches high by nineteen inches wide, cut it to length with a hacksaw, and attach the panel to the base from the front instead of from the bottom. However, that will leave a <sup>1</sup>&frasl;<sub>4</sub>-inch gap between the top of the panel and the enclosure cover.
+Four rotary potentiometers, one <sup>1</sup>&frasl;<sub>4</sub>-inch phone jack, one <sup>1</sup>&frasl;<sub>8</sub>-inch mini-jack, and one toggle switch are mounted on the front panel. The two tuning pots should be located in the left part of the panel so your hand is as far from the pitch antenna as possible when You tune the antennas. Use high-quality, full-size rotary pots and large-diameter knobs for PI and P2, P3 and P4 are less critical; these pots can be miniature, and the knobs can be small. I suggest you use an insulated, <sup>1</sup>&frasl;<sub>4</sub>-inch jack for J1 to avoid a ground loop between the audio and power grounds.
+Eight single-conductor wires and one shielded wire connect the front-panel components to the main circuit board, I suggest you use a connector for these wires so Von can unplug the panel if you need to work on the main circuit board. Prototyping boards often have provisions for mounting a DB15 or DB25 connector.</p>
+
+<h2 id="main-circuit-board">MAIN CIRCUIT BOARD</h2>
+
+<p>All circuitry (except the antenna circuits and front-panel components) is mounted on one circuit board (see Fig. 4). A plug-in prototyping board of the sort used to assemble computer I/O circuits provides the space, connection provisions, and solidity you need. Radio Shack&rsquo;s prototyping board (catalog #276-1598) provides ample space for all the circuitry with extra room to try your own modifications.
+The theremin&rsquo;s power is supplied by a ±12 VAC wall wart, which is widely available (see sidebar &ldquo;Where to Get Parts and Materials&rdquo;). The AC voltage is converted into DC by two voltage regulators (UT, U2, and associated components). Keep the power-supply circuit components as close together as possible, and keep connections as short as you can. Be really sure that that C20 and C22 are very close to U2. The negative side of C19 and the positive side of C20 should be connected together with a very short lead, and the grounded side of J2 should also be connected to this lead. The voltage regulators are less likely to oscillate if the connections are kept as short as possible.
+Be sure to separate the VPO from the FPO by a couple of inches. These oscillators are already lightly coupled through C2 and C6, so they tend to synchronize at low beat frequencies (which is desirable). Placing the oscillator circuits close together increases the coupling, which may result in an excessive tendency to synchronize. In addition, place C4, C8, and C13 very close to the oscillator circuits with which they are associated to maximize the decoupling.
+After the main board is assembled and checked, brush the solder side with a small wire brush and inspect for unwanted solder bridges, wiring mistakes, and weak solder joints. Then set the board in the middle of the cabinet base in preparation for final test and tuning.</p>
+
+<h2 id="antennacircuitboards">ANTENNACIRCUITBOARDS</h2>
+
+<p>The inductors and other antenna-circuit components are mounted on two separate, small circuit boards with little or no copper circuit pattern. LI through L4 are mounted on the pitch-antenna circuit board (see Fig. 4). Position the inductors so they are parallel to one another and about one inch apart, center to center. The inductors are not polarized per se, but each terminal is distinct: one emerges from the center of the coil and the other emerges from the outer layer of the coil. Arbitrarily select one terminal as the beginning and the other as the end, and connect the inductors in series so the end of one inductor is connected to the beginning of the next.
+Position the board on the base next to the pitch antenna. The free end of L4 should be close to the main circuit board, and the free end of Ll should be close to the pitch-antenna socket.
+Connect a short wire from the free end
+of LI to the pitch-antenna socket using a heavy soldering iron or by drilling and tapping a hole for a 4-40 thread and then mounting a solder lug.
+L7 through L10, DI, C12, and R14 are mounted on the volume-antenna circuit board (see Fig. 4). As with the pitch-antenna circuit, position the inductors so they are parallel to one another, about an inch apart, and connected so the windings are end to beginning. Position the board near the volume antenna, and install wires to connect the free end of L10 to the volume-antenna socket. In addition, connect the junction of L7 and C12 to the junction of C14 and C15, and connect the free end of R14 to pin 13 of U3.</p>
+
+<h2 id="checking-it-out">CHECKING IT OUT</h2>
+
+<p>After you&rsquo;ve assembled and cleaned the main board, take a deep breath and check all your connections again. Look for shorts, mistakes, missing connec-
+tions, etc. Then connect the front panel to the main board, plug in the power supply, and turn the power switch on.
+Use a voltmeter to check the voltages at the inputs and outputs of U1 and U2 (see Fig. 2). Then check the DC voltages at the collectors of Q1 through Q8 (they should all be about +12V); the emitters of Q1 through Q4, Q6, and Q7 (about 0.6V); and the emitters of Q5 and Q8 (about -2.6V). If you don&rsquo;t observe all these readings, check everything until you find the problem.
+Next, verify that all three oscillators are working. Read the AC voltages across L5, L6, and L1 I. If you read about 10 VAC, then the corresponding oscillator is producing a waveform. If you don&rsquo;t read any voltage at all, the oscillator is not working. To check the detector, measure the DC voltage across R24. If it&rsquo;s -0.5V or so, the detector is working.
+Temporarily connect a pair of headphones or a small powered speaker across R24. Turn the tuning slugs in L5 and L6 counterclockwise until the tops of the slugs hit the shield cans. Be careful. Do not force the slugs farther than they want to go! Turn L5 exactly two turns clockwise. Then turn L6 clockwise slowly until you hear a high-pitched whistle. Keep turning until the tone is in the mid range (about I kHz). Now, turn P1 in either direction. You should hear the pitch change markedly. If you observe all these things, then the entire beat-frequency oscillator circuit is in good shape.
+To check the VCA, temporarily connect pin 12 of U3 to ground. (This should turn on the VCA.) Connect your headphones or monitor amp across R34. You should hear a somewhat louder tone. Now, disconnect the temporary ground connection to pin 12 of U3, and connect that pin to -12V. The audio across R34 should disappear. If it does, the VCA is working properly.
+While pin 12 of U3 is connected to ground, you can also check the Brightness and Waveform controls (P3 and P4). Use the Pitch Tuning control (PI) to set the tone&rsquo;s pitch to approximately middle C. Then turn the Brightness and Waveform controls. The Brightness control should change the sound from muted to bright, and the Waveform control should change the sound from “reedy” (narrow waveform) to
+“full” (wider waveform). After you have checked all of these controls, remove the temporary connection to pin 12 of U3.</p>
+
+<h2 id="tuning">TUNING</h2>
+
+<p>Before tuning, clean off your workbench and move aside any large, conductive objects such as desk lamps and test gear. Leave a clear space of two or three feet around your work area. Place the cabinet base in the middle of the cleared space, put the pitch antenna in place, and connect the pitch-antenna circuit board between the antenna and the main board. On the main board, temporarily connect pin 12 of U3 to ground and connect the instrument&rsquo;s audio output to headphones or a monitor amplifier. Now follow these steps to adjust L5 and L6:
+1. Set PI (the Pitch Tuning control) to its middle position.
+2. Grasp and hold the pitch antenna with one hand. With the other hand, adjust L6 until the beat frequency is zero, Then carefully turn L6 counter-clockwise until you hear a pitch of about 3 kHz (3 <sup>1</sup>&frasl;<sub>2</sub> octaves above middle C). 3. Let go of the pitch antenna. Slowly
+retract your hand from the vicinity of the antenna. You should hear the pitch go down.
+4. If the pitch does not go down to zero when you&rsquo;ve retracted your hand completely and stepped back, the inductance of L5 is set too high. Advance the slug in L5 clockwise by a small amount, perhaps <sup>1</sup>&frasl;<sub>10</sub> turn or so, and repeat steps 2 and 3.
+5. If the pitch goes to zero and then begins to ascend as you retract your hand, the inductance of L5 is set too low. Turn the slug in L5 counterclock-wise by a small amount, and repeat steps 2 and 3.
+6. If the pitch jumps abruptly as you retract your hand, the inductance of L5 is set far too low. Turn the slug in L5 counterclockwise approximately a quarter-turn and repeat steps 2 and 3.
+Eventually, you will converge on the proper settings for L5 and L6. The idea is to find the settings at which the frequency (a) is zero when you&rsquo;ve stepped away from the theremin, (b) begins to ascend when your body is about two feet from the pitch antenna, and &copy; reaches about 3 kHz when your hand touches the pitch antenna. Tap lightly on L5 and L6 as you converge on the proper settings, which will stabilize the tuning-slug positions.
+This completes the tuning of the pitch oscillators. In performance, the exact tuning is established by adjusting the pitch-tuning control (P1).
+Now, remove the temporary ground connection to pin 12 of U3. Connect a voltmeter from pin 12 of U3 to ground, install the volume antenna, and connect the volume-antenna circuit card between the antenna and the main board. Follow these steps to adjust L11:
+1. Set P2 to its mid position.
+2. Carefully turn the slug in L11 counterclockwise until it is out as far as it will go. The meter should read about -12V.
+3. Slowly turn the slug clockwise. At some point, you will see the voltage begin to rise from -12V. Stop when the voltage passes through 0 and becomes positive, At this point, bringing your hand near the volume antenna lowers the voltage; the meter should read about -12V when your hand is two or three inches from the volume antenna.
+This completes the tuning of the volume oscillator. In performance, the exact volume is established by adjusting the volume-tuning control (P2).</p>
+
+<h2 id="playing-the-theremin">PLAYING THE THEREMIN</h2>
+
+<p>You are now ready to try your theremin. Place the instrument (with antennas installed) on a microphone stand that is set about 40 inches high. Connect a small monitor amplifier and speaker to J I and the 12 VAC wall-wart power adapter to J2. Turn on SW1 and touch the pitch antenna. Set P2 so the tone is loud when your left hand is well away from the volume antenna and the volume begins to decrease noticeably when your left hand is brought within ten to twelve inches of the volume antenna. Then set PI so the frequency is zero when your right hand is well away from the pitch antenna and the tone becomes apparent when you bring your right hand within 18 to 24 inches of the pitch antenna. Your instrument is now ready to play.
+As with any expressive musical instrument, playing the theremin takes some practice. You can start by follow-ing these simple exercises:
+1. Stand slightly left of the center of
+the instrument with your right shoulder about 24 inches from the pitch antenna. Relax your wrists. Think of a note and hum it to yourself. Then move your right hand toward the pitch antenna until the theremin pitch coincides with the pitch you&rsquo;re humming. Now hold the note. This is not as easy as it sounds, but it&rsquo;s an important technique to learn. At first, you will find it difficult to stand still, but a few hours of practice will work wonders.
+2. Hum two different notes, one after the other. Find the first note on the theremin, hold it, and then slowly glide to the second note.
+3. Repeat the above exercise, but bring your left hand near the volume antenna while your right hand glides from one note to the next. Move the left hand slowly at first and then more rapidly as you learn to move your left hand independently of your right hand. This exercise teaches you to &ldquo;feel&rdquo; where the notes are and to impart expressive dynamics.
+4. While playing a note, introduce vibrato by moving your right hand back and forth from your wrist several times a second. Concentrate on making the vibrato even and steady.
+These exercises address the basic skills of theremin playing: finding notes, playing intervals, articulating notes, and introducing vibrato. With these basic skills, you can play slow melodies. Practicing regular scales and arpeggios will increase your proficiency. Focus on accuracy of pitch and precise control of dynamics.
+Once you&rsquo;ve mastered the basic moves, it&rsquo;s time to develop your own style. Pay particular attention to shaping envelopes and dynamics with your left hand. The left hand can also be used to articulate discrete notes by momentarily dipping into the volume antenna as the right hand quickly moves from one pitch to another. Try combining audible glides and discrete pitch changes within a musical phrase. In addition, avoid constant vibrato in the right hand. Instead, impart expressive nuance by shaping the amount and rate of vibrato. These considerations are important components of theremin musicianship.
+The theremin presented here is designed to meet the needs of musicians who wish to explore the artistic resources of this unique instrument. Build your instrument carefully, and it will provide many years of reliable service. Practice with diligence, and you will provide enjoyable music for yourself and your audiences. Finally, be sure to give an occasional thought to the spirit of Leon Theremin, to whom we owe so much.</p>
+
+<p>Robert Moog was a pioneer in the early development of commercial synthesizers and currently serves as Grand Poobah of Big Briar, Inc.</p>
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">TAGGED IN</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="lucaji.github.io//tags/arduino/">Arduino</a>
+
+                  </div>
+                
+              
+            
+            <div class="post-actions-wrap">
+  <nav>
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="lucaji.github.io/2014/04/back-to-the-future-alarm-clock/" data-tooltip="Back To The Future alarm clock">
+          
+            <i class="fa fa-angle-left"></i>
+            <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+          </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="lucaji.github.io/2013/10/tube-amps-by-lookaji/" data-tooltip="Tube Amps by lookaji">
+          
+            <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+            <i class="fa fa-angle-right"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </nav>
+  <ul class="post-actions post-action-share">
+    
+      <li class="post-action hide-lg hide-md hide-sm">
+        <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+          <i class="fa fa-share-alt"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=lucaji.github.io%2f2013%2f10%2ftheremin-by-lookaji%2f">
+          <i class="fa fa-google-plus"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=lucaji.github.io%2f2013%2f10%2ftheremin-by-lookaji%2f">
+          <i class="fa fa-facebook-official"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=lucaji.github.io%2f2013%2f10%2ftheremin-by-lookaji%2f">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </li>
+    
+    
+      <li class="post-action">
+        <a class="post-action-btn btn btn--default" href="#disqus_thread">
+          <i class="fa fa-comment-o"></i>
+        </a>
+      </li>
+    
+    <li class="post-action">
+      
+        <a class="post-action-btn btn btn--default" href="#">
+      
+        <i class="fa fa-list"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+            
+              
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+    <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" />    
+  <div>
+  The content, defined as the blog articles and images, if no otherwise stated, is licensed under the <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</a>
+  <div id="ccspoiler" style="display:none">
+  <pre>
+  Attribution-NonCommercial 4.0 International
+  
+  =======================================================================
+  
+  Creative Commons Corporation ("Creative Commons") is not a law firm and
+  does not provide legal services or legal advice. Distribution of
+  Creative Commons public licenses does not create a lawyer-client or
+  other relationship. Creative Commons makes its licenses and related
+  information available on an "as-is" basis. Creative Commons gives no
+  warranties regarding its licenses, any material licensed under their
+  terms and conditions, or any related information. Creative Commons
+  disclaims all liability for damages resulting from their use to the
+  fullest extent possible.
+  
+  Using Creative Commons Public Licenses
+  
+  Creative Commons public licenses provide a standard set of terms and
+  conditions that creators and other rights holders may use to share
+  original works of authorship and other material subject to copyright
+  and certain other rights specified in the public license below. The
+  following considerations are for informational purposes only, are not
+  exhaustive, and do not form part of our licenses.
+  
+       Considerations for licensors: Our public licenses are
+       intended for use by those authorized to give the public
+       permission to use material in ways otherwise restricted by
+       copyright and certain other rights. Our licenses are
+       irrevocable. Licensors should read and understand the terms
+       and conditions of the license they choose before applying it.
+       Licensors should also secure all rights necessary before
+       applying our licenses so that the public can reuse the
+       material as expected. Licensors should clearly mark any
+       material not subject to the license. This includes other CC-
+       licensed material, or material used under an exception or
+       limitation to copyright. More considerations for licensors:
+    wiki.creativecommons.org/Considerations_for_licensors
+  
+       Considerations for the public: By using one of our public
+       licenses, a licensor grants the public permission to use the
+       licensed material under specified terms and conditions. If
+       the licensor's permission is not necessary for any reason--for
+       example, because of any applicable exception or limitation to
+       copyright--then that use is not regulated by the license. Our
+       licenses grant only permissions under copyright and certain
+       other rights that a licensor has authority to grant. Use of
+       the licensed material may still be restricted for other
+       reasons, including because others have copyright or other
+       rights in the material. A licensor may make special requests,
+       such as asking that all changes be marked or described.
+       Although not required by our licenses, you are encouraged to
+       respect those requests where reasonable. More_considerations
+       for the public: 
+    wiki.creativecommons.org/Considerations_for_licensees
+  
+  =======================================================================
+  
+  Creative Commons Attribution-NonCommercial 4.0 International Public
+  License
+  
+  By exercising the Licensed Rights (defined below), You accept and agree
+  to be bound by the terms and conditions of this Creative Commons
+  Attribution-NonCommercial 4.0 International Public License ("Public
+  License"). To the extent this Public License may be interpreted as a
+  contract, You are granted the Licensed Rights in consideration of Your
+  acceptance of these terms and conditions, and the Licensor grants You
+  such rights in consideration of benefits the Licensor receives from
+  making the Licensed Material available under these terms and
+  conditions.
+  
+  
+  Section 1 -- Definitions.
+  
+    a. Adapted Material means material subject to Copyright and Similar
+       Rights that is derived from or based upon the Licensed Material
+       and in which the Licensed Material is translated, altered,
+       arranged, transformed, or otherwise modified in a manner requiring
+       permission under the Copyright and Similar Rights held by the
+       Licensor. For purposes of this Public License, where the Licensed
+       Material is a musical work, performance, or sound recording,
+       Adapted Material is always produced where the Licensed Material is
+       synched in timed relation with a moving image.
+  
+    b. Adapter's License means the license You apply to Your Copyright
+       and Similar Rights in Your contributions to Adapted Material in
+       accordance with the terms and conditions of this Public License.
+  
+    c. Copyright and Similar Rights means copyright and/or similar rights
+       closely related to copyright including, without limitation,
+       performance, broadcast, sound recording, and Sui Generis Database
+       Rights, without regard to how the rights are labeled or
+       categorized. For purposes of this Public License, the rights
+       specified in Section 2(b)(1)-(2) are not Copyright and Similar
+       Rights.
+    d. Effective Technological Measures means those measures that, in the
+       absence of proper authority, may not be circumvented under laws
+       fulfilling obligations under Article 11 of the WIPO Copyright
+       Treaty adopted on December 20, 1996, and/or similar international
+       agreements.
+  
+    e. Exceptions and Limitations means fair use, fair dealing, and/or
+       any other exception or limitation to Copyright and Similar Rights
+       that applies to Your use of the Licensed Material.
+  
+    f. Licensed Material means the artistic or literary work, database,
+       or other material to which the Licensor applied this Public
+       License.
+  
+    g. Licensed Rights means the rights granted to You subject to the
+       terms and conditions of this Public License, which are limited to
+       all Copyright and Similar Rights that apply to Your use of the
+       Licensed Material and that the Licensor has authority to license.
+  
+    h. Licensor means the individual(s) or entity(ies) granting rights
+       under this Public License.
+  
+    i. NonCommercial means not primarily intended for or directed towards
+       commercial advantage or monetary compensation. For purposes of
+       this Public License, the exchange of the Licensed Material for
+       other material subject to Copyright and Similar Rights by digital
+       file-sharing or similar means is NonCommercial provided there is
+       no payment of monetary compensation in connection with the
+       exchange.
+  
+    j. Share means to provide material to the public by any means or
+       process that requires permission under the Licensed Rights, such
+       as reproduction, public display, public performance, distribution,
+       dissemination, communication, or importation, and to make material
+       available to the public including in ways that members of the
+       public may access the material from a place and at a time
+       individually chosen by them.
+  
+    k. Sui Generis Database Rights means rights other than copyright
+       resulting from Directive 96/9/EC of the European Parliament and of
+       the Council of 11 March 1996 on the legal protection of databases,
+       as amended and/or succeeded, as well as other essentially
+       equivalent rights anywhere in the world.
+  
+    l. You means the individual or entity exercising the Licensed Rights
+       under this Public License. Your has a corresponding meaning.
+  
+  
+  Section 2 -- Scope.
+  
+    a. License grant.
+  
+         1. Subject to the terms and conditions of this Public License,
+            the Licensor hereby grants You a worldwide, royalty-free,
+            non-sublicensable, non-exclusive, irrevocable license to
+            exercise the Licensed Rights in the Licensed Material to:
+  
+              a. reproduce and Share the Licensed Material, in whole or
+                 in part, for NonCommercial purposes only; and
+  
+              b. produce, reproduce, and Share Adapted Material for
+                 NonCommercial purposes only.
+  
+         2. Exceptions and Limitations. For the avoidance of doubt, where
+            Exceptions and Limitations apply to Your use, this Public
+            License does not apply, and You do not need to comply with
+            its terms and conditions.
+  
+         3. Term. The term of this Public License is specified in Section
+            6(a).
+  
+         4. Media and formats; technical modifications allowed. The
+            Licensor authorizes You to exercise the Licensed Rights in
+            all media and formats whether now known or hereafter created,
+            and to make technical modifications necessary to do so. The
+            Licensor waives and/or agrees not to assert any right or
+            authority to forbid You from making technical modifications
+            necessary to exercise the Licensed Rights, including
+            technical modifications necessary to circumvent Effective
+            Technological Measures. For purposes of this Public License,
+            simply making modifications authorized by this Section 2(a)
+            (4) never produces Adapted Material.
+  
+         5. Downstream recipients.
+  
+              a. Offer from the Licensor -- Licensed Material. Every
+                 recipient of the Licensed Material automatically
+                 receives an offer from the Licensor to exercise the
+                 Licensed Rights under the terms and conditions of this
+                 Public License.
+  
+              b. No downstream restrictions. You may not offer or impose
+                 any additional or different terms or conditions on, or
+                 apply any Effective Technological Measures to, the
+                 Licensed Material if doing so restricts exercise of the
+                 Licensed Rights by any recipient of the Licensed
+                 Material.
+  
+         6. No endorsement. Nothing in this Public License constitutes or
+            may be construed as permission to assert or imply that You
+            are, or that Your use of the Licensed Material is, connected
+            with, or sponsored, endorsed, or granted official status by,
+            the Licensor or others designated to receive attribution as
+            provided in Section 3(a)(1)(A)(i).
+  
+    b. Other rights.
+  
+         1. Moral rights, such as the right of integrity, are not
+            licensed under this Public License, nor are publicity,
+            privacy, and/or other similar personality rights; however, to
+            the extent possible, the Licensor waives and/or agrees not to
+            assert any such rights held by the Licensor to the limited
+            extent necessary to allow You to exercise the Licensed
+            Rights, but not otherwise.
+  
+         2. Patent and trademark rights are not licensed under this
+            Public License.
+  
+         3. To the extent possible, the Licensor waives any right to
+            collect royalties from You for the exercise of the Licensed
+            Rights, whether directly or through a collecting society
+            under any voluntary or waivable statutory or compulsory
+            licensing scheme. In all other cases the Licensor expressly
+            reserves any right to collect such royalties, including when
+            the Licensed Material is used other than for NonCommercial
+            purposes.
+  
+  
+  Section 3 -- License Conditions.
+  
+  Your exercise of the Licensed Rights is expressly made subject to the
+  following conditions.
+  
+    a. Attribution.
+  
+         1. If You Share the Licensed Material (including in modified
+            form), You must:
+  
+              a. retain the following if it is supplied by the Licensor
+                 with the Licensed Material:
+  
+                   i. identification of the creator(s) of the Licensed
+                      Material and any others designated to receive
+                      attribution, in any reasonable manner requested by
+                      the Licensor (including by pseudonym if
+                      designated);
+  
+                  ii. a copyright notice;
+  
+                 iii. a notice that refers to this Public License;
+  
+                  iv. a notice that refers to the disclaimer of
+                      warranties;
+  
+                   v. a URI or hyperlink to the Licensed Material to the
+                      extent reasonably practicable;
+  
+              b. indicate if You modified the Licensed Material and
+                 retain an indication of any previous modifications; and
+  
+              c. indicate the Licensed Material is licensed under this
+                 Public License, and include the text of, or the URI or
+                 hyperlink to, this Public License.
+  
+         2. You may satisfy the conditions in Section 3(a)(1) in any
+            reasonable manner based on the medium, means, and context in
+            which You Share the Licensed Material. For example, it may be
+            reasonable to satisfy the conditions by providing a URI or
+            hyperlink to a resource that includes the required
+            information.
+  
+         3. If requested by the Licensor, You must remove any of the
+            information required by Section 3(a)(1)(A) to the extent
+            reasonably practicable.
+  
+         4. If You Share Adapted Material You produce, the Adapter's
+            License You apply must not prevent recipients of the Adapted
+            Material from complying with this Public License.
+  
+  
+  Section 4 -- Sui Generis Database Rights.
+  
+  Where the Licensed Rights include Sui Generis Database Rights that
+  apply to Your use of the Licensed Material:
+  
+    a. for the avoidance of doubt, Section 2(a)(1) grants You the right
+       to extract, reuse, reproduce, and Share all or a substantial
+       portion of the contents of the database for NonCommercial purposes
+       only;
+  
+    b. if You include all or a substantial portion of the database
+       contents in a database in which You have Sui Generis Database
+       Rights, then the database in which You have Sui Generis Database
+       Rights (but not its individual contents) is Adapted Material; and
+  
+    c. You must comply with the conditions in Section 3(a) if You Share
+       all or a substantial portion of the contents of the database.
+  
+  For the avoidance of doubt, this Section 4 supplements and does not
+  replace Your obligations under this Public License where the Licensed
+  Rights include other Copyright and Similar Rights.
+  
+  
+  Section 5 -- Disclaimer of Warranties and Limitation of Liability.
+  
+    a. UNLESS OTHERWISE SEPARATELY UNDERTAKEN BY THE LICENSOR, TO THE
+       EXTENT POSSIBLE, THE LICENSOR OFFERS THE LICENSED MATERIAL AS-IS
+       AND AS-AVAILABLE, AND MAKES NO REPRESENTATIONS OR WARRANTIES OF
+       ANY KIND CONCERNING THE LICENSED MATERIAL, WHETHER EXPRESS,
+       IMPLIED, STATUTORY, OR OTHER. THIS INCLUDES, WITHOUT LIMITATION,
+       WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR
+       PURPOSE, NON-INFRINGEMENT, ABSENCE OF LATENT OR OTHER DEFECTS,
+       ACCURACY, OR THE PRESENCE OR ABSENCE OF ERRORS, WHETHER OR NOT
+       KNOWN OR DISCOVERABLE. WHERE DISCLAIMERS OF WARRANTIES ARE NOT
+       ALLOWED IN FULL OR IN PART, THIS DISCLAIMER MAY NOT APPLY TO YOU.
+  
+    b. TO THE EXTENT POSSIBLE, IN NO EVENT WILL THE LICENSOR BE LIABLE
+       TO YOU ON ANY LEGAL THEORY (INCLUDING, WITHOUT LIMITATION,
+       NEGLIGENCE) OR OTHERWISE FOR ANY DIRECT, SPECIAL, INDIRECT,
+       INCIDENTAL, CONSEQUENTIAL, PUNITIVE, EXEMPLARY, OR OTHER LOSSES,
+       COSTS, EXPENSES, OR DAMAGES ARISING OUT OF THIS PUBLIC LICENSE OR
+       USE OF THE LICENSED MATERIAL, EVEN IF THE LICENSOR HAS BEEN
+       ADVISED OF THE POSSIBILITY OF SUCH LOSSES, COSTS, EXPENSES, OR
+       DAMAGES. WHERE A LIMITATION OF LIABILITY IS NOT ALLOWED IN FULL OR
+       IN PART, THIS LIMITATION MAY NOT APPLY TO YOU.
+  
+    c. The disclaimer of warranties and limitation of liability provided
+       above shall be interpreted in a manner that, to the extent
+       possible, most closely approximates an absolute disclaimer and
+       waiver of all liability.
+  
+  
+  Section 6 -- Term and Termination.
+  
+    a. This Public License applies for the term of the Copyright and
+       Similar Rights licensed here. However, if You fail to comply with
+       this Public License, then Your rights under this Public License
+       terminate automatically.
+  
+    b. Where Your right to use the Licensed Material has terminated under
+       Section 6(a), it reinstates:
+  
+         1. automatically as of the date the violation is cured, provided
+            it is cured within 30 days of Your discovery of the
+            violation; or
+  
+         2. upon express reinstatement by the Licensor.
+  
+       For the avoidance of doubt, this Section 6(b) does not affect any
+       right the Licensor may have to seek remedies for Your violations
+       of this Public License.
+  
+    c. For the avoidance of doubt, the Licensor may also offer the
+       Licensed Material under separate terms or conditions or stop
+       distributing the Licensed Material at any time; however, doing so
+       will not terminate this Public License.
+  
+    d. Sections 1, 5, 6, 7, and 8 survive termination of this Public
+       License.
+  
+  
+  Section 7 -- Other Terms and Conditions.
+  
+    a. The Licensor shall not be bound by any additional or different
+       terms or conditions communicated by You unless expressly agreed.
+  
+    b. Any arrangements, understandings, or agreements regarding the
+       Licensed Material not stated herein are separate from and
+       independent of the terms and conditions of this Public License.
+  
+  
+  Section 8 -- Interpretation.
+  
+    a. For the avoidance of doubt, this Public License does not, and
+       shall not be interpreted to, reduce, limit, restrict, or impose
+       conditions on any use of the Licensed Material that could lawfully
+       be made without permission under this Public License.
+  
+    b. To the extent possible, if any provision of this Public License is
+       deemed unenforceable, it shall be automatically reformed to the
+       minimum extent necessary to make it enforceable. If the provision
+       cannot be reformed, it shall be severed from this Public License
+       without affecting the enforceability of the remaining terms and
+       conditions.
+  
+    c. No term or condition of this Public License will be waived and no
+       failure to comply consented to unless expressly agreed to by the
+       Licensor.
+  
+    d. Nothing in this Public License constitutes or may be interpreted
+       as a limitation upon, or waiver of, any privileges and immunities
+       that apply to the Licensor or You, including from the legal
+       processes of any jurisdiction or authority.
+  
+  =======================================================================
+  
+  Creative Commons is not a party to its public
+  licenses. Notwithstanding, Creative Commons may elect to apply one of
+  its public licenses to material it publishes and in those instances
+  will be considered the “Licensor.” The text of the Creative Commons
+  public licenses is dedicated to the public domain under the CC0 Public
+  Domain Dedication. Except for the limited purpose of indicating that
+  material is shared under a Creative Commons public license or as
+  otherwise permitted by the Creative Commons policies published at
+  creativecommons.org/policies, Creative Commons does not authorize the
+  use of the trademark "Creative Commons" or any other trademark or logo
+  of Creative Commons without its prior written consent including,
+  without limitation, in connection with any unauthorized modifications
+  to any of its public licenses or any other arrangements,
+  understandings, or agreements concerning use of licensed material. For
+  the avoidance of doubt, this paragraph does not form part of the
+  public licenses.
+  
+  Creative Commons may be contacted at creativecommons.org.
+  </pre>
+  </div>
+  <button title="Click to expand/hide CC BY-NC 4.0 license" type="button" onclick="if(document.getElementById('ccspoiler') .style.display=='none') {document.getElementById('ccspoiler') .style.display=''}else{document.getElementById('ccspoiler') .style.display='none'}">Click to expand/hide CC BY-NC 4.0 license</button>
+</div>
+  <div class="copyrights">
+    &copy; 2017 Luca Cipressi. All Rights Reserved
+  </div>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="3">
+        <div class="post-actions-wrap">
+  <nav>
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="lucaji.github.io/2014/04/back-to-the-future-alarm-clock/" data-tooltip="Back To The Future alarm clock">
+          
+            <i class="fa fa-angle-left"></i>
+            <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+          </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="lucaji.github.io/2013/10/tube-amps-by-lookaji/" data-tooltip="Tube Amps by lookaji">
+          
+            <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+            <i class="fa fa-angle-right"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </nav>
+  <ul class="post-actions post-action-share">
+    
+      <li class="post-action hide-lg hide-md hide-sm">
+        <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+          <i class="fa fa-share-alt"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=lucaji.github.io%2f2013%2f10%2ftheremin-by-lookaji%2f">
+          <i class="fa fa-google-plus"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=lucaji.github.io%2f2013%2f10%2ftheremin-by-lookaji%2f">
+          <i class="fa fa-facebook-official"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=lucaji.github.io%2f2013%2f10%2ftheremin-by-lookaji%2f">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </li>
+    
+    
+      <li class="post-action">
+        <a class="post-action-btn btn btn--default" href="#disqus_thread">
+          <i class="fa fa-comment-o"></i>
+        </a>
+      </li>
+    
+    <li class="post-action">
+      
+        <a class="post-action-btn btn btn--default" href="#">
+      
+        <i class="fa fa-list"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="3">
+  <ul class="share-options">
+    <li class="share-option">
+      <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=lucaji.github.io%2f2013%2f10%2ftheremin-by-lookaji%2f">
+        <i class="fa fa-google-plus"></i><span>Share on Google Plus</span>
+      </a>
+    </li>
+    <li class="share-option">
+      <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=lucaji.github.io%2f2013%2f10%2ftheremin-by-lookaji%2f">
+        <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+      </a>
+    </li>
+    <li class="share-option">
+      <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=lucaji.github.io%2f2013%2f10%2ftheremin-by-lookaji%2f">
+        <i class="fa fa-twitter"></i><span>Share on Twitter</span>
+      </a>
+    </li>
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="lucaji.github.io/img/avatar.jpg" alt="Author&#39;s picture" />
+    
+    <h4 id="about-card-name">Luca Cipressi</h4>
+    
+      <div id="about-card-bio">Hi, you just stumbled upon my pages where some of the things I&rsquo;ve done are showcased. Please mind the copyright and licensing informations if you fiddle with this site open source repository, while I am the author and copyright owner unless otherwise stated.</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Software Developer
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+        Berlin
+      </div>
+    
+  </div>
+</div>
+
+    <div id="algolia-search-modal" class="modal-container">
+  <div class="modal">
+    <div class="modal-header">
+      <span class="close-button"><i class="fa fa-close"></i></span>
+      <a href="https://algolia.com" target="_blank" class="searchby-algolia text-color-light link-unstyled">
+        <span class="searchby-algolia-text text-color-light text-small">by</span>
+        <img class="searchby-algolia-logo" src="https://www.algolia.com/static_assets/images/press/downloads/algolia-light.svg">
+      </a>
+      <i class="search-icon fa fa-search"></i>
+      <form id="algolia-search-form">
+        <input type="text" id="algolia-search-input" name="search"
+          class="form-control input--large search-input" placeholder="Search" />
+      </form>
+    </div>
+    <div class="modal-body">
+      <div class="no-result text-color-light text-center">no post found</div>
+      <div class="results">
+        
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="lucaji.github.io/2017/08/welcome-to-lucajis-pages/">
+                <h3 class="media-heading">Welcome to Lucaji’s Pages</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Aug 8, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Within these pages you will find a selection of my projects, ideas, works and krim-krams.
+</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="lucaji.github.io/2017/08/chatea-1.1/">
+                <h3 class="media-heading">CHATea 1.1</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Aug 8, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>A free messaging app for iOS using wifi and bluetooth connectivity between nearby devices. Released version 1.1 with bug fixes and improved chat interface.
+</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="lucaji.github.io/2015/04/antoine-app/">
+                <h3 class="media-heading">Antoine App</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Apr 4, 2015
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Antoine had the Little Prince’s story with translations in four different languages. Includes a shoot-em-all game with original music.
+</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="lucaji.github.io/2015/04/start-rec-app/">
+                <h3 class="media-heading">Start Rec App</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Apr 4, 2015
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Multicamera app for iOS: synchronized recording and time lapse support.
+</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="lucaji.github.io/2015/01/alessandra-arcieri---proiezione-origami---book-cover/">
+                <h3 class="media-heading">Alessandra Arcieri - Proiezione Origami - Book Cover</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jan 1, 2015
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>I made the cover design for this enthralling <strong>cyberzen</strong> book.
+</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="lucaji.github.io/2014/09/diretta-iniezione/">
+                <h3 class="media-heading">Diretta Iniezione</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Sep 9, 2014
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Audio preamplifier for dynamic microphones. Performs a FET input stage with high linearity and large bandwidth. XLR input with gain control and mini-jack 3.5mm line output.
+</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="lucaji.github.io/2014/06/drawings-logos-misc/">
+                <h3 class="media-heading">Drawings, logos, misc</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jun 6, 2014
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>This is a collection of miscellaneous works, ideas, drafts that may have been used, reused, changed, forgotten&hellip;
+</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="lucaji.github.io/2014/06/fliers-campari-soda-ants-jam-session-night-in-serramonacesca/">
+                <h3 class="media-heading">Fliers &#39;Campari Soda Ants&#39; jam session night in Serramonacesca</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jun 6, 2014
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>I designed these leaflets for the jam session night at <strong>Bar dello Sport, Serramonacesca</strong> using the images of <em>Tjalas</em>, the aboriginal name for this specimen of <em>honey pot ants</em> from central Australia, with their abdomen swollen with the sweetest honey you could ever think of.
+</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="lucaji.github.io/2014/04/back-to-the-future-alarm-clock/">
+                <h3 class="media-heading">Back To The Future alarm clock</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Apr 4, 2014
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>A full working replica of the time machine circuits from the Back To The Future blockbuster. Apart from actual time travel, it acts as a talking alarm clock.
+</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="lucaji.github.io/2013/10/theremin-by-lookaji/">
+                <h3 class="media-heading">Theremin by lookaji</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Oct 10, 2013
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>A mighty theremin build from an open source project with Arduino.
+</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+      </div>
+    </div>
+    <div class="modal-footer">
+      <p class="results-count text-medium"
+         data-message-zero="no post found"
+         data-message-one="1 post found"
+         data-message-other="{n} posts found">
+         15 posts found
+      </p>
+    </div>
+  </div>
+</div>
+    
+  
+    
+    <div id="cover" style="background-image:url('lucaji.github.io/images/cover.jpg');"></div>
+  
+
+
+    
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.js"></script>
+
+
+<script src="lucaji.github.io/js/script-wl33z0n6ocaypepiqrazthtivfrliqijej4rq8ek8gvrv1awftmgjuv8k4zc.min.js"></script>
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight').each(function(i, block) {
+    var code = "";
+    hljs.highlightAuto(block.innerText).value.split(/\r\n|\r|\n/).forEach(function(line) {
+      code += "<span class=\"line\">" + line + "</span><br>";
+    });
+    if (code.length > 0) {
+      block.innerHTML = code;  
+    }
+  });
+  $('pre > code').each(function(i, block) {
+    $(this).addClass('codeblock');
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = 'lucaji.github.io\/2013\/10\/theremin-by-lookaji\/';
+          
+            this.page.identifier = '\/2013\/10\/theremin-by-lookaji\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'themilletgrainfromouterspace';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
+
+
+
+
+
+    
+  </body>
+</html>
+
