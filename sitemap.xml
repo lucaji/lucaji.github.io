@@ -144,14 +144,14 @@
   </url>
   
   <url>
-    <loc>/tags/games/</loc>
-    <lastmod>2013-08-15T00:00:00+00:00</lastmod>
+    <loc>/categories/games/</loc>
+    <lastmod>2015-04-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/games/</loc>
-    <lastmod>2015-04-15T00:00:00+00:00</lastmod>
+    <loc>/tags/games/</loc>
+    <lastmod>2013-08-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -180,13 +180,13 @@
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/categories/lucaji/</loc>
     <lastmod>2017-08-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/lucaji/</loc>
+    <loc>/</loc>
     <lastmod>2017-08-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
