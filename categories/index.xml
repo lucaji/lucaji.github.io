@@ -2,93 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Lucaji</title>
-    <link>lucaji.github.io/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Lucaji</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 15 Aug 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="lucaji.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Apps</title>
-      <link>lucaji.github.io/categories/apps/</link>
+      <link>/categories/apps/</link>
       <pubDate>Tue, 15 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>lucaji.github.io/categories/apps/</guid>
+      <guid>/categories/apps/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Design</title>
-      <link>lucaji.github.io/categories/design/</link>
+      <link>/categories/design/</link>
       <pubDate>Thu, 15 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>lucaji.github.io/categories/design/</guid>
+      <guid>/categories/design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Discontinued</title>
-      <link>lucaji.github.io/categories/discontinued/</link>
+      <link>/categories/discontinued/</link>
       <pubDate>Wed, 15 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>lucaji.github.io/categories/discontinued/</guid>
+      <guid>/categories/discontinued/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Diy</title>
-      <link>lucaji.github.io/categories/diy/</link>
+      <link>/categories/diy/</link>
       <pubDate>Sat, 20 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>lucaji.github.io/categories/diy/</guid>
+      <guid>/categories/diy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Games</title>
-      <link>lucaji.github.io/categories/games/</link>
+      <link>/categories/games/</link>
       <pubDate>Wed, 15 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>lucaji.github.io/categories/games/</guid>
+      <guid>/categories/games/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lucaji</title>
-      <link>lucaji.github.io/categories/lucaji/</link>
+      <link>/categories/lucaji/</link>
       <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>lucaji.github.io/categories/lucaji/</guid>
+      <guid>/categories/lucaji/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Music</title>
-      <link>lucaji.github.io/categories/music/</link>
+      <link>/categories/music/</link>
       <pubDate>Sun, 13 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>lucaji.github.io/categories/music/</guid>
+      <guid>/categories/music/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Releases</title>
-      <link>lucaji.github.io/categories/releases/</link>
+      <link>/categories/releases/</link>
       <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>lucaji.github.io/categories/releases/</guid>
+      <guid>/categories/releases/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Videos</title>
-      <link>lucaji.github.io/categories/videos/</link>
+      <link>/categories/videos/</link>
       <pubDate>Sun, 15 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>lucaji.github.io/categories/videos/</guid>
+      <guid>/categories/videos/</guid>
       <description></description>
     </item>
     
