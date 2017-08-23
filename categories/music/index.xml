@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Music on Lucaji’s GitHub Pages</title>
-    <link>/categories/music/</link>
+    <link>http://lucaji.github.io/categories/music/</link>
     <description>Recent content in Music on Lucaji’s GitHub Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 13 Oct 2013 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/music/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lucaji.github.io/categories/music/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Theremin by lookaji</title>
-      <link>/2013/10/theremin-by-lookaji/</link>
+      <link>http://lucaji.github.io/2013/10/theremin-by-lookaji/</link>
       <pubDate>Sun, 13 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>/2013/10/theremin-by-lookaji/</guid>
+      <guid>http://lucaji.github.io/2013/10/theremin-by-lookaji/</guid>
       <description>&lt;p&gt;A mighty theremin build from an open source project with Arduino.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Lorena Fontana - A Vision - The Making Of</title>
-      <link>/2013/09/lorena-fontana---a-vision---the-making-of/</link>
+      <link>http://lucaji.github.io/2013/09/lorena-fontana---a-vision---the-making-of/</link>
       <pubDate>Sun, 15 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>/2013/09/lorena-fontana---a-vision---the-making-of/</guid>
+      <guid>http://lucaji.github.io/2013/09/lorena-fontana---a-vision---the-making-of/</guid>
       <description>&lt;p&gt;This video is about the studio recording of the Cd A Vision by Lorena Fontana, recorded in Los Angeles in January and August 2012.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Fire Makers Metal Empire - Demo</title>
-      <link>/2007/01/fire-makers-metal-empire---demo/</link>
+      <link>http://lucaji.github.io/2007/01/fire-makers-metal-empire---demo/</link>
       <pubDate>Mon, 15 Jan 2007 00:00:00 +0000</pubDate>
       
-      <guid>/2007/01/fire-makers-metal-empire---demo/</guid>
+      <guid>http://lucaji.github.io/2007/01/fire-makers-metal-empire---demo/</guid>
       <description>&lt;p&gt;My contribution to the keyboard sounds and a CD cover draft for ’Metal Empire’ from the metal band ’Fire Makers’. Featuring Eugent Bushpepa at the vocals.
 &lt;/p&gt;</description>
     </item>

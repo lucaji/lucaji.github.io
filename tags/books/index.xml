@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Books on Lucaji’s GitHub Pages</title>
-    <link>/tags/books/</link>
+    <link>http://lucaji.github.io/tags/books/</link>
     <description>Recent content in Books on Lucaji’s GitHub Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 15 Jan 2015 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/books/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lucaji.github.io/tags/books/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Alessandra Arcieri - Proiezione Origami - Book Cover</title>
-      <link>/2015/01/alessandra-arcieri---proiezione-origami---book-cover/</link>
+      <link>http://lucaji.github.io/2015/01/alessandra-arcieri---proiezione-origami---book-cover/</link>
       <pubDate>Thu, 15 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>/2015/01/alessandra-arcieri---proiezione-origami---book-cover/</guid>
+      <guid>http://lucaji.github.io/2015/01/alessandra-arcieri---proiezione-origami---book-cover/</guid>
       <description>&lt;p&gt;I made the cover design for this enthralling &lt;strong&gt;cyberzen&lt;/strong&gt; book.
 &lt;/p&gt;</description>
     </item>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lucaji on Lucaji’s GitHub Pages</title>
-    <link>/categories/lucaji/</link>
+    <link>http://lucaji.github.io/categories/lucaji/</link>
     <description>Recent content in Lucaji on Lucaji’s GitHub Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 20 Aug 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/lucaji/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lucaji.github.io/categories/lucaji/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Welcome to Lucaji’s Pages - Bio</title>
-      <link>/2017/08/welcome-to-lucajis-pages---bio/</link>
+      <link>http://lucaji.github.io/2017/08/welcome-to-lucajis-pages---bio/</link>
       <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/08/welcome-to-lucajis-pages---bio/</guid>
+      <guid>http://lucaji.github.io/2017/08/welcome-to-lucajis-pages---bio/</guid>
       <description>&lt;p&gt;I AM AVAILABLE FOR HIRE.
 Within these pages you will find a selection of my projects, ideas, works and krim-krams.
 &lt;strong&gt;I have included my bio and a list of my skills&lt;/strong&gt; you can have a look at by reading this very article.

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Games on Lucaji’s GitHub Pages</title>
-    <link>/categories/games/</link>
+    <link>http://lucaji.github.io/categories/games/</link>
     <description>Recent content in Games on Lucaji’s GitHub Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 15 Apr 2015 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/games/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lucaji.github.io/categories/games/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Antoine App</title>
-      <link>/2015/04/antoine-app/</link>
+      <link>http://lucaji.github.io/2015/04/antoine-app/</link>
       <pubDate>Wed, 15 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>/2015/04/antoine-app/</guid>
+      <guid>http://lucaji.github.io/2015/04/antoine-app/</guid>
       <description>&lt;p&gt;Antoine had the Little Prince’s story with translations in four different languages. Includes a shoot-em-all game with original music.
 &lt;/p&gt;</description>
     </item>
