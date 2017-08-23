@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/2017/08/welcome-to-lucajis-pages/</loc>
+    <loc>/2017/08/welcome-to-lucajis-pages---bio/</loc>
     <lastmod>2017-08-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -144,14 +144,14 @@
   </url>
   
   <url>
-    <loc>/tags/games/</loc>
-    <lastmod>2013-08-15T00:00:00+00:00</lastmod>
+    <loc>/categories/games/</loc>
+    <lastmod>2015-04-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/games/</loc>
-    <lastmod>2015-04-15T00:00:00+00:00</lastmod>
+    <loc>/tags/games/</loc>
+    <lastmod>2013-08-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -223,7 +223,7 @@
   
   <url>
     <loc>/categories/releases/</loc>
-    <lastmod>2017-08-20T00:00:00+00:00</lastmod>
+    <lastmod>2017-08-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
