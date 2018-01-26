@@ -3,12 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://lucaji.github.io/2018/01/mytuna/</loc>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://lucaji.github.io/2017/08/chatea-1.1/</loc>
     <lastmod>2017-08-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://lucaji.github.io/2015/04/antoine-app/</loc>
+    <loc>http://lucaji.github.io/2015/04/antoine-app---discontinued/</loc>
     <lastmod>2015-04-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -75,7 +80,7 @@
   
   <url>
     <loc>http://lucaji.github.io/categories/apps/</loc>
-    <lastmod>2017-08-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -104,7 +109,13 @@
   
   <url>
     <loc>http://lucaji.github.io/categories/</loc>
-    <lastmod>2017-08-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lucaji.github.io/tags/coredata/</loc>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -139,14 +150,14 @@
   </url>
   
   <url>
-    <loc>http://lucaji.github.io/tags/games/</loc>
-    <lastmod>2013-08-15T00:00:00+00:00</lastmod>
+    <loc>http://lucaji.github.io/categories/games/</loc>
+    <lastmod>2015-04-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://lucaji.github.io/categories/games/</loc>
-    <lastmod>2015-04-15T00:00:00+00:00</lastmod>
+    <loc>http://lucaji.github.io/tags/games/</loc>
+    <lastmod>2013-08-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -164,7 +175,7 @@
   
   <url>
     <loc>http://lucaji.github.io/tags/ios/</loc>
-    <lastmod>2017-08-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -176,19 +187,19 @@
   
   <url>
     <loc>http://lucaji.github.io/</loc>
-    <lastmod>2017-08-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lucaji.github.io/categories/music/</loc>
-    <lastmod>2013-10-13T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://lucaji.github.io/tags/objective-c/</loc>
-    <lastmod>2017-08-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -200,7 +211,7 @@
   
   <url>
     <loc>http://lucaji.github.io/post/</loc>
-    <lastmod>2017-08-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -219,6 +230,12 @@
   <url>
     <loc>http://lucaji.github.io/tags/spritekit/</loc>
     <lastmod>2015-04-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lucaji.github.io/tags/swift/</loc>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

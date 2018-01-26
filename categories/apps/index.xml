@@ -6,10 +6,20 @@
     <description>Recent content in Apps on Lucaji’s GitHub Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://lucaji.github.io/categories/apps/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>mytuna</title>
+      <link>http://lucaji.github.io/2018/01/mytuna/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://lucaji.github.io/2018/01/mytuna/</guid>
+      <description>&lt;p&gt;‘mytuna’ is a little organiser for stringed instruments tunings, note recognition, and with the included sine wave tone generator, it can be used as a signal generator for DIY projects. Supports iCloud Drive and CSV file format to share, merge and edit the entire Tunings Library with your favourite spreadsheet.
+&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>CHATea 1.1</title>
@@ -22,12 +32,12 @@
     </item>
     
     <item>
-      <title>Antoine App</title>
-      <link>http://lucaji.github.io/2015/04/antoine-app/</link>
+      <title>Antoine App - discontinued</title>
+      <link>http://lucaji.github.io/2015/04/antoine-app---discontinued/</link>
       <pubDate>Wed, 15 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://lucaji.github.io/2015/04/antoine-app/</guid>
-      <description>&lt;p&gt;Antoine had the Little Prince’s story with translations in four different languages. Includes a shoot-em-all game with original music.
+      <guid>http://lucaji.github.io/2015/04/antoine-app---discontinued/</guid>
+      <description>&lt;p&gt;This little app had the Little Prince’s story with translations in four different languages and included a shoot-em-all game with original music.
 &lt;/p&gt;</description>
     </item>
     
