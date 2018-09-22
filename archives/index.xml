@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
   <channel>
     <title>Archives on Lucaji’s GitHub Pages</title>
-    <link>http://lucaji.github.io/archives/</link>
+    <link>https://lucaji.github.io/archives/</link>
     <description>Recent content in Archives on Lucaji’s GitHub Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://lucaji.github.io/archives/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lucaji.github.io/archives/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
