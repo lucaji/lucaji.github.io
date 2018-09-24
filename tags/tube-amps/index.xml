@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tube amps on Lucaji’s Pages</title>
+    <link>https://lucaji.github.io/tags/tube-amps/</link>
+    <description>Recent content in Tube amps on Lucaji’s Pages</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2014 - 2018 - Luca Cipressi - themilletgrainfromouterspace</copyright>
+    <lastBuildDate>Sat, 01 Nov 2014 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://lucaji.github.io/tags/tube-amps/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tube Amps</title>
+      <link>https://lucaji.github.io/project/lucaji-tube-amps/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0100</pubDate>
+      
+      <guid>https://lucaji.github.io/project/lucaji-tube-amps/</guid>
+      <description>Even if my amps were, in some configuration, tested during live gigs and practice sessions, I would definitely recommend to buy a commercial product if you won’t dedicate your time and skills to this kind of projects.
+The best ratio between cost and happiness, to me seemed to engage in building a couple of small tube amps with 6L6s and with the proper mains transformer, I obtained a very good sounding home stereo amplifier.</description>
+    </item>
+    
+  </channel>
+</rss>

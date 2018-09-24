@@ -1,278 +1,385 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="https://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  <url>
-    <loc>https://lucaji.github.io/2018/01/mytuna/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/tutorial/example/</loc>
+      <lastmod>2018-09-09T00:00:00+02:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/2017/08/chatea-1.1/</loc>
-    <lastmod>2017-08-15T00:00:00+00:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/tutorial/</loc>
+      <lastmod>2018-09-09T00:00:00+02:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/2015/04/antoine-app---discontinued/</loc>
-    <lastmod>2015-04-15T00:00:00+00:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/talk/example-talk/</loc>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/2015/04/start-rec-app/</loc>
-    <lastmod>2015-04-15T00:00:00+00:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/post/</loc>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/2015/01/alessandra-arcieri---proiezione-origami---book-cover/</loc>
-    <lastmod>2015-01-15T00:00:00+00:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/publication/</loc>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/2014/09/diretta-iniezione/</loc>
-    <lastmod>2014-09-20T00:00:00+00:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/talk/</loc>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/2014/06/drawings-logos-misc/</loc>
-    <lastmod>2014-06-02T00:00:00+00:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/publication/lucaji-miscellaneous-logos-and-graphics/</loc>
+      <lastmod>2016-11-01T00:00:00+01:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/2014/06/fliers-campari-soda-ants-jam-session-night-in-serramonacesca/</loc>
-    <lastmod>2014-06-02T00:00:00+00:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/publication/campari-night-serramonacesca-honey-ants/</loc>
+      <lastmod>2016-07-01T00:00:00+02:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/2014/04/back-to-the-future-alarm-clock/</loc>
-    <lastmod>2014-04-07T00:00:00+00:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/post/lucaji-full-biography/</loc>
+      <lastmod>2018-01-13T00:00:00+01:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/2013/10/theremin-by-lookaji/</loc>
-    <lastmod>2013-10-13T00:00:00+00:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/project/lucaji-theremin/</loc>
+      <lastmod>2015-11-01T00:00:00+01:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/2013/10/tube-amps-by-lookaji/</loc>
-    <lastmod>2013-10-12T00:00:00+00:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/publication/proiezione-origami-by-alessandra-arcieri/</loc>
+      <lastmod>2015-04-15T00:00:00+02:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/2013/09/lorena-fontana---a-vision---the-making-of/</loc>
-    <lastmod>2013-09-15T00:00:00+00:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/project/back-to-the-future-time-circuits-replica/</loc>
+      <lastmod>2014-11-01T00:00:00+01:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/2013/08/rustiko-1st-edition-graphic-design/</loc>
-    <lastmod>2013-08-15T00:00:00+00:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/project/lucaji-tube-amps/</loc>
+      <lastmod>2014-11-01T00:00:00+01:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/2007/01/fire-makers-metal-empire---demo/</loc>
-    <lastmod>2007-01-15T00:00:00+00:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/project/diretta-iniezione-audio-microphone-di-box/</loc>
+      <lastmod>2013-11-01T00:00:00+01:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/tags/android/</loc>
-    <lastmod>2015-04-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/publication/lorena-fontana-a-vision-mitchel-forman-ralph-humphrey-michael-rosen-edwin-livingston-promo-video/</loc>
+      <lastmod>2013-11-01T00:00:00+01:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/categories/apps/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/publication/risk-alternate-table-game/</loc>
+      <lastmod>2013-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/archives/</loc>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/publication/firemakers-metal-empire-cd-cover/</loc>
+      <lastmod>2006-11-01T00:00:00+01:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/tags/arduino/</loc>
-    <lastmod>2013-10-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/post/cometa-rossa-area-demetrio-stratos/</loc>
+      <lastmod>2018-09-22T00:00:00+02:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/tags/audio/</loc>
-    <lastmod>2014-09-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/post/lucaji-high-school-thesis-comunicazione-visiva/</loc>
+      <lastmod>2018-09-22T00:00:00+02:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/tags/books/</loc>
-    <lastmod>2015-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/project/lucaji-speedometer-1998/</loc>
+      <lastmod>1998-10-01T00:00:00+02:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/categories/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/publication_types/3/</loc>
+      <lastmod>2016-11-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/tags/coredata/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/publication_types/4/</loc>
+      <lastmod>2013-11-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/tags/cyberzen/</loc>
-    <lastmod>2015-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/publication_types/5/</loc>
+      <lastmod>2006-11-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/categories/design/</loc>
-    <lastmod>2015-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/publication_types/6/</loc>
+      <lastmod>2015-11-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/categories/discontinued/</loc>
-    <lastmod>2015-04-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/tags/academic/</loc>
+      <lastmod>2018-09-22T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/categories/diy/</loc>
-    <lastmod>2014-09-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/tags/brazilian-rhythm/</loc>
+      <lastmod>2013-11-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/tags/finalcut/</loc>
-    <lastmod>2013-09-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/categories/games/</loc>
-    <lastmod>2015-04-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/tags/diy/</loc>
+      <lastmod>2015-11-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/tags/games/</loc>
-    <lastmod>2013-08-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/tags/electronics/</loc>
+      <lastmod>2015-11-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/tags/hammond-organ/</loc>
-    <lastmod>2007-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/tags/gadget/</loc>
+      <lastmod>2014-11-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/tags/illustrator/</loc>
-    <lastmod>2015-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/tags/graphics/</loc>
+      <lastmod>2016-11-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/tags/ios/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/tags/illustrations/</loc>
+      <lastmod>2016-07-01T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/tags/jazz/</loc>
-    <lastmod>2013-09-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/tags/jazz/</loc>
+      <lastmod>2013-11-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/</loc>
+      <lastmod>2017-10-15T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/categories/music/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/tags/music/</loc>
+      <lastmod>2018-09-22T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/tags/objective-c/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/tags/music/</loc>
+      <lastmod>2018-09-22T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/tags/photoshop/</loc>
-    <lastmod>2015-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/tags/pll/</loc>
+      <lastmod>2015-11-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/post/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/project/</loc>
+      <lastmod>2015-11-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/tags/raspberry-pi/</loc>
-    <lastmod>2014-04-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/publication_types/</loc>
+      <lastmod>2016-11-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/categories/releases/</loc>
-    <lastmod>2017-08-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/tags/raspberry-pi/</loc>
+      <lastmod>2014-11-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/tags/spritekit/</loc>
-    <lastmod>2015-04-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/slides/</loc>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/tags/swift/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/slides/example-slides/</loc>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/tags/synth/</loc>
-    <lastmod>2007-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/tags/</loc>
+      <lastmod>2018-09-22T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/tags/</loc>
-    <lastmod>2015-04-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/tags/theremin/</loc>
+      <lastmod>2015-11-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>https://lucaji.github.io/tags/travels/</loc>
-    <lastmod>2014-06-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucaji.github.io/tags/tube-amp/</loc>
-    <lastmod>2013-10-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucaji.github.io/categories/videos/</loc>
-    <lastmod>2013-09-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucaji.github.io/tags/vimeo/</loc>
-    <lastmod>2013-09-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>https://lucaji.github.io/tags/tube-amps/</loc>
+      <lastmod>2014-11-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
 </urlset>

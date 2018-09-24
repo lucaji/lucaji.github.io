@@ -1,154 +1,2031 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lucaji’s GitHub Pages</title>
+    <title>Lucaji’s Pages on Lucaji’s Pages</title>
     <link>https://lucaji.github.io/</link>
-    <description>Recent content on Lucaji’s GitHub Pages</description>
+    <description>Recent content in Lucaji’s Pages on Lucaji’s Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jan 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://lucaji.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
+    <copyright>&amp;copy; 2014 - 2018 - Luca Cipressi - themilletgrainfromouterspace</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>mytuna</title>
-      <link>https://lucaji.github.io/2018/01/mytuna/</link>
-      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      <title>Example Page</title>
+      <link>https://lucaji.github.io/tutorial/example/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0200</pubDate>
       
-      <guid>https://lucaji.github.io/2018/01/mytuna/</guid>
-      <description>&lt;p&gt;‘mytuna’ is a little organiser for stringed instruments tunings, note recognition, and with the included sine wave tone generator, it can be used as a signal generator for DIY projects. Supports iCloud Drive and CSV file format to share, merge and edit the entire Tunings Library with your favourite spreadsheet.
-&lt;/p&gt;</description>
+      <guid>https://lucaji.github.io/tutorial/example/</guid>
+      <description>
+
+&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>CHATea 1.1</title>
-      <link>https://lucaji.github.io/2017/08/chatea-1.1/</link>
-      <pubDate>Tue, 15 Aug 2017 00:00:00 +0000</pubDate>
+      <title>Example Talk</title>
+      <link>https://lucaji.github.io/talk/example-talk/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://lucaji.github.io/2017/08/chatea-1.1/</guid>
-      <description>&lt;p&gt;A free messaging app for iOS using wifi and bluetooth connectivity between nearby devices. Released version 1.1 with bug fixes and improved chat interface.
-&lt;/p&gt;</description>
+      <guid>https://lucaji.github.io/talk/example-talk/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s &lt;em&gt;Slides&lt;/em&gt; feature and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Antoine App - discontinued</title>
-      <link>https://lucaji.github.io/2015/04/antoine-app---discontinued/</link>
-      <pubDate>Wed, 15 Apr 2015 00:00:00 +0000</pubDate>
+      <title>Miscellaneous logos and graphics</title>
+      <link>https://lucaji.github.io/publication/lucaji-miscellaneous-logos-and-graphics/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0100</pubDate>
       
-      <guid>https://lucaji.github.io/2015/04/antoine-app---discontinued/</guid>
-      <description>&lt;p&gt;This little app had the Little Prince’s story with translations in four different languages and included a shoot-em-all game with original music.
-&lt;/p&gt;</description>
+      <guid>https://lucaji.github.io/publication/lucaji-miscellaneous-logos-and-graphics/</guid>
+      <description>&lt;p&gt;This is a collection of miscellaneous works, ideas, drafts that may have been used, reused, changed, forgotten.&lt;/p&gt;
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;The logo for the mauxcafé bar caffetteria in my hometown.&#34; href=&#34;https://lucaji.github.io/img/logo-mauxcafe.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://lucaji.github.io/img/logo-mauxcafe.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;The maux café logo as a neon light&#34; href=&#34;https://lucaji.github.io/img/logo-mauxcafe-neon.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://lucaji.github.io/img/logo-mauxcafe-neon.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;A dj night leaflet for the mauxcafé.&#34; href=&#34;https://lucaji.github.io/img/maux-daiquiri.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://lucaji.github.io/img/maux-daiquiri.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Decorations for a fridge at the mauxcafé.&#34; href=&#34;https://lucaji.github.io/img/maux-fridge.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://lucaji.github.io/img/maux-fridge.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;The logo for the ambaradan taverna restaurant in my hometown.&#34; href=&#34;https://lucaji.github.io/img/logo-ristorante-ambaradan.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://lucaji.github.io/img/logo-ristorante-ambaradan.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;A logo designed for a street food truck.&#34; href=&#34;https://lucaji.github.io/img/logo-beestrot.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://lucaji.github.io/img/logo-beestrot.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;A complete chess set with wax pieces and painted cotton canvas.&#34; href=&#34;https://lucaji.github.io/img/misc-lucaji-wax-chess-set.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://lucaji.github.io/img/misc-lucaji-wax-chess-set.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
-      <title>Start Rec App</title>
-      <link>https://lucaji.github.io/2015/04/start-rec-app/</link>
-      <pubDate>Wed, 15 Apr 2015 00:00:00 +0000</pubDate>
+      <title>Campari &amp; Honey Ants</title>
+      <link>https://lucaji.github.io/publication/campari-night-serramonacesca-honey-ants/</link>
+      <pubDate>Fri, 01 Jul 2016 00:00:00 +0200</pubDate>
       
-      <guid>https://lucaji.github.io/2015/04/start-rec-app/</guid>
-      <description>&lt;p&gt;Multicamera app for iOS: synchronized recording and time lapse support.
-&lt;/p&gt;</description>
+      <guid>https://lucaji.github.io/publication/campari-night-serramonacesca-honey-ants/</guid>
+      <description>
+
+&lt;p&gt;I designed these leaflets for the jam session night at &lt;strong&gt;Bar dello Sport, Serramonacesca&lt;/strong&gt; using the images of &lt;em&gt;Tjalas&lt;/em&gt;, the aboriginal name for this specimen of &lt;em&gt;honey pot ants&lt;/em&gt; from central Australia, with their abdomen swollen with the sweetest honey you could ever think of.&lt;/p&gt;
+
+&lt;p&gt;We were staying in Serramonacesca, me and my old lady. Used often to spend there some holidays together. I got this invitation to a jam session night while drinking at the very place with the locals. I offered to draw the leaflet, got the ok, had more rounds till I went back home late that night to work on the poster.&lt;/p&gt;
+
+&lt;p&gt;The work and the drinking went on for few days during my staying, before that night came at last, rainy and almost ruined by bad weather, but nobody really cared much as it turned out to be a great night with lots of good blues and rock live music.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lucaji.github.io/img/tjala-serramonacesca-honey-ants-poster.jpg&#34; alt=&#34;Poster&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;red-centre-dreaming&#34;&gt;Red Centre Dreaming&lt;/h1&gt;
+
+&lt;p&gt;Campari Soda comes in these awesome tiny stubbies with its reddish colour and is a very popular cold drink here (especially with Prosecco or white wine). That time I was going along very well with Campari Soda. Somehow the small bottle made me think to the ants nest we went digging down in the red centre of Australia, under the hot sun, shaded by some &lt;em&gt;mulga&lt;/em&gt; trees there were this small holes on top of the ground to look at, so it was a very warm summer night that night in Serra too, and I dreamed of digging for camparisoda ants gorged with the drink, squeeze the juice out in a glass, cool it down for half an hour in the fridge&amp;hellip;, and and wondered how would they look with the same tone coloring using Photoshop.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lucaji.github.io/img/tjala-serramonacesca-honey-ants-00.jpg&#34; alt=&#34;Poster2&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;about-serramonacesca-in-abruzzo-italy&#34;&gt;About Serramonacesca in Abruzzo, Italy&lt;/h2&gt;
+
+&lt;p&gt;There is this beautiful little town up there in the Maiella mountains in Abruzzo, Italy. Its name is Serramonacesca, jady valleys and beautiful landscapes makes it one of the most.&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;Bar dello Sport&lt;/em&gt; in Serramonacesca is one of the only two pubs for few miles around, a niche next to the church, the latter being Fazio’s, which can accommodate more people and serves tastier coffee :) People, here in Serra, will salute you like &lt;strong&gt;See you at Pando’s&lt;/strong&gt; or &lt;strong&gt;See you at Fazio’s&lt;/strong&gt;. Very peculiar and warm-hearted people around. The scenery is awesome too.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The Adriatic sea is only a thirty minutes drive down east, while the &lt;strong&gt;walking trails&lt;/strong&gt; are just next door if you want to get to BlockHaus at 2000 meters.&lt;/li&gt;
+&lt;li&gt;Castel Menardo walking stroll (1 hour)&lt;/li&gt;
+&lt;li&gt;Eremo di Sant’Onofrio (3 hours)&lt;/li&gt;
+&lt;li&gt;Abbazia di San Liberatore a Majella (half an hour)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you are looking for accomodation, I strongly suggest to give a call to &lt;a href=&#34;https://www.facebook.com/Kokopelli.Camping&#34; target=&#34;_blank&#34;&gt;Kokopelli Camping and Accomodations&lt;/a&gt; for their staying options.&lt;/p&gt;
+
+&lt;h2 id=&#34;australia-2008&#34;&gt;Australia 2008&lt;/h2&gt;
+
+&lt;p&gt;These photos were taken about 100 Km outside Alice Springs, NT. I went with &lt;a href=&#34;https://en.wikipedia.org/wiki/Rene_Kulitja&#34; target=&#34;_blank&#34;&gt;Rene Kulitja&lt;/a&gt; and her late husband Richard collecting &lt;strong&gt;Tjala&lt;/strong&gt;. She is reckoned one of he most talented artist from the Yankunjantjara Anangu people of central Australia. Hers is the Qantas &lt;strong&gt;Yananyi Dreaming&lt;/strong&gt; dot-painting on one of the fleet’s Boeing 737.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Qantas_Boeing_737-800_Yananyi_Dreaming_Finney-2.jpg/320px-Qantas_Boeing_737-800_Yananyi_Dreaming_Finney-2.jpg&#34; alt=&#34;737&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;tjala-image-gallery&#34;&gt;Tjala Image Gallery&lt;/h3&gt;
+
+&lt;p&gt;These are the photographs taken with Rene and Richard Kulitja in November 2008.&lt;/p&gt;
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Default&#34; href=&#34;https://lucaji.github.io/img/tjala01.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://lucaji.github.io/img/tjala01.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Default&#34; href=&#34;https://lucaji.github.io/img/tjala02.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://lucaji.github.io/img/tjala02.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Default&#34; href=&#34;https://lucaji.github.io/img/tjala03.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://lucaji.github.io/img/tjala03.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Default&#34; href=&#34;https://lucaji.github.io/img/tjala04.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://lucaji.github.io/img/tjala04.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Default&#34; href=&#34;https://lucaji.github.io/img/tjala05.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://lucaji.github.io/img/tjala05.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Default&#34; href=&#34;https://lucaji.github.io/img/tjala06.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://lucaji.github.io/img/tjala06.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Default&#34; href=&#34;https://lucaji.github.io/img/tjala07.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://lucaji.github.io/img/tjala07.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
-      <title>Alessandra Arcieri - Proiezione Origami - Book Cover</title>
-      <link>https://lucaji.github.io/2015/01/alessandra-arcieri---proiezione-origami---book-cover/</link>
-      <pubDate>Thu, 15 Jan 2015 00:00:00 +0000</pubDate>
+      <title>Lucaji the extended biography</title>
+      <link>https://lucaji.github.io/post/lucaji-full-biography/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>https://lucaji.github.io/2015/01/alessandra-arcieri---proiezione-origami---book-cover/</guid>
-      <description>&lt;p&gt;I made the cover design for this enthralling &lt;strong&gt;cyberzen&lt;/strong&gt; book.
-&lt;/p&gt;</description>
+      <guid>https://lucaji.github.io/post/lucaji-full-biography/</guid>
+      <description>
+
+&lt;p&gt;It was the early ’80s and we kids were totally different from today’s: I used to play on unpaved streets, scratching my knees on the the dirt, dirting and ripping my clothes and building shacks next to swamps. Not many years after, something changed and computers started to made their way through our lives. I have been in touch with electronics and calculators a little bit more than my peers, the ones with the Commodore 64 and a color monitor while I had an Apple//e with green phosphors. I have always felt a kind of outcaste.&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;Apple//&lt;/em&gt; was equipped with two 5-&lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt; inch floppy drives, a multi-purpose I/O interface card, an ImageWriter I printer, a handset modem. I was already reading pretty much everything, the library had lots of technical books about computer programming and electronics. One day, buried in a wooden chest down in the basement, there were tons of electronic components to be discovered. The &lt;em&gt;Applesoft Basic&lt;/em&gt; was in the firmware, while &lt;em&gt;Apple Pascal&lt;/em&gt; ’s two floppies usually were into their respective drives.&lt;/p&gt;
+
+&lt;h1 id=&#34;typographies-in-summer&#34;&gt;Typographies in summer&lt;/h1&gt;
+
+&lt;p&gt;Another change saw me spending many summers playing around in many typograph workshops around central Italy, where I saw for the first time the &lt;em&gt;Heidelberg Windmill&lt;/em&gt; printing machine and the mighty &lt;em&gt;Linotype&lt;/em&gt; in action. Some of those were old artisans and still used moveable type characters and typesetters. &lt;em&gt;Aldus&lt;/em&gt; was a recurring name in my youth, followed by &lt;em&gt;points, pica, halftone screens&lt;/em&gt; and the loupe. Magic words in a kids mind. Shortly after, probably in some big workshop I loomed over the office windows to catch a glimpse of the striped rainbow apple logo on the monitors of those first Macintoshes starting to take hold. I was grown up, by then, to use &lt;em&gt;Adobe Photoshop&lt;/em&gt; and &lt;em&gt;Aldus Pagemaker&lt;/em&gt; and &lt;em&gt;Freehand&lt;/em&gt; moving my first step into the &lt;em&gt;Postscript&lt;/em&gt; world as &lt;strong&gt;Desktop Publisher&lt;/strong&gt;. I disliked &lt;em&gt;Illustrator 3&lt;/em&gt; which was inferior.&lt;/p&gt;
+
+&lt;h1 id=&#34;first-jobs&#34;&gt;First jobs&lt;/h1&gt;
+
+&lt;p&gt;High school times were over, I was working already as &lt;strong&gt;software developer&lt;/strong&gt; (I flunked two years), and then came this position (better paid) as &lt;strong&gt;video editor and ENG cameraman&lt;/strong&gt; for a newsagency. I used an analogical video mixer and some &lt;em&gt;U-matic, Betacam and DVCam&lt;/em&gt; recorders. That was &lt;em&gt;destructive&lt;/em&gt; editing, let me tell you! Luckily they quickly upgraded to &lt;em&gt;Final Cut 7&lt;/em&gt; and destructive was no more.&lt;/p&gt;
+
+&lt;h1 id=&#34;early-electronics-projects&#34;&gt;Early electronics projects&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;I coupled two computers via a VHF radio link. One of the most ambitious project I realised when I was 14: with two simple homemade FSK modems using some &lt;code&gt;CD4046&lt;/code&gt; PLL ICs and used a duplex VHF carrier around 140 MHz (with two 5W TX-RX and Yagi antennas) to achieve a remote radio link that worked over more than 8 km. I used that link to remote control an Apple// with an 8 bit I/O card which in turn was connected to some TRIAC diodes and sensors so I could switch on and off electrical appliances and read temperatures and other values remotely.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;In 1998 I equipped my 50 cc scooter with a &lt;a href=&#34;https://lucaji.github.io/project/lucaji-speedometer-1998&#34;&gt;digital Speedometer&lt;/a&gt; getting the speed through the six holes of the front brake disc. Using a metal fork, a modulated (to avoid sun interference) infrared LED and a photodiode I could get the six impulses each time the wheel circumference was completed. The speed calculation was achieved without any CPU but only with a 12-bit counter and two EPROMs (27C64), programmed with the already calculated 7-segment display encoded speed values.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;recent-electronics-projects&#34;&gt;Recent electronics projects&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;I assembled &lt;a href=&#34;https://lucaji.github.io/project/lucaji-tube-amps&#34;&gt;tube amps&lt;/a&gt; and preamplifiers for electric guitars and had lot of fun playing around with different passive tone circuitry.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;I like to fix old tube radios or TV sets when I find one (without getting electrocuted).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;I made a replica of the &lt;a href=&#34;https://lucaji.github.io/project/back-to-the-future-time-circuits-replica&#34;&gt;Time Circuits&lt;/a&gt; from the “Back To The Future” blockbuster as a talking clock using a Raspberry Pi.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;living-in-central-australia&#34;&gt;Living in Central Australia&lt;/h1&gt;
+
+&lt;p&gt;It is one of those things that has do be done: going overseas. In 2007, I spent nearly four years in Central Australia where I challenged myself with disparate experiences including the Tourism industry and Aged People Care. I worked for 18 months as a Tour Guide for AAT Kings Pty. Ltd in the Northern Territory of Australia taking people around the national parks of Uluru, Kata-Tjuta, Kings Canyon and Kakadu. I had groups up to 45 people to drive and take for walks in remote areas. The groups had to be meet and greet at the (only) airport and taken to restaurants and hotels in Yulara. Living and working in remote areas involved a lot of responsibility due to extreme climate conditions to avoid dehydration and heat strokes as well as cold temperatures at night. I got in close touch with the Aboriginal people, learning a lot of their culture and nature knowledge I was allowed to pass on the guests coming for their holidays. I ended up the remaining time in Australia part-timing for the Alice Springs council and for a government held retirement home for aged aboriginal people, the Aboriginal Hostels Ltd., where I’ve learned so much by being in close touch with the elderly Anangu, things about respect and proper way to do things that eventually my five senses changed forever the way my heart beats now.&lt;/p&gt;
+
+&lt;p&gt;I love languages, cultures and etymology. Give me everything to read and a place where to hike, watch the stars and place a tent. I do not watch TV but I do like good movies, mostly old ones.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;row featurette&#34;&gt;
+  
+  &lt;div class=&#34;col-md-12 section-heading&#34;&gt;
+    &lt;h1&gt;Skills&lt;/h1&gt;
+    &lt;p&gt;A &lt;em&gt;condensed&lt;/em&gt; section for selected keywords to describe my skills in a more &lt;em&gt;prolix and columnated&lt;/em&gt; way.&lt;/p&gt;
+  &lt;/div&gt;
+  
+
+  
+  
+  &lt;div class=&#34;clearfix visible-md&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;col-sm-3&#34;&gt;
+    &lt;div class=&#34;featurette-icon&#34;&gt;&lt;i class=&#34;fas fas-fa-react&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h3&gt;Imperative, Functional&lt;br&gt;&amp;amp; Reactive Programming&lt;/h3&gt;
+    &lt;p&gt;Solid basis on &lt;strong&gt;VBA&lt;/strong&gt;, &lt;strong&gt;Pascal&lt;/strong&gt;, &lt;strong&gt;C&lt;/strong&gt; and relative dialects including Object Oriented strains. I am getting along well with &lt;code&gt;Rx&lt;/code&gt; sounds like a cool challenge.&lt;/p&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;div class=&#34;clearfix visible-md&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;col-sm-3&#34;&gt;
+    &lt;div class=&#34;featurette-icon&#34;&gt;&lt;i class=&#34;fas fas-database&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h3&gt;Data modeling &amp;amp; database&lt;/h3&gt;
+    &lt;p&gt;I love data modelling and abstraction layers, enforcing patterns and anti-patterns and naming conventions. I worked extensively with MSSQL and I tested noSQL engines like Postgres and MongoDB.&lt;/p&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;div class=&#34;clearfix visible-md&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;col-sm-3&#34;&gt;
+    &lt;div class=&#34;featurette-icon&#34;&gt;&lt;i class=&#34;fas fas-keyboard&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h3&gt;IDEs &amp;amp; Text Editors&lt;/h3&gt;
+    &lt;p&gt;I use &lt;em&gt;Apple XCode&lt;/em&gt;, &lt;em&gt;Microsoft Visual Studio&lt;/em&gt; and &lt;em&gt;Android Studio&lt;/em&gt;. I am accustomed to &lt;code&gt;vi&lt;/code&gt; and a bit of &lt;code&gt;emacs&lt;/code&gt;. Recently I have moved to &lt;em&gt;Visual Studio Code&lt;/em&gt; from &lt;em&gt;Atom&lt;/em&gt; when doing web development.&lt;/p&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;div class=&#34;clearfix visible-md&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;col-sm-3&#34;&gt;
+    &lt;div class=&#34;featurette-icon&#34;&gt;&lt;i class=&#34;fas fas-code&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h3&gt;Code Analysis &amp;amp; Patterns&lt;/h3&gt;
+    &lt;p&gt;I can scavenge inside code written by others to understand how it works and learn how to write better code. Definitely I have trained a keen eye in scrolling source files. I am cool with the &lt;code&gt;MVC&lt;/code&gt; and/or &lt;code&gt;MVVC&lt;/code&gt;. Basically I use an hybrid version of both as in &lt;code&gt;MVCVM&lt;/code&gt; as view models tend to be easier to debug and maintain.&lt;/p&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;div class=&#34;clearfix visible-md&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;col-sm-3&#34;&gt;
+    &lt;div class=&#34;featurette-icon&#34;&gt;&lt;i class=&#34;fas fas-code-branch&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h3&gt;Versioning &amp;amp; Package Managers&lt;/h3&gt;
+    &lt;p&gt;I prefer &lt;code&gt;git&lt;/code&gt; for versioning control albeit I have cloned from &lt;code&gt;CVS&lt;/code&gt; and &lt;code&gt;SVN&lt;/code&gt; repositories. As for dependency management tools I prefer &lt;code&gt;carthage&lt;/code&gt; to &lt;code&gt;cocoaPods&lt;/code&gt; on Apple platforms. When working with javascript I relied on &lt;code&gt;bower&lt;/code&gt; and &lt;code&gt;npm&lt;/code&gt; while &lt;code&gt;nuGet&lt;/code&gt; suffice my needs on &lt;code&gt;ASPNET&lt;/code&gt; projects as well as &lt;code&gt;DotNet&lt;/code&gt; and &lt;code&gt;DotNetCore&lt;/code&gt; frameworks.&lt;/p&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;div class=&#34;clearfix visible-md&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;col-sm-3&#34;&gt;
+    &lt;div class=&#34;featurette-icon&#34;&gt;&lt;i class=&#34;fab fab-microsoft&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h3&gt;Microsoft Technologies&lt;/h3&gt;
+    &lt;p&gt;After working a while with the legacy aspnet, dotnet, entity stacks, I migrated to their core counterparts. I relied heavily on the Microsoft Office &lt;code&gt;VSTO Add-ons&lt;/code&gt; development kit and/or using &lt;code&gt;NetOffice&lt;/code&gt; and &lt;code&gt;ExcelDNA&lt;/code&gt; libraries for complete and unlimited integration of &lt;code&gt;C#&lt;/code&gt; projects with the Microsoft Office suite.&lt;/p&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;div class=&#34;clearfix visible-md&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;col-sm-3&#34;&gt;
+    &lt;div class=&#34;featurette-icon&#34;&gt;&lt;i class=&#34;fab fab-apple&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h3&gt;Apple Technologies&lt;/h3&gt;
+    &lt;p&gt;With excellent knowledge and hands-on experience with &lt;code&gt;Objective-C&lt;/code&gt; I am quickly moving to the modern &lt;code&gt;Swift 4&lt;/code&gt; to embrace the new constructs and paradigms. I made use of &lt;code&gt;CoreData&lt;/code&gt;. I worked with the &lt;code&gt;MultiPeer&lt;/code&gt; and &lt;code&gt;ZeroConf&lt;/code&gt; (Bonjour) service discovery along with &lt;code&gt;Grand Central Dispatch&lt;/code&gt; for multithreading and concurrency.&lt;/p&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;div class=&#34;clearfix visible-md&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;col-sm-3&#34;&gt;
+    &lt;div class=&#34;featurette-icon&#34;&gt;&lt;i class=&#34;fas fas-html5&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h3&gt;Web Development&lt;/h3&gt;
+    &lt;p&gt;Having based mostly of the in-house software I have written using the &lt;code&gt;dotnetcore&lt;/code&gt; framework and I adopted &lt;code&gt;KnockOutJS&lt;/code&gt; to dynamically populate my Razor views and layouts. When it comes to develop static websites, I do use &lt;code&gt;Hugo&lt;/code&gt; and the &lt;code&gt;Go&lt;/code&gt; language with a bit of &lt;code&gt;javascript&lt;/code&gt; and &lt;code&gt;sass&lt;/code&gt; taking me a bit further on the way I worked a bit with &lt;code&gt;node.js&lt;/code&gt; runtime&lt;/p&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;div class=&#34;clearfix visible-md&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;col-sm-3&#34;&gt;
+    &lt;div class=&#34;featurette-icon&#34;&gt;&lt;i class=&#34;fas fas-stumbleupon-circle&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h3&gt;Analog Electronics&lt;/h3&gt;
+    &lt;p&gt;I know my way with &lt;code&gt;vacuum tubes&lt;/code&gt; - I do fix old radio, tv sets and guitar amps - and transistors, tweaking with impedances and input-stages, &lt;code&gt;op-amps&lt;/code&gt;, &lt;code&gt;signal filtering&lt;/code&gt; with passive or active circuitry, &lt;code&gt;analog modulation&lt;/code&gt; techniques and RF transmissions. I am acquainted to using an &lt;code&gt;oscilloscope&lt;/code&gt; and tools.&lt;/p&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;div class=&#34;clearfix visible-md&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;col-sm-3&#34;&gt;
+    &lt;div class=&#34;featurette-icon&#34;&gt;&lt;i class=&#34;fas fas-bug&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h3&gt;Digital Electronics&lt;/h3&gt;
+    &lt;p&gt;I am acquainted with &lt;code&gt;CMOS&lt;/code&gt; and &lt;code&gt;TTL&lt;/code&gt; chips: flip-flops, counters, multiplexers and digital memories. Proficient user of &lt;code&gt;EagleCAD&lt;/code&gt; for PCB layout on &lt;code&gt;Gerber&lt;/code&gt; files. I builded projects using &lt;code&gt;Arduino&lt;/code&gt;, &lt;code&gt;RaspberryPi&lt;/code&gt;, &lt;code&gt;PIC&lt;/code&gt; and &lt;code&gt;Atmel&lt;/code&gt; microcontrollers using C language or even Assembly.&lt;/p&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;div class=&#34;clearfix visible-md&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;col-sm-3&#34;&gt;
+    &lt;div class=&#34;featurette-icon&#34;&gt;&lt;i class=&#34;fas fas-draw-polygon&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h3&gt;Handy Man&lt;/h3&gt;
+    &lt;p&gt;Sometimes I sketch with pencils and with &lt;code&gt;Wacom&lt;/code&gt; graphic tablets. At school I was good at technical drawing on the drafting table (tecnigrafo) using rulers, stencils, rapidograph pens, and transfer sheets. I possess handwork skills with &lt;code&gt;wood&lt;/code&gt; and/or &lt;code&gt;iron&lt;/code&gt; structures and small &lt;code&gt;concrete&lt;/code&gt; works.&lt;/p&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;div class=&#34;clearfix visible-md&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;col-sm-3&#34;&gt;
+    &lt;div class=&#34;featurette-icon&#34;&gt;&lt;i class=&#34;fas fas-music&#34;&gt;&lt;/i&gt;&lt;/div&gt;
+    &lt;h3&gt;Music&lt;/h3&gt;
+    &lt;p&gt;Around sixteen I have begun to study music on the piano and for many years on I played my heart out in gigs around Italy and southern Europe with blues and rock bands. In the last ten years, I have turned to bass guitar to train as much as I can on the road.&lt;/p&gt;
+  &lt;/div&gt;
+  
+
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Long ago and far away in a different age
+when I was a dumb young guy
+fossilised photos of my life then
+illustrate what an easy prey I must have been
+Standing in the sun, idiot savant
+something like a monument.
+I&amp;rsquo;m a dinosaur, somebody is digging my bones.
+Ignorance has always been something I excel in
+followed by naïveté and pride
+doesn&amp;rsquo;t take a scientist to see how
+any clever predator could have a piece of me&amp;rdquo;
+King Crimson - Dinosaur&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I am citing that song for I am a fan of King Crimson’s music, and for a series of ancient, long unreasonable reasons.&lt;/p&gt;
+
+&lt;p&gt;Last update: 23 September 2018&lt;/p&gt;
+
+&lt;h2 id=&#34;theme-credits&#34;&gt;Theme Credits&lt;/h2&gt;
+
+&lt;p&gt;I come from the Desktop Publishing world, I do prefer printed media design to web site designing until recently I started using the &lt;code&gt;markdown&lt;/code&gt; and &lt;code&gt;Go&lt;/code&gt; language with &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;, a static site generator that makes it almost a breeze. But web site design can still be a long and complicated task nowadays, but thanks to the open source community, it will become better in the future. And I am still learning!
+For this web site I relied on a heavy modified (by me) version of the &lt;a href=&#34;https://sourcethemes.com/academic&#34; target=&#34;_blank&#34;&gt;Academic theme&lt;/a&gt; by George Cushen.&lt;/p&gt;
+
+&lt;p&gt;As said, I am making heavy lifting to his original theme, so I hope, in the near future to publish my first Hugo theme with Sass support and more!&lt;/p&gt;
+
+&lt;p&gt;Thank you for visiting Lucaji’s Pages!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Theremin</title>
+      <link>https://lucaji.github.io/project/lucaji-theremin/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0100</pubDate>
+      
+      <guid>https://lucaji.github.io/project/lucaji-theremin/</guid>
+      <description>
+
+&lt;p&gt;A mighty theremin build from an open source project with Arduino.&lt;/p&gt;
+
+&lt;p&gt;One morning I stumbled across this open source theremin project: &lt;a href=&#34;http://www.gaudi.ch/OpenTheremin/&#34; target=&#34;_blank&#34;&gt;OpenTheremin&lt;/a&gt; on the web.
+They design and produce Arduino compatible theremin shields with two oscillators as you can control both tone and volume.
+I entered the theremin’s world and found it fascinating. And made my first attempt at it:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;theremin-01.jpg&#34; alt=&#34;Theremin&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;analog-vs-digital&#34;&gt;Analog vs Digital&lt;/h2&gt;
+
+&lt;p&gt;The eternal fight. I do prefer the first though.&lt;/p&gt;
+
+&lt;p&gt;I went through this paper from Robert Moog:&lt;/p&gt;
+
+&lt;h1 id=&#34;build-the-em-theremin&#34;&gt;Build the EM Theremin&lt;/h1&gt;
+
+&lt;h2 id=&#34;this-classic-electronic-instrument-gives-good-vibrations-and-excitations&#34;&gt;&lt;em&gt;This classic electronic instrument gives good vibrations and excitations.&lt;/em&gt;&lt;/h2&gt;
+
+&lt;h3 id=&#34;by-robert-moog&#34;&gt;By Robert Moog&lt;/h3&gt;
+
+&lt;p&gt;Most electronic musical instruments are sonic chameleons that try to sound like a wide variety of other things. However, there is one electronic instrument that makes no apologies for its single, immediately recognizable sound: the theremin. This monophonic instrument has added its distinctive, melodic character to the scores of many horror and suspense movies and made its pop debut on the Beach Boys&amp;rsquo; &amp;ldquo;Good Vibrations.&amp;rdquo; It has also appeared on many concert stages, including Carnegie Hall.
+The theremin was named after its inventor, Russian physicist and musician &lt;em&gt;Leon Theremin&lt;/em&gt;, who developed the instrument in the 1920s. Unlike most musical instruments, the theremin is played with absolutely no physical contact. Players wave their hands in the air near two antennas. As one hand gets closer to the straight vertical tube (called the &lt;em&gt;pitch antenna&lt;/em&gt;), the pitch rises; as the other hand gets closer to the horizontal tubular loop (called the volume antenna), the volume decreases. Because the theremin&amp;rsquo;s pitch and volume are intimately tied to the player&amp;rsquo;s hand motions, the tone has a vibrant, wavering quality, not unlike a human voice or a violin.
+Among the requests for DIY projects that EM receives, by far the most common is a do-it-yourself theremin. The instrument presented here is an authentic theremin, with antenna response characteristics, pitch range, and tone color that closely emulate Leon Theremin&amp;rsquo;s original designs. However, it is reasonably easy to build. It uses currently available components and materials that you can buy at your local hardware store or from mail-order electronic-parts distributors. If you know how to read a schematic diagram, solder, and use a voltmeter, and if you&amp;rsquo;re comfortable with basic home tools, you should be able to build and adjust this theremin.&lt;/p&gt;
+
+&lt;h3 id=&#34;overview&#34;&gt;OVERVIEW&lt;/h3&gt;
+
+&lt;p&gt;When you bring your hand near a theremin antenna, you are actually forming a variable capacitor: the antenna is one &amp;ldquo;plate&amp;rdquo; and your hand is the other. With the high frequencies and very low currents used by the instrument, your hand is effectively grounded by being attached to your body, so the antenna and your hand form a variable capacitor to ground. This variable capacitance is called &lt;em&gt;hand capacitance&lt;/em&gt;. You increase the hand capacitance by bringing your hand nearer to the antenna. During normal operation, the hand capacitance is less than one picofarad, which is a very small capacitance indeed!
+Each antenna forms a resonant circuit with a group of inductors collectively called an antenna coil. In this design, the resonant frequencies are about 260 kHz for the pitch antenna and about 450 kHz for the volume antenna. At or near the resonant frequency, a tiny change in hand capacitance results in a larger change in the impedance of the antenna circuit as a whole.
+Refer to Figure 1, the functional block diagram
+&lt;img src=&#34;theremin-fig01.jpg&#34; alt=&#34;Fig. 1&#34; /&gt;
+and Figure 2, the schematic diagram of the entire circuit:
+&lt;img src=&#34;theremin-fig02.jpg&#34; alt=&#34;Fig. 2&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;variable-pitch oscillator&lt;/em&gt; (VPO), &lt;em&gt;fixed-pitch oscillator&lt;/em&gt; (FPO), and &lt;em&gt;detector&lt;/em&gt; sections form a &lt;em&gt;beat-frequency oscillator&lt;/em&gt;. Q1, Q2, and their associated components constitute the VPO, the frequency of which is set slightly higher than the resonant frequency of the pitch-antenna circuit (established by adjusting L5). As a player brings a hand near the pitch antenna, the changing impedance of the pitch antenna circuit lowers the VPO frequency by about 3 kHz.
+Q3, Q4, and their associated components form the FPO, the frequency of which is set equal to the VPO frequency (by adjusting L6) when the player&amp;rsquo;s hand is away from the pitch antenna. The difference, or beat, frequency is extracted by the detector and appears as an audio waveform at the junction of R23 and R24. As the player brings a hand near the pitch antenna, the frequency of the audio waveform goes from 0 to about 3 kHz (&lt;sup&gt;31&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt; octaves above middle C).
+Q5 and its associated components constitute the &lt;em&gt;pitch-tuning circuit&lt;/em&gt;. This circuit presents a variable active impedance that is used to make fine adjustments to the FPO frequency while the instrument is being played. Front panel potentiometer P1 adjusts the current through Q5, thereby changing its active impedance.
+Q6, Q7, and their associated components form the volume oscillator. Its frequency is set slightly higher than the resonant frequency of the &lt;em&gt;volume-antenna circuit&lt;/em&gt; by adjusting L11. As the player brings a hand near the volume antenna, the resonant frequency of the volume-antenna circuit is lowered, and the DC voltage appearing at the junction of D1 and C12 is reduced. The resulting current flowing through R14 is amplified and level-shifted by the VCA processor section (U3-B and associated components) and then fed through R30 to control the gain of the voltage-controlled amplifier (U3-A and associated components). The amplitude-controlled audio output is then fed to front-panel jack J1. The maximum level is about 0 dBm (0.8V RMS).
+Q8 and its associated components constitute the volume-tuning circuit, which is nearly identical to the pitchtuning circuit. Potentiometer P2 is used to make fine adjustments to the volume-oscillator frequency during performance.
+The audio waveform is applied to pin 3 of U3-A at a level high enough to clip it. This has the effect of reshaping the waveform from a skewed sine to a quasi-rectangular wave, which is very similar to
+the waveform of Professor Theremin&amp;rsquo;s original instruments. P3 varies the input resistance of U3-A, which influences the amount by which the audio waveform is clipped. P4 shifts the bias at the input of U3-A, which changes the waveform width and therefore the output&amp;rsquo;s harmonic spectrum. C24 and C26 roll off the high-frequency harmonics to produce a pleasant, cello-like tonal balance.&lt;/p&gt;
+
+&lt;h3 id=&#34;antennas&#34;&gt;ANTENNAS&lt;/h3&gt;
+
+&lt;p&gt;Making the antennas can be tricky. They should be metallic, rugged, attractively finished, capable of being rigidly mounted, and easy to fabricate by a home hobbyist. I have found that &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;8&lt;/sub&gt;-inch soft copper tubing of the sort that plumbers use with bathroom sinks works well. You can buy preplated, straight, short pieces at your local builders&amp;rsquo; supply or hardware store. You can also purchase a simple tubing bender that will allow you to bend the volume antenna by hand without collapsing the tubing. You&amp;rsquo;ll also need a tubing cutter or hacksaw to cut the tubing to length.
+The finished pitch antenna is a straight, vertical tube eighteen inches long and &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;8&lt;/sub&gt; inch in diameter, and the finished volume antenna is a horizontal, hairpin loop with a total length of nine inches. The ends of the volume antenna should be separated by &lt;sup&gt;31&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt;
+inches, center to center.
+I suggest you make the antennas longer than necessary and then cut them to length after they&amp;rsquo;re formed and stiffened (discussed shortly). Start with a straight, 24- or 36-inch length of tubing for each antenna. To form the volume antenna, slip the tubing bender over the tube. Then, starting ,at the midpoint of the tube, bend it into a semicircular curve. Hold the tube in both hands and push into the curve with your thumbs while pulling down with your other fingers. Doublecheck to make sure that the two ends of the volume antenna are parallel and are the correct distance apart.
+Copper tubing has one drawback: because copper is soft enough to bend by hand, it is easy to put unwanted kinks in the tubing after it has been formed. You can stiffen the antennas by filling them with polyester resin (the liquid plus-hardener type used to repair car bodies) after you&amp;rsquo;ve formed them. This is not particularly difficult, but the potential for making a mess is significant, so be sure you have plenty of time and you&amp;rsquo;re at peace with the world.
+The pitch antenna is straight because this configuration is more sensitive to changing hand position when the hand is farther away and less sensitive when the hand is close. The change in hand capacitance is extremely small when the hand is far away, and the change in pitch as a function of distance must be as uniform as possible.
+The volume antenna is looped because this configuration is less sensitive when the hand is far away and more sensitive when the hand is close. This gives you greater control over the low end of the dynamic range and lets you articulate notes by quickly dipping your left hand into the loop (more in a moment)
+The two antennas are perpendicular to each other to minimize the interaction between them. For example, as you move your left hand tip and down above the volume antenna, its motion is parallel to the pitch antenna, which causes little or no change in pitch.&lt;/p&gt;
+
+&lt;h2 id=&#34;cabinet&#34;&gt;CABINET&lt;/h2&gt;
+
+&lt;p&gt;The entire cabinet is made of wood. Except for the front panel, large metal cabinet parts should not be used, as they may add unnecessary capacitance to the antennas. My materials of choice are hardwood plywood for the top and solid hardwood for the rest of the cabinet because they are rugged, easy to shape accurately, and can be attractively finished.
+The enclosure consists of a base and cover (see Fig. 3). The cover should fit snugly over the base. You may fasten the pieces together with any combination of nails, wood screws, and wood glue, depending on how you like to put cabinets together. After the cabinet parts have been assembled, sand them down well and finish them with the wood finish of your choice, except metallic paint.
+The antenna sockets are regular tube-to-pipe connectors that you can get when you buy the copper tubing for the antennas. The volume-antenna sockets are straight &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;8&lt;/sub&gt;-inch-tube-to-&lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;8&lt;/sub&gt;- inch-male-pipe connectors, whereas the pitch-antenna socket is a right-angle, &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;8&lt;/sub&gt;-inch-tube-to-&lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;8&lt;/sub&gt;-inch-male-pipe elbow. Drill &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;8&lt;/sub&gt;-inch holes for these fittings; then screw them in by hand. If you can&amp;rsquo;t screw the &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;8&lt;/sub&gt;-inch pipe threads into the wood by hand, don&amp;rsquo;t force it by using a pipe wrench: you may split the wood. Instead, enlarge the hole slightly with a large round file or a &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;8&lt;/sub&gt;-inch pipe tap.
+Once you&amp;rsquo;re sure you can screw in the pipe fittings by hand, unscrew them, put a small amount of epoxy on the threads, and reinsert them by hand. Before the epoxy hardens, verify that the pitch-antenna socket is vertical by inserting the pitch antenna into the socket and adjusting the position of the socket as necessary.
+Two &lt;sup&gt;4&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt;-inch X &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt;-inch blocks and one microphone-stand mounting flange are attached to the bottom of the enclosure. This lets you set the finished unit on a microphone stand (preferred) or on a wood (not metal) table when you play it.&lt;/p&gt;
+
+&lt;h2 id=&#34;front-panel&#34;&gt;FRONT PANEL&lt;/h2&gt;
+
+&lt;p&gt;The front panel should be made of &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;16&lt;/sub&gt;-inch sheet aluminum. It should be about nine inches long and should have bends at the top and bottom for mounting and stiffening. You can either cut and bend the panel yourself or have your local sheet-metal shop do it for you. Alternatively, you can buy a blank, single-space (1U) rack panel, which is &lt;sup&gt;13&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt; inches high by nineteen inches wide, cut it to length with a hacksaw, and attach the panel to the base from the front instead of from the bottom. However, that will leave a &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt;-inch gap between the top of the panel and the enclosure cover.
+Four rotary potentiometers, one &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt;-inch phone jack, one &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;8&lt;/sub&gt;-inch mini-jack, and one toggle switch are mounted on the front panel. The two tuning pots should be located in the left part of the panel so your hand is as far from the pitch antenna as possible when You tune the antennas. Use high-quality, full-size rotary pots and large-diameter knobs for PI and P2, P3 and P4 are less critical; these pots can be miniature, and the knobs can be small. I suggest you use an insulated, &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt;-inch jack for J1 to avoid a ground loop between the audio and power grounds.
+Eight single-conductor wires and one shielded wire connect the front-panel components to the main circuit board, I suggest you use a connector for these wires so Von can unplug the panel if you need to work on the main circuit board. Prototyping boards often have provisions for mounting a DB15 or DB25 connector.&lt;/p&gt;
+
+&lt;h2 id=&#34;main-circuit-board&#34;&gt;MAIN CIRCUIT BOARD&lt;/h2&gt;
+
+&lt;p&gt;All circuitry (except the antenna circuits and front-panel components) is mounted on one circuit board (see Fig. 4). A plug-in prototyping board of the sort used to assemble computer I/O circuits provides the space, connection provisions, and solidity you need. Radio Shack&amp;rsquo;s prototyping board (catalog #276-1598) provides ample space for all the circuitry with extra room to try your own modifications.
+The theremin&amp;rsquo;s power is supplied by a ±12 VAC wall wart, which is widely available (see sidebar &amp;ldquo;Where to Get Parts and Materials&amp;rdquo;). The AC voltage is converted into DC by two voltage regulators (UT, U2, and associated components). Keep the power-supply circuit components as close together as possible, and keep connections as short as you can. Be really sure that that C20 and C22 are very close to U2. The negative side of C19 and the positive side of C20 should be connected together with a very short lead, and the grounded side of J2 should also be connected to this lead. The voltage regulators are less likely to oscillate if the connections are kept as short as possible.
+Be sure to separate the VPO from the FPO by a couple of inches. These oscillators are already lightly coupled through C2 and C6, so they tend to synchronize at low beat frequencies (which is desirable). Placing the oscillator circuits close together increases the coupling, which may result in an excessive tendency to synchronize. In addition, place C4, C8, and C13 very close to the oscillator circuits with which they are associated to maximize the decoupling.
+After the main board is assembled and checked, brush the solder side with a small wire brush and inspect for unwanted solder bridges, wiring mistakes, and weak solder joints. Then set the board in the middle of the cabinet base in preparation for final test and tuning.&lt;/p&gt;
+
+&lt;h2 id=&#34;antennacircuitboards&#34;&gt;ANTENNACIRCUITBOARDS&lt;/h2&gt;
+
+&lt;p&gt;The inductors and other antenna-circuit components are mounted on two separate, small circuit boards with little or no copper circuit pattern. LI through L4 are mounted on the pitch-antenna circuit board (see Fig. 4). Position the inductors so they are parallel to one another and about one inch apart, center to center. The inductors are not polarized per se, but each terminal is distinct: one emerges from the center of the coil and the other emerges from the outer layer of the coil. Arbitrarily select one terminal as the beginning and the other as the end, and connect the inductors in series so the end of one inductor is connected to the beginning of the next.
+Position the board on the base next to the pitch antenna. The free end of L4 should be close to the main circuit board, and the free end of Ll should be close to the pitch-antenna socket.
+Connect a short wire from the free end
+of LI to the pitch-antenna socket using a heavy soldering iron or by drilling and tapping a hole for a 4-40 thread and then mounting a solder lug.
+L7 through L10, DI, C12, and R14 are mounted on the volume-antenna circuit board (see Fig. 4). As with the pitch-antenna circuit, position the inductors so they are parallel to one another, about an inch apart, and connected so the windings are end to beginning. Position the board near the volume antenna, and install wires to connect the free end of L10 to the volume-antenna socket. In addition, connect the junction of L7 and C12 to the junction of C14 and C15, and connect the free end of R14 to pin 13 of U3.&lt;/p&gt;
+
+&lt;h2 id=&#34;checking-it-out&#34;&gt;CHECKING IT OUT&lt;/h2&gt;
+
+&lt;p&gt;After you&amp;rsquo;ve assembled and cleaned the main board, take a deep breath and check all your connections again. Look for shorts, mistakes, missing connec-
+tions, etc. Then connect the front panel to the main board, plug in the power supply, and turn the power switch on.
+Use a voltmeter to check the voltages at the inputs and outputs of U1 and U2 (see Fig. 2). Then check the DC voltages at the collectors of Q1 through Q8 (they should all be about +12V); the emitters of Q1 through Q4, Q6, and Q7 (about 0.6V); and the emitters of Q5 and Q8 (about -2.6V). If you don&amp;rsquo;t observe all these readings, check everything until you find the problem.
+Next, verify that all three oscillators are working. Read the AC voltages across L5, L6, and L1 I. If you read about 10 VAC, then the corresponding oscillator is producing a waveform. If you don&amp;rsquo;t read any voltage at all, the oscillator is not working. To check the detector, measure the DC voltage across R24. If it&amp;rsquo;s -0.5V or so, the detector is working.
+Temporarily connect a pair of headphones or a small powered speaker across R24. Turn the tuning slugs in L5 and L6 counterclockwise until the tops of the slugs hit the shield cans. Be careful. Do not force the slugs farther than they want to go! Turn L5 exactly two turns clockwise. Then turn L6 clockwise slowly until you hear a high-pitched whistle. Keep turning until the tone is in the mid range (about I kHz). Now, turn P1 in either direction. You should hear the pitch change markedly. If you observe all these things, then the entire beat-frequency oscillator circuit is in good shape.
+To check the VCA, temporarily connect pin 12 of U3 to ground. (This should turn on the VCA.) Connect your headphones or monitor amp across R34. You should hear a somewhat louder tone. Now, disconnect the temporary ground connection to pin 12 of U3, and connect that pin to -12V. The audio across R34 should disappear. If it does, the VCA is working properly.
+While pin 12 of U3 is connected to ground, you can also check the Brightness and Waveform controls (P3 and P4). Use the Pitch Tuning control (PI) to set the tone&amp;rsquo;s pitch to approximately middle C. Then turn the Brightness and Waveform controls. The Brightness control should change the sound from muted to bright, and the Waveform control should change the sound from “reedy” (narrow waveform) to
+“full” (wider waveform). After you have checked all of these controls, remove the temporary connection to pin 12 of U3.&lt;/p&gt;
+
+&lt;h2 id=&#34;tuning&#34;&gt;TUNING&lt;/h2&gt;
+
+&lt;p&gt;Before tuning, clean off your workbench and move aside any large, conductive objects such as desk lamps and test gear. Leave a clear space of two or three feet around your work area. Place the cabinet base in the middle of the cleared space, put the pitch antenna in place, and connect the pitch-antenna circuit board between the antenna and the main board. On the main board, temporarily connect pin 12 of U3 to ground and connect the instrument&amp;rsquo;s audio output to headphones or a monitor amplifier. Now follow these steps to adjust L5 and L6:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Set PI (the Pitch Tuning control) to its middle position.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Grasp and hold the pitch antenna with one hand. With the other hand, adjust L6 until the beat frequency is zero, Then carefully turn L6 counter-clockwise until you hear a pitch of about 3 kHz (3 &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt; octaves above middle C). 3. Let go of the pitch antenna. Slowly retract your hand from the vicinity of the antenna. You should hear the pitch go down.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If the pitch does not go down to zero when you&amp;rsquo;ve retracted your hand completely and stepped back, the inductance of L5 is set too high. Advance the slug in L5 clockwise by a small amount, perhaps &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;10&lt;/sub&gt; turn or so, and repeat steps 2 and 3.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If the pitch goes to zero and then begins to ascend as you retract your hand, the inductance of L5 is set too low. Turn the slug in L5 counterclock-wise by a small amount, and repeat steps 2 and 3.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If the pitch jumps abruptly as you retract your hand, the inductance of L5 is set far too low. Turn the slug in L5 counterclockwise approximately a quarter-turn and repeat steps 2 and 3.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Eventually, you will converge on the proper settings for L5 and L6. The idea is to find the settings at which the frequency (a) is zero when you&amp;rsquo;ve stepped away from the theremin, (b) begins to ascend when your body is about two feet from the pitch antenna, and &amp;copy; reaches about 3 kHz when your hand touches the pitch antenna. Tap lightly on L5 and L6 as you converge on the proper settings, which will stabilize the tuning-slug positions.
+This completes the tuning of the pitch oscillators. In performance, the exact tuning is established by adjusting the pitch-tuning control (P1).
+Now, remove the temporary ground connection to pin 12 of U3. Connect a voltmeter from pin 12 of U3 to ground, install the volume antenna, and connect the volume-antenna circuit card between the antenna and the main board. Follow these steps to adjust L11:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Set P2 to its mid position.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Carefully turn the slug in L11 counterclockwise until it is out as far as it will go. The meter should read about -12V.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Slowly turn the slug clockwise.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;At some point, you will see the voltage begin to rise from -12V. Stop when the voltage passes through 0 and becomes positive, At this point, bringing your hand near the volume antenna lowers the voltage; the meter should read about -12V when your hand is two or three inches from the volume antenna.&lt;/p&gt;
+
+&lt;p&gt;This completes the tuning of the volume oscillator. In performance, the exact volume is established by adjusting the volume-tuning control (P2).&lt;/p&gt;
+
+&lt;h2 id=&#34;playing-the-theremin&#34;&gt;PLAYING THE THEREMIN&lt;/h2&gt;
+
+&lt;p&gt;You are now ready to try your theremin. Place the instrument (with antennas installed) on a microphone stand that is set about 40 inches high. Connect a small monitor amplifier and speaker to J I and the 12 VAC wall-wart power adapter to J2. Turn on SW1 and touch the pitch antenna. Set P2 so the tone is loud when your left hand is well away from the volume antenna and the volume begins to decrease noticeably when your left hand is brought within ten to twelve inches of the volume antenna. Then set PI so the frequency is zero when your right hand is well away from the pitch antenna and the tone becomes apparent when you bring your right hand within 18 to 24 inches of the pitch antenna. Your instrument is now ready to play.
+As with any expressive musical instrument, playing the theremin takes some practice. You can start by follow-ing these simple exercises:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Stand slightly left of the center of the instrument with your right shoulder about 24 inches from the pitch antenna. Relax your wrists. Think of a note and hum it to yourself. Then move your right hand toward the pitch antenna until the theremin pitch coincides with the pitch you&amp;rsquo;re humming. Now hold the note. This is not as easy as it sounds, but it&amp;rsquo;s an important technique to learn. At first, you will find it difficult to stand still, but a few hours of practice will work wonders.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Hum two different notes, one after the other. Find the first note on the theremin, hold it, and then slowly glide to the second note.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Repeat the above exercise, but bring your left hand near the volume antenna while your right hand glides from one note to the next. Move the left hand slowly at first and then more rapidly as you learn to move your left hand independently of your right hand. This exercise teaches you to &amp;ldquo;feel&amp;rdquo; where the notes are and to impart expressive dynamics.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;While playing a note, introduce vibrato by moving your right hand back and forth from your wrist several times a second. Concentrate on making the vibrato even and steady.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;These exercises address the basic skills of theremin playing: finding notes, playing intervals, articulating notes, and introducing vibrato. With these basic skills, you can play slow melodies. Practicing regular scales and arpeggios will increase your proficiency. Focus on accuracy of pitch and precise control of dynamics.
+Once you&amp;rsquo;ve mastered the basic moves, it&amp;rsquo;s time to develop your own style. Pay particular attention to shaping envelopes and dynamics with your left hand. The left hand can also be used to articulate discrete notes by momentarily dipping into the volume antenna as the right hand quickly moves from one pitch to another. Try combining audible glides and discrete pitch changes within a musical phrase. In addition, avoid constant vibrato in the right hand. Instead, impart expressive nuance by shaping the amount and rate of vibrato. These considerations are important components of theremin musicianship.
+The theremin presented here is designed to meet the needs of musicians who wish to explore the artistic resources of this unique instrument. Build your instrument carefully, and it will provide many years of reliable service. Practice with diligence, and you will provide enjoyable music for yourself and your audiences. Finally, be sure to give an occasional thought to the spirit of Leon Theremin, to whom we owe so much.&lt;/p&gt;
+
+&lt;p&gt;Robert Moog was a pioneer in the early development of commercial synthesizers and currently serves as Grand Poobah of Big Briar, Inc.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Proiezione Origami - Book cover</title>
+      <link>https://lucaji.github.io/publication/proiezione-origami-by-alessandra-arcieri/</link>
+      <pubDate>Wed, 15 Apr 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://lucaji.github.io/publication/proiezione-origami-by-alessandra-arcieri/</guid>
+      <description>
+
+&lt;p&gt;The Author of the book, Alessandra Arcieri, had already the concept and image in her mind when we started working on the book cover.&lt;/p&gt;
+
+&lt;p&gt;She wanted to depict a city skyline, mirrored somehow to communicate the two sides of the image: a binary concept was on the way long time before when we first talked about it. She wanted a sentence too to be highlighted and this was made in a waveform shape as you open up the whole cover. Formulaes were took from various sources and made as window lights, antenna, shaping the buildings.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;alessandra-arcieri-proiezione-origami-fullcover.jpg&#34; alt=&#34;Full Cover&#34; title=&#34;Full Cover&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;proiezione-origami-by-alessandra-arcieri&#34;&gt;Proiezione Origami by Alessandra Arcieri&lt;/h1&gt;
+
+&lt;p&gt;The story waves between the ever existing interlaced layers of knownledge and notions, human and nature, duality (&lt;strong&gt;1&lt;/strong&gt; &lt;strong&gt;0&lt;/strong&gt;) and the third state of electrical and logical levels: &lt;strong&gt;nil&lt;/strong&gt;, &lt;strong&gt;Z&lt;/strong&gt;, or the &lt;strong&gt;high impedance mode&lt;/strong&gt;. Just like operational amplifiers Agents with ideal high impedance inputs and ideal zero output resistance, at any rate will induct your &lt;em&gt;body electric&lt;/em&gt; onto a live circuitry to play a game&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;alessandra-arcieri-proiezione-origami-cover01.jpg&#34; alt=&#34;Cover1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The author has brought to the online life her compelling &lt;a href=&#34;http://www.manifestocyberzen.it&#34; target=&#34;_blank&#34;&gt;cyberzen manifesto&lt;/a&gt; too.&lt;/p&gt;
+
+&lt;p&gt;You can find the book (in Italian language) is available on the following online retailers:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ibs.it/proiezione-origami-romanzo-cyberzen-libro-alessandra-arcieri/e/9788892305410&#34; target=&#34;_blank&#34;&gt;Proiezione Origami di Alessandra Arcieri on ibs.it&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ilmiolibro.kataweb.it/libro/fantascienza/189054/proiezione-origami/&#34; target=&#34;_blank&#34;&gt;ilmiolibro.it&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Back To The Future Time Circuits</title>
+      <link>https://lucaji.github.io/project/back-to-the-future-time-circuits-replica/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0100</pubDate>
+      
+      <guid>https://lucaji.github.io/project/back-to-the-future-time-circuits-replica/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;back-to-the-future-prototype-dark.jpg&#34; alt=&#34;Time Circuits Replica&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Dr. Emmett Brown: If my calculations are correct, when this baby hits 88 miles per hour&amp;hellip; you&amp;rsquo;re gonna see some serious shit.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A full working replica of the time machine circuits from the 1985 American science fiction film directed by Robert Zemeckis’ &lt;strong&gt;Back To The Future&lt;/strong&gt;. Let alone actual time travel, it works as a talking alarm clock.&lt;/p&gt;
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Test one&#34; href=&#34;https://lucaji.github.io/img/back-to-the-future-display-test-01.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://lucaji.github.io/img/back-to-the-future-display-test-01.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Testing the overlay screen plastic&#34; href=&#34;https://lucaji.github.io/img/back-to-the-future-display-test-03.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://lucaji.github.io/img/back-to-the-future-display-test-03.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Testing the brightness&#34; href=&#34;https://lucaji.github.io/img/back-to-the-future-display-test-02.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://lucaji.github.io/img/back-to-the-future-display-test-02.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;The display case&#34; href=&#34;https://lucaji.github.io/img/back-to-the-future-displayboard-01.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://lucaji.github.io/img/back-to-the-future-displayboard-01.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Inner wiring&#34; href=&#34;https://lucaji.github.io/img/back-to-the-future-displayboard-02.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://lucaji.github.io/img/back-to-the-future-displayboard-02.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Handmade wiring madness of the display boards&#34; href=&#34;https://lucaji.github.io/img/back-to-the-future-displayboard-03.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://lucaji.github.io/img/back-to-the-future-displayboard-03.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;The router used to shape the display holes&#34; href=&#34;https://lucaji.github.io/img/back-to-the-future-displayboard-04.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://lucaji.github.io/img/back-to-the-future-displayboard-04.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+
+&lt;h1 id=&#34;display-wiring&#34;&gt;Display wiring&lt;/h1&gt;
+
+&lt;p&gt;The display uses the multiplexing technique driving 360 bits from the serial line.&lt;/p&gt;
+
+&lt;p&gt;This is the display schematic:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;back-to-the-future-displayboard-schematic-wm.jpg&#34; alt=&#34;The display board schematic&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lots of time tinkering with a pair of pliers and solder iron. Authentic craftmanship for this first prototype model. A PCB is easily designable and part of it has been already done.&lt;/p&gt;
+
+&lt;h1 id=&#34;costs-and-suppliers&#34;&gt;Costs and suppliers&lt;/h1&gt;
+
+&lt;p&gt;I am including the BOM costs with the suppliers (mostly from Italy). Prices are in EUR. Shipping costs and I.V.A. (Italian GST) is indicated where relevant as well.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;SUPPLIER&lt;/th&gt;
+&lt;th&gt;DESCRIPTION&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;QTY&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;PRICE&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;TOTAL&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;MDSRL.it&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Double sided PCB     160x50 (10days)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 17,57&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 35,14&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Shipping costs&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 3,30&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;GST&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 8,46&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;SUBTOTAL&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 46,90&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Distrelec.it&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Display PSC08-11GWA (green 16 segs)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 2,10&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 6,30&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Display PSC08-11EWA (red 16 segs)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 1,35&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 4,05&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Display SC08-11EWA (red)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;10&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 1,40&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 14,00&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Display SC08-11GWA (green)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;10&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 1,40&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 14,00&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Display PSC08-11YWA (yellow 16 segs)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 1,35&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 4,05&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Display SC08-11YWA (yellow)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;10&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 0,88&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 8,80&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;IC 74HC595D&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;9&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 0,32&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 2,88&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Shipping costs&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 10,00&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;GST&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 14,59&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;SUBTOTAL&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 78,67&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Techstore A.G.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Numeric Keypad 4x4&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 5,00&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 5,00&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Strip Connector IDC 2x13 pin&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 1,90&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 3,80&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;4 Mini Connectors eq. JST-XH 5-pin&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 2,50&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 2,50&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Kit RTC DS1307 Real Time Clock I2C&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 3,90&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 3,90&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Shipping costs&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 4,65&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;SUBTOTAL&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 19,85&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;E.B.M. Store di Gaetano Filigrana&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;breadboard 233x160         single side&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 6,50&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 13,00&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;DIL18 IC socket (10 pieces per pack)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 1,50&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 1,50&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;PCF8574AP I/O expander i2c 8 bit&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 2,30&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 2,30&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;LM386N audio amplifier 1W&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 1,20&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 1,20&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;DIL16 IC socket (10 pieces per pack)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 1,50&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 4,50&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Shipping costs&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 6,50&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;SUBTOTAL&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 29,00&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;enovaz.it&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Rasperry Pi 256 MB&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 29,90&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 29,90&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;GST&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 6,58&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Shipping costs&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 10,00&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;SUBTOTAL&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 46,48&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Miscellaneous&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 10,00&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;GROSS TOTAL&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;€ 230,90&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&#34;credits-and-aknowledgements&#34;&gt;Credits and Aknowledgements&lt;/h1&gt;
+
+&lt;p&gt;The project was born thanks to our group of friends and musicians. The actual idea has born from the mind of our great guitar player Emiliano Sabatini, the frilliest and coolest of them, who came to us and proposed this idea. We sought help then from our blacksmith and singer Antonio Di Tonto with his workshop and his craftmanship. Last but not least, the sage Guido Cammisano who always welcomes us all in his basement practise room to play music, and his technical knownledge, crisp jokes and drinks.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;bttfac01.jpg&#34; alt=&#34;Time Circuits&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;rai-interview&#34;&gt;RAI Interview&lt;/h2&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//player.vimeo.com/video/211174500&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;p&gt;Ok, ok, allow me to be showy and tell you that we got interviewed by the Tv because of this Time Circuit gadget. The footage below is a summary from the local italian RAI TV news broadcasted on 12th April 2014 on RAI3 TGR Abruzzo for an episode of &amp;ldquo;Elogio della Creatività&amp;rdquo; or, in English &amp;ldquo;Praise of Creativity&amp;rdquo;, a weekly report on local activities, people, technical news involving a bit of fantasy and creativity.
+Somehow they got to know we were making this little gadget, and we met at Emiliano’s place (nice place he has) to shoot the episode. The RAI journalist was keen in asking us just few questions (we felt both a bit embarrassed) and we ended up showing a couple more things made by us: Emiliano does paintings and artistic objects too while me, staying on the tech side, showcased my theremin and my tube amp.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tube Amps</title>
+      <link>https://lucaji.github.io/project/lucaji-tube-amps/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0100</pubDate>
+      
+      <guid>https://lucaji.github.io/project/lucaji-tube-amps/</guid>
+      <description>
+
+&lt;p&gt;Even if my amps were, in some configuration, tested during live gigs and practice sessions, I would definitely recommend to buy a commercial product if you won’t dedicate your time and skills to this kind of projects.&lt;/p&gt;
+
+&lt;p&gt;The best ratio between cost and happiness, to me seemed to engage in building a couple of small tube amps with 6L6s and with the proper mains transformer, I obtained a very good sounding home stereo amplifier.&lt;/p&gt;
+
+&lt;h2 id=&#34;models-and-prototypes-gallery&#34;&gt;Models and Prototypes Gallery&lt;/h2&gt;
+
+&lt;p&gt;These are the photographs of various models, casings and tests of the various amp builds.&lt;/p&gt;
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Test one&#34; href=&#34;https://lucaji.github.io/img/amps-tube-50w-marshall-bass-opencase01.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://lucaji.github.io/img/amps-tube-50w-marshall-bass-opencase01.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Testing the overlay screen plastic&#34; href=&#34;https://lucaji.github.io/img/amps-tube-50w-marshall-mini01.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://lucaji.github.io/img/amps-tube-50w-marshall-mini01.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Testing the brightness&#34; href=&#34;https://lucaji.github.io/img/amps-tube-50w-marshall-mini02-back.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://lucaji.github.io/img/amps-tube-50w-marshall-mini02-back.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;The display case&#34; href=&#34;https://lucaji.github.io/img/amps-tube-100w-marshall-01.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://lucaji.github.io/img/amps-tube-100w-marshall-01.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Inner wiring&#34; href=&#34;https://lucaji.github.io/img/amps-tube-ampli50w.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://lucaji.github.io/img/amps-tube-ampli50w.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Handmade wiring madness of the display boards&#34; href=&#34;https://lucaji.github.io/img/amps-tubes-5w-minicicciolo.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://lucaji.github.io/img/amps-tubes-5w-minicicciolo.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
       <title>Diretta Iniezione</title>
-      <link>https://lucaji.github.io/2014/09/diretta-iniezione/</link>
-      <pubDate>Sat, 20 Sep 2014 00:00:00 +0000</pubDate>
+      <link>https://lucaji.github.io/project/diretta-iniezione-audio-microphone-di-box/</link>
+      <pubDate>Fri, 01 Nov 2013 00:00:00 +0100</pubDate>
       
-      <guid>https://lucaji.github.io/2014/09/diretta-iniezione/</guid>
-      <description>&lt;p&gt;Audio preamplifier for dynamic microphones. Performs a FET input stage with high linearity and large bandwidth. XLR input with gain control and mini-jack 3.5mm line output.
-&lt;/p&gt;</description>
+      <guid>https://lucaji.github.io/project/diretta-iniezione-audio-microphone-di-box/</guid>
+      <description>
+
+&lt;p&gt;Nothing to do with engines and injecting fuel without using a carburetor. It is an audio preamplifier for dynamic microphones. Performs a FET input stage with high linearity and large bandwidth. XLR input with gain control and mini-jack 3.5mm line output.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;diretta-iniezione-01.jpg&#34; alt=&#34;DI&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;characteristics&#34;&gt;Characteristics&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;FET input&lt;/li&gt;
+&lt;li&gt;input: XLR Cannon connector.&lt;/li&gt;
+&lt;li&gt;output: jack TRS 3.5 mm.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Found in need to record sounds with a common Shure SM58 onto a MacBookPro, I decided to build my own little preamplifier so I could plug it to the Mac&amp;rsquo;s line input jack and have a decent timbre and a low noise figure by choosing a voltage controlled amplifier using Fets (field effect transistors) well known for their tube-like sonority and their advantages over a current controller amp.&lt;/p&gt;
+
+&lt;h2 id=&#34;input-stage&#34;&gt;Input stage&lt;/h2&gt;
+
+&lt;p&gt;This little AC powered preamplifiers has an input stage configuration with a single FET transistor, very linear for its simplicity giving the warm tone due to the voltage controlled feedback just like a vacuum tube.&lt;/p&gt;
+
+&lt;p&gt;Was easy to google up some schematics to start off with. Actually I cannot find my own schematic nor more notes for this prototype model since I gave it as a present some time ago.&lt;/p&gt;
+
+&lt;p&gt;By the way I started off with this &lt;a href=&#34;http://runoffgroove.com/fetzervalve.html&#34; target=&#34;_blank&#34;&gt;blog post&lt;/a&gt; because I was interested in having control over the input impedance (low and high). The basic schematic, therefore, was this one below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://runoffgroove.com/fetzervalve.png&#34; alt=&#34;valve&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I guess I had a little stash of 2SK30 or 2N5457 to choose from, anyway I reckon you can obtain an acceptable sound quality with almost any JFET.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;diretta-iniezione-cascode-wave.jpg&#34; alt=&#34;cascode wave&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;cascode-configuration&#34;&gt;Cascode configuration&lt;/h2&gt;
+
+&lt;p&gt;After the first prototype and started working on a second one with a cascode configuration:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;diretta-iniezione-cascode.jpg&#34; alt=&#34;Cascode&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The output of a 440Hz sine wave captured by the Shure M58 at maximum gain is showed below. It is just a dummy test image: I did not use any calibration between reference levels and, let&amp;rsquo;s say SPL, as the audio source was the Mac’s speaker itself. But the wave trace looks smooth and sounds even better!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;diretta-iniezione-cascode-wave2.jpg&#34; alt=&#34;Cascode wave&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;audio-sample&#34;&gt;Audio Sample&lt;/h2&gt;
+
+&lt;p&gt;If you want to listen to a recording made with Diretta Iniezione here is a promotional video:&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//player.vimeo.com/video/97137760&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
     </item>
     
     <item>
-      <title>Drawings, logos, misc</title>
-      <link>https://lucaji.github.io/2014/06/drawings-logos-misc/</link>
-      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
+      <title>Lorena Fontana - A Vision (The making of)</title>
+      <link>https://lucaji.github.io/publication/lorena-fontana-a-vision-mitchel-forman-ralph-humphrey-michael-rosen-edwin-livingston-promo-video/</link>
+      <pubDate>Fri, 01 Nov 2013 00:00:00 +0100</pubDate>
       
-      <guid>https://lucaji.github.io/2014/06/drawings-logos-misc/</guid>
-      <description>&lt;p&gt;This is a collection of miscellaneous works, ideas, drafts that may have been used, reused, changed, forgotten&amp;hellip;
-&lt;/p&gt;</description>
+      <guid>https://lucaji.github.io/publication/lorena-fontana-a-vision-mitchel-forman-ralph-humphrey-michael-rosen-edwin-livingston-promo-video/</guid>
+      <description>
+
+&lt;p&gt;A Vision is the fifth album that Lorena Fontana, composer, lyricist and talented singer, recorded in her name. But this, unlike the previous ones , was made in the United States with equally talented musicians such as pianist Mitchel Forman, which we know for the wonderful work with Wayne Shorter, bassist Edwin Livingston , drummer Ralph Humphrey and saxophonist Michael Rosen. With this new work, the singer interprets ten songs with dramatic intensity, five of which are her composition, two by A. C. Jobim, chosen with intelligence in the vast repertoire of the great Brazilian composer and three more by Djavan, Cedar Walton and Violeta Parra, the splendid &amp;ldquo;Gracias a la vida&amp;rdquo; that the Chilean singer and songwriter left to posterity in 1966 just before her suicide . &amp;ldquo;The Maestro&amp;rdquo; was composed by Walton when the pianist was still part of Art Blakey&amp;rsquo;s Jazz Messengers, but was recorded in a vocal version only in 1975. Lorena&amp;rsquo;s interpretation has that fire that this song requires, though it saddens me that Cedar was unable to listen to this performance because he left us on August 19. I&amp;rsquo;m sure , knowing him personally, he would have been thrilled. If Lorena Fontana is an excellent singer, her scat chorus in &amp;ldquo;The Maestro&amp;rdquo; and in other songs are perfect, as well as her English is perfect, what makes her peculiar and unsurpassed are her skills as a writer. Her lyrics are magnificent, it would take just these few verses : &amp;ldquo; Waking to a song of inner calling , sipping from a cup still burning where hopes had been spilled on the floor, here each cloud is wrapped in silver lining and Gods up above in their silk dresses&amp;rsquo;re dining&amp;rdquo; (A Vision) to say that Lorena Fontana, to whom I wish greater successes, is a musician of the most intelligent and sensitive kind always able to arouse strong emotions. ~Adriano Mazzoletti&lt;/p&gt;
+
+&lt;h1 id=&#34;tracklist&#34;&gt;Tracklist&lt;/h1&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;#&lt;/th&gt;
+&lt;th&gt;Title&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Time&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Gracias A La Vida&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;4:45&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Music Is An Isle&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;6:10&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Two Kites&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;4:10&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;A Vision&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;5:14&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;The Maestro&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;6:02&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Cinderella&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;5:09&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;What I&amp;rsquo;m Worth&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;5:58&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;The Father And His Child&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;5:13&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;Estrada Branca&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;4:40&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;Flor De Lis&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3:26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Quote from the original site:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Questo video documenta la realizzazione di &amp;ldquo;A Vision&amp;rdquo; della cantante Lorena Fontana. Un CD di caratura internazionale registrato a Los Angeles da Dennis Moody, realizzato, composto e cantato da Lorena Fontana &amp;ldquo;A Vision&amp;rdquo; (pubblicato da Videoradio produzione discografica Beppe Aleo) in uscita 15 ottobre 2013 distribuzione SELF featuring internazionali: Mitchel Forman, Ralph Humphrey , Edwin Livingston, Michael Rosen. Registrato a Los Angeles nel Gennaio e nell&amp;rsquo;Agosto 2012, il video mostra alcune riprese in sala di registrazione e retroscena durante la produzione.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&#34;a-vision-the-making-of&#34;&gt;A Vision The Making Of&lt;/h1&gt;
+
+&lt;h2 id=&#34;directed-by-alessandra-arcieri&#34;&gt;Directed by Alessandra Arcieri&lt;/h2&gt;
+
+&lt;h3 id=&#34;video-editing-by-luca-cipressi&#34;&gt;Video editing by Luca Cipressi&lt;/h3&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/SxOWRY1u_BY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.lorenafontana.com&#34; target=&#34;_blank&#34;&gt;Visit Lorena Fontana’s Official Web Site&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UC9-ssWenVbzWJ_fY7F_gyLw&#34; target=&#34;_blank&#34;&gt;Lorena Fontana’s on Youtube&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;speciale-videoradio-lorena-fontana-gianfranco-continenza&#34;&gt;Speciale Videoradio: Lorena Fontana, Gianfranco Continenza&lt;/h2&gt;
+
+&lt;p&gt;Cantante jazz, autrice e compositrice, Lorena Fontana, vanta un percorso artistico molto articolato che l’ha portata a collaborare con musicisti del calibro di Geoff Warren, Paolo Fresu, Kenny Wheeler, John Taylor, Andrea Centazzo, George Russell, Area Tavolazzi, e Stefano Bollani, nonché a scrivere jingles per la tv, e canzoni di successo come “L’angelo caduto” per i Nomadi. Parallelamente alla sua attività di compositrice, negli anni ha dato alle stampe quattro dischi, tra cui va menzionato lo splendido “Guccini in Jazz” del 2004. Il suo nuovo album “A Vision”, nasce dalla sua passione per la musica popolare brasiliana di Jobim e Djavan e per quella cilena, che per l’occasione ha voluto declinare in chiave jazz, ma anche su suggerimento di Betty Carter, che qualche tempo fa le consigliò di realizzare un disco che potesse piacere tanto agli addetti ai lavori, quanto anche agli ascoltatori occasionali. Registrato interamente a Los Angeles, il disco vede la partecipazione di un gruppo di eccellenti musicisti della scena West Coast statunitense come Alan Michael Rosen (sax), Mitchel Forman (piano), Edwin Livingston (contrabbasso), e Ralph Humphrey (batteria), tutti strumentisti dal prestigioso curriculum artistico. L’ascolto rivela un disco ricco, magistralmente suonato, pieno di sfumature da cogliere, immergendosi nei vari brani, in cui a dominare è l’intensa voce di Lorena Fontana, supportata magistralmente dai vari strumentisti, che nel corso di ogni traccia sviluppano un interplay elegante, e raffinato. Ad aprire il disco è la splendida versione di “Gracias A La Vida” di Violeta Parra, a cui segue l’autografa “Music Is An Isle”, che apre la strada ad un intercalarsi continuo di composizioni originali e riletture. Spiccano in modo particolare “Two Kites” di Jobim, cantata con grande trasporto e partecipazione dalla Fontana, la splendida “The Maestro” di Cedar Walton” e quel gioiello che è “Estrada Branca” ancora dal repertorio di Jobim. Sul versante delle composizioni originali piacciono le fascinose “Cinderella” e “What I’m Worth”, tuttavia il vertice del disco arriva con la conclusiva “Flor De Lis” firmata da Djavan, che brilla non solo per l’eccellente interpretazione della Fontana ma anche per lo splendido arrangiamento che la caratterizza. “A Vision” è insomma un disco tutto da ascoltare per immergersi nell’ispirazione di Lorena Fontana, scoprendo le sue doti vocali, la sua scrittura, e la capacità interpretativa, che la porta a far proprie le composizioni degli autori a cui si ispira.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.blogfoolk.com/2013/12/speciale-videoradio-lorena-fontana.html&#34; target=&#34;_blank&#34;&gt;source: blogfoolk.com&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Fliers &#39;Campari Soda Ants&#39; jam session night in Serramonacesca</title>
-      <link>https://lucaji.github.io/2014/06/fliers-campari-soda-ants-jam-session-night-in-serramonacesca/</link>
-      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
+      <title>Alternate Risk - (Proof of Concept)</title>
+      <link>https://lucaji.github.io/publication/risk-alternate-table-game/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0100</pubDate>
       
-      <guid>https://lucaji.github.io/2014/06/fliers-campari-soda-ants-jam-session-night-in-serramonacesca/</guid>
-      <description>&lt;p&gt;I designed these leaflets for the jam session night at &lt;strong&gt;Bar dello Sport, Serramonacesca&lt;/strong&gt; using the images of &lt;em&gt;Tjalas&lt;/em&gt;, the aboriginal name for this specimen of &lt;em&gt;honey pot ants&lt;/em&gt; from central Australia, with their abdomen swollen with the sweetest honey you could ever think of.
-&lt;/p&gt;</description>
+      <guid>https://lucaji.github.io/publication/risk-alternate-table-game/</guid>
+      <description>
+
+&lt;h1 id=&#34;disclaimer&#34;&gt;DISCLAIMER&lt;/h1&gt;
+
+&lt;p&gt;This Proof Of Concept, to avoid copyright infringements has never seen the public distribution. I am publishing here these photos &lt;strong&gt;only to showcase my work as graphician&lt;/strong&gt;. I must stress that the actual idea is not mine but is from somebody else instead; and I take no responsability whatsoever of the deeds of &lt;em&gt;that&lt;/em&gt; guy, so don’t shoot the piano player!&lt;/p&gt;
+
+&lt;h2 id=&#34;proof-of-concept&#34;&gt;PROOF OF CONCEPT&lt;/h2&gt;
+
+&lt;p&gt;The old classic Risiko (Risk) table game with alternative graphics and packaging design. Instead of the whole world map, features the Abruzzo’s map so that you conquer the local provinces and engage with battles with your mates around the region.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;risk-alt-packaging-square.jpg&#34; alt=&#34;Game packaging&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;the-gameboard&#34;&gt;The Gameboard&lt;/h2&gt;
+
+&lt;p&gt;The gameboard has the Abruzzo map printed onto a foldable cardboard in quarters.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;risk-alt-spielbrett.jpg&#34; alt=&#34;The gameboard&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;the-cards&#34;&gt;The Cards&lt;/h2&gt;
+
+&lt;p&gt;And these were the playing cards.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;risk-alt-deck-showcase.jpg&#34; alt=&#34;The deck&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Back To The Future alarm clock</title>
-      <link>https://lucaji.github.io/2014/04/back-to-the-future-alarm-clock/</link>
-      <pubDate>Mon, 07 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Firemakers - Metal Empire</title>
+      <link>https://lucaji.github.io/publication/firemakers-metal-empire-cd-cover/</link>
+      <pubDate>Wed, 01 Nov 2006 00:00:00 +0100</pubDate>
       
-      <guid>https://lucaji.github.io/2014/04/back-to-the-future-alarm-clock/</guid>
-      <description>&lt;p&gt;A full working replica of the time machine circuits from the Back To The Future blockbuster. Apart from actual time travel, it acts as a talking alarm clock.
-&lt;/p&gt;</description>
+      <guid>https://lucaji.github.io/publication/firemakers-metal-empire-cd-cover/</guid>
+      <description>
+
+&lt;h1 id=&#34;the-songs&#34;&gt;The Songs&lt;/h1&gt;
+
+&lt;p&gt;In 2005 the Fire Makers joined to realized their Metal Empire unpublished demo.&lt;/p&gt;
+
+&lt;p&gt;The original tracklist, as I have it recorded includes&lt;/p&gt;
+
+&lt;h2 id=&#34;fire-makers-tears-of-pain&#34;&gt;Fire Makers - Tears Of Pain&lt;/h2&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/WdRE4tFt2H4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;fire-makers-devil-s-lie&#34;&gt;Fire Makers - Devil’s Lie&lt;/h2&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/WMiZJq5WYuk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;personnel&#34;&gt;Personnel&lt;/h2&gt;
+
+&lt;p&gt;Recorded at &lt;a href=&#34;https://www.facebook.com/acmerecstudio/&#34; target=&#34;_blank&#34;&gt;ACME Recording Studio&lt;/a&gt; in Raiano (AQ), Italy&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;right&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;em&gt;Lead Vocals&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Eugent Bushpepa&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;em&gt;Lead &amp;amp; Rhythm Guitar&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Max Candido&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;em&gt;Lead Guitar and Vocals&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Carlo Cicognani&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;em&gt;Bass Guitar and Vocals&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Tonino Vosolo&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;em&gt;Drums&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Matteo Corelli&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;em&gt;Keyboards&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Luca Cipressi&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;luca-s-gears&#34;&gt;Luca’s Gears&lt;/h2&gt;
+
+&lt;p&gt;For this recording I played the piano and organ parts with the Hammond replica by Roland: the Roland VK-8. In my humble opinion still it is the best drawbar organ replica. &lt;a href=&#34;http://www.roland.ca/products/vk-8/&#34; target=&#34;_blank&#34;&gt;Roland VK-8 combo Organ &lt;img src=&#34;roland-vk8.png&#34; alt=&#34;Roland VK8&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The VK-8 Combo Organ puts the enhanced Virtual ToneWheel sound of the flagship VK-77 in an attractively priced single-manual design with a cool new &amp;ldquo;waterfall&amp;rdquo; style keyboard. But it doesn&amp;rsquo;t stop there: The VK-8 also sports rotary speaker modeling based on COSM technology, new orchestral voices and a D-Beam controller-making it the new leader in combo organs. From Roland official site.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The strings and synth parts were instead played on an old synth: the &lt;a href=&#34;http://www.vintagesynth.com/misc/gem_s.php&#34; target=&#34;_blank&#34;&gt;GEM S3 &lt;img src=&#34;gem-s3.png&#34; alt=&#34;General Music S3&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Italian company Generalmusic (also called GEM) was known for producing home organs and semi-professional accompaniment keyboards. But they also made a few attempts at producing professional music workstations. The first of them was the S-Series, introduced in 1992. GEM called it the &amp;ldquo;Music Processor&amp;rdquo; because of its many advanced functions, including a powerful sequencer, the ability to read and edit samples, excellent real-time controllers, and many others. From vintagesynth.com.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&#34;cd-cover&#34;&gt;CD Cover&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;firemakers-metal-empire-cover.jpg&#34; alt=&#34;Metal Empire&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My contribution to the keyboard sounds and a CD cover draft for ’Metal Empire’ by the metal band ’Fire Makers’. Featuring &lt;a href=&#34;https://en.wikipedia.org/wiki/Eugent_Bushpepa&#34; target=&#34;_blank&#34;&gt;Eugent Bushpepa&lt;/a&gt; at the vocals.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Please note that this audio CD cover image has not been officially approved by the &lt;strong&gt;Fire Makers&lt;/strong&gt; and it is included here as personal portfolio.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&#34;credits-aknowledgements&#34;&gt;Credits &amp;amp; Aknowledgements&lt;/h1&gt;
+
+&lt;p&gt;I must admit that my playing style is more acoustic oriented, and years after listening to this recordings I am still proud of it, I still feel that blues timbre I grew up with. But now I really cannot recall how I ended up being guest keyboard player with a heavy metal band such as the &lt;strong&gt;Fire Makers&lt;/strong&gt; just weeks before I left for good overseas.&lt;/p&gt;
+
+&lt;p&gt;I sincerely thank Max &amp;ldquo;Dingo&amp;rdquo; Candido for that experience. Haven’t heard from them long time now&amp;hellip;Cheers!&lt;/p&gt;
+
+&lt;p&gt;Please don’t forget to pay a visit to &lt;a href=&#34;https://www.instagram.com/eugentbushpepa&#34; target=&#34;_blank&#34;&gt;Eugent Bushpepa on Instagram&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Theremin by lookaji</title>
-      <link>https://lucaji.github.io/2013/10/theremin-by-lookaji/</link>
-      <pubDate>Sun, 13 Oct 2013 00:00:00 +0000</pubDate>
+      <title>Cometa Rossa - Area - Demetrio Stratos</title>
+      <link>https://lucaji.github.io/post/cometa-rossa-area-demetrio-stratos/</link>
+      <pubDate>Tue, 20 Jun 2000 00:00:00 +0200</pubDate>
       
-      <guid>https://lucaji.github.io/2013/10/theremin-by-lookaji/</guid>
-      <description>&lt;p&gt;A mighty theremin build from an open source project with Arduino.
-&lt;/p&gt;</description>
+      <guid>https://lucaji.github.io/post/cometa-rossa-area-demetrio-stratos/</guid>
+      <description>
+
+&lt;h1 id=&#34;area-with-demetrio-stratos&#34;&gt;Area with Demetrio Stratos&lt;/h1&gt;
+
+&lt;h2 id=&#34;cometa-rossa&#34;&gt;Cometa Rossa&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Greek&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Phonetic&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Italiano&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Άνοιξε χείλι μοι, ̉άνοιξε,&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ánoixe cheíli moi, ánoixe,&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;Aprimi le labbra, aprile&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;γλικά νά τραγουδήσω.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;gliká ná tragoudíso.&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;dolcemente affinché io canti.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;̉Άνοιξε τήν καρδιά.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ánoixe tín kardiá.&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;Apri il cuore.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Κομήτη κλει̃̃σε&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Komíti kleĩse&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;Cometa, chiudi&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;τό στόμα στούς ποιητές.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;tó stóma stoús poiités.&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;la bocca ai poeti.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Κομήτη κλει̃σε&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Komíti kleĩse&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;Cometa, chiudi&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;τό στόμα καί φύγε.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;tó stóma kaí fýge.&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;la bocca e vattene via.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;̉Άνοιξε τά μάτια στνή ̉έλευτερια.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ánoixe tá mátia stní élefteria.&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;Apri gli occhi alla libertà&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
     </item>
     
     <item>
-      <title>Tube Amps by lookaji</title>
-      <link>https://lucaji.github.io/2013/10/tube-amps-by-lookaji/</link>
-      <pubDate>Sat, 12 Oct 2013 00:00:00 +0000</pubDate>
+      <title>Comunicazione Visiva</title>
+      <link>https://lucaji.github.io/post/lucaji-high-school-thesis-comunicazione-visiva/</link>
+      <pubDate>Tue, 20 Jun 2000 00:00:00 +0200</pubDate>
       
-      <guid>https://lucaji.github.io/2013/10/tube-amps-by-lookaji/</guid>
-      <description>&lt;p&gt;I built a series of tube amps tested at both at home and on the road that performed nicely.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Lorena Fontana - A Vision - The Making Of</title>
-      <link>https://lucaji.github.io/2013/09/lorena-fontana---a-vision---the-making-of/</link>
-      <pubDate>Sun, 15 Sep 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucaji.github.io/2013/09/lorena-fontana---a-vision---the-making-of/</guid>
-      <description>&lt;p&gt;This video is about the studio recording of the Cd A Vision by Lorena Fontana, recorded in Los Angeles in January and August 2012.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Rustiko 1st Edition Graphic Design</title>
-      <link>https://lucaji.github.io/2013/08/rustiko-1st-edition-graphic-design/</link>
-      <pubDate>Thu, 15 Aug 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucaji.github.io/2013/08/rustiko-1st-edition-graphic-design/</guid>
-      <description>&lt;p&gt;The old style Risiko table game graphics and packaging design. Instead of the world maps, features only Abruzzo’s map so that you conquer the provinces.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Fire Makers Metal Empire - Demo</title>
-      <link>https://lucaji.github.io/2007/01/fire-makers-metal-empire---demo/</link>
-      <pubDate>Mon, 15 Jan 2007 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucaji.github.io/2007/01/fire-makers-metal-empire---demo/</guid>
-      <description>&lt;p&gt;My contribution to the keyboard sounds and a CD cover draft for ’Metal Empire’ from the metal band ’Fire Makers’. Featuring Eugent Bushpepa at the vocals.
-&lt;/p&gt;</description>
+      <guid>https://lucaji.github.io/post/lucaji-high-school-thesis-comunicazione-visiva/</guid>
+      <description>
+
+&lt;p&gt;I was enrolled at &lt;strong&gt;Istituto Tecnico Industriale Statale &amp;ldquo;Luigi di Savoia&amp;rdquo;&lt;/strong&gt; in Chieti, Italy.
+That was one of the best technical high schools at the time where I was lucky enough to have some of the best teachers around. Probably I was not the best pupil, but I would love to thank Prof. Giacomo Pisani (physics), Prof. Lucio Di Gregorio (human science) and Prof. Francesco Casale (human science).
+The following text (still in Italian language) has been recovered with a OCR software and adapted to Markdown.&lt;/p&gt;
+
+&lt;h5 id=&#34;luca-cipressi-classe-v-informatica-sez-b-a-s-1999-2000&#34;&gt;Luca Cipressi Classe V Informatica Sez. B a.s. &lt;sup&gt;1999&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2000&lt;/sub&gt;&lt;/h5&gt;
+
+&lt;h1 id=&#34;comunicazione-visiva&#34;&gt;Comunicazione Visiva&lt;/h1&gt;
+
+&lt;h2 id=&#34;dossografia&#34;&gt;Dossografia&lt;/h2&gt;
+
+&lt;p&gt;Generalmente, un manuale di una qualsiasi materia di studio o disciplina ha inizio con la definizione dell&amp;rsquo;argomento trattato, illustrandone tutti gli aspetti degni di interesse. In questo caso, però, ho preferito iniziare cercando di dare una motivazione alla mia scelta di voler parlare della comunicazione visiva illustrandone il motivo ispiratore cercando aiuto nella disciplina della Filosofia, l&amp;rsquo;unica, per definizione, in grado di giungere ai principi primari e alle origini del tutto.
+Difatti, l&amp;rsquo;esigenza umana di conoscere, di sapere, di scoprire è, per Platone ed Aristotele, la meraviglia che un essere umano prova dinnanzi ad un qualcosa di nuovo, teoria successivamente ripresa da Freud nella Psicanalisi infantile, che nello stato adulto della persona si evolve in un incessante lavoro mentale di ricerca della Verità e in un bisogno dell&amp;rsquo;uomo di comunicare, alimentando l&amp;rsquo;importanza del concetto di informazione.
+In un tempo di conquiste come il nostro, l&amp;rsquo;uomo si è reso conto che il solo fatto di detenere la maggior quantità di informazioni può renderlo potente e se egli può disporne in modo tale da diffonderla nei modi e nelle quantità e negli aspetti a lui congeniali, di conseguenza può giungere direttamente nelle case delle persone arrivando fino a manipolarne i gusti e le scelte.
+Il media che attualmente dispone di questi requisiti è la Televisione, più che un elettrodomestico, meno della Verità. Presente ormai in ogni abitazione e in quasi ogni momento della vita del singolo individuo e di una famiglia, essa ci tormenta continuamente con immagini di modi di vivere e di essere che difficilmente rispecchiano la realtà quotidiana, al contrario proponendoci miti e ideali preconfezionati da altri. Tutto ciò giocando sulla cognizione di causa che essa sfrutta, a differenza di altri media, due sensi percettivi contemporaneamente: l&amp;rsquo;udito e la vista aumentando la possibilità di cogliere l&amp;rsquo;attenzione di un osservatore.
+Questa sua importanza nell&amp;rsquo;ambito socio-culturale mi ha portato alla scelta della comunicazione visiva come oggetto di questa tesi che non può essere una denuncia degli usi e abusi che se ne fanno, ma è un riconoscimento del peso che essa ha su di noi.
+Chissà se Shakespeare, in Romeo e Giulietta, non intendesse riferirsi alla televisione quando nell&amp;rsquo;atto secondo, seconda scena diceva:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;But soft! What light through yonder window breaks? [&amp;hellip;]
+It speaks, and yet says nothing.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;storia-della-televisione&#34;&gt;Storia della Televisione&lt;/h2&gt;
+
+&lt;p&gt;L&amp;rsquo;invenzione del tubo elettronico ad opera di John Fleming nel 1904 (la valvola) aveva dato inizio ad una nuova branca dell&amp;rsquo;elettrotecnica chiamata elettronica. Scoperta la possibilità di produrre, dirigere e sfruttare un flusso di elettroni, si prospettarono immediatamente numerose applicazioni. Una delle scoperte decisive fu quella dell&amp;rsquo;effetto fotoelettrico, mediante il quale si poteva convertire la luce in elettricità. Il principio della televisione in fondo è di una semplicità assoluta: trasmettere nello spazio una figura complessa può apparire piuttosto difficile, ma trasmettere un segnale elettrico è una cosa molto semplice; se si scompone dunque una immagine in una serie di piccoli punti e si trasmette ogni punto sotto forma di impulso elettrico, non resterà che ideare un apparecchio ricevente che ritraduca questi impulsi nell&amp;rsquo;ordine voluto, per avere l&amp;rsquo;immagine trasmessa in partenza. Trasformare questi punti in correnti più o meno intense, trasmetterle nello spazio e far sì che il ricevitore li riordini in sincronismo perfetto con il trasmettitore, questo era il problema che si trovarono a risolvere i pionieri della televisione. In fondo l&amp;rsquo;idea era di carpire la figura umana e di trasportarla oltre le barriere dello spazio, di vedere immagini in azione, persone e fatti nel momento stesso in cui avvengono a molti chilometri di distanza, aveva interessato più la magia che la scienza. E forse, anche quando la situazione tecnica poteva incoraggiare l&amp;rsquo;impresa, occorreva pur sempre un po&amp;rsquo; di follia e di disperazione per lanciarsi nell&amp;rsquo;avventura. Qualità che non mancarono ad una curiosa figura di scozzese, John Logie Baird, inventore ed affarista sfortunato, che inseguì a lungo le idee più paradossali e si dedicò ad operazioni finanziarie più contorte prima di dedicarsi, senza alcuna visibile speranza di successo, al problema della televisione.
+Dopo essersi occupato per qualche tempo dell&amp;rsquo;effetto fotoelettrico (era riuscito ad azionare, verso gli inizi della prima guerra mondiale, un campanello avvalendosi della luce solare), Baird si dedicò per qualche tempo ad attività svariate: ideò e mise in commercio delle solette di carta per tenere caldi i piedi, inventò un lucido da scarpe, brevetto un rasoio di vetro dagli effetti disastrosi ed un calzino pneumatico per individui affetti da piattismo: l&amp;rsquo;esplosione dei suoi calzini nei momenti meno prevedibili fece naufragare anche quest&amp;rsquo;ultima impresa e lo spinse a riprendere i suoi esperimenti in elettronica.
+Egli riuscì a trasmettere, con apparecchiature assolutamente improvvisate (la lampada di proiezione era fatta con una scatola da biscotti con lenti dozzinali e utilizzò un lavabo come base), l&amp;rsquo;immagine di una croce di Malta. Quindi proseguì gli esperimenti finanziato da una fabbrica di apparecchi elettrici, che lo indusse, per ragioni pubblicitarie, ad esibirsi davanti ai frequentatori di un emporio; ma le immagini trasmesse erano confuse, poco più che ombre, ed il pubblico accolse con diffidenza ed ironia l&amp;rsquo;invenzione. Egli continuò gli esperimenti finché, nel 1926, poté mostrare un esperimento piuttosto soddisfacente sulla figura umana, ad una commissione scientifica.
+Nel 1929 la B.B.C. iniziava una serie di trasmissioni televisive sperimentali. Non più una aspirazione magica, non più un progetto di un esaltato ma la televisione entrava nella fase di attuazione.
+Posti i principi basilari, la trasmissione televisiva era diventata un problema di ricerca industriale la cui soluzione progressiva continua tuttora, quando ormai il nuovo mezzo si è imposto come uno dei fenomeni tipici della nostra epoca. Occorre tuttavia notare che tra i primi esperimenti ed il boom televisivo vero e proprio siano trascorsi parecchi anni, più di quanti la logica stessa degli esperimenti richiedesse; ma il secondo conflitto mondiale agì da freno su queste ricerche: la televisione era ancora un gioco di lusso e non se ne potevano intravedere le enormi possibilità di direzione dell&amp;rsquo;opinione pubblica.&lt;/p&gt;
+
+&lt;h2 id=&#34;scheda-di-digitalizzazione-video&#34;&gt;Scheda di Digitalizzazione Video&lt;/h2&gt;
+
+&lt;p&gt;Il progetto portato insieme a questo documento, è un circuito capace di digitalizzare un segnale video proveniente da una telecamera, un videoregistratore o un televisore (o qualsiasi altra fonte video composita analogica) potendo successivamente visionare l&amp;rsquo;immagine catturata sullo schermo di un comune Personal Computer, con tutti i vantaggi che derivano dalla forma digitale nella quale viene convertito il segnale video con la possibilità di salvare il fotogramma su disco fisso, riaprirlo in un secondo tempo, inviarlo ad altri utenti di una rete, stamparlo, ecc.
+La realizzazione di tale scheda ha comportato lo studio della struttura del segnale video composito europeo e sviluppo di un software di controllo on-board su microcontrollore PIC per la gestione logica delle temporizzazioni del segnale da campionare nonché per la serializzazione dei dati riguardanti l&amp;rsquo;immagine, e di un software di interfacciamento seriale e visualizzazione su Personal Computer.
+Il circuito dispone di un ingresso video composito PAL, ma l&amp;rsquo;elevata velocità con cui viene digitalizzato il segnale video e la estrema lentezza insita nell&amp;rsquo;interfaccia seriale RS232 utilizzata per il trasferimento su PC, scelta per la sua larga diffusione, impone l&amp;rsquo;utilizzo di tale scheda per applicazioni di video-frame capturing, quali i sistemi di allarme e videosorveglianza per l&amp;rsquo;impossibilità di trasferire in tempo reale un video full-motion direttamente all&amp;rsquo;interno della memoria del computer.&lt;/p&gt;
+
+&lt;h3 id=&#34;caratteristiche-tecniche&#34;&gt;Caratteristiche Tecniche&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Risoluzione immagine:  320x300 pixel;&lt;/li&gt;
+&lt;li&gt;Profondità immagine:  256 toni di grigio (8 bit)&lt;/li&gt;
+&lt;li&gt;Velocità Upload Seriale:  38400 bps&lt;/li&gt;
+&lt;li&gt;Segnale video ingresso:  PAL video-composito&lt;/li&gt;
+&lt;li&gt;Tensione di alimentazione:  5 Vdc&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;il-segnale-video&#34;&gt;Il Segnale Video&lt;/h2&gt;
+
+&lt;p&gt;Le immagini televisive che sullo schermo percepiamo complete in ogni loro particolare, in realtà sono formate da un solo punto, che partendo dall&amp;rsquo;angolo sinistro in alto dello schermo, si deflette velocemente da sinistra verso destra e alla fine di ciascuna riga si sposta in basso per ricostruire una seconda riga, poi una terza, ecc., fino a terminare in fondo allo schermo.
+Lo standard video europeo stabilisce che un singolo fotogramma sia composta da 625 linee orizzontali; se queste 625 righe venissero riprodotte in sequenza, il nostro occhio vedrebbe ogni immagine &amp;ldquo;sfarfallare&amp;rdquo;.
+Per eliminare questo inconveniente si completa una immagine con righe interlacciate, cioè si forma un semiquadro con tutte le righe dispari, poi un secondo semiquadro con tutte le righe pari che, intercalandosi, formano una immagine completa.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;float: right; padding-left: 20 px; margin-left: 20px;&#34; src=&#34;https://lucaji.github.io/img/tesina-1.png&#34;&gt;
+&lt;strong&gt;Fig. 1&lt;/strong&gt; Per evitare lo sfarfallio, ogni immagine viene riprodotta sullo schermo di una TV con due quadri, uno composto da sole righe pari ed uno da sole righe dispari, interlacciando questi due quadri, il nostro occhio per effetto delia persistenza ottica caratteristica della retina vedrà un&amp;rsquo;immagine completa.&lt;/p&gt;
+
+&lt;p&gt;Pertanto, il primo semiquadro risulterà formato da 312, 5 linee dispari, cioè le righe 1-3-5, ecc., ed il secondo da altre 312,5 linee pari, le 2-4-6-8, ecc.
+Poiché la velocità con cui questi semiquadri appaiono sullo schermo è superiore alla velocità di risposta dell&amp;rsquo;occhio umano, quest&amp;rsquo;ultimo non risente di queste interruzioni dovute all&amp;rsquo;alternanza delle righe dell&amp;rsquo;immagine,
+La durata dì una riga singola (sia essa pari o dispari) è di 64 µS ed inizia con un impulso negativo della durata di 5 µS, detto impulso di sincronismo atto ad identificare l&amp;rsquo;inizio di una riga. Finito l&amp;rsquo;impulso di sincronismo, inizia il burst colore che, ovviamente sarà assente se l&amp;rsquo;immagine è in bianco e nero.
+Dopo circa 12 µS dall&amp;rsquo;inizio dell&amp;rsquo;impulso di sincronismo, inizierà il segnale della riga dell&amp;rsquo;immagine che avrà una durata di 51 µS. L&amp;rsquo;informazione della riga dell&amp;rsquo;immagine è modulata in ampiezza: ad un livello di tensione del 7,5% (sul massimo valore picco/picco del segnale video applicato all&amp;rsquo;ingresso) corrisponde il colore nero, mentre alla massima ampiezza di segnale, corrisponde il bianco e qualsiasi altro livello intermedio tra il 7,5% ed il 100% corrisponde ad una diversa tonalità di grigio.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;float: right; padding-left: 20 px; margin-left: 20px;&#34; src=&#34;https://lucaji.github.io/img/tesina-2.png&#34; /&gt;
+&lt;strong&gt;Fig. 2&lt;/strong&gt; Ogni riga di quadro ha una durata di 64 µS che inizia sempre con un impulso negativo della durata di 5 µS, seguito da un “burst&amp;rdquo; per il colore. Dopo 12 µS inizia il segnale delle immagini che dura 51 µS: ad un segnale con una ampiezza del 7,5% equivale ad un tratto nero, il 50% ad un grigio e al 100% H bianco (massima luminosità).&lt;/p&gt;
+
+&lt;p&gt;Questo per tutte le righe che compongono l&amp;rsquo;immagine (625). Ogni ultima riga di ognuno dei due semiquadri, presenta un intervallo di blanking, che identifica la transizione tra i due; in particolare l&amp;rsquo;ultimo semiquadro presenta un&amp;rsquo;ultima riga più corta, per dare spazio al cosiddetto vertical blanking interval, composto di tre parti: gli impulsi di equalizzazione, gli impulsi verticali fitti e di nuovo degli impulsi di equalizzazione, dopodiché segue uno spazio senza immagine (11 righe) contenente esclusivamente gli impulsi di sincronismo video al cui interno è possibile inserire le informazioni televideo.&lt;/p&gt;
+
+&lt;h2 id=&#34;filtri&#34;&gt;Filtri&lt;/h2&gt;
+
+&lt;p&gt;L&amp;rsquo;utilizzo tipico dei filtri è quello di poter selezionare una ben determinata gamma di frequenze da un segnale applicatovi all&amp;rsquo;ingresso. Un filtro è caratterizzato da alcuni parametri fondamentali: innanzitutto il tipo (descritti in seguito dettagliatamente) poi l&amp;rsquo;ordine, la frequenza di taglio, la banda passante e, infine, la realizzazione circuitale dei filtri che può avvenire sia mediante componenti esclusivamente passivi, ovvero R, L, C, sia tramite l&amp;rsquo;aggiunta di dispositivi attivi quali transistor e amplificatori operazionali.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Passa Basso (LPF) Il filtro bassa basso non altera apprezzabilmente i segnali che hanno frequenza inferiore a quella di taglio e attenua i restanti.&lt;/li&gt;
+&lt;li&gt;Passa Alto (HPF) Il filtro passa alto non altera apprezzabilmente i segnali che hanno frequenza superiore a quella di taglio e attenua i restanti.&lt;/li&gt;
+&lt;li&gt;Passa Banda (BPF) Il filtro passa banda non altera apprezzabilmente i segnali che hanno frequenza compresa tra le due di taglio e attenua i restanti.&lt;/li&gt;
+&lt;li&gt;Elimina Banda (BSF) Il filtro elimina banda non attenua i segnali che hanno frequenza compresa tra le due di taglio e non altera apprezzabilmente i restanti.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img style=&#34;float: right; padding-left: 20 px; margin-left: 20px;&#34; src=&#34;https://lucaji.github.io/img/tesina-3.png&#34;&gt;
+&lt;strong&gt;Fig. 3&lt;/strong&gt; Specifiche di trasmissione dei principali tipi di filtro.&lt;/p&gt;
+
+&lt;p&gt;Molteplici settori dell&amp;rsquo;elettronica, quali ad esempio l&amp;rsquo;audio Hi-fi, la telefonia e la strumentazione di misura, necessitano di sistemi in grado di discriminare, secondo specifiche assegnate, le diverse componenti spettrali del segnale d&amp;rsquo;ingresso. I filtri passivi assolvono tale compito, ma comportano problemi di caricamento degli stadi ad essi accoppiati; le realizzazioni attive superano questo problema mediante l&amp;rsquo;impiego di amplificatori operazionali e consentono di ottenere f.d.t. caratterizzate da poli complessi coniugati senza ricorrere all&amp;rsquo;uso di bobine che, rispetto ai condensatori, presentano maggiori deviazioni dal comportamento ideale dovute alla resistenza dell&amp;rsquo;avvolgimento.
+Le realizzazioni attive trovano uso estensivo nei sistemi che operano a frequenze inferiori a qualche centinaio di KHz, mentre quelle passive vengono impiegate in reti che elaborano segnali anche a frequenze dell&amp;rsquo;ordine di centinaia di MHz.
+Tali filtri, possono essere definiti mediante le specifiche di trasmissione illustrate in Fig. 3; queste individuano una zona del diagramma della risposta entro la quale deve essere compreso l&amp;rsquo;andamento di |F(jw)|, al fine di ottenere la caratterizzazione voluta.
+Per offrire generalità alla rappresentazione il valore massimo del modulo è normalizzato a 0 dB: in altri termini, viene trascurata un&amp;rsquo;eventuale traslazione verticale rigida dell&amp;rsquo;intero grafico dovuta all&amp;rsquo;esistenza di una costante moltiplicativa nella f.d.t.
+Ogni filtro presenta una banda passante (passband) in cui il modulo permane inalterato entro una fascia di tolleranza F1 e una banda oscura (stopband) in cui il modulo assume valori inferiori a F2 oppure a F3; l&amp;rsquo;intervallo che separa le precedenti definisce invece la banda di transizione. In tabella 1 sono indicate le pulsazioni che delimitano ciascuna banda.
+È importante sottolineare che la larghezza della banda di transizione, associata alla differenza (F2 - F1) oppure (F3 - F1), qualifica la discriminazione in frequenza operata dal filtro; ciò si riflette sull&amp;rsquo;ordine della f.d.t. e quindi sulla complessità della struttura circuitale.&lt;/p&gt;
+
+&lt;h2 id=&#34;generalità-sui-segnali-elettrici-e-sulla-loro-conversione&#34;&gt;Generalità sui segnali elettrici e sulla loro conversione&lt;/h2&gt;
+
+&lt;p&gt;Nei sistemi elettronici l&amp;rsquo;informazione può essere supportata da diversi segnali in evoluzione temporale, aventi forme diverse ma identico contenuto informativo; la loro natura dipende dalla sorgente, dalle tecniche di elaborazione e dai canali di trasmissione utilizzati.
+I segnali sono contraddistinti da molteplici parametri, quali l&amp;rsquo;ampiezza, la frequenza, la fase, il duty-cycle e la polarità; l&amp;rsquo;informazione viene quindi rappre-sentata in termini analitici da una funzione y = f(t) che esprime il legame tra un parametro y prestabilito ed il tempo.
+E&amp;rsquo; inoltre importante distinguere fra rappresentazione di tipo analogico e di tipo numerico; in un intervallo prefissato della variabile y il segnale analogico può assumere idealmente infiniti valori significativi, mentre il segnale numerico può assumere solo un numero finito. In particolare il dominio e il codominio sono continui nel primo e discreti nel secondo.
+Un importante caso di segnale numerico è quello di tipo binario, nel quale sono significativi solo due valori, denominati livelli logici.
+Nei sistemi digitali, l&amp;rsquo;informazione è associata ad un codice costituito da un insieme di due simboli, quali 0 ed 1, utilizzati per rappresentare una serie di numeri in base ad una prefissata convenzione; ad esempio nel codice binario naturale 4 bit consentono di individuare 16 distinte combinazioni associabili ad altrettanti numeri, lettere o qualsivoglia notazione.
+L&amp;rsquo;unità elementare di un messaggio è quindi composta da una ripetizione di simboli denominata parola; la sua lunghezza risulta funzione del numero di distinte combinazioni richieste. Il raggruppamento dei simboli che costituisce una parola può essere presentato in modo contemporaneo (forma parallela) o sequenziale (forma seriale).
+Al fine di porre in luce le peculiarità dei segnali analogici e di quelli digitali, si espongono a seguito alcune considerazioni:
+Poiché il segnale analogico evolve con continuità è possibile in linea teorica individuare infiniti livelli; tuttavia il rumore sempre presente nei sistemi elettronici non rende distinguibili due valori che distano tra loro di una quantità inferiore all&amp;rsquo;ampiezza del disturbo. Quest&amp;rsquo;ultimo comporta quindi un deterioramento dell&amp;rsquo;informazione e al limite la totale mascheratura dei segnali più deboli. La qualità di un segnale analogico è perciò descritta dal rapporto segnale-rumore.
+Il rumore sovrapposto a un segnale digitale non compromette invece il contenuto informativo purché, a causa della sua ampiezza istantanea, non sia interessata la zona di indeterminazione; infatti ciascun livello logico ammette una fascia di valori entro la quale l&amp;rsquo;informazione è riconosciuta univocamente come stato 0 (basso) o 1 (alto).
+Da quanto esposto nel punto precedente emerge che l&amp;rsquo;elaborazione e la trasmissione di segnali digitali risulta apparentemente meno problematica.
+Occorre tuttavia considerare che tali operazioni condotte su una parola in forma seriale richiedono un tempo proporzionale alla lunghezza della parola stessa; invece nel caso in cui quest&amp;rsquo;ultima presenti una forma parallela le operazioni sono più rapide ma il transito dell&amp;rsquo;informazione necessita di un maggior numero di linee, rendendo in tal modo più complessa la struttura dell&amp;rsquo;hardware.
+Contrariamente il segnale analogico è sempre elaborato e trasmesso in tempo reale, ovvero senza ritardi apprezzabili, e richiede un&amp;rsquo;unica linea di comunicazione.
+I sistemi digitali sono caratterizzati da un&amp;rsquo;elevata versatilità in quanto, con l&amp;rsquo;avvento dei microprocessori, le funzioni svolte dai circuiti logici risultano definite da un programma facilmente modificabile; ciò è reso possibile dalla semplicità di memorizzare una notevole quantità di dati senza perdita alcuna di precisione.
+La flessibilità delle strutture programmabili consente di specializzare in modo diverso il trattamento dell&amp;rsquo;informazione, senza alterare sostanzialmente l&amp;rsquo;architettura del sistema.
+I sistemi analogici sono quelli che meglio si adattano all&amp;rsquo;interfacciamento con il mondo fisico, poiché i sensori e gli attuatori sono in genere interessati da segnali che variano con continuità nel tempo. Qualora si intenda operare un trattamento numerico dell&amp;rsquo;informazione è quindi necessario provvedere a una duplice conversione che adatti sia l&amp;rsquo;ingresso sia l&amp;rsquo;uscita del sistema digitale a segnali di tipo analogico.&lt;/p&gt;
+
+&lt;h2 id=&#34;processi-di-conversione-a-d&#34;&gt;Processi di conversione A/D&lt;/h2&gt;
+
+&lt;p&gt;Le precedenti osservazioni hanno sottolineato che il trattamento digitale dell&amp;rsquo;informazione presenta molteplici aspetti positivi, ma richiede di norma una conversione analogico-digitale e una conversione inversa digitale-analogica.
+In tale documento si parlerà principalmente di quella A/D, utilizzata dal circuito realizzato. La conversione D/A è in effetti realizzata direttamente dal monitor del computer che converte l&amp;rsquo;immagine digitalizzata nuovamente in forma visibile. In figura 4 è riportata l&amp;rsquo;architettura di un complesso per il trattamento digitale dell&amp;rsquo;informazione analogica; i blocchi in essa evidenziati svolgono le funzioni esposte a seguito.
+Il circuito campionatore (sampling circuit) provvede a generare una sequenza di impulsi vs(t) di durata teoricamente infinitesima e di ampiezza pari a quella assunta dal segnale d&amp;rsquo;ingresso vi(t) negli istanti di campionamento; viene in tal modo operato un passaggio da una rappresentazione in un dominio continuo ad una in un dominio discreto.
+La memoria analogica (holding circuit) riproduce in uscita un livello di tensione vsh(t) eguale a quello campionato e lo mantiene costante sino al successivo impulso; questo blocco è necessario per presentare al convertitore A/D un valore inalterato durante l&amp;rsquo;intervallo di tempo richiesto per la conversione.
+Se il segnale possiede un andamento lentamente variabile lungo l&amp;rsquo;intervallo suddetto, lo stato campionatore e la memoria analogica possono essere omessi.
+Il convertitore A/D codifica l&amp;rsquo;ampiezza di vsh(t) in una parola digitale contraddistinta da un prefissato numero n di bit.
+La grandezza all&amp;rsquo;ingresso di tale circuito possiede un codominio continuo, cioè può evolvere nel tempo assumendo un numero infinito di valori; l&amp;rsquo;informazione all&amp;rsquo;uscita è invece di tipo discreto, ovvero è rappresentata da un numero finito di valori. Da ciò si deduce che il convertitore A/D opera una quantizzazione del segnale campionato, suddividendo idealmente l&amp;rsquo;intervallo delle tensioni d&amp;rsquo;ingresso in un numero l di livelli che, nel caso di codifica binaria risulta pari a l = 2^n
+Il sistema digitale rappresenta, nello schema a blocchi proposto, un qualsiasi trattamento numerico dell&amp;rsquo;informazione, quale ad esempio l&amp;rsquo;elaborazione o il processo di trasmissione-ricezione dei segnali.
+Il convertitore D/A decodifica la parola digitale fornita dal blocco precedente e restituisce un segnale quantizzato vq(t) con dominio e codominio entrambi discreti; la forma d&amp;rsquo;onda assume quindi un andamento a gradinata.
+Il filtro di ricostruzione sopprime le componenti armoniche di vq(t) estranee allo spettro associato all&amp;rsquo;informazione, producendo in uscita un segnale v0(t) analogico, ossia dotato di dominio e codominio continui.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;float: right; padding-left: 20 px; margin-left: 20px;&#34; src=&#34;https://lucaji.github.io/img/tesina-4.png&#34;&gt;
+&lt;strong&gt;Fig. 4&lt;/strong&gt; Schema generale di una catena di misura.&lt;/p&gt;
+
+&lt;h2 id=&#34;acquisizione-dati&#34;&gt;Acquisizione Dati&lt;/h2&gt;
+
+&lt;p&gt;Un problema comune a molte realtà produttive consiste nella raccolta ordinata di un insieme di informazioni inerenti ad un processo industriale; sulla base dei dati acquisiti è possibile stabilire il tipo di intervento necessario al fine di condizionare l&amp;rsquo;evoluzione del processo medesimo nella direzione voluta.
+Il controllo può richiedere l&amp;rsquo;azione di un operatore che deve regolare manual-mente opportuni attuatori, oppure può avvenire in modo automatico subordinando il pilotaggio di questi ultimi direttamente all&amp;rsquo;apparato di raccolta dati.
+Allo stato attuale la gestione degli impianti industriali è delegata quasi esclusivamente a macchine elettroniche in virtù dell&amp;rsquo;accuratezza, della velocità, dell&amp;rsquo;affidabilità e dei bassi costi di gestione propri di tali sistemi.
+Inoltre lo stato dell&amp;rsquo;arte delle logiche programmabili e dei personal computer consente di realizzare controllori di processo caratterizzati da un&amp;rsquo;elevata flessibilità; in altri termini è possibile cambiare il ciclo produttivo semplicemente apportando delle modifiche al programma implementato sul computer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;float: right; padding-left: 20 px; margin-left: 20px;&#34; src=&#34;https://lucaji.github.io/img/tesina-5.png&#34;&gt;
+&lt;strong&gt;Fig. 5&lt;/strong&gt; Schema generale di una catena di acquisizione.&lt;/p&gt;
+
+&lt;p&gt;Ogniqualvolta occorra descrivere sotto il profilo scientifico un sistema in regime statico o in evoluzione temporale è necessario operare un rilievo delle grandezze fisiche che lo caratterizzano; ciò offre l&amp;rsquo;opportunità all&amp;rsquo;osservatore di intervenire successivamente sul sistema stesso al fine di modificarne il comportamento.
+L&amp;rsquo;esecuzione della misura può avvenire mediante tecniche elettroniche che, rispetto a tecniche di natura diversa, consentono di raggiungere sensibilità, precisioni e rapidità di risposta considerevoli; esse inoltre rendono possibile l&amp;rsquo;elaborazione, la memorizzazione e la trasmissione dei dati acquisiti.
+Nella figura 5 è illustrata la configurazione generale di una catena di misura in grado di visualizzare, su uno o più organi di presentazione dati, il valore di una grandezza fisica rilevata da un sensore remoto. La descrizione di ogni singolo blocco che compone tale schema è riportata nei punti seguenti:
+Il sensore posto all&amp;rsquo;ingresso della catena provvede alla trasformazione della grandezza da misurare in una corrispondente variabile elettrica; si rammenta che la natura dei segnali prodotti è prevalentemente analogica, tranne in alcuni casi nei quali il sensore stesso opera una codifica digitale dell&amp;rsquo;informazione, come ad esempio nell&amp;rsquo;encoder.
+Il segnale generato dal sensore necessita di norma di un primo condizionamento sull&amp;rsquo;ampiezza operato da un preamplificatore lineare a basso rumore; ciò eleva l&amp;rsquo;immunità ai disturbi che si sovrappongono all&amp;rsquo;informazione in transito lungo i successivi blocchi.
+Nel caso in cui la variabile di uscita del trasduttore sia una corrente è talvolta necessario che questo stadio effettui anche una conversione corrente-tensione (1/ V): allo scopo viene impiegato un amplificatore di transresistenza.
+Qualora al segnale sia associata una componente di modo comune, come ad esempio si verifica all&amp;rsquo;uscita di un ponte di misura, è opportuno adottare un amplificatore per strumentazione qualificato da un elevato valore di CMRR.
+Si ricorda che una tensione di modo comune può insorgere anche per interfe-renze elettromagnetiche indotte sul cavetto che collega il sensore al blocco di preamplificazione; questi disturbi, particolarmente deleteri per segnai a basso livello, sono comunque minimizzati impiegando un cavetto schermato.
+In talune circostanze il sensore è collocato in una posizione remota rispetto al sistema di elaborazione e presentazione dati, ovvero rispetto all&amp;rsquo;ambiente dove agisce l&amp;rsquo;operatore (control room); in tal caso si rende necessario introdurre nella catena un trasmettitore ed un corrispondente ricevitore.
+La linea lungo la quale transitano le informazioni può essere costituita da un cavo elettrico, da una fibra ottica o in casi particolari dall&amp;rsquo;etere.
+La soluzione più semplice e affidabile per una comunicazione via cavo a breve distanza è offerta dai convertitori V/F e F/V che effettuano rispettivamente una modulazione e demodulazione di tipo PFM.
+In alternativa, sempre per collegamenti di alcune centinaia di metri, si impiega la trasmissione ad anello di corrente (current loop i cui segnali, a differenza di quelli in tensione, non risentono delle cadute lungo la linea imputabili all&amp;rsquo;impedenza dei fili. Nel ricevitore dev&amp;rsquo;essere ovviamente attuata la conversione inversa, realizzabile mediante una resistenza di precisione connessa fra gli ingressi di un amplificatore differenziale.
+Un ulteriore condizionamento del segnale può essere effettuato nel blocco di elaborazione al fine di compensare le eventuali non linearità della caratteristica del sensore o di filtrare i disturbi accumulati durante il transito lungo i precedenti stadi.
+L&amp;rsquo;effettiva elaborazione è invece richiesta nel caso in cui occorra svolgere particolari operazioni sul segnale: si pensi ad esempio al calcolo del valor medio o del valore efficace.
+La realizzazione di questo blocco può avvalersi di tecniche analogiche, digitali o miste; come noto l&amp;rsquo;impiego di circuiti digitali agevola la memorizzazione dei dati raccolti e l&amp;rsquo;eventuale trasferimento dei medesimi a un computer.
+La catena termina con uno o più organi di presentazione dati che, a seconda delle esigenze, possono essere costituiti da un indicatore a lancetta, da uno strumento digitale, da un registratore grafico, da una stampante o da un monitor.&lt;/p&gt;
+
+&lt;h2 id=&#34;trasmissione-dati&#34;&gt;Trasmissione Dati&lt;/h2&gt;
+
+&lt;p&gt;Gli attuali sistemi elettronici sono spesso predisposti per il colloquio con altre unità al fine di consentire l&amp;rsquo;acquisizione, la memorizzazione, l&amp;rsquo;elaborazione o la visualizzazione dei dati.
+Un messaggio in forma digitale può essere presentato a una linea di trasmis-sione sia con un assetto parallelo, sia con un assetto seriale.
+Nella forma parallela tutti gli n bit di ogni singola parola vengono trasmessi simultaneamente ed è quindi necessario l&amp;rsquo;impiego di n fili oltre a quello di massa; ne consegue un elevato costo del mezzo trasmissivo che limita l&amp;rsquo;utilizzo di questa tecnica a comunicazioni di breve distanza, quale ad esempio l&amp;rsquo;allacciamento di un plotter a un personal computer.
+Inoltre l&amp;rsquo;accoppiamento induttivo e capacitivo fra i diversi conduttori, disposti in genere in un unico cavo, produce interferenze (cross-talk) di ampiezza rilevante qualora più bit presentino simultaneamente il medesimo cambiamento di stato.
+Nella forma seriale tutti gli n bit di ogni singola parola vengono trasmessi in modo sequenziale, cadenzati da impulsi di clock, ed è quindi sufficiente l&amp;rsquo;impiego di un solo filo oltre a quello di massa; ne consegue una drastica riduzione dei costi, particolarmente sensibile su lunghe tratte, e un miglioramento dell&amp;rsquo;affidabilità dell&amp;rsquo;intero sistema.
+Si rende tuttavia necessario l&amp;rsquo;utilizzo di registri per la conversione parallelo-serie (PISO) in sede di trasmissione e di registri serie-parallelo (SIPO) in ricezione; infatti i circuiti digitali di elaborazione manipolano in genere parole in formato parallelo che transitano sul bus dati.
+Il maggior inconveniente di questa tecnica risiede nella lentezza intrinseca del trasferimento dei dati, poiché la trasmissione di ogni singola parola richiede al minimo n impulsi di clock.
+Malgrado ciò l&amp;rsquo;assetto serie ha trovato una notevole diffusione in quanto si adatta ai canali di comunicazione già esistenti, quali le linee telefoniche.
+Si precìsa che con il termine velocità di trasmissione si intende, per il formato seriale, il numero di bit trasferiti in un secondo; l&amp;rsquo;unità adottata è quindi il bit/s oppure, nel sistema binario, baud. Per il formato parallelo si adotta invece l&amp;rsquo;unita cps, acronimo di caratteri per secondo.
+Affinché sia possibile decodificare un messaggio in forma seriale occorre che esso contenga dei segnali di riferimento utili per la sincronizzazione del ricevitore con il trasmettitore; a seconda della tecnica utilizzata si distinguono i due tipi di comunicazione seriale riportati in seguito.
+Nella trasmissione asincrona il segnale di sincronismo è inviato all&amp;rsquo;inizio (bit di start) e alla fine (bit di stop) di ogni parola. Di norma, in assenza di trasmissione, la linea è posta a livello alto; il primo fronte di discesa corrisponde quindi al bit di start che attiva un clock locale con frequenza idealmente identica a quella del trasmettitore.
+Fanno seguito gli n bit della parola che costituisce l&amp;rsquo;informazione, un fronte di salita corrispondente al bit di stop ed infine un livello alto che permane sino al sopraggiungere di un nuovo bit di start.
+Affinché il clock locale possa scandire con precisione l&amp;rsquo;evoluzione temporale del segnale ricevuto, occorre che la sua frequenza non si discosti da quella del trasmettitore di una quantità tale da superare la larghezza di un impulso. Tale ipotesi non è assolutamente restrittiva in quanto la perdita di fase dev&amp;rsquo;essere contenuta solo per l&amp;rsquo;intervallo di tempo relativo alla trasmissione di una parola.
+Nella trasmissione sincrona le parole digitali vengono raggruppate in blocchi delimitati da appositi campi, nei quali sono contenuti sia il carattere di sincronismo, sia particolari parole di controllo degli errori e della lunghezza del testo, dipendenti dal protocollo utilizzato.
+Ciò riduce i tempi di trasmissione perché il carattere di sincronismo è inviato una sola volta per ciascun blocco di messaggi, oppure permane costantemente in linea in assenza di informazioni.
+Di contro è richiesta una precisione del clock locale molto più elevata rispetto al caso precedente, in quanto la perdita di fase dev&amp;rsquo;essere trascurabile lungo tutto l&amp;rsquo;intervallo di tempo relativo ad un blocco.
+In alternativa è comunque possibile aggiungere una linea dedicata alla tra-smissione del clock, ma la presenza di tre fili comporta un aggravio dei costi del sistema.
+Per la sua semplicità realizzativa la tecnica asincrona ha assunto un ruolo preminente nella trasmissione di dati tra microprocessori, computer e loro periferiche. I sistemi di comunicazione sincrona trovano invece applicazione ove le esigenze dì velocità sia leggermente più stringenti.
+Per la comunicazione seriale si utilizzano sia linee dedicate, sia linee commu-tate, la prima soluzione è adottata qualora si desideri un allacciamento permanente tra due unità, mentre la seconda risponde ad esigenze di colloquio tra diversi sistemi e si avvale di una centrale di commutazione. Il canale telefonico costituisce l&amp;rsquo;esempio più comune di linea commutata e ha assunto un&amp;rsquo;enorme rilevanza in tutti i settori industriali per la grande diffusione degli impianti e per il costo contenuto del canone.
+Lo scambio di messaggi in forma digitale fra due unità può essere di tipo monodirezionale o bidirezionale&amp;rsquo;, nel primo caso un&amp;rsquo;unità è predisposta per la sola trasmissione e l&amp;rsquo;altra per la sola ricezione, mentre nel secondo caso ambedue le unità sono abilitate a svolgere entrambe le funzioni.
+Si elencano di seguito i tre modi di comunicazione di norma utilizzati:
+Il collegamento simplex è l&amp;rsquo;unico di tipo mono direzionale e trova un utilizzo limitato a causa dell&amp;rsquo;assenza di interazione tra le due unità. A titolo d&amp;rsquo;esempio si pensi a un apparecchio radio spia che capta l&amp;rsquo;informazione sonora in un luogo e ne consente l&amp;rsquo;ascolto in un altro.
+Il collegamento half-duplex permette il trasferimento bidirezionale non si-multaneo dell&amp;rsquo;informazione. In virtù della sua semplicità realizzativa trova larga diffusione, nonostante la presenza di ritardi a ogni inversione del flusso dei dati.
+Il collegamento full-duplex sostiene una comunicazione bidirezionale con-temporanea fra due unità, eliminando in tal modo i ritardi tipici della trasmissione half-duplex; questa tecnica è utilizzata in tutte le reti telefoniche e in molti sistemi di teleprocesso.&lt;/p&gt;
+
+&lt;p&gt;Le diverse operazioni richieste da una trasmissione seriale sono normalmente svolte da un unico circuito monolitico, che, in base alle sue capacità assume sigla di USRT, UART o USART.
+Molti ambienti industriali sono caratterizzati da disturbi di natura elettroma-gnetica, prodotti ad esempio da motori elettrici e da circuiti on/off di potenza. Qualora una linea di trasmissione percorra tali ambienti è necessario salvaguardare i segnali digitali dai disturbi: a tale scopo si utilizzano particolari famiglie di circuiti integrati logici dotate di elevata immunità al rumore (HTL) o più frequentemente si ricorre a una comunicazione su linea differenziale o bilanciata.
+In quest&amp;rsquo;ultima tecnica i due fili, generalmente intrecciati tra loro, sono percorsi da segnali simmetrici rispetto alla terra; gli eventuali rumori con buona probabilità si sovrappongono simultaneamente a entrambe le forme d&amp;rsquo;onda, costituendo così un disturbo di modo comune facilmente distinguibile dall&amp;rsquo;informazione trasmessa in modo differenziale.
+Il pilotaggio della linea è effettuato da un invertitore di fase, mediante il quale il segnale di ingresso è riproposto alle due uscite in forma bilanciata, ovvero con due livelli di tensione uguali ma di segno opposto. In ricezione è invece posto un amplificatore differenziale che elimina i disturbi di modo comune e ripristina i livelli di tensione originari, corrispondenti agli stati 0 e 1.
+Qualora la lunghezza di una tratta sia notevole, è opportuno adottare una trasmissione in banda traslata anziché in banda base; in altri termini è necessario modulare una portante sinusoidale in accordo con l&amp;rsquo;informazione digitale, utiliz-zando una delle modulazioni ASK, FSK, o PSK.
+Le apparecchiature che realizzano questa funzione sono chiamate modem e comprendono sia un modulatore sia un demodulatore, rispettivamente impiegati per la trasmissione e per la ricezione dei dati digitali.
+Affinché la comunicazione fra due unità possa avvenire è necessario che esista una compatibilità tra i livelli logici del trasmettitore e quelli del ricevitore remoto. A tale compito provvedono i circuiti di interfaccia, per i quali esistono standard industriali atti a garantire il rispetto di precise normative, sia elettriche che meccaniche, che regolamentano il colloquio con il mondo esterno.
+L&amp;rsquo;adeguamento a standard internazionali comporta innegabili vantaggi qualora sia necessario espandere o sostituire parti di un sistema; si pensi ad esempio all&amp;rsquo;allacciamento di uno strumento di misura a un&amp;rsquo;unità di memorizzazione, oppure alla connessione di una nuova stampante a un personal computer.
+Il segnale gestito da un&amp;rsquo;interfaccia può presentarsi sotto forma parallela che seriale e da ciò ne deriva una prima classificazione.
+Fra le interfacce parallele ha assunto una notevole importanza la IEEE 488, sviluppata dalla società Hewlett-Packard appositamente per la strumentazione programmabile di misura comprendendo 8 linee dedicate al bus dati e 8 linee ausiliarie riservate ai comandi e al protocollo.
+Prima di fornire dei brevi cenni sulle interfacce seriali è necessario introdurre la terminologia volta all&amp;rsquo;individuazione del tipo di unità interessata all&amp;rsquo;interfacciamento.
+Con la sigla DTE (Data Terminal Equipment) si identifica il terminale dati di un&amp;rsquo;apparecchiatura elettronica, quale ad esempio un computer, una stampante.
+Con la sigla DCE (Data Communication Equipment) si contraddistingue un dispositivo per la comunicazione in forma seriale dei dati, quale ad esempio il modem.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;float: right; padding-left: 20 px; margin-left: 20px;&#34; src=&#34;https://lucaji.github.io/img/tesina-5.png&#34;&gt;
+&lt;strong&gt;Fig. 6&lt;/strong&gt; Colloquio fra due DTE remoti (A) e fra due DTE locali (B).&lt;/p&gt;
+
+&lt;p&gt;Il colloquio tra due unità prevede in genere una configurazione in perfetta analogia con il modello di Shannon, fatta salva la bidirezionalità di ogni blocco.
+Tuttavia è anche possibile la connessione diretta tra due DTE come avviene&lt;/p&gt;
+
+&lt;p&gt;nell&amp;rsquo;allacciamento diretto di due PC.
+Fra le varie interfacce seriali, quella che ha assunto un ruolo preminente negli ultimi anni è la RS-232C, approvata dall&amp;rsquo;EIA (Electrical Industries Association); essa prevede uno scambio di dati sia tipo sincrono che asincrono e consente trasmissioni in half e full-duplex. Il connettore standard RS-232C è composto da 25 piedini, alcuni riservati alla trasmissione e ricezione dei dati, altri ai controlli di varia natura. Tuttavia le applicazioni più comuni interessano solo un numero limitato di piedini.
+Al fine di garantire un&amp;rsquo;elevata immunità ai disturbi i livelli dello standard RS- 232C sono notevolmente superiori a quelli delle famiglie logiche di comune utilizzo; tali livelli, definiti in logica negata,  valgono:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;logic level&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;voltage&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;livello 0&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;+3 .. + 25V&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;space&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;undetermined&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;-3 .. +3V&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;null&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;livello 1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;-3 .. -25V&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;mark&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;I vocaboli space e mark derivano da una vecchia terminologia usata in ambito telegrafico.
+Le case produttrici hanno reso disponibili circuiti integrati specifici per questo tipo di interfaccia come il dispositivo LM232 della National (Dual RS-232Transmitter/ Receiver) che, pur garantendo livelli d&amp;rsquo;uscita estesi fra -9 V e +9 V, necessita di una singola alimentazione a +5 V.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;float: right; padding-left: 20 px; margin-left: 20px;&#34; src=&#34;https://lucaji.github.io/img/tesina-6.png&#34;&gt;
+&lt;strong&gt;Fig. 7&lt;/strong&gt; Modello di Shannon di un processo di trasmissione delle informazioni.&lt;/p&gt;
+
+&lt;p&gt;Per interfacciare due unità in ambienti rumorosi è opportuna l&amp;rsquo;adozione di standard tipo EIA RS-422 o EIA RS-423, contraddistinti da un collegamento con linea differenziale bilanciata o con cavo coassiale. Entrambi gli standard consentono velocità di trasmissione decisamente più elevate di quella ammessa dalla RS232C.&lt;/p&gt;
+
+&lt;p&gt;Il più vecchio standard seriale, tutt&amp;rsquo;oggi utilizzato (interfaccia MIDI per strumenti musicali digitali), è quello a loop di corrente introdotto per le comuni-cazioni fra le telescriventi; esso associa all&amp;rsquo;assenza e alla presenza di una corrente pari a circa 20 mA rispettivamente gli stati logici 0 e 1. Questo tipo di interfaccia, caratterizzata da una notevole semplicità circuitale, consente trasmissioni asincrone in half-duplex e full-duplex.&lt;/p&gt;
+
+&lt;h2 id=&#34;schema-a-blocchi&#34;&gt;Schema a blocchi&lt;/h2&gt;
+
+&lt;p&gt;Lo schema a blocchi di questa scheda rappresenta ogni unità funzionale del circuito, mostrando le interconnessioni fra ogni stadio in modo semplificato. Questi sono: il separatore di sincronismi, il convertitore A/D, il microcontrollore, la SRAM, il generatore di indirizzi, il clock e lo stadio di uscita seriale.
+Il primo problema da risolvere è determinare quando ha inizio l&amp;rsquo;immagine da campionare e quando finisce: per limitare lo spreco di memoria è necessario eliminare dalla digitalizzazione gli impulsi di sincronismo e la parte del burst colore lasciando in memoria solo i 320 pixel per ogni riga di un solo semiquadro, il dispari.
+Per identificare ogni diverso semiquadro, e quindi l&amp;rsquo;inizio (il primo punto o riga che dir si voglia) di ogni fotogramma è necessario un separatore di sincronismi video e nel caso particolare è stato utilizzato il circuito integrato LM1881 prodotto dalla National Semiconductor, capace, dopo aver selezionato tramite un resistere ed un condensatore esterni per la scelta dello standard video da cui estrarre i segnali di sincronismo. Per agganciare la frequenza di scansione verticale dello standard europeo PAL (Phase Alternating Line) sono sufficienti una resistenza da 470 KΩ ed un condensatore da 100 nF (vedi RI e Cl).
+In tal modo, è possibile estrarre quattro segnali interpolati in quello video: il sincronismo composito, il sincronismo verticale, l&amp;rsquo;identificazione del semiquadro pari/ dispari attuale e il sincronismo del burst colore.
+La rete logica realizzata con opportune porte logiche, permette di operare una semplice funzione booleana sui livelli logici di uscita del LM1881 emettendo un impulso alto solo ed esclusivamente in presenza del segnale dell&amp;rsquo;immagine e non di burst o sync. Questo segnale è applicato al microcontrollore che gestisce il campionamento.
+Un secondo problema riguarda la gestione della memoria SRAM. Essa deve accogliere, attivando la propria linea Write Enable, i byte provenienti dall&amp;rsquo;A/D durante la digitalizzazione del fotogramma e poi questa memoria deve venir letta dal microcontrollore, negando il segnale WE, per lasciar sì che l&amp;rsquo;immagine venga scaricata sul PC.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;float: right; padding-left: 20 px; margin-left: 20px;&#34; src=&#34;https://lucaji.github.io/img/tesina-7.png&#34;&gt;
+&lt;img style=&#34;float: right; padding-left: 20 px; margin-left: 20px;&#34; src=&#34;https://lucaji.github.io/img/tesina-8.png&#34;&gt;
+&lt;strong&gt;Fig. 8&lt;/strong&gt; Separatore di sincronismi LM1881 pin-out e temporizzazioni del segnale video ricavate da esso.&lt;/p&gt;
+
+&lt;p&gt;Queste due funzioni devono avvenire a due differenti velocità:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;La scrittura deve essere sincronizzata al clock di campionamento, quindi a 6 milioni di campioni per secondo;&lt;/li&gt;
+&lt;li&gt;La lettura deve essere sincronizzata alla velocità di upload verso il PC, quindi ad un clock pilotato direttamente dal microcontrollore.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A ciò servono le linee Clock Line Select e Clock Lettura. La prima serve per tre funzioni contemporaneamente: il settaggio del modo di lettura/scrittura della memoria, l&amp;rsquo;attivazione delle uscite del convertitore A/D tramite la linea OE e la selezione della posizione dello switch analogico in modo da scegliere come clock al contatore o il clock diretto a 6 MHz o la frequenza uscente dal pin Clock Lettura.
+Perché ci necessiti di un clock di 6 MHz è presto detto. Avendo scelto un formato di visualizzazione di 320 pixel/riga, e dato che una riga nel segnale video è stipata in 51 µS, ogni punto dovrà presentarsi in un tempo di &lt;sup&gt;51&lt;/sup&gt;&amp;frasl;&lt;sub&gt;320&lt;/sub&gt; = 0,159375 µS che corrisponde ad una frequenza di 1 /0,159375 = 6,2745 MHz
+Ciò significa necessitare di un transfer rate di 6 MB/s, che è quello che si trova nel bus dati che dal convertitore A/D va verso la memoria statica che fa funzione di buffer. Se fosse possibile utilizzare un bus standard per un Personal Computer con tale velocità, si avrebbe la possibilità di trasferire animazioni al posto di singoli fotogrammi, ma per mantenere la compatibilità e l&amp;rsquo;utilizzo di uno standard praticamente presente in tutti i computer, ho deciso di utilizzare la molto più lenta porta seriale.
+Così il funzionamento di tale scheda è quello di memorizzare un singolo frame di un segnale video e di trasferirlo lentamente verso un computer.
+Per il circuito di digitalizzazione è stato utilizzato un convertitore A/D veloce di tipo flash, dotato al suo interno di 256 comparatori e capace di funzionare con frequenze fino a 20MHz e con integrato un circuito di Sample &amp;amp; Hold. Tale componente, con una risoluzione di 8 bit paralleli, è gestito insieme alla SRAM da 128KB, dal microcontrollore PIC16C84 opportunamente programmato, che si occupa di gestire le linee di controllo della memoria, le linee di clock di campionamento e di lettura, l&amp;rsquo;aggancio dell&amp;rsquo;inizio del fotogramma da campionare e l&amp;rsquo;upload dell&amp;rsquo;immagine immagazzinata in memoria verso il Personal Computer tramite lo standard seriale RS232C ad una velocità di 38400 bit per secondo utilizzando un traslatore di livello ST232 che converte i livelli di tensione TTL nei livelli di tensione e logici definiti dall&amp;rsquo;EIA.&lt;/p&gt;
+
+&lt;h2 id=&#34;il-software&#34;&gt;Il software&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lucaji.github.io/img/tesina-9.png&#34;&gt;
+&lt;strong&gt;Fig. 9&lt;/strong&gt; Il diagramma di flusso per microcontrollore PIC.&lt;/p&gt;
+
+&lt;p&gt;Il programma che gestisce il PIC si occupa di attendere l&amp;rsquo;inizio e la fine del fotogramma tramite il piedino TimIn, gestire la linea Reset del generatore di indirizzi, la linea Clock Line Select, la linea Clock Lettura e la linea di uscita dei dati seriali.
+Il programma inizia settando la scheda pronta al campionamento dell&amp;rsquo;imma-gine, lasciando solo la linea di reset del generatore di indirizzi (il contatore) attivata, in modo da bloccare l&amp;rsquo;indirizzo della memoria su zero e quindi l&amp;rsquo;avanzamento delle locazioni di memoria. Non appena inizia il fotogramma dispari, controllando la transizione da alto a basso della linea odd/even, il controllore, sganciando il reset del contatore, permette, alla velocità di 6 MHz, di memorizzare ogni punto dell&amp;rsquo;immagine nelle locazioni della memoria, finché il segnale di stop non si presenta in ingresso: infatti, il microcontrollore deve semplicemente attendere che la linea odd/even transiti a livello positivo; in altre parole deve attendere la fine del primo semiquadro e l&amp;rsquo;inizio del secondo, fermando così la digitalizzazione invertendo il livello logico del segnale che comanda lo scambiatore di clock e resettando il contatore,
+A questo punto è sufficiente prelevare il byte sul port b, inviarlo serialmente tramite la routine di trasferimento seriale e far incrementare di una locazione l&amp;rsquo;indirizzo puntato dal contatore della memoria digitale con un semplice impulso sulla linea di clock del processore che, scambiata dallo switch, arriva direttamente all&amp;rsquo;ingresso di clock del contatore. Ripetendo questa procedura per tutti i pixel dell&amp;rsquo;immagine presenti in memoria, il software implementato su PC, provvede a visualizzare tutta l&amp;rsquo;immagine sullo schermo.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-nasm&#34;&gt;  LIST P=16C84 INCLUDE &amp;quot;p16c84.inc&amp;quot;
+
+        RA0        EQU 0               ;  serial  out
+        Timln      EQU 1               ;  timing  input
+        CKSel      EQU 2               ;  clock line out
+        CKOut      EQU 3               ;  clock out
+        CntRset    EQU 4               ;  counter reset
+                                       ; serial tx routine declarations N_BIT  EQU  8
+        BAUD       EQU 9600
+        FCLOCK     EQU 4E6
+        N_DELAY    EQU (FCLOCK - 64 * BAUD) /  (12 * BAUD)
+        BUFFER     EQU 0x2D
+        TIMER      EQU 0x2E
+        COUNT      EQU 0x2F
+
+        C0         EQU OxOC
+        C1         EQU OxOD
+        C2         EQU OxOE
+
+        org        0x00
+        clrf       PORTA               ;  init port  a
+        movlw      0x02                ;  RA1 input  all others are outs
+        bsf        STATUS, RP0
+        movwf      TRISA
+        bcf        STATUS, RP0
+
+        clrf       PORTB               ;  init port  b (8 bit input)
+
+        bsf        PORTA, CntRset      ;  pull-up counter reset line
+        bcf        PORTA, CKOut        ;  keep  down  uP clock line
+        bcf        PORTA, CKSel        ;  keep  down  clock line select
+        bsf        PORTA, RAO          ;  keep  idle  state on serial  line
+
+WAIT0   btfsc      PORTA, TimIn
+        goto       WAITO
+WAIT1   btfss      PORTA, TimIn
+        goto       WAIT1
+
+                                       ; start sampling
+
+        bcf        PORTA, CntRset      ; clear reset line - let the clock pass
+OVER    btfsc      PORTA, TimIn
+        goto       OVER
+
+                                       ; stop sampling
+
+        bsf        PORTA, CKSel        ;  swap clock line
+        bsf        PORTA, CntRset      ;  reset  counter
+        nop
+        nop
+        bcf        PORTA, CntRset
+
+                                       ; upload to host 128KB data block
+        clrf       C0
+        clrf       C1
+        movlw      0x02
+        movwf      C2
+NEXTBYTE
+        movf       PORTB, W
+        movwf      BUFFER
+        call       SEND
+        bsf        PORTA, CKOut        ; clock pulse high
+        nop
+        nop
+        bcf        PORTA, CKOut        ; clock pulse low
+        incfsz     CO
+        goto       NEXTBYTE
+        incfsz     C1
+        goto       NEXTBYTE
+        decfsz     C2
+        goto       NEXTBYTE
+        sleep
+
+SEND    bcf        PORTA, RA0          ;  bit start (basso)
+        call       DELAY               ;  10 cycles
+        nop
+        nop
+        nop
+        nop
+        movlw      N_BIT               ;  load data bit count
+        movwf      COUNT               ;  into COUNT
+LOOP    btfsc      BUFFER, 0           ;  check LSB byte to send
+        goto       ONE
+        nop
+ZERO    bcf        PORTA, RAO          ; send 0
+        goto       AWAY
+ONE     bsf        PORTA, RAO          ; send 1
+        nop
+        nop
+AWAY    call       DELAY
+        rrf        BUFFER, F           ;  shift data on LSB
+        decfsz     COUNT               ;  decrementa n bit trasmessi
+        goto       LOOP
+        nop
+        nop
+        nop
+        nop
+        bsf        PORTA, RAO          ; stop bit (high)
+        call       DELAY               ;  frame delay
+        nop
+        nop
+        nop
+        nop
+        nop
+        return
+DELAY   movlw      N_DELAY
+        movwf      TIMER
+AGAIN   decfsz     TIMER
+        goto       AGAIN
+        nop
+        return
+END
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;La routine di trasferimento seriale necessita di essere eseguita con temporizzazioni ben precise per evitare di incorrere in errori di frame durante la ricezione da parte di un computer. In effetti tale procedura realizza esattamente 26 cicli di clock per ogni bit da trasmettere, sia esso di start, di stop o di dati.
+Questa temporizzazione permette di ottenere 9600 bps usando un clock di 1 MHz e ben 38400 bps al clock di 4 MHz con 1 µS di tempo necessario per eseguire una istruzione.
+Il secondo programma si occupa di ricevere i byte provenienti dalla porta seriale e di memorizzarli in una struttura preallocata in memoria cui fa riferimento un puntatore. Durante la fase di download esso provvede alla visualizzazione del frame semplicemente creando righe di 320 punti ad ognuno dei quali è associato una tonalità di grigio corrispondente al valore del byte stesso del pixel.
+Questo metodo permette di mantenere una buona corrispondenza tra i grigi della luminosità campionata di ogni punto e la relativa rappresentazione sul video del computer tranne che per il nero pieno dal momento che la linearità della scala di grigi originaria inizia con un quasi-nero (7,5%) che per le applicazioni a cui è destinata la scheda non diviene un problema di taratura dei livelli.
+Ogni punto è visualizzato come colore RGB: ciò permette di disporre dell&amp;rsquo;intera palette di colori della scheda video montata sul computer host senza le limitazioni dovute all&amp;rsquo;utilizzo dei colori standard.&lt;/p&gt;
+
+&lt;p&gt;La struttura utilizzata dal software per memorizzare ogni punto grigio in RGB è la seguente:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-delphi&#34;&gt;type RGBColor = record
+  red:  Integer;  { red   component}
+  green:  Integer;  { green   component}
+  blue: Integer; { blue component}
+end;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Questa struttura, presa a prestito dal sistema operativo MacOS™, permette l&amp;rsquo;accesso a palette di colori di 48 bit (includendo il supporto per l&amp;rsquo;alfa-video), ma per standardizzare il programma ed evitare l&amp;rsquo;utilizzo di CLUT (Color Look-Up Table) indicizzate a 256 colori che limiterebbero il numero di grigi (non di colori), la struttura suddetta è stata ridotta utilizzando solo gli otto bit più significativi del tipo di dati Integer,
+Assegnando ad ogni componente di colore RGB lo stesso valore (quello proveniente dalla scheda) è facilmente ottenibile un grigio o, meglio, un diverso livello di luminosità del punto visualizzato su monitor.
+Il programma provvede inoltre semplici funzioni di salvataggio e apertura dei file.&lt;/p&gt;
+
+&lt;h2 id=&#34;multimedia-compression-algorithms&#34;&gt;Multimedia Compression Algorithms&lt;/h2&gt;
+
+&lt;p&gt;Taking an image in digital form may occupy many bytes on memories, so it had been to find a way to compress the images to be space savvy. On the other way, making image files smaller is a win for transmitting files across networks (the Internet) and for archiving libraries of images. Being able to compress a 2 Mbyte full color image down to, say, 100 Kbytes makes a big difference in disk space and transmission time. Many graphics compression algorithm standard have been written during last year, the most important is JPEG (pronounced &amp;ldquo;jay-peg&amp;rdquo;) JPEG stands for Joint Photographic Experts Group, the original name of the committee that wrote the standard JPEG can easily provide 20:1 compression ratio but it takes longer to decode and view an image, thus it&amp;rsquo;s essentially a time/space tradeoff.
+A lot of people are scared off by the term lossy compression but when it comes to representing real-world scenes, no digital image format can retain all the information that impinges on your eyeball. The real disadvantage of lossy compression is that if you repeatedly compress and decompress an image, you lose a little more quality each time becoming a serious objection for some applications but matters not at all for many others.
+It would be nice if, having a compressed image with JPEG, you could decompress it, view and manipulate it (crop off the border, say) and recompress it without any further image degradation beyond what you lost initially. Unfortunately, this is not the case: in general, recompressing an altered image loses more information. Hence, it&amp;rsquo;s important to minimize the number of generations of JPEG compression between initial and final versions of an image.
+But there are a few specialised operations that can be done on a JPEG file without incurring the generational loss that you&amp;rsquo;d normally get from loading and re-saving the image in a regular image editor. In particular it is possible to do 90-degree rotations and flips lossless but only in particular file format/image size ratios.&lt;/p&gt;
+
+&lt;h2 id=&#34;about-jpeg-algorithm&#34;&gt;About JPEG Algorithm&lt;/h2&gt;
+
+&lt;p&gt;JPEG is designed for compressing either full-colour or grayscale images of natural, real world scenes. It works well on photographs, not so well on line&lt;/p&gt;
+
+&lt;p&gt;drawing, charts and similar.
+This algorithm is &amp;ldquo;lossy&amp;rdquo; meaning that the decompressed image isn&amp;rsquo;t quite the same as the one you started with. In fact, JPEG is designed to exploit known limitations of the human eye, notably the fact that small colour changes are perceived less accurately than small changes in brightness. Thus, JPEG is intended for compressing images that will be looked by humans and if you plan to machine-analyse them, the small errors introduced by JPEG may be a problem for you, even if they are quite invisible to the eye.
+A useful property of JPEG is that the degree of looseness can be varied by adjusting compression parameters directly by the image maker meaning that he can trade off file size against output image quality making, in this way, extremely small files if you don&amp;rsquo;t mind poor quality or you can jack up the quality until you are satisfied and accepting lesser compression.
+JPEG images can be stored in files called JFIF (JPEG File Interchange Format) saving it in two forms: Baseline JPEG and Progressive JPEG. This is very important while on the Net, because the images in a baseline format are stored as one top-to-bottom scan while progressive format does a series of scans. This implies that while downloading a photo, and assume that only one third of it has been loaded, the first format let us see only a truncated photo at exactly one third of it, leaving under only a blank space; instead, the progressive format let us see the entire frame but at a lesser resolution like it&amp;rsquo;s blurred, increasing the definition while it&amp;rsquo;s still downloading, giving the viewer, the ideas about the image if it can be of interesting for him before downloading the entire file,
+JPEG is only for still images. Nonetheless, you will frequently see references to motion JPEG or MPEG for video. This is the recognised standard for motion picture compression. It uses many of the same techniques as JPEG, but adds mid-frame compression to exploit the similarities that usually exists between successive frames. To do such operation, it needs far more computation to generate the compressed sequence (since detecting visual similarities is hard for a computer) and it&amp;rsquo;s difficult to edit an MPEG sequence on a frame-by-frame basis (since each frame is intimately tied to the ones around it).&lt;/p&gt;
+
+&lt;p&gt;This standard can be used, with the needed modifications, also for audio storage applications, having full motion video and/or audio movies stored on disks or Cd roms. Audio is another space consuming data format so the MPEG standard has to be modified, giving it the name of MPEG Layer 3, or MP3, the last frontier in Audio exchange/storage on the Net.&lt;/p&gt;
+
+&lt;h2 id=&#34;legal-stuff&#34;&gt;Legal Stuff&lt;/h2&gt;
+
+&lt;p&gt;The JPEG Spec defines two different &amp;ldquo;back end&amp;rdquo; modules for the final output of compressed data: either Huffman coding and arithmetic coding is allowed. The choice has no impact on image quality, but arithmetic coding usually produces a smaller compressed file. On typical images, arithmetic coding produces a file 5 to 10 percent smaller than Huffman coding.
+Unfortunately, the particular variant of arithmetic coding specified by the JPEG standard, is subject to patents owned by IBM, AT&amp;amp;T and Mitsubishi. Thus, you cannot legally use JPEG arithmetic coding unless you obtain licenses from these companies. Patent law&amp;rsquo;s experimental use exception allows people to test a patented method in the context of scientific research, but any commercial or routine personal use is infringement.
+It&amp;rsquo;s recommendable that people not use JPEG arithmetic coding: the space savings isn&amp;rsquo;t great enough to justify the potential legal hassles. In particular, arithmetic coding should not be used for any images to be exchanged on the Internet.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;As a bottom line, sadly nobody actually read this text even If I put lot of energy in putting it together. If you have comments please let me know!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+</description>
     </item>
     
   </channel>

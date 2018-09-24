@@ -1,202 +1,140 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Lucaji’s GitHub Pages</title>
+    <title>Tags on Lucaji’s Pages</title>
     <link>https://lucaji.github.io/tags/</link>
-    <description>Recent content in Tags on Lucaji’s GitHub Pages</description>
+    <description>Recent content in Tags on Lucaji’s Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Apr 2015 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2014 - 2018 - Luca Cipressi - themilletgrainfromouterspace</copyright>
+    <lastBuildDate>Tue, 20 Jun 2000 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://lucaji.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Android</title>
-      <link>https://lucaji.github.io/tags/android/</link>
-      <pubDate>Wed, 15 Apr 2015 00:00:00 +0000</pubDate>
+      <title>Academic</title>
+      <link>https://lucaji.github.io/tags/academic/</link>
+      <pubDate>Tue, 20 Jun 2000 00:00:00 +0200</pubDate>
       
-      <guid>https://lucaji.github.io/tags/android/</guid>
+      <guid>https://lucaji.github.io/tags/academic/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Arduino</title>
-      <link>https://lucaji.github.io/tags/arduino/</link>
-      <pubDate>Sun, 13 Oct 2013 00:00:00 +0000</pubDate>
+      <title>Brazilian rhythm</title>
+      <link>https://lucaji.github.io/tags/brazilian-rhythm/</link>
+      <pubDate>Fri, 01 Nov 2013 00:00:00 +0100</pubDate>
       
-      <guid>https://lucaji.github.io/tags/arduino/</guid>
+      <guid>https://lucaji.github.io/tags/brazilian-rhythm/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Audio</title>
-      <link>https://lucaji.github.io/tags/audio/</link>
-      <pubDate>Sat, 20 Sep 2014 00:00:00 +0000</pubDate>
+      <title>Diy</title>
+      <link>https://lucaji.github.io/tags/diy/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0100</pubDate>
       
-      <guid>https://lucaji.github.io/tags/audio/</guid>
+      <guid>https://lucaji.github.io/tags/diy/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Books</title>
-      <link>https://lucaji.github.io/tags/books/</link>
-      <pubDate>Thu, 15 Jan 2015 00:00:00 +0000</pubDate>
+      <title>Electronics</title>
+      <link>https://lucaji.github.io/tags/electronics/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0100</pubDate>
       
-      <guid>https://lucaji.github.io/tags/books/</guid>
+      <guid>https://lucaji.github.io/tags/electronics/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Coredata</title>
-      <link>https://lucaji.github.io/tags/coredata/</link>
-      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      <title>Gadget</title>
+      <link>https://lucaji.github.io/tags/gadget/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0100</pubDate>
       
-      <guid>https://lucaji.github.io/tags/coredata/</guid>
+      <guid>https://lucaji.github.io/tags/gadget/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Cyberzen</title>
-      <link>https://lucaji.github.io/tags/cyberzen/</link>
-      <pubDate>Thu, 15 Jan 2015 00:00:00 +0000</pubDate>
+      <title>Graphics</title>
+      <link>https://lucaji.github.io/tags/graphics/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0100</pubDate>
       
-      <guid>https://lucaji.github.io/tags/cyberzen/</guid>
+      <guid>https://lucaji.github.io/tags/graphics/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Finalcut</title>
-      <link>https://lucaji.github.io/tags/finalcut/</link>
-      <pubDate>Sun, 15 Sep 2013 00:00:00 +0000</pubDate>
+      <title>Illustrations</title>
+      <link>https://lucaji.github.io/tags/illustrations/</link>
+      <pubDate>Fri, 01 Jul 2016 00:00:00 +0200</pubDate>
       
-      <guid>https://lucaji.github.io/tags/finalcut/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Games</title>
-      <link>https://lucaji.github.io/tags/games/</link>
-      <pubDate>Thu, 15 Aug 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucaji.github.io/tags/games/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hammond Organ</title>
-      <link>https://lucaji.github.io/tags/hammond-organ/</link>
-      <pubDate>Mon, 15 Jan 2007 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucaji.github.io/tags/hammond-organ/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Illustrator</title>
-      <link>https://lucaji.github.io/tags/illustrator/</link>
-      <pubDate>Thu, 15 Jan 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucaji.github.io/tags/illustrator/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ios</title>
-      <link>https://lucaji.github.io/tags/ios/</link>
-      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucaji.github.io/tags/ios/</guid>
+      <guid>https://lucaji.github.io/tags/illustrations/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jazz</title>
       <link>https://lucaji.github.io/tags/jazz/</link>
-      <pubDate>Sun, 15 Sep 2013 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Nov 2013 00:00:00 +0100</pubDate>
       
       <guid>https://lucaji.github.io/tags/jazz/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Objective C</title>
-      <link>https://lucaji.github.io/tags/objective-c/</link>
-      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      <title>Music</title>
+      <link>https://lucaji.github.io/tags/music/</link>
+      <pubDate>Tue, 20 Jun 2000 00:00:00 +0200</pubDate>
       
-      <guid>https://lucaji.github.io/tags/objective-c/</guid>
+      <guid>https://lucaji.github.io/tags/music/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Photoshop</title>
-      <link>https://lucaji.github.io/tags/photoshop/</link>
-      <pubDate>Thu, 15 Jan 2015 00:00:00 +0000</pubDate>
+      <title>Music</title>
+      <link>https://lucaji.github.io/tags/music/</link>
+      <pubDate>Tue, 20 Jun 2000 00:00:00 +0200</pubDate>
       
-      <guid>https://lucaji.github.io/tags/photoshop/</guid>
+      <guid>https://lucaji.github.io/tags/music/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Raspberry Pi</title>
+      <title>PLL</title>
+      <link>https://lucaji.github.io/tags/pll/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0100</pubDate>
+      
+      <guid>https://lucaji.github.io/tags/pll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Raspberry pi</title>
       <link>https://lucaji.github.io/tags/raspberry-pi/</link>
-      <pubDate>Mon, 07 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0100</pubDate>
       
       <guid>https://lucaji.github.io/tags/raspberry-pi/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Spritekit</title>
-      <link>https://lucaji.github.io/tags/spritekit/</link>
-      <pubDate>Wed, 15 Apr 2015 00:00:00 +0000</pubDate>
+      <title>Theremin</title>
+      <link>https://lucaji.github.io/tags/theremin/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0100</pubDate>
       
-      <guid>https://lucaji.github.io/tags/spritekit/</guid>
+      <guid>https://lucaji.github.io/tags/theremin/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Swift</title>
-      <link>https://lucaji.github.io/tags/swift/</link>
-      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      <title>Tube amps</title>
+      <link>https://lucaji.github.io/tags/tube-amps/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0100</pubDate>
       
-      <guid>https://lucaji.github.io/tags/swift/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Synth</title>
-      <link>https://lucaji.github.io/tags/synth/</link>
-      <pubDate>Mon, 15 Jan 2007 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucaji.github.io/tags/synth/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Travels</title>
-      <link>https://lucaji.github.io/tags/travels/</link>
-      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucaji.github.io/tags/travels/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tube Amp</title>
-      <link>https://lucaji.github.io/tags/tube-amp/</link>
-      <pubDate>Sat, 12 Oct 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucaji.github.io/tags/tube-amp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vimeo</title>
-      <link>https://lucaji.github.io/tags/vimeo/</link>
-      <pubDate>Sun, 15 Sep 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucaji.github.io/tags/vimeo/</guid>
+      <guid>https://lucaji.github.io/tags/tube-amps/</guid>
       <description></description>
     </item>
     

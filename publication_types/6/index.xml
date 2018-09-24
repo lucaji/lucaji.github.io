@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>6 on Lucaji’s Pages</title>
+    <link>https://lucaji.github.io/publication_types/6/</link>
+    <description>Recent content in 6 on Lucaji’s Pages</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2014 - 2018 - Luca Cipressi - themilletgrainfromouterspace</copyright>
+    <lastBuildDate>Sun, 01 Nov 2015 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://lucaji.github.io/publication_types/6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Theremin</title>
+      <link>https://lucaji.github.io/project/lucaji-theremin/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0100</pubDate>
+      
+      <guid>https://lucaji.github.io/project/lucaji-theremin/</guid>
+      <description>A mighty theremin build from an open source project with Arduino.
+One morning I stumbled across this open source theremin project: OpenTheremin on the web. They design and produce Arduino compatible theremin shields with two oscillators as you can control both tone and volume. I entered the theremin’s world and found it fascinating. And made my first attempt at it:
+Analog vs Digital The eternal fight. I do prefer the first though.</description>
+    </item>
+    
+    <item>
+      <title>Back To The Future Time Circuits</title>
+      <link>https://lucaji.github.io/project/back-to-the-future-time-circuits-replica/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0100</pubDate>
+      
+      <guid>https://lucaji.github.io/project/back-to-the-future-time-circuits-replica/</guid>
+      <description>Dr. Emmett Brown: If my calculations are correct, when this baby hits 88 miles per hour&amp;hellip; you&amp;rsquo;re gonna see some serious shit.
+ A full working replica of the time machine circuits from the 1985 American science fiction film directed by Robert Zemeckis’ Back To The Future. Let alone actual time travel, it works as a talking alarm clock.
+        Display wiring The display uses the multiplexing technique driving 360 bits from the serial line.</description>
+    </item>
+    
+    <item>
+      <title>Tube Amps</title>
+      <link>https://lucaji.github.io/project/lucaji-tube-amps/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0100</pubDate>
+      
+      <guid>https://lucaji.github.io/project/lucaji-tube-amps/</guid>
+      <description>Even if my amps were, in some configuration, tested during live gigs and practice sessions, I would definitely recommend to buy a commercial product if you won’t dedicate your time and skills to this kind of projects.
+The best ratio between cost and happiness, to me seemed to engage in building a couple of small tube amps with 6L6s and with the proper mains transformer, I obtained a very good sounding home stereo amplifier.</description>
+    </item>
+    
+    <item>
+      <title>Diretta Iniezione</title>
+      <link>https://lucaji.github.io/project/diretta-iniezione-audio-microphone-di-box/</link>
+      <pubDate>Fri, 01 Nov 2013 00:00:00 +0100</pubDate>
+      
+      <guid>https://lucaji.github.io/project/diretta-iniezione-audio-microphone-di-box/</guid>
+      <description>Nothing to do with engines and injecting fuel without using a carburetor. It is an audio preamplifier for dynamic microphones. Performs a FET input stage with high linearity and large bandwidth. XLR input with gain control and mini-jack 3.5mm line output.
+Characteristics  FET input input: XLR Cannon connector. output: jack TRS 3.5 mm.  Found in need to record sounds with a common Shure SM58 onto a MacBookPro, I decided to build my own little preamplifier so I could plug it to the Mac&amp;rsquo;s line input jack and have a decent timbre and a low noise figure by choosing a voltage controlled amplifier using Fets (field effect transistors) well known for their tube-like sonority and their advantages over a current controller amp.</description>
+    </item>
+    
+    <item>
+      <title>Digital Speedometer</title>
+      <link>https://lucaji.github.io/project/lucaji-speedometer-1998/</link>
+      <pubDate>Thu, 01 Oct 1998 00:00:00 +0200</pubDate>
+      
+      <guid>https://lucaji.github.io/project/lucaji-speedometer-1998/</guid>
+      <description>After spending months reading motor and tuning magazines, along with some technical notes from a mechanic friend of mine, I was all into engine tuning and racing. Me and a couple of friends were used to race with our scooters, but we were disappointed with the analog speedometer and quarrels started everytime the top speed entered into the discourse.
+I decided to create a digital speedo for my scooter. It was 1998 and apart the main board and the original first draft of the schematic (on paper), nothing is left anymore.</description>
+    </item>
+    
+  </channel>
+</rss>

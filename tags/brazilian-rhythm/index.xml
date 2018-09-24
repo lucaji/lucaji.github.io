@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brazilian rhythm on Lucaji’s Pages</title>
+    <link>https://lucaji.github.io/tags/brazilian-rhythm/</link>
+    <description>Recent content in Brazilian rhythm on Lucaji’s Pages</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2014 - 2018 - Luca Cipressi - themilletgrainfromouterspace</copyright>
+    <lastBuildDate>Fri, 01 Nov 2013 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://lucaji.github.io/tags/brazilian-rhythm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Diretta Iniezione</title>
+      <link>https://lucaji.github.io/project/diretta-iniezione-audio-microphone-di-box/</link>
+      <pubDate>Fri, 01 Nov 2013 00:00:00 +0100</pubDate>
+      
+      <guid>https://lucaji.github.io/project/diretta-iniezione-audio-microphone-di-box/</guid>
+      <description>Nothing to do with engines and injecting fuel without using a carburetor. It is an audio preamplifier for dynamic microphones. Performs a FET input stage with high linearity and large bandwidth. XLR input with gain control and mini-jack 3.5mm line output.
+Characteristics  FET input input: XLR Cannon connector. output: jack TRS 3.5 mm.  Found in need to record sounds with a common Shure SM58 onto a MacBookPro, I decided to build my own little preamplifier so I could plug it to the Mac&amp;rsquo;s line input jack and have a decent timbre and a low noise figure by choosing a voltage controlled amplifier using Fets (field effect transistors) well known for their tube-like sonority and their advantages over a current controller amp.</description>
+    </item>
+    
+    <item>
+      <title>Lorena Fontana - A Vision (The making of)</title>
+      <link>https://lucaji.github.io/publication/lorena-fontana-a-vision-mitchel-forman-ralph-humphrey-michael-rosen-edwin-livingston-promo-video/</link>
+      <pubDate>Fri, 01 Nov 2013 00:00:00 +0100</pubDate>
+      
+      <guid>https://lucaji.github.io/publication/lorena-fontana-a-vision-mitchel-forman-ralph-humphrey-michael-rosen-edwin-livingston-promo-video/</guid>
+      <description>A Vision is the fifth album that Lorena Fontana, composer, lyricist and talented singer, recorded in her name. But this, unlike the previous ones , was made in the United States with equally talented musicians such as pianist Mitchel Forman, which we know for the wonderful work with Wayne Shorter, bassist Edwin Livingston , drummer Ralph Humphrey and saxophonist Michael Rosen. With this new work, the singer interprets ten songs with dramatic intensity, five of which are her composition, two by A.</description>
+    </item>
+    
+  </channel>
+</rss>
