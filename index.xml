@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lucaji</title>
+    <link>https://lucaji.github.io/</link>
+    <description>Recent content on lucaji</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Thu, 04 Jun 2020 09:19:29 -0400</lastBuildDate><atom:link href="https://lucaji.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome To Codex</title>
+      <link>https://lucaji.github.io/blog/example-post/</link>
+      <pubDate>Thu, 04 Jun 2020 09:19:29 -0400</pubDate>
+      
+      <guid>https://lucaji.github.io/blog/example-post/</guid>
+      <description>The standard Lorem Ipsum passage &amp;ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Antoine</title>
+      <link>https://lucaji.github.io/apps/antoine-the-little-prince-game/</link>
+      <pubDate>Thu, 23 Nov 2017 09:17:17 -0800</pubDate>
+      
+      <guid>https://lucaji.github.io/apps/antoine-the-little-prince-game/</guid>
+      <description>The Little Prince Everybody shall be well acquainted with the story of the Little Prince. I personally really like to learn languages, and having the same text available in more than one language, the dual-language books, for example, where the left page is in the original draft, and the right hand one, is in a foreign language.
+I find this approach of being able to compare directly the two text - a Rosetta-Stone approach I would say - much more interesting and learning-prone.</description>
+    </item>
+    
+  </channel>
+</rss>

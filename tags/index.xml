@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on lucaji</title>
+    <link>https://lucaji.github.io/tags/</link>
+    <description>Recent content in Tags on lucaji</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Thu, 04 Jun 2020 09:19:29 -0400</lastBuildDate><atom:link href="https://lucaji.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hugo</title>
+      <link>https://lucaji.github.io/tags/hugo/</link>
+      <pubDate>Thu, 04 Jun 2020 09:19:29 -0400</pubDate>
+      
+      <guid>https://lucaji.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ios</title>
+      <link>https://lucaji.github.io/tags/ios/</link>
+      <pubDate>Thu, 23 Nov 2017 09:17:17 -0800</pubDate>
+      
+      <guid>https://lucaji.github.io/tags/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>https://lucaji.github.io/tags/software/</link>
+      <pubDate>Thu, 23 Nov 2017 09:17:17 -0800</pubDate>
+      
+      <guid>https://lucaji.github.io/tags/software/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
