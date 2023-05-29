@@ -1,0 +1,71 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Hardware Builds - Category - Lucaji</title>
+        <link>http://example.org/categories/hardware-builds/</link>
+        <description>Hardware Builds - Category - Lucaji</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucaji()mail(.)ru (Luca Cipressi)</managingEditor>
+            <webMaster>lucaji()mail(.)ru (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 02 Jul 2020 11:04:49 &#43;0800</lastBuildDate><atom:link href="http://example.org/categories/hardware-builds/" rel="self" type="application/rss+xml" /><item>
+    <title>KAYABOARD - mag-lev organ keyboard (POC)</title>
+    <link>http://example.org/kayaboard/</link>
+    <pubDate>Thu, 02 Jul 2020 11:04:49 &#43;0800</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>http://example.org/kayaboard/</guid>
+    <description><![CDATA[KAYABOARD This is a Proof-Of-Concept of an organ keyboard using magnets instead of springs to obtain a nice upward release action and a decent downward counter-pressure when playing.
+Designing a musical-instrument keyboard confronted me with some ergonomics considerations and material choices. I did some research on magnets as well, to have a better understanding of their force irradiation and how to select them to save space, weight and achieve the best feeling when playing.]]></description>
+</item>
+<item>
+    <title>Tube Amps Builds 🎸</title>
+    <link>http://example.org/tube-amps/</link>
+    <pubDate>Mon, 19 Jan 2015 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>http://example.org/tube-amps/</guid>
+    <description><![CDATA[Building Tube Amps Builds builds your knowledge and skills There are many many ways to build an amplifier, depending on money and time available, choosing the most expensive components, creating (or again, buy) a custom metal chassis (or have a friend that can make many as you want) with the objective to obtain a better build for the same price.
+Building tube amps is very rewarding, and can keep you busy with its fair amount of metalwork and various power tools, like folding machines, press, lathe, milling machines and uncountable hand tools.]]></description>
+</item>
+<item>
+    <title>Diretta Iniezione</title>
+    <link>http://example.org/dibox/</link>
+    <pubDate>Sat, 20 Sep 2014 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>http://example.org/dibox/</guid>
+    <description><![CDATA[DI Box a simple audio preamplifier for dynamic microphones with internal noiseless power supply (AC powered).
+Class A FET input stage with high linearity and large bandwidth. XLR input with gain control Line output (balanced/unbalanced) low noise and low distortion high bandwidth Found in need to record sounds with a Shure SM58 into a computer, I decided to build my own little preamplifier so I could plug it to the Mac&rsquo;s line input jack and have a decent timbre and a low noise figure by choosing a voltage controlled amplifier using a single FET, well known for their tube-like sonority and their advantages over a current controller amp.]]></description>
+</item>
+<item>
+    <title>DeLorean Time Circuits</title>
+    <link>http://example.org/back-to-the-future-clock-replica/</link>
+    <pubDate>Mon, 07 Apr 2014 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>http://example.org/back-to-the-future-clock-replica/</guid>
+    <description><![CDATA[BTTF This is a semi-serious rendition of the story behind making this project:
+A replica of the time machine circuits from the Back To The Future blockbuster with talking alarm clock.
+Apart from actual time travel, which might be even possible depending on your time-zone, internet provider and your skills in creating your own flux-capacitor, it works as a nice talking alarm clock with the most famous quotes from the original movie.]]></description>
+</item>
+<item>
+    <title>Theremin</title>
+    <link>http://example.org/theremin/</link>
+    <pubDate>Sun, 13 Oct 2013 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>http://example.org/theremin/</guid>
+    <description><![CDATA[<p>A mighty Theremin build from an open source project powered by an Arduino UNO.</p>]]></description>
+</item>
+<item>
+    <title>The Leslie Speaker</title>
+    <link>http://example.org/leslie-speaker/</link>
+    <pubDate>Sun, 02 Jul 2006 11:04:49 &#43;0800</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>http://example.org/leslie-speaker/</guid>
+    <description><![CDATA[This article explains the principles behind Leslie type loudspeakers and goes on to describe the construction of a generously proportioned system intended for use with a home constructed electronic organ. The article could provide the starting point from which individual readers could build up a rotating loudspeaker system to suit their own particular requirements.
+Rotating System Loudspeakers for Electronic Organs The most obvious and the routine method of radiating sound from an electronic organ is by means of one or more loudspeakers, suitably and conventionally baffled.]]></description>
+</item>
+<item>
+    <title>Digital Tacho for a Scooter</title>
+    <link>http://example.org/speedometer/</link>
+    <pubDate>Fri, 19 Jan 1996 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>http://example.org/speedometer/</guid>
+    <description><![CDATA[A relic project from late &rsquo;90s Info This project dates back to my high-school days and albeit it should still be working, the original display board is missing. An effort to restore it to working conditions might be made in the future. The Scooter &ldquo;Car&rsquo;s got a lot of pickup.&rdquo;
+As every teenager could enjoy riding a 50 cubic centimeters (1.7 cubic feet) scooter, I was no exception back in the schooldays.]]></description>
+</item>
+</channel>
+</rss>

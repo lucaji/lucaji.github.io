@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Rpi - Tag - Lucaji</title>
+        <link>http://example.org/tags/rpi/</link>
+        <description>Rpi - Tag - Lucaji</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucaji()mail(.)ru (Luca Cipressi)</managingEditor>
+            <webMaster>lucaji()mail(.)ru (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 07 Apr 2014 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/rpi/" rel="self" type="application/rss+xml" /><item>
+    <title>DeLorean Time Circuits</title>
+    <link>http://example.org/back-to-the-future-clock-replica/</link>
+    <pubDate>Mon, 07 Apr 2014 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>http://example.org/back-to-the-future-clock-replica/</guid>
+    <description><![CDATA[BTTF This is a semi-serious rendition of the story behind making this project:
+A replica of the time machine circuits from the Back To The Future blockbuster with talking alarm clock.
+Apart from actual time travel, which might be even possible depending on your time-zone, internet provider and your skills in creating your own flux-capacitor, it works as a nice talking alarm clock with the most famous quotes from the original movie.]]></description>
+</item>
+</channel>
+</rss>

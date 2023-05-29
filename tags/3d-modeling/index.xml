@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>3D Modeling - Tag - Lucaji</title>
+        <link>http://example.org/tags/3d-modeling/</link>
+        <description>3D Modeling - Tag - Lucaji</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucaji()mail(.)ru (Luca Cipressi)</managingEditor>
+            <webMaster>lucaji()mail(.)ru (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 02 Jul 2020 11:04:49 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/3d-modeling/" rel="self" type="application/rss+xml" /><item>
+    <title>KAYABOARD - mag-lev organ keyboard (POC)</title>
+    <link>http://example.org/kayaboard/</link>
+    <pubDate>Thu, 02 Jul 2020 11:04:49 &#43;0800</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>http://example.org/kayaboard/</guid>
+    <description><![CDATA[KAYABOARD This is a Proof-Of-Concept of an organ keyboard using magnets instead of springs to obtain a nice upward release action and a decent downward counter-pressure when playing.
+Designing a musical-instrument keyboard confronted me with some ergonomics considerations and material choices. I did some research on magnets as well, to have a better understanding of their force irradiation and how to select them to save space, weight and achieve the best feeling when playing.]]></description>
+</item>
+</channel>
+</rss>

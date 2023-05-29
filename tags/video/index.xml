@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Video - Tag - Lucaji</title>
+        <link>http://example.org/tags/video/</link>
+        <description>Video - Tag - Lucaji</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucaji()mail(.)ru (Luca Cipressi)</managingEditor>
+            <webMaster>lucaji()mail(.)ru (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 15 Sep 2013 16:54:54 &#43;0600</lastBuildDate><atom:link href="http://example.org/tags/video/" rel="self" type="application/rss+xml" /><item>
+    <title>Lorena Fontana - A Vision - Making of</title>
+    <link>http://example.org/lorena-fontana-a-vision/</link>
+    <pubDate>Sun, 15 Sep 2013 16:54:54 &#43;0600</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>http://example.org/lorena-fontana-a-vision/</guid>
+    <description><![CDATA[<p>This video is the official behind-the-scenes in LA while recording <strong>A Vision</strong> by Lorena Fontana, in the studios of Dennis Moody. I had the fortune to fully edit and assemble the video footage which gives a nice rendition of the atmosphere only professional musicians can breathe.</p>]]></description>
+</item>
+</channel>
+</rss>

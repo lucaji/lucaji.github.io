@@ -1,0 +1,100 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - Lucaji</title>
+        <link>http://example.org/posts/</link>
+        <description>All Posts | Lucaji</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucaji()mail(.)ru (Luca Cipressi)</managingEditor>
+            <webMaster>lucaji()mail(.)ru (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 19 Jan 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Data Logger for Electrical Power Measurements</title>
+    <link>http://example.org/electrical-power-measurements/</link>
+    <pubDate>Tue, 19 Jan 2021 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>http://example.org/electrical-power-measurements/</guid>
+    <description><![CDATA[Foreword Measuring power (consumption or supplied) in certain electric (and electronic) appliances or projects sometimes requires very long running times. Some might even last for days or more. Having a software tool that can reliabily take care of storing the measured data and plot some nice graphs and even export the whole data-set is a great deal of help. Especially when such software can be customized to fulfill any kind of requirements.]]></description>
+</item>
+<item>
+    <title>KAYABOARD - mag-lev organ keyboard (POC)</title>
+    <link>http://example.org/kayaboard/</link>
+    <pubDate>Thu, 02 Jul 2020 11:04:49 &#43;0800</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>http://example.org/kayaboard/</guid>
+    <description><![CDATA[KAYABOARD This is a Proof-Of-Concept of an organ keyboard using magnets instead of springs to obtain a nice upward release action and a decent downward counter-pressure when playing.
+Designing a musical-instrument keyboard confronted me with some ergonomics considerations and material choices. I did some research on magnets as well, to have a better understanding of their force irradiation and how to select them to save space, weight and achieve the best feeling when playing.]]></description>
+</item>
+<item>
+    <title>Restoration of an old open-air cinema PA</title>
+    <link>http://example.org/geloso-tube-amp-open-air-cinema-restoration/</link>
+    <pubDate>Sun, 30 Oct 2016 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>http://example.org/geloso-tube-amp-open-air-cinema-restoration/</guid>
+    <description><![CDATA[GELOSO Geloso, founded in 1931 by Giovanni Geloso, was an Italian manufacturer of radios, televisions, amplifiers, amateur radio receivers, audio equipment and electronic components. Its headquarters were situated in Milan, Viale Brenta 29.
+In 1931 the company started the production not only of radio sets but also most of the electronic components with which they were built and, over time, also developed and patented many others.
+After the Second World War, Geloso expanded and expanded his production, becoming from 1950 onwards, a point of reference for enthusiasts of consumer electronics and hobbyists.]]></description>
+</item>
+<item>
+    <title>Analog Radio</title>
+    <link>http://example.org/analog-radio/</link>
+    <pubDate>Mon, 19 Jan 2015 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>http://example.org/analog-radio/</guid>
+    <description><![CDATA[ANALOG RADIO! being a fan of old analog radio sets, I decided to collect these related projects starting from a Galena radio receiver that does not need power supply to operate, up to some Arduino experiments&hellip; Some analog but digitally driven audio transmission and analog modulation (mostly amplitude). Have fun!
+The first is an audio transmitter over LW radio band (734 kHz) in amplitude modulation (AM) which might be easily picked by a once-common radio set.]]></description>
+</item>
+<item>
+    <title>Tube Amps Builds 🎸</title>
+    <link>http://example.org/tube-amps/</link>
+    <pubDate>Mon, 19 Jan 2015 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>http://example.org/tube-amps/</guid>
+    <description><![CDATA[Building Tube Amps Builds builds your knowledge and skills There are many many ways to build an amplifier, depending on money and time available, choosing the most expensive components, creating (or again, buy) a custom metal chassis (or have a friend that can make many as you want) with the objective to obtain a better build for the same price.
+Building tube amps is very rewarding, and can keep you busy with its fair amount of metalwork and various power tools, like folding machines, press, lathe, milling machines and uncountable hand tools.]]></description>
+</item>
+<item>
+    <title>Proiezione Origami - Book Cover Design</title>
+    <link>http://example.org/proiezione-origami/</link>
+    <pubDate>Thu, 15 Jan 2015 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>http://example.org/proiezione-origami/</guid>
+    <description><![CDATA[<p>I designed the cover for this enthralling <strong>cyberzen</strong> story, rich in obfuscated structures that only electricity can uncover.</p>]]></description>
+</item>
+<item>
+    <title>Mobile Apps</title>
+    <link>http://example.org/apps/</link>
+    <pubDate>Mon, 12 Jan 2015 13:44:23 &#43;0100</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>http://example.org/apps/</guid>
+    <description><![CDATA[For some years I worked with and published mobile apps. Albeit mostly on the iOS Apple platform, I ventured into porting onto Android (JAVA, Kotlin) as well. This post lists the apps I worked on, worth of being published. Make sure you check those open-source ones, as their code is available for download.
+Modern software programs usually known as Apps&hellip;
+Tip Unless otherwise stated, I took care of
+designing all the graphical elements of the apps designing the UI/UX creating the promo videos writing/arranging the musics everything else ANTOINE: that little Prince 🤴 This text reader App implements a pretty new and interactive paradigm to enjoy a written story.]]></description>
+</item>
+<item>
+    <title>Diretta Iniezione</title>
+    <link>http://example.org/dibox/</link>
+    <pubDate>Sat, 20 Sep 2014 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>http://example.org/dibox/</guid>
+    <description><![CDATA[DI Box a simple audio preamplifier for dynamic microphones with internal noiseless power supply (AC powered).
+Class A FET input stage with high linearity and large bandwidth. XLR input with gain control Line output (balanced/unbalanced) low noise and low distortion high bandwidth Found in need to record sounds with a Shure SM58 into a computer, I decided to build my own little preamplifier so I could plug it to the Mac&rsquo;s line input jack and have a decent timbre and a low noise figure by choosing a voltage controlled amplifier using a single FET, well known for their tube-like sonority and their advantages over a current controller amp.]]></description>
+</item>
+<item>
+    <title>Campari Dreaming - Honey Ants Jam Session Night</title>
+    <link>http://example.org/campari-honey-ants/</link>
+    <pubDate>Tue, 15 Jul 2014 16:54:54 &#43;0600</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>http://example.org/campari-honey-ants/</guid>
+    <description><![CDATA[I designed these leaflets for a jam session night at Bar dello Sport, Serramonacesca using the images of Tjalas, the aboriginal name for this specimen of honey pot ants in central Australia, with their abdomen swollen with the sweetest honey you could ever think of.
+We were staying in Serramonacesca, me and my old lady. Used often to spend there some holidays together. I got this invitation to a jam session night while drinking at the very place with the locals.]]></description>
+</item>
+<item>
+    <title>DeLorean Time Circuits</title>
+    <link>http://example.org/back-to-the-future-clock-replica/</link>
+    <pubDate>Mon, 07 Apr 2014 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>http://example.org/back-to-the-future-clock-replica/</guid>
+    <description><![CDATA[BTTF This is a semi-serious rendition of the story behind making this project:
+A replica of the time machine circuits from the Back To The Future blockbuster with talking alarm clock.
+Apart from actual time travel, which might be even possible depending on your time-zone, internet provider and your skills in creating your own flux-capacitor, it works as a nice talking alarm clock with the most famous quotes from the original movie.]]></description>
+</item>
+</channel>
+</rss>

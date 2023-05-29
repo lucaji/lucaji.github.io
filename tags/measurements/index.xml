@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Measurements - Tag - Lucaji</title>
+        <link>http://example.org/tags/measurements/</link>
+        <description>Measurements - Tag - Lucaji</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucaji()mail(.)ru (Luca Cipressi)</managingEditor>
+            <webMaster>lucaji()mail(.)ru (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 19 Jan 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/measurements/" rel="self" type="application/rss+xml" /><item>
+    <title>Data Logger for Electrical Power Measurements</title>
+    <link>http://example.org/electrical-power-measurements/</link>
+    <pubDate>Tue, 19 Jan 2021 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>http://example.org/electrical-power-measurements/</guid>
+    <description><![CDATA[Foreword Measuring power (consumption or supplied) in certain electric (and electronic) appliances or projects sometimes requires very long running times. Some might even last for days or more. Having a software tool that can reliabily take care of storing the measured data and plot some nice graphs and even export the whole data-set is a great deal of help. Especially when such software can be customized to fulfill any kind of requirements.]]></description>
+</item>
+</channel>
+</rss>

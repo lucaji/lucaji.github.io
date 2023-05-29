@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>HAM - Tag - Lucaji</title>
+        <link>http://example.org/tags/ham/</link>
+        <description>HAM - Tag - Lucaji</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucaji()mail(.)ru (Luca Cipressi)</managingEditor>
+            <webMaster>lucaji()mail(.)ru (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 19 Jan 2015 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/ham/" rel="self" type="application/rss+xml" /><item>
+    <title>Analog Radio</title>
+    <link>http://example.org/analog-radio/</link>
+    <pubDate>Mon, 19 Jan 2015 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>http://example.org/analog-radio/</guid>
+    <description><![CDATA[ANALOG RADIO! being a fan of old analog radio sets, I decided to collect these related projects starting from a Galena radio receiver that does not need power supply to operate, up to some Arduino experiments&hellip; Some analog but digitally driven audio transmission and analog modulation (mostly amplitude). Have fun!
+The first is an audio transmitter over LW radio band (734 kHz) in amplitude modulation (AM) which might be easily picked by a once-common radio set.]]></description>
+</item>
+</channel>
+</rss>

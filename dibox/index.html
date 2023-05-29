@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Diretta Iniezione - Lucaji</title><meta name="Description" content="Software Developer and Electronics Technician with a twist for Audio and Music projects"><meta property="og:title" content="Diretta Iniezione" />
+<meta property="og:description" content="DI Box a simple audio preamplifier for dynamic microphones with internal noiseless power supply (AC powered).
+Class A FET input stage with high linearity and large bandwidth. XLR input with gain control Line output (balanced/unbalanced) low noise and low distortion high bandwidth Found in need to record sounds with a Shure SM58 into a computer, I decided to build my own little preamplifier so I could plug it to the Mac&rsquo;s line input jack and have a decent timbre and a low noise figure by choosing a voltage controlled amplifier using a single FET, well known for their tube-like sonority and their advantages over a current controller amp." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/dibox/" /><meta property="og:image" content="http://example.org/dibox/dibox.jpg"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2014-09-20T00:00:00+00:00" />
+<meta property="article:modified_time" content="2014-09-20T00:00:00+00:00" /><meta property="og:site_name" content="Lucaji" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://example.org/dibox/dibox.jpg"/>
+<meta name="twitter:title" content="Diretta Iniezione"/>
+<meta name="twitter:description" content="DI Box a simple audio preamplifier for dynamic microphones with internal noiseless power supply (AC powered).
+Class A FET input stage with high linearity and large bandwidth. XLR input with gain control Line output (balanced/unbalanced) low noise and low distortion high bandwidth Found in need to record sounds with a Shure SM58 into a computer, I decided to build my own little preamplifier so I could plug it to the Mac&rsquo;s line input jack and have a decent timbre and a low noise figure by choosing a voltage controlled amplifier using a single FET, well known for their tube-like sonority and their advantages over a current controller amp."/>
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://example.org/dibox/" /><link rel="prev" href="http://example.org/campari-honey-ants/" /><link rel="next" href="http://example.org/apps/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Diretta Iniezione",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/example.org\/dibox\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "http:\/\/example.org\/dibox\/dibox.jpg",
+                            "width":  640 ,
+                            "height":  426 
+                        }],"genre": "posts","keywords": "Audio","wordcount":  512 ,
+        "url": "http:\/\/example.org\/dibox\/","datePublished": "2014-09-20T00:00:00+00:00","dateModified": "2014-09-20T00:00:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "Luca","logo": "http:\/\/example.org\/avatar.png"},"author": {
+                "@type": "Person",
+                "name": "Luca Cipressi"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Lucaji"><span class="header-title-pre"><i class='fa-solid fa-pepper-hot' aria-hidden='true'></i></span>lucaji</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/about/"> About </a><a class="menu-item" href="https://github.com/lucaji" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><a class="menu-item" href="https://stackoverflow.com/users/4111774" title="StackOverflow" rel="noopener noreffer" target="_blank"><i class='fab fa-stack-overflow fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Lucaji"><span class="header-title-pre"><i class='fa-solid fa-pepper-hot' aria-hidden='true'></i></span>lucaji</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/about/" title="">About</a><a class="menu-item" href="https://github.com/lucaji" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i></a><a class="menu-item" href="https://stackoverflow.com/users/4111774" title="StackOverflow" rel="noopener noreffer" target="_blank"><i class='fab fa-stack-overflow fa-fw' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content always-active" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Diretta Iniezione</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://lucaji.github.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Luca Cipressi</a></span>&nbsp;<span class="post-category">included in <a href="/categories/hardware-builds/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Hardware Builds</a>&nbsp;<a href="/categories/electronics/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Electronics</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2014-09-20">2014-09-20</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;512 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;3 minutes&nbsp;<span id="/dibox/" class="leancloud_visitors" data-flag-title="Diretta Iniezione">
+                        <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;views
+                    </span>&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/dibox/dibox.jpg"
+        data-srcset="/dibox/dibox.jpg, /dibox/dibox.jpg 1.5x, /dibox/dibox.jpg 2x"
+        data-sizes="auto"
+        alt="/dibox/dibox.jpg"
+        title="/dibox/dibox.jpg" /></div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#di-box">DI Box</a>
+      <ul>
+        <li><a href="#input-stage">Input stage</a></li>
+        <li><a href="#audio-sample">Audio Sample</a></li>
+        <li><a href="#cascode-configuration">Cascode configuration</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="di-box">DI Box</h1>
+<p>a simple audio preamplifier for dynamic microphones with internal noiseless power supply (AC powered).</p>
+<ul>
+<li>Class A FET input stage with high linearity and large bandwidth.</li>
+<li>XLR input with gain control</li>
+<li>Line output (balanced/unbalanced)</li>
+<li>low noise and low distortion</li>
+<li>high bandwidth</li>
+</ul>
+<p>Found in need to record sounds with a Shure SM58 into a computer, I decided to build my own little preamplifier so I could plug it to the Mac&rsquo;s line input jack and have a decent timbre and a low noise figure by choosing a voltage controlled amplifier using a single FET, well known for their tube-like sonority and their advantages over a current controller amp.</p>
+<h2 id="input-stage">Input stage</h2>
+<p>I personally like the sonority of the 12AX7 triode input stage of a classic Fender guitar amp even when using a microphone (dynamic) instead of a magnetic pick-up (in case of a dynamic microphone it is exactly the same thing).
+The tone can be always adjusted and the end of the chain, even in analog domain via an EQ, or in digital domain after sampling it with your favourite DAW and applying a digital EQ filter boosting or shelving frequencies at your liking.
+The dynamic response of this kind of pre-amp pleases my ear and the spectrogram when acquired.
+These are the main reason for this project to be.
+I avoided the USB port as power supply to avoid ground loops and noises from the computer (hisses), but being very practical, it might be a cool idea for a next revision.</p>
+<p><figure><a class="lightgallery" href="/dibox/fetzervalve.png" title="Fetzer" data-thumbnail="/dibox/fetzervalve.png" data-sub-html="<h2>FET booster</h2><p>Fetzer</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/dibox/fetzervalve.png"
+            data-srcset="/dibox/fetzervalve.png, /dibox/fetzervalve.png 1.5x, /dibox/fetzervalve.png 2x"
+            data-sizes="auto"
+            alt="/dibox/fetzervalve.png" width="300" height="200" />
+    </a><figcaption class="image-caption">FET booster</figcaption>
+    </figure></p>
+<p>Both the triode version and the FET version works in a very similar way, by using a negative voltage controlled feedback to adjust their transconductance. Using 18V as power supply guarantees a very high dynamic range.</p>
+<p>A better and complete explanation is given by the <a href="http://runoffgroove.com/fetzervalve.html" target="_blank" rel="noopener noreffer ">Fetzer Valve Article</a>, from which I took the initial inspiration and I ended up learning a bit more than when I started.</p>
+<p>Any JFET would do go, but I had a stash of 2SK30 and 2N5457 to choose from; I made some tests and ended up with the 2N5457 at the end.</p>
+<p><figure><a class="lightgallery" href="/dibox/diretta-iniezione-wave.jpg" title="/dibox/diretta-iniezione-wave.jpg" data-thumbnail="/dibox/diretta-iniezione-wave.jpg" data-sub-html="<h2>direct injection of a -20dBu 1kHz wave from a signal generation AC coupled, output volume maximum</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/dibox/diretta-iniezione-wave.jpg"
+            data-srcset="/dibox/diretta-iniezione-wave.jpg, /dibox/diretta-iniezione-wave.jpg 1.5x, /dibox/diretta-iniezione-wave.jpg 2x"
+            data-sizes="auto"
+            alt="/dibox/diretta-iniezione-wave.jpg" width="400" height="281" />
+    </a><figcaption class="image-caption">direct injection of a -20dBu 1kHz wave from a signal generation AC coupled, output volume maximum</figcaption>
+    </figure></p>
+<p>There was still some DC offset, which was due a defective trimmer for the bias voltage.</p>
+<p><figure><a class="lightgallery" href="/dibox/diretta-iniezione-wave2.jpg" title="/dibox/diretta-iniezione-wave2.jpg" data-thumbnail="/dibox/diretta-iniezione-wave2.jpg" data-sub-html="<h2>using the Shure SM58 to capture a 1kHz wave at nearly full volume as played by a computer with its internal speakers</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/dibox/diretta-iniezione-wave2.jpg"
+            data-srcset="/dibox/diretta-iniezione-wave2.jpg, /dibox/diretta-iniezione-wave2.jpg 1.5x, /dibox/diretta-iniezione-wave2.jpg 2x"
+            data-sizes="auto"
+            alt="/dibox/diretta-iniezione-wave2.jpg" width="400" height="281" />
+    </a><figcaption class="image-caption">using the Shure SM58 to capture a 1kHz wave at nearly full volume as played by a computer with its internal speakers</figcaption>
+    </figure></p>
+<p>The visible distortion in this last scope image is produced by a number of factors which won&rsquo;t affect the scope of the project at all:</p>
+<ul>
+<li>The output of the 1kHz sine wave as captured by the Shure M58 at maximum gain.</li>
+<li>I did not use any reference levels and the audio source was the Mac’s speaker itself.</li>
+</ul>
+<p>But the voice recorded with it, sounded graceful and very crisp.</p>
+<h2 id="audio-sample">Audio Sample</h2>
+<p>If you want to listen to a voice recording made with <strong>Diretta Iniezione</strong>, this <a href="https://vimeo.com/97137760" target="_blank" rel="noopener noreffer ">vimeo link</a> might be helpful.</p>
+<h2 id="cascode-configuration">Cascode configuration</h2>
+<p>I would consider working on a second prototype with a cascode configuration:</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/dibox/diretta-iniezione-cascode.jpg"
+        data-srcset="/dibox/diretta-iniezione-cascode.jpg, /dibox/diretta-iniezione-cascode.jpg 1.5x, /dibox/diretta-iniezione-cascode.jpg 2x"
+        data-sizes="auto"
+        alt="/dibox/diretta-iniezione-cascode.jpg"
+        title="/dibox/diretta-iniezione-cascode.jpg" width="264" height="329" /></p>
+<p>but that&rsquo;s all for now!</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/dibox/diretta-iniezione-01.jpg"
+        data-srcset="/dibox/diretta-iniezione-01.jpg, /dibox/diretta-iniezione-01.jpg 1.5x, /dibox/diretta-iniezione-01.jpg 2x"
+        data-sizes="auto"
+        alt="/dibox/diretta-iniezione-01.jpg"
+        title="/dibox/diretta-iniezione-01.jpg" width="1024" height="681" /></p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2014-09-20</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://example.org/dibox/" data-hashtag="Audio"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="http://example.org/dibox/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://example.org/dibox/" data-title="Diretta Iniezione"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://example.org/dibox/" data-title="Diretta Iniezione"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://example.org/dibox/" data-title="Diretta Iniezione"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/audio/">Audio</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/campari-honey-ants/" class="prev" rel="prev" title="Campari Dreaming - Honey Ants Jam Session Night"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Campari Dreaming - Honey Ants Jam Session Night</a>
+            <a href="/apps/" class="next" rel="next" title="Mobile Apps">Mobile Apps<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"><div id="valine" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.112.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2013 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://lucaji.github.io" target="_blank">Luca Cipressi</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/valine/valine.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/valine@1.5.0/dist/Valine.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{"valine":{"appId":"","appKey":"","avatar":"mp","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@14.0.0/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":false,"highlight":true,"lang":"en","pageSize":10,"placeholder":"Your comment ...","recordIP":true,"serverURLs":"https://leancloud.hugoloveit.com","visitor":true}}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
