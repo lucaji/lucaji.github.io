@@ -43,11 +43,10 @@ This text reader App implements a pretty new and interactive paradigm to enjoy a
 
 ![](chatea-appicon.png)
 
-{{< style "img { height: 1.25rem; }" >}}
-[![License](https://img.shields.io/github/license/lucaji/chatea?style=flat-square)](https://github.com/lucaji/chatea/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/lucaji/chatea?style=social)](https://github.com/lucaji/chatea)
-[![GitHub forks](https://img.shields.io/github/forks/lucaji/chatea?style=social)](https://github.com/lucaji/chatea/fork)
-{{< /style >}}
+
+![License](https://img.shields.io/github/license/lucaji/chatea)
+![GitHub stars](https://img.shields.io/github/stars/lucaji/chatea)
+![GitHub forks](https://img.shields.io/github/forks/lucaji/chatea)
 
 Messaging app for nearby devices over Bluetooth or Wifi network.
 
@@ -66,12 +65,9 @@ Messaging app for nearby devices over Bluetooth or Wifi network.
 
 ![](mytuna-appicon.png)
 
-
-{{< style "img { height: 1.25rem; }" >}}
-[![License](https://img.shields.io/github/license/lucaji/MyTuna?style=flat-square)](https://github.com/lucaji/MyTuna/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/lucaji/MyTuna?style=social)](https://github.com/lucaji/MyTuna)
-[![GitHub forks](https://img.shields.io/github/forks/lucaji/MyTuna?style=social)](https://github.com/lucaji/MyTuna/fork)
-{{< /style >}}
+![License](https://img.shields.io/github/license/lucaji/MyTuna)
+![GitHub stars](https://img.shields.io/github/stars/lucaji/MyTuna)
+![GitHub forks](https://img.shields.io/github/forks/lucaji/MyTuna)
 
 A librarian app to store and collect various tunings for stringed instruments. It featured:
 
@@ -93,19 +89,17 @@ A librarian app to store and collect various tunings for stringed instruments. I
 
 ## iOS [Source Code](https://github.com/lucaji/pianotoner_ios) 
 
-{{< style "img { height: 1.25rem; }" >}}
-[![License](https://img.shields.io/github/license/lucaji/pianotoner_ios?style=flat-square)](https://github.com/lucaji/pianotoner_ios/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/lucaji/pianotoner_ios?style=social)](https://github.com/lucaji/pianotoner_ios)
-[![GitHub forks](https://img.shields.io/github/forks/lucaji/pianotoner_ios?style=social)](https://github.com/lucaji/pianotoner_ios/fork)
-{{< /style >}}
+![License](https://img.shields.io/github/license/lucaji/pianotoner_ios)
+![GitHub stars](https://img.shields.io/github/stars/lucaji/pianotoner_ios)
+![GitHub forks](https://img.shields.io/github/forks/lucaji/pianotoner_ios)
+
 
 ## Android [Source Code](https://github.com/lucaji/pianotoner_android) 
 
-{{< style "img { height: 1.25rem; }" >}}
-[![License](https://img.shields.io/github/license/lucaji/pianotoner_android?style=flat-square)](https://github.com/lucaji/pianotoner_android/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/lucaji/pianotoner_android?style=social)](https://github.com/lucaji/pianotoner_android)
-[![GitHub forks](https://img.shields.io/github/forks/lucaji/pianotoner_android?style=social)](https://github.com/lucaji/pianotoner_android/fork)
-{{< /style >}}
+
+![License](https://img.shields.io/github/license/lucaji/pianotoner_android)
+![GitHub stars](https://img.shields.io/github/stars/lucaji/pianotoner_android)
+![GitHub forks](https://img.shields.io/github/forks/lucaji/pianotoner_android)
 
 Another app from the *tuna series: a sine tone generator equipped with a interactive piano-like keyboard able to generate the correct note frequencies for the entire 88 keys of the piano. The catch is that is possible to adjust the concert "A" reference frequency in order to get a different character to the whole piano if you are, like me, into actually tuning acoustic pianos :)
 
@@ -114,11 +108,10 @@ Another app from the *tuna series: a sine tone generator equipped with a interac
 
 # SHARI pdf reader with web server
 
-{{< style "img { height: 1.25rem; }" >}}
-[![License](https://img.shields.io/github/license/lucaji/Shari?style=flat-square)](https://github.com/lucaji/Shari/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/lucaji/Shari?style=social)](https://github.com/lucaji/Shari)
-[![GitHub forks](https://img.shields.io/github/forks/lucaji/Shari?style=social)](https://github.com/lucaji/Shari/fork)
-{{< /style >}}
+
+![License](https://img.shields.io/github/license/lucaji/Shari)
+![GitHub stars](https://img.shields.io/github/stars/lucaji/Shari)
+![GitHub forks](https://img.shields.io/github/forks/lucaji/Shari)
 
 PDF reader plus local webDAV server for upload/download of documents. This simple app combines two great open source projects into one:
 
