@@ -1,49 +1,59 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Music - Tag - Lucaji</title>
-        <link>http://example.org/tags/music/</link>
+        <link>https://lucaji.github.io/tags/music/</link>
         <description>Music - Tag - Lucaji</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucaji()mail(.)ru (Luca Cipressi)</managingEditor>
-            <webMaster>lucaji()mail(.)ru (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 02 Jul 2020 11:04:49 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/music/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>lucaji()mail(.)ru (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 30 May 2023 13:44:23 &#43;0100</lastBuildDate><atom:link href="https://lucaji.github.io/tags/music/" rel="self" type="application/rss+xml" /><item>
+    <title>Bass preamps: Bartolini MK-1 vs. MarkBass MB-1</title>
+    <link>https://lucaji.github.io/cort/</link>
+    <pubDate>Tue, 30 May 2023 13:44:23 &#43;0100</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/cort/</guid>
+    <description><![CDATA[MK-1 vs. MB-1 I compared the inner electronics of two bass guitars made by Cort from the Artisan series: a B5 Element and a B4 Plus AS (Fretless).
+The 5-stringer is equipped with Bartolini MK-1 active electronics, while the fretless sports the MarkBass MB-1.
+SPECIFICATIONS B5 Element B4FL+AS Construction Bolt-on Bolt-on Body Mahogany (Ash top) Swamp Ash Neck 5pcs Walnut &amp; Panga Panga Maple/Wenge, 1F 20.5mm, 12F 22mm Fretboard Roasted Maple Panga Panga Fretboard Radius 15.]]></description>
+</item>
+<item>
     <title>KAYABOARD - mag-lev organ keyboard (POC)</title>
-    <link>http://example.org/kayaboard/</link>
+    <link>https://lucaji.github.io/kayaboard/</link>
     <pubDate>Thu, 02 Jul 2020 11:04:49 &#43;0800</pubDate>
     <author>Luca Cipressi</author>
-    <guid>http://example.org/kayaboard/</guid>
+    <guid>https://lucaji.github.io/kayaboard/</guid>
     <description><![CDATA[KAYABOARD This is a Proof-Of-Concept of an organ keyboard using magnets instead of springs to obtain a nice upward release action and a decent downward counter-pressure when playing.
 Designing a musical-instrument keyboard confronted me with some ergonomics considerations and material choices. I did some research on magnets as well, to have a better understanding of their force irradiation and how to select them to save space, weight and achieve the best feeling when playing.]]></description>
 </item>
 <item>
     <title>Campari Dreaming - Honey Ants Jam Session Night</title>
-    <link>http://example.org/campari-honey-ants/</link>
+    <link>https://lucaji.github.io/campari-honey-ants/</link>
     <pubDate>Tue, 15 Jul 2014 16:54:54 &#43;0600</pubDate>
     <author>Luca Cipressi</author>
-    <guid>http://example.org/campari-honey-ants/</guid>
+    <guid>https://lucaji.github.io/campari-honey-ants/</guid>
     <description><![CDATA[I designed these leaflets for a jam session night at Bar dello Sport, Serramonacesca using the images of Tjalas, the aboriginal name for this specimen of honey pot ants in central Australia, with their abdomen swollen with the sweetest honey you could ever think of.
 We were staying in Serramonacesca, me and my old lady. Used often to spend there some holidays together. I got this invitation to a jam session night while drinking at the very place with the locals.]]></description>
 </item>
 <item>
     <title>Theremin</title>
-    <link>http://example.org/theremin/</link>
+    <link>https://lucaji.github.io/theremin/</link>
     <pubDate>Sun, 13 Oct 2013 00:00:00 &#43;0000</pubDate>
     <author>Luca Cipressi</author>
-    <guid>http://example.org/theremin/</guid>
+    <guid>https://lucaji.github.io/theremin/</guid>
     <description><![CDATA[<p>A mighty Theremin build from an open source project powered by an Arduino UNO.</p>]]></description>
 </item>
 <item>
     <title>Lorena Fontana - A Vision - Making of</title>
-    <link>http://example.org/lorena-fontana-a-vision/</link>
+    <link>https://lucaji.github.io/lorena-fontana-a-vision/</link>
     <pubDate>Sun, 15 Sep 2013 16:54:54 &#43;0600</pubDate>
     <author>Luca Cipressi</author>
-    <guid>http://example.org/lorena-fontana-a-vision/</guid>
+    <guid>https://lucaji.github.io/lorena-fontana-a-vision/</guid>
     <description><![CDATA[<p>This video is the official behind-the-scenes in LA while recording <strong>A Vision</strong> by Lorena Fontana, in the studios of Dennis Moody. I had the fortune to fully edit and assemble the video footage which gives a nice rendition of the atmosphere only professional musicians can breathe.</p>]]></description>
 </item>
 <item>
     <title>Fire Makers - Metal Empire</title>
-    <link>http://example.org/firemakers/</link>
+    <link>https://lucaji.github.io/firemakers/</link>
     <pubDate>Fri, 23 Nov 2007 09:17:17 -0800</pubDate>
     <author>Luca Cipressi</author>
-    <guid>http://example.org/firemakers/</guid>
+    <guid>https://lucaji.github.io/firemakers/</guid>
     <description><![CDATA[In between my travels I participated as guest keyboard player for a metal-band project while they were recording and releasing their album &ldquo;Metal Empire&rdquo;, the band name was Fire Makers.
 I was very impressed by the lead singer, as it turned out he was Eugent Bushpepa.
 For this recording I played the organ parts on a Roland VK-8 and the piano/synths part on a GEM S3.
@@ -51,10 +61,10 @@ I sincerely wish to thank Max &ldquo;Dingo&rdquo; Candido for that brief but int
 </item>
 <item>
     <title>The Leslie Speaker</title>
-    <link>http://example.org/leslie-speaker/</link>
+    <link>https://lucaji.github.io/leslie-speaker/</link>
     <pubDate>Sun, 02 Jul 2006 11:04:49 &#43;0800</pubDate>
     <author>Luca Cipressi</author>
-    <guid>http://example.org/leslie-speaker/</guid>
+    <guid>https://lucaji.github.io/leslie-speaker/</guid>
     <description><![CDATA[This article explains the principles behind Leslie type loudspeakers and goes on to describe the construction of a generously proportioned system intended for use with a home constructed electronic organ. The article could provide the starting point from which individual readers could build up a rotating loudspeaker system to suit their own particular requirements.
 Rotating System Loudspeakers for Electronic Organs The most obvious and the routine method of radiating sound from an electronic organ is by means of one or more loudspeakers, suitably and conventionally baffled.]]></description>
 </item>

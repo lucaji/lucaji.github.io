@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Measurement - Tag - Lucaji</title>
-        <link>http://example.org/tags/measurement/</link>
+        <link>https://lucaji.github.io/tags/measurement/</link>
         <description>Measurement - Tag - Lucaji</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucaji()mail(.)ru (Luca Cipressi)</managingEditor>
-            <webMaster>lucaji()mail(.)ru (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 19 Jan 1996 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/measurement/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>lucaji()mail(.)ru (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 19 Jan 1996 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://lucaji.github.io/tags/measurement/" rel="self" type="application/rss+xml" /><item>
     <title>Digital Tacho for a Scooter</title>
-    <link>http://example.org/speedometer/</link>
+    <link>https://lucaji.github.io/speedometer/</link>
     <pubDate>Fri, 19 Jan 1996 00:00:00 &#43;0000</pubDate>
     <author>Luca Cipressi</author>
-    <guid>http://example.org/speedometer/</guid>
+    <guid>https://lucaji.github.io/speedometer/</guid>
     <description><![CDATA[A relic project from late &rsquo;90s Info This project dates back to my high-school days and albeit it should still be working, the original display board is missing. An effort to restore it to working conditions might be made in the future. The Scooter &ldquo;Car&rsquo;s got a lot of pickup.&rdquo;
 As every teenager could enjoy riding a 50 cubic centimeters (1.7 cubic feet) scooter, I was no exception back in the schooldays.]]></description>
 </item>

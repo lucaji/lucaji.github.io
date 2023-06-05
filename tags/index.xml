@@ -1,87 +1,87 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Tags - Tag - Lucaji</title>
-        <link>http://example.org/tags/</link>
+        <link>https://lucaji.github.io/tags/</link>
         <description>Tags - Tag - Lucaji</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucaji()mail(.)ru (Luca Cipressi)</managingEditor>
-            <webMaster>lucaji()mail(.)ru (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 19 Jan 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>lucaji()mail(.)ru (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 30 May 2023 13:44:23 &#43;0100</lastBuildDate><atom:link href="https://lucaji.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Music</title>
+    <link>https://lucaji.github.io/tags/music/</link>
+    <pubDate>Tue, 30 May 2023 13:44:23 &#43;0100</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/tags/music/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Open Source</title>
+    <link>https://lucaji.github.io/tags/open-source/</link>
+    <pubDate>Sat, 29 Oct 2022 10:54:54 &#43;0600</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/tags/open-source/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>RaspberryPi</title>
+    <link>https://lucaji.github.io/tags/raspberrypi/</link>
+    <pubDate>Sat, 29 Oct 2022 10:54:54 &#43;0600</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/tags/raspberrypi/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Measurements</title>
-    <link>http://example.org/tags/measurements/</link>
+    <link>https://lucaji.github.io/tags/measurements/</link>
     <pubDate>Tue, 19 Jan 2021 00:00:00 &#43;0000</pubDate>
     <author>Luca Cipressi</author>
-    <guid>http://example.org/tags/measurements/</guid>
+    <guid>https://lucaji.github.io/tags/measurements/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>3D Modeling</title>
-    <link>http://example.org/tags/3d-modeling/</link>
+    <link>https://lucaji.github.io/tags/3d-modeling/</link>
     <pubDate>Thu, 02 Jul 2020 11:04:49 &#43;0800</pubDate>
     <author>Luca Cipressi</author>
-    <guid>http://example.org/tags/3d-modeling/</guid>
+    <guid>https://lucaji.github.io/tags/3d-modeling/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>Hammond</title>
-    <link>http://example.org/tags/hammond/</link>
+    <link>https://lucaji.github.io/tags/hammond/</link>
     <pubDate>Thu, 02 Jul 2020 11:04:49 &#43;0800</pubDate>
     <author>Luca Cipressi</author>
-    <guid>http://example.org/tags/hammond/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Music</title>
-    <link>http://example.org/tags/music/</link>
-    <pubDate>Thu, 02 Jul 2020 11:04:49 &#43;0800</pubDate>
-    <author>Luca Cipressi</author>
-    <guid>http://example.org/tags/music/</guid>
+    <guid>https://lucaji.github.io/tags/hammond/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>Audio</title>
-    <link>http://example.org/tags/audio/</link>
+    <link>https://lucaji.github.io/tags/audio/</link>
     <pubDate>Sun, 30 Oct 2016 00:00:00 &#43;0000</pubDate>
     <author>Luca Cipressi</author>
-    <guid>http://example.org/tags/audio/</guid>
+    <guid>https://lucaji.github.io/tags/audio/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>Tube Amps</title>
-    <link>http://example.org/tags/tube-amps/</link>
+    <link>https://lucaji.github.io/tags/tube-amps/</link>
     <pubDate>Sun, 30 Oct 2016 00:00:00 &#43;0000</pubDate>
     <author>Luca Cipressi</author>
-    <guid>http://example.org/tags/tube-amps/</guid>
+    <guid>https://lucaji.github.io/tags/tube-amps/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>Arduino</title>
-    <link>http://example.org/tags/arduino/</link>
+    <link>https://lucaji.github.io/tags/arduino/</link>
     <pubDate>Mon, 19 Jan 2015 00:00:00 &#43;0000</pubDate>
     <author>Luca Cipressi</author>
-    <guid>http://example.org/tags/arduino/</guid>
+    <guid>https://lucaji.github.io/tags/arduino/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>HAM</title>
-    <link>http://example.org/tags/ham/</link>
+    <link>https://lucaji.github.io/tags/ham/</link>
     <pubDate>Mon, 19 Jan 2015 00:00:00 &#43;0000</pubDate>
     <author>Luca Cipressi</author>
-    <guid>http://example.org/tags/ham/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Radio</title>
-    <link>http://example.org/tags/radio/</link>
-    <pubDate>Mon, 19 Jan 2015 00:00:00 &#43;0000</pubDate>
-    <author>Luca Cipressi</author>
-    <guid>http://example.org/tags/radio/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Illustrations</title>
-    <link>http://example.org/tags/illustrations/</link>
-    <pubDate>Thu, 15 Jan 2015 00:00:00 &#43;0000</pubDate>
-    <author>Luca Cipressi</author>
-    <guid>http://example.org/tags/illustrations/</guid>
+    <guid>https://lucaji.github.io/tags/ham/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

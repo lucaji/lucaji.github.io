@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>PikrellCam Motion-detection plus temperature Logger - Lucaji</title><meta name="Description" content="In-genious Software and Hardware Catalyst"><meta property="og:title" content="PikrellCam Motion-detection plus temperature Logger" />
+<meta property="og:description" content="PiKrellCam Reborn Motion Detection with Sensor Data Logger One of the most used motion detection and surveillance software for the Raspberry Pi with additional temperature and humidity logging and graph panel.
+Sensor logger UI panel This fork introduces an additional web-dashboard driven by a sqlite database to keep track of temperature and humidity readings coming from a HDC1080 sensor. This dashboard is accessible by the main page of the camera preview bringing in some statistics of the collected data." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lucaji.github.io/pikrell-cam-temp/" /><meta property="og:image" content="https://lucaji.github.io/pikrell-cam-temp/pikrellcam-ui-01.jpg"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-10-29T10:54:54+06:00" />
+<meta property="article:modified_time" content="2022-10-29T10:54:54+06:00" /><meta property="og:site_name" content="Lucaji" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://lucaji.github.io/pikrell-cam-temp/pikrellcam-ui-01.jpg"/>
+<meta name="twitter:title" content="PikrellCam Motion-detection plus temperature Logger"/>
+<meta name="twitter:description" content="PiKrellCam Reborn Motion Detection with Sensor Data Logger One of the most used motion detection and surveillance software for the Raspberry Pi with additional temperature and humidity logging and graph panel.
+Sensor logger UI panel This fork introduces an additional web-dashboard driven by a sqlite database to keep track of temperature and humidity readings coming from a HDC1080 sensor. This dashboard is accessible by the main page of the camera preview bringing in some statistics of the collected data."/>
+<meta name="application-name" content="Lucaji">
+<meta name="apple-mobile-web-app-title" content="Lucaji">
+<meta name="referrer" content="no-referrer" /><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://lucaji.github.io/pikrell-cam-temp/" /><link rel="prev" href="https://lucaji.github.io/electrical-power-measurements/" /><link rel="next" href="https://lucaji.github.io/cort/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "PikrellCam Motion-detection plus temperature Logger",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/lucaji.github.io\/pikrell-cam-temp\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/lucaji.github.io\/pikrell-cam-temp\/pikrellcam-ui-01.jpg",
+                            "width":  2654 ,
+                            "height":  1467 
+                        }],"genre": "posts","keywords": "Open Source, RaspberryPi","wordcount":  263 ,
+        "url": "https:\/\/lucaji.github.io\/pikrell-cam-temp\/","datePublished": "2022-10-29T10:54:54+06:00","dateModified": "2022-10-29T10:54:54+06:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "Luca","logo": "https:\/\/lucaji.github.io\/avatar.png"},"author": {
+                "@type": "Person",
+                "name": "Luca Cipressi"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Lucaji"><span class="header-title-pre"><i class='fa-solid fa-pepper-hot' aria-hidden='true'></i></span>lucaji</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/about/"> About </a><a class="menu-item" href="https://github.com/lucaji" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><a class="menu-item" href="https://stackoverflow.com/users/4111774" title="StackOverflow" rel="noopener noreffer" target="_blank"><i class='fab fa-stack-overflow fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Lucaji"><span class="header-title-pre"><i class='fa-solid fa-pepper-hot' aria-hidden='true'></i></span>lucaji</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/about/" title="">About</a><a class="menu-item" href="https://github.com/lucaji" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i></a><a class="menu-item" href="https://stackoverflow.com/users/4111774" title="StackOverflow" rel="noopener noreffer" target="_blank"><i class='fab fa-stack-overflow fa-fw' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content always-active" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">PikrellCam Motion-detection plus temperature Logger</h1><h2 class="single-subtitle">An additional panel with temperature and humidity logger</h2><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://lucaji.github.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Luca Cipressi</a></span>&nbsp;<span class="post-category">included in <a href="/categories/software/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Software</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-10-29">2022-10-29</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;263 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/pikrell-cam-temp/pikrellcam-ui-01.jpg"
+        data-srcset="/pikrell-cam-temp/pikrellcam-ui-01.jpg, /pikrell-cam-temp/pikrellcam-ui-01.jpg 1.5x, /pikrell-cam-temp/pikrellcam-ui-01.jpg 2x"
+        data-sizes="auto"
+        alt="/pikrell-cam-temp/pikrellcam-ui-01.jpg"
+        title="/pikrell-cam-temp/pikrellcam-ui-01.jpg" /></div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#pikrellcam-reborn">PiKrellCam Reborn</a>
+      <ul>
+        <li><a href="#motion-detection-with-sensor-data-logger">Motion Detection with Sensor Data Logger</a></li>
+        <li><a href="#current-state-work-in-progress">Current state (work in progress)</a></li>
+        <li><a href="#logger-dashboard">Logger Dashboard</a></li>
+        <li><a href="#legacy-version">Legacy Version</a></li>
+        <li><a href="#source-code">Source Code</a></li>
+        <li><a href="#legacy-version-1">Legacy version</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="pikrellcam-reborn">PiKrellCam Reborn</h1>
+<h2 id="motion-detection-with-sensor-data-logger">Motion Detection with Sensor Data Logger</h2>
+<blockquote>
+<p>One of the most used motion detection and surveillance software for the Raspberry Pi with additional temperature and humidity logging and graph panel.</p>
+</blockquote>
+<p><figure><a class="lightgallery" href="/pikrell-cam-temp/logger_screenshot_01.jpg" title="/pikrell-cam-temp/logger_screenshot_01.jpg" data-thumbnail="/pikrell-cam-temp/logger_screenshot_01.jpg" data-sub-html="<h2>Sensor logger UI panel</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/pikrell-cam-temp/logger_screenshot_01.jpg"
+            data-srcset="/pikrell-cam-temp/logger_screenshot_01.jpg, /pikrell-cam-temp/logger_screenshot_01.jpg 1.5x, /pikrell-cam-temp/logger_screenshot_01.jpg 2x"
+            data-sizes="auto"
+            alt="/pikrell-cam-temp/logger_screenshot_01.jpg" width="976" height="965" />
+    </a><figcaption class="image-caption">Sensor logger UI panel</figcaption>
+    </figure></p>
+<p>This fork introduces an additional web-dashboard driven by a <em>sqlite</em> database to keep track of temperature and humidity readings coming from a HDC1080 sensor. This dashboard is accessible by the main page of the camera preview bringing in some statistics of the collected data.</p>
+<p>It is aimed at:</p>
+<ul>
+<li>tracking sensor data;</li>
+<li>keeping the original motion detection component alive and updated;</li>
+<li>improve its original web interface with modern components;</li>
+<li>building a nice dashboard for one or more sensors (via I2C interface or external ESP32s);</li>
+</ul>
+<h2 id="current-state-work-in-progress">Current state (work in progress)</h2>
+<p>October 2022</p>
+<ul>
+<li>Changed most (if not all) of the original source code indentation style ;)</li>
+<li>Updated web components with recent versions (jQuery)</li>
+<li>Introducing bootstrap CSS for the logger dashboard and the main interface</li>
+<li>Added working support to a single HDC1080 temperature and humidity sensor via Python over I2C interface</li>
+</ul>
+<div class="details admonition danger open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-skull-crossbones fa-fw" aria-hidden="true"></i>Danger<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">The legacy camera interface has been deprecated from  Raspbian OS.
+Future version will need to be totally rewritten.</div>
+        </div>
+    </div>
+<h2 id="logger-dashboard">Logger Dashboard</h2>
+<p>The original PHP code from <a href="https://github.com/DzikuVx/raspberry_temperature_log" target="_blank" rel="noopener noreffer ">raspberry_temperature_log</a> written by Paweł Spychalski has been adapted to be used within this project.</p>
+<h2 id="legacy-version">Legacy Version</h2>
+<p>PiKrellCam is an audio/video recording motion detect program with an OSD web
+interface that detects motion using the Raspberry Pi camera MMAL motion vectors.</p>
+<h2 id="source-code">Source Code</h2>
+<p>The <a href="https://github.com/lucaji/pikrellcam" target="_blank" rel="noopener noreffer ">repo</a> contains the source code.</p>
+<h2 id="legacy-version-1">Legacy version</h2>
+<p>Read about it and install instructions at:
+<a href="http://billw2.github.io/pikrellcam/pikrellcam.html" target="_blank" rel="noopener noreffer ">PiKrellCam webpage</a></p>
+<p>Original repository:
+$ git clone <a href="https://github.com/billw2/pikrellcam" target="_blank" rel="noopener noreffer ">https://github.com/billw2/pikrellcam</a></p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2022-10-29</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://lucaji.github.io/pikrell-cam-temp/" data-hashtag="Open Source"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://lucaji.github.io/pikrell-cam-temp/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://lucaji.github.io/pikrell-cam-temp/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://lucaji.github.io/pikrell-cam-temp/" data-title="PikrellCam Motion-detection plus temperature Logger"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://lucaji.github.io/pikrell-cam-temp/" data-title="PikrellCam Motion-detection plus temperature Logger"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/open-source/">Open Source</a>,&nbsp;<a href="/tags/raspberrypi/">RaspberryPi</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/electrical-power-measurements/" class="prev" rel="prev" title="Data Logger for Electrical Power Measurements"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Data Logger for Electrical Power Measurements</a>
+            <a href="/cort/" class="next" rel="next" title="Bass preamps: Bartolini MK-1 vs. MarkBass MB-1">Bass preamps: Bartolini MK-1 vs. MarkBass MB-1<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.112.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2013 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://lucaji.github.io" target="_blank">Luca Cipressi</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
