@@ -31,7 +31,7 @@ An origami-butterfly would complete any missing-link to the book's title.
 
 This is how I made it:
 
-{{< figure src="alessandra-arcieri-proiezione-origami-fullcover.jpg" title="The streched-out cover image, showing its structure being like the story within, ready for press printing." >}}
+{{< figure src="alessandra-arcieri-proiezione-origami-fullcover.jpg" title="The streched-out cover image, showing its structure being like the story within, ready for press printing.(c) 2015 Luca Cipressi" >}}
 
 ## Proiezione Origami by Alessandra Arcieri
 
@@ -41,7 +41,7 @@ I did write myself a mystifying foreword to the story, in pure electronic style:
 > Just like ideal operational amplifiers, travelling Agents with infinite input impedance and zero output impedance, at any rate will induce stray currents in your *body electric* across a live circuit board shaped just like a table-game.
 > LC.
 
-![](alessandra-arcieri-proiezione-origami-cover02.jpg)
+{{< image src="alessandra-arcieri-proiezione-origami-cover02.jpg" caption="PO cover. Design by Luca Cipressi" >}}
 
 
 The book is written in Italian, and can be found here:

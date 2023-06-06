@@ -16,11 +16,13 @@ I always admired the acoustic piano keyboard mechanics: it is a concoction-maste
 
 It is by any means totally different from an organ manual, was the original inspiration as I wanted to understand the way it actually works. There are so many different mechanics and techniques (such as Renner) and they all implements some kind of escapement mechanism and *trickery* to give the player the best comfort.
 
-![](grand_piano_action.jpg)
+{{< image src="grand_piano_action.jpg" caption="a Grand Piano mechanical action." >}}
+
 
 ## The Size of the Piano Keyboard
 
-![](Artboard1.jpg)
+{{< image src="Artboard1.jpg" caption="Spacing 1/2." >}}
+
 
 The black keys on a piano keyboard, instead of always being centered on the dividing line between the two white keys they lie between, are spaced so that the twelve keys which make up an octave are spaced equally as they enter the internal mechanism of the instrument.
 However, the white keys as they face the performer are still equal in width.
@@ -41,7 +43,7 @@ Neither 164 nor 207 are numbers which are divisible by either 7 or 12, though, s
 However, the possibilities above overlook an important fact. It is desirable that the seven white keys be evenly spaced, and that their nominal dimensions be something that can be measured out in practice. It is also desirable that the twelve mechanisms inside the instrument be equally spaced, and that their positioning be measurable. But the equality of the width of the upper parts of the white keys can be allowed to vary a little, while keeping all the black keys as identical parts, with identical centering on their links to the internal mechanism would be highly desirable.
 Thus, the diagram showing a single keyboard design illustrates a more likely shape for the piano keyboard. It still, however, meets with the objection that the normal value for the width of an octave is not easy to divide into either 7 or 12 exactly using convenient units.
 
-![](Artboard2.jpg)
+{{< image src="Artboard2.jpg" caption="Spacing 2/2." >}}
 
 
 However, given that high tolerances are used in manufacturing, precise units can be used.
@@ -71,7 +73,7 @@ But we could go to even coarser units. What if we just use an octave span of exa
 Here, it's an even multiple of one-hundredth of an inch, so the remainder after dividing by twelve is even. So we have ten distances of 0.54 inches to work with, and two distances of 0.53 inches to work with. So, the distances between the mechanisms for B and C, and those for E and F, can be 0.53 inches, and the rest 0.54 inches, and we have the desired symmetry.
 Dividing by seven, two of the white keys would be 0.93 inches at the front, and the other five would be 0.92 inches wide at the front. To achieve a symmetrical and evenly-spaced layout, make the wide white keys the ones for F and B.
 
-![](Artboard3.jpg)
+{{< image src="Artboard3.jpg" caption="Spacing 3." >}}
 
 
 Another clear example would be to have the octave exactly 164 millimetres wide, and to have all distances be a multiple of a whole millimetre.

@@ -15,7 +15,8 @@ One morning I stumbled across the [OpenTheremin](https://www.gaudi.ch/OpenTherem
 They design and produce Arduino compatible theremin shields with two oscillators as you can control both tone and volume.
 I entered the theremin’s world and found it fashinating. And made my first attempt at it:
 
-![](theremin-01.jpg)
+{{< figure src="theremin-01.jpg" title="Theremin" >}}
+
 
 ## The Sound of Theremin
 
@@ -63,9 +64,13 @@ Among the requests for DIY projects that EM receives, by far the most common is 
 When you bring your hand near a theremin antenna, you are actually forming a variable capacitor: the antenna is one "plate" and your hand is the other. With the high frequencies and very low currents used by the instrument, your hand is effectively grounded by being attached to your body, so the antenna and your hand form a variable capacitor to ground. This variable capacitance is called *hand capacitance*. You increase the hand capacitance by bringing your hand nearer to the antenna. During normal operation, the hand capacitance is less than one picofarad, which is a very small capacitance indeed!
 Each antenna forms a resonant circuit with a group of inductors collectively called an antenna coil. In this design, the resonant frequencies are about 260 kHz for the pitch antenna and about 450 kHz for the volume antenna. At or near the resonant frequency, a tiny change in hand capacitance results in a larger change in the impedance of the antenna circuit as a whole.
 Refer to Figure 1, the functional block diagram
-![](theremin-fig01.jpg)
+
+{{< figure src="theremin-fig01.jpg" title="Block Diagram" >}}
+
 and Figure 2, the schematic diagram of the entire circuit:
-![](theremin-fig02.jpg)
+
+{{< figure src="theremin-fig02.jpg" title="Schematic" >}}
+
 
 The *variable-pitch oscillator* (VPO), *fixed-pitch oscillator* (FPO), and *detector* sections form a *beat-frequency oscillator*. Q1, Q2, and their associated components constitute the VPO, the frequency of which is set slightly higher than the resonant frequency of the pitch-antenna circuit (established by adjusting L5). As a player brings a hand near the pitch antenna, the changing impedance of the pitch antenna circuit lowers the VPO frequency by about 3 kHz.
 Q3, Q4, and their associated components form the FPO, the frequency of which is set equal to the VPO frequency (by adjusting L6) when the player's hand is away from the pitch antenna. The difference, or beat, frequency is extracted by the detector and appears as an audio waveform at the junction of R23 and R24. As the player brings a hand near the pitch antenna, the frequency of the audio waveform goes from 0 to about 3 kHz (31⁄2 octaves above middle C).

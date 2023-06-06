@@ -18,7 +18,7 @@
 <meta name="apple-mobile-web-app-title" content="Lucaji">
 <meta name="referrer" content="no-referrer" /><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://lucaji.github.io/kayaboard/" /><link rel="prev" href="https://lucaji.github.io/geloso-tube-amp-open-air-cinema-restoration/" /><link rel="next" href="https://lucaji.github.io/electrical-power-measurements/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://lucaji.github.io/kayaboard/" /><link rel="prev" href="https://lucaji.github.io/geloso-tube-amp-restoration/" /><link rel="next" href="https://lucaji.github.io/electrical-power-measurements/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
     {
@@ -34,7 +34,7 @@
                             "url": "https:\/\/lucaji.github.io\/kayaboard\/kayaboard-v21b.jpg",
                             "width":  1350 ,
                             "height":  743 
-                        }],"genre": "posts","keywords": "Hammond, Music, 3D Modeling","wordcount":  2198 ,
+                        }],"genre": "posts","keywords": "Hammond, Music, 3D Modeling","wordcount":  2209 ,
         "url": "https:\/\/lucaji.github.io\/kayaboard\/","datePublished": "2020-07-02T11:04:49+08:00","dateModified": "2020-07-02T11:04:49+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "Luca","logo": "https:\/\/lucaji.github.io\/avatar.png"},"author": {
@@ -108,7 +108,7 @@
             <div class="toc-content always-active" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">KAYABOARD - mag-lev organ keyboard (POC)</h1><h2 class="single-subtitle">Proof of concept for a levitating organ keyboard</h2><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://lucaji.github.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Luca Cipressi</a></span>&nbsp;<span class="post-category">included in <a href="/categories/hardware-builds/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Hardware Builds</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2020-07-02">2020-07-02</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;2198 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2020-07-02">2020-07-02</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;2209 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;11 minutes&nbsp;</div>
         </div><div class="featured-image"><img
         class="lazyload"
@@ -424,23 +424,27 @@ I did some research on magnets as well, to have a better understanding of their 
 <h2 id="the-model">The model</h2>
 <p>I always admired the acoustic piano keyboard mechanics: it is a concoction-masterpiece!</p>
 <p>It is by any means totally different from an organ manual, was the original inspiration as I wanted to understand the way it actually works. There are so many different mechanics and techniques (such as Renner) and they all implements some kind of escapement mechanism and <em>trickery</em> to give the player the best comfort.</p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/kayaboard/grand_piano_action.jpg"
-        data-srcset="/kayaboard/grand_piano_action.jpg, /kayaboard/grand_piano_action.jpg 1.5x, /kayaboard/grand_piano_action.jpg 2x"
-        data-sizes="auto"
-        alt="/kayaboard/grand_piano_action.jpg"
-        title="/kayaboard/grand_piano_action.jpg" width="1301" height="534" /></p>
+<figure><a class="lightgallery" href="/kayaboard/grand_piano_action.jpg" title="/kayaboard/grand_piano_action.jpg" data-thumbnail="/kayaboard/grand_piano_action.jpg" data-sub-html="<h2>a Grand Piano mechanical action.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/kayaboard/grand_piano_action.jpg"
+            data-srcset="/kayaboard/grand_piano_action.jpg, /kayaboard/grand_piano_action.jpg 1.5x, /kayaboard/grand_piano_action.jpg 2x"
+            data-sizes="auto"
+            alt="/kayaboard/grand_piano_action.jpg" width="1301" height="534" />
+    </a><figcaption class="image-caption">a Grand Piano mechanical action.</figcaption>
+    </figure>
 <h2 id="the-size-of-the-piano-keyboard">The Size of the Piano Keyboard</h2>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/kayaboard/Artboard1.jpg"
-        data-srcset="/kayaboard/Artboard1.jpg, /kayaboard/Artboard1.jpg 1.5x, /kayaboard/Artboard1.jpg 2x"
-        data-sizes="auto"
-        alt="/kayaboard/Artboard1.jpg"
-        title="/kayaboard/Artboard1.jpg" width="391" height="667" /></p>
+<figure><a class="lightgallery" href="/kayaboard/Artboard1.jpg" title="/kayaboard/Artboard1.jpg" data-thumbnail="/kayaboard/Artboard1.jpg" data-sub-html="<h2>Spacing 1/2.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/kayaboard/Artboard1.jpg"
+            data-srcset="/kayaboard/Artboard1.jpg, /kayaboard/Artboard1.jpg 1.5x, /kayaboard/Artboard1.jpg 2x"
+            data-sizes="auto"
+            alt="/kayaboard/Artboard1.jpg" width="391" height="667" />
+    </a><figcaption class="image-caption">Spacing 1/2.</figcaption>
+    </figure>
 <p>The black keys on a piano keyboard, instead of always being centered on the dividing line between the two white keys they lie between, are spaced so that the twelve keys which make up an octave are spaced equally as they enter the internal mechanism of the instrument.
 However, the white keys as they face the performer are still equal in width.
 As the space from C to E contains three white keys and five keys in total, while the space from F to B contains four white keys and seven keys in total, it is not quite possible to achieve this goal perfectly.</p>
@@ -454,14 +458,16 @@ While the keys on a typewriter keyboard are spaced on 3/4 inch intervals (19.05 
 Neither 164 nor 207 are numbers which are divisible by either 7 or 12, though, so there seems to be no obvious choice for the dimensions of a keyboard in the most commonly used units.</p>
 <p>However, the possibilities above overlook an important fact. It is desirable that the seven white keys be evenly spaced, and that their nominal dimensions be something that can be measured out in practice. It is also desirable that the twelve mechanisms inside the instrument be equally spaced, and that their positioning be measurable. But the equality of the width of the upper parts of the white keys can be allowed to vary a little, while keeping all the black keys as identical parts, with identical centering on their links to the internal mechanism would be highly desirable.
 Thus, the diagram showing a single keyboard design illustrates a more likely shape for the piano keyboard. It still, however, meets with the objection that the normal value for the width of an octave is not easy to divide into either 7 or 12 exactly using convenient units.</p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/kayaboard/Artboard2.jpg"
-        data-srcset="/kayaboard/Artboard2.jpg, /kayaboard/Artboard2.jpg 1.5x, /kayaboard/Artboard2.jpg 2x"
-        data-sizes="auto"
-        alt="/kayaboard/Artboard2.jpg"
-        title="/kayaboard/Artboard2.jpg" width="476" height="566" /></p>
+<figure><a class="lightgallery" href="/kayaboard/Artboard2.jpg" title="/kayaboard/Artboard2.jpg" data-thumbnail="/kayaboard/Artboard2.jpg" data-sub-html="<h2>Spacing 2/2.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/kayaboard/Artboard2.jpg"
+            data-srcset="/kayaboard/Artboard2.jpg, /kayaboard/Artboard2.jpg 1.5x, /kayaboard/Artboard2.jpg 2x"
+            data-sizes="auto"
+            alt="/kayaboard/Artboard2.jpg" width="476" height="566" />
+    </a><figcaption class="image-caption">Spacing 2/2.</figcaption>
+    </figure>
 <p>However, given that high tolerances are used in manufacturing, precise units can be used.
 Thus, if we go with a fundamenal unit of 0.03845 inch, then the white keys are spaced on 0.9228 inch intervals, the internal mechanisms of the instrument are spaced on 0.5383 inch centers, and the width of an octave is 6.4596 inches.
 Or, if we go with a fundamental unit of 0.9762 millimetres, then the white keys can be spaced on 2.34288 cm intervals, the internal mechanisms of the instrument can be spaced on 1.36668 cm centers, and the width of an octave is 16.40016 centimeters.
@@ -486,14 +492,16 @@ So enlarging the keyboard slightly beyond the range noted does allow spacings in
 But we could go to even coarser units. What if we just use an octave span of exactly 6.46 inches, with no units below one hundredth of an inch?
 Here, it&rsquo;s an even multiple of one-hundredth of an inch, so the remainder after dividing by twelve is even. So we have ten distances of 0.54 inches to work with, and two distances of 0.53 inches to work with. So, the distances between the mechanisms for B and C, and those for E and F, can be 0.53 inches, and the rest 0.54 inches, and we have the desired symmetry.
 Dividing by seven, two of the white keys would be 0.93 inches at the front, and the other five would be 0.92 inches wide at the front. To achieve a symmetrical and evenly-spaced layout, make the wide white keys the ones for F and B.</p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/kayaboard/Artboard3.jpg"
-        data-srcset="/kayaboard/Artboard3.jpg, /kayaboard/Artboard3.jpg 1.5x, /kayaboard/Artboard3.jpg 2x"
-        data-sizes="auto"
-        alt="/kayaboard/Artboard3.jpg"
-        title="/kayaboard/Artboard3.jpg" width="476" height="566" /></p>
+<figure><a class="lightgallery" href="/kayaboard/Artboard3.jpg" title="/kayaboard/Artboard3.jpg" data-thumbnail="/kayaboard/Artboard3.jpg" data-sub-html="<h2>Spacing 3.</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/kayaboard/Artboard3.jpg"
+            data-srcset="/kayaboard/Artboard3.jpg, /kayaboard/Artboard3.jpg 1.5x, /kayaboard/Artboard3.jpg 2x"
+            data-sizes="auto"
+            alt="/kayaboard/Artboard3.jpg" width="476" height="566" />
+    </a><figcaption class="image-caption">Spacing 3.</figcaption>
+    </figure>
 <p>Another clear example would be to have the octave exactly 164 millimetres wide, and to have all distances be a multiple of a whole millimetre.
 Three of the white keys would be 24 mm wide at the front, four would be 23 mm wide at the front. The desired symmetry could be achieved by making the 24 mm wide keys those for D, F, and B.
 The spacings between successive mechanisms would be 14 mm in eight cases, and 13 mm in four cases. The condition for symmetry is that the C sharp to D and D to D sharp spacings both be the same, as those for G to G sharp, and G sharp to A, as well as the rest of the spacings lining up.
@@ -520,10 +528,12 @@ So there you have it, a piano keyboard of standard size that may be drawn with a
         </section>
     </div>
 
-    <div class="post-nav"><a href="/geloso-tube-amp-open-air-cinema-restoration/" class="prev" rel="prev" title="Restoration of an old open-air cinema PA"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Restoration of an old open-air cinema PA</a>
+    <div class="post-nav"><a href="/geloso-tube-amp-restoration/" class="prev" rel="prev" title="Restoration of an old open-air cinema PA"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Restoration of an old open-air cinema PA</a>
             <a href="/electrical-power-measurements/" class="next" rel="next" title="Data Logger for Electrical Power Measurements">Data Logger for Electrical Power Measurements<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
-<div id="comments"></div></article></div>
+<div id="comments"><div id="utterances" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://utteranc.es/">utterances</a>.
+            </noscript></div></article></div>
             </main><footer class="footer">
         <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.112.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
                 </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2013 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://lucaji.github.io" target="_blank">Luca Cipressi</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
@@ -535,5 +545,5 @@ So there you have it, a piano keyboard of standard size that may be drawn with a
             </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
                 <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
             </a>
-        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{"utterances":{"darkTheme":"github-dark","issueTerm":"pathname","label":"","lightTheme":"github-light","repo":"lucaji/lucaji.github.io"}},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>

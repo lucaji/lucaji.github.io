@@ -18,7 +18,7 @@
 <meta name="apple-mobile-web-app-title" content="Lucaji">
 <meta name="referrer" content="no-referrer" /><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://lucaji.github.io/analog-radio/" /><link rel="prev" href="https://lucaji.github.io/tube-amps/" /><link rel="next" href="https://lucaji.github.io/geloso-tube-amp-open-air-cinema-restoration/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://lucaji.github.io/analog-radio/" /><link rel="prev" href="https://lucaji.github.io/tube-amps/" /><link rel="next" href="https://lucaji.github.io/geloso-tube-amp-restoration/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
     {
@@ -34,7 +34,7 @@
                             "url": "https:\/\/lucaji.github.io\/analog-radio\/am_receiver.jpg",
                             "width":  1326 ,
                             "height":  630 
-                        }],"genre": "posts","keywords": "Radio, HAM, Arduino","wordcount":  1364 ,
+                        }],"genre": "posts","keywords": "Radio, HAM, Arduino","wordcount":  1371 ,
         "url": "https:\/\/lucaji.github.io\/analog-radio\/","datePublished": "2015-01-19T00:00:00+00:00","dateModified": "2015-01-19T00:00:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "Luca","logo": "https:\/\/lucaji.github.io\/avatar.png"},"author": {
@@ -108,7 +108,7 @@
             <div class="toc-content always-active" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Analog Radio</h1><h2 class="single-subtitle">Experimenting radio transmission</h2><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://lucaji.github.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Luca Cipressi</a></span>&nbsp;<span class="post-category">included in <a href="/categories/electronics/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Electronics</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2015-01-19">2015-01-19</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1364 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2015-01-19">2015-01-19</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1371 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;7 minutes&nbsp;</div>
         </div><div class="featured-image"><img
         class="lazyload"
@@ -146,14 +146,16 @@
 <p>The first is an audio transmitter over LW radio band (734 kHz) in amplitude modulation (AM) which might be easily picked by a once-common radio set.</p>
 <h2 id="arduino-am">ARDUINO AM</h2>
 <p>A little playground to test audio transmission in AM (amplitude modulation) using the Arduino timers to generate the carrier frequency and its internal ADC to modulate the tuned circuit at the antenna side with the amplitude of the input signal.</p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="am_receiver.jpg"
-        data-srcset="am_receiver.jpg, am_receiver.jpg 1.5x, am_receiver.jpg 2x"
-        data-sizes="auto"
-        alt="am_receiver.jpg"
-        title="AM receiver schematic" /></p>
+<figure><a class="lightgallery" href="am_receiver.jpg" title="am_receiver.jpg" data-thumbnail="am_receiver.jpg" data-sub-html="<h2>AM Receiver schematic</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="am_receiver.jpg"
+            data-srcset="am_receiver.jpg, am_receiver.jpg 1.5x, am_receiver.jpg 2x"
+            data-sizes="auto"
+            alt="am_receiver.jpg" />
+    </a><figcaption class="image-caption">AM Receiver schematic</figcaption>
+    </figure>
 <p>Here is a simple AM Receiver schematic included for reference and testing, but being the original source, it has to be adapted to the wavelength used in the above project as it is tuned for 88-108MHz or higher (VHF). Extra wire-loops are needed when winding L1 to lower its resonant frequency.</p>
 <p>The second experiment is about transmitting encoded data (morse) over the same media.
 A third experiment explores the frequency modulation with little success.</p>
@@ -588,14 +590,16 @@ A third experiment explores the frequency modulation with little success.</p>
 </div><h2 id="galena">Galena</h2>
 <p>Galena or lead glance, is the natural mineral form of lead sulfide (PbS) being one of the most abundant and widely distributed sulfide minerals. One of the oldest uses of galena was as an eye cosmetic. Galena is a semiconductor with a small band gap of about 0.4 eV, which found use in early wireless communication systems. It was used as the crystal in radio receivers, in which it was used as a point-contact diode capable of rectifying alternating current to detect the radio signals. The galena crystal was used with a sharp wire, known as <a href="https://en.wikipedia.org/wiki/Crystal_detector" target="_blank" rel="noopener noreffer ">cat&rsquo;s whisker</a> in contact with it.</p>
 <h3 id="galena-radio">Galena Radio</h3>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/analog-radio/galena_fm.jpg"
-        data-srcset="/analog-radio/galena_fm.jpg, /analog-radio/galena_fm.jpg 1.5x, /analog-radio/galena_fm.jpg 2x"
-        data-sizes="auto"
-        alt="/analog-radio/galena_fm.jpg"
-        title="Galena Radio" width="960" height="716" /></p>
+<figure><a class="lightgallery" href="/analog-radio/galena_fm.jpg" title="/analog-radio/galena_fm.jpg" data-thumbnail="/analog-radio/galena_fm.jpg" data-sub-html="<h2>Crystal Radio with Galena</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/analog-radio/galena_fm.jpg"
+            data-srcset="/analog-radio/galena_fm.jpg, /analog-radio/galena_fm.jpg 1.5x, /analog-radio/galena_fm.jpg 2x"
+            data-sizes="auto"
+            alt="/analog-radio/galena_fm.jpg" width="960" height="716" />
+    </a><figcaption class="image-caption">Crystal Radio with Galena</figcaption>
+    </figure>
 <p>This is a rather funky project, as it powers itself up from the radio waves it receives, but you will need a very high-impendace headset (&gt; 10KΩ)</p>
 <p><a href="https://en.wikipedia.org/wiki/Crystal_radio" target="_blank" rel="noopener noreffer ">Crystal Radio</a> or Galena Radio are &ldquo;unpowered&rdquo; radio-receivers sets. They actually power-up themselves by using the captated radio energy via its Antenna. Some technical consideration (like using high-impedance headphones) reduces the energy-losses and maximize efficiency, in order to have a working radio receiver without any power supply, not batteries nor dinamo.</p>
 </div><div class="post-footer" id="post-footer">
@@ -620,9 +624,11 @@ A third experiment explores the frequency modulation with little success.</p>
     </div>
 
     <div class="post-nav"><a href="/tube-amps/" class="prev" rel="prev" title="Tube Amps Builds 🎸"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Tube Amps Builds 🎸</a>
-            <a href="/geloso-tube-amp-open-air-cinema-restoration/" class="next" rel="next" title="Restoration of an old open-air cinema PA">Restoration of an old open-air cinema PA<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+            <a href="/geloso-tube-amp-restoration/" class="next" rel="next" title="Restoration of an old open-air cinema PA">Restoration of an old open-air cinema PA<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
-<div id="comments"></div></article></div>
+<div id="comments"><div id="utterances" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://utteranc.es/">utterances</a>.
+            </noscript></div></article></div>
             </main><footer class="footer">
         <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.112.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
                 </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2013 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://lucaji.github.io" target="_blank">Luca Cipressi</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
@@ -634,5 +640,5 @@ A third experiment explores the frequency modulation with little success.</p>
             </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
                 <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
             </a>
-        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{"utterances":{"darkTheme":"github-dark","issueTerm":"pathname","label":"","lightTheme":"github-light","repo":"lucaji/lucaji.github.io"}},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>

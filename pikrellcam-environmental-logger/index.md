@@ -8,7 +8,8 @@
 > One of the most used motion detection and surveillance software for the Raspberry Pi with additional temperature and humidity logging and graph panel.
 
 
-![](logger_screenshot_01.jpg "Sensor logger UI panel")
+{{< image src="logger_screenshot_01.jpg" caption="Sensor Logger UI panel." >}}
+
 
 
 This fork introduces an additional web-dashboard driven by a *sqlite* database to keep track of temperature and humidity readings coming from a HDC1080 sensor. This dashboard is accessible by the main page of the camera preview bringing in some statistics of the collected data.

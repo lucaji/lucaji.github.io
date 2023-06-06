@@ -9,7 +9,8 @@
 The most obvious and the routine method of radiating sound from an electronic organ is by means of one or more loudspeakers, suitably and conventionally baffled. In a single-unit instrument, the loudspeaker(s) are mounted behind cutouts, usually in the front panel below the keyboard and above the pedal clavier.
 While compact and convenient, this arrangement usually suffers some limitation in the effectiveness of the baffling which can be provided and the efficiency with which the sound can be propagated.
 
-![](leslie1.jpg)
+{{< image src="leslie1.jpg" caption="Leslie Speaker" >}}
+
 
 A logical "next step" in improving the performance of an electronic organ is to associate with it a generously designed remote loudspeaker system, which can provide good fundamental bass output and which can propagate the sound from a position in the building where it will be heard to advantage, and enrich itself with natural re-verberation.
 
@@ -30,7 +31,7 @@ If such a loudspeaker system is used in addition to, but remote from a conventio
 
 While we have elected to make initial reference to the Allen Gyro loudspeaker system, the name which is nowadays almost universally associated with "position modulated" sound sources is "Leslie" and organs are freely advertised as being fitted with inbuilt Leslie loudspeaker. Separate extension loudspeaker cabinets, with and without supplementary power amplifiers, and using the Leslie principle are marketed for use with existing organs. The units are either made by, or presumably manufactured under licence to, the Electro Music Company.
 
-![](leslie2.jpg)
+{{< image src="leslie2.jpg" caption="Leslie Speaker" >}}
 
 
 Wheter or not the originator of the principle would be happy to acknowledge them, commerical and amateur-built Leslie systems, so called, have taken many forms in recent years. To mention a few:
@@ -63,7 +64,7 @@ The genius of a rotating system is for it to be heard in conjunction with a fixe
 
 In the more usual form of Leslie type loudspeaker system, the frequencies below a 300Hz to 800Hz crossover are fed to a heavy duty fixed loudspeaker, mounted in a suitably designed and substantially conventional enclosure. Frequencies above the nominal crossover are fed to a much lighter rotating system, controlled by a switch giving as its functions; Stationary, Fast and (sometimes) Slow. Facilities may also be provided on the console to select the loudspeaker system in use: Main, Main+Leslie and Leslie only.
 
-![](leslie3.jpg)
+{{< image src="leslie3.jpg" caption="Leslie Speaker" >}}
 
 The significant point about the "Leslie only" in this arrangement is that it provides its own interplay between fixed and rotating sources. The fixed loudspeaker handles the full bass range and a significant proportion of the chord structures from the maunals. The rotating loudspeaker handles a large proportion of the sound from the top end of the manuals, along with overtones from lower-pitched chords. Thus "Leslie Only" does not mean "Rotating System Only" but a discrete mixture of fixed and rotational output.
 
@@ -73,7 +74,7 @@ The rotating system pictured here was built up by one of our former staff member
 
 Since the loudspeaker is mounted in a vented enclosure, it is capable of producing a solid bass output, only vaguely "rotated," the vent and its output being clear of the rotating mechanism. The system will take the full output of a spinet organ and Mr Cleaves has used it this way, with and without electronic vibrato, for extreme "popular" effects. Normally, however, it is used in partnership with the console loudspeaker as a "Stereo Chorus," with facilities to cut the rotating system altogether, or to use it as the major source, with a minor contribution from the fixed system.
 
-![](leslie4.jpg)
+{{< image src="leslie4.jpg" caption="Leslie Speaker" >}}
 
 Alternatively, a fully baffled system like this can be used with a larger multi-channel installation to take the full output of flutes and tibias, as distinct from other voices, with control facilities for "Stationary," "Slow" and "Fast."
 
@@ -99,7 +100,7 @@ Another bearing, directly beneath the top bearing and hung from the floor of the
 
 Ball bearings could be used instead, with some advantage, but precautions may need to be taken against the introduction of rumble. Rubber insulated bearing suggest themselves as a good choice.
 
-![](leslie5.jpg)
+{{< image src="leslie5.jpg" caption="Leslie Speaker" >}}
 
 
 The motor used in the original system was a capacitance start unit, actually salvaged from a worn-out electric typewriter. It measured 4in in diameter and 6in long and is rated at 35MH, 0.6A, 1425 r.p.m. It was complete with rubber mounting provisions, which would have been essential, anyway, to prevent vibration from being propagated via the cabinet panels. Smaller motors, from fans, etc., are not likely to be adequate for a system such as the one under disucssion, since they have insufficient starting torque.

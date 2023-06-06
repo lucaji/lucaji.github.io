@@ -8,22 +8,22 @@
             <atom:link href="https://lucaji.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Bass preamps: Bartolini MK-1 vs. MarkBass MB-1</title>
-    <link>https://lucaji.github.io/cort/</link>
+    <link>https://lucaji.github.io/cort-bass-active-electronics/</link>
     <pubDate>Tue, 30 May 2023 13:44:23 &#43;0100</pubDate>
     <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/cort/</guid>
+    <guid>https://lucaji.github.io/cort-bass-active-electronics/</guid>
     <description><![CDATA[MK-1 vs. MB-1 I compared the inner electronics of two bass guitars made by Cort from the Artisan series: a B5 Element and a B4 Plus AS (Fretless).
 The 5-stringer is equipped with Bartolini MK-1 active electronics, while the fretless sports the MarkBass MB-1.
 SPECIFICATIONS B5 Element B4FL+AS Construction Bolt-on Bolt-on Body Mahogany (Ash top) Swamp Ash Neck 5pcs Walnut &amp; Panga Panga Maple/Wenge, 1F 20.5mm, 12F 22mm Fretboard Roasted Maple Panga Panga Fretboard Radius 15.]]></description>
 </item>
 <item>
     <title>PikrellCam Motion-detection plus temperature Logger</title>
-    <link>https://lucaji.github.io/pikrell-cam-temp/</link>
+    <link>https://lucaji.github.io/pikrellcam-environmental-logger/</link>
     <pubDate>Sat, 29 Oct 2022 10:54:54 &#43;0600</pubDate>
     <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/pikrell-cam-temp/</guid>
+    <guid>https://lucaji.github.io/pikrellcam-environmental-logger/</guid>
     <description><![CDATA[PiKrellCam Reborn Motion Detection with Sensor Data Logger One of the most used motion detection and surveillance software for the Raspberry Pi with additional temperature and humidity logging and graph panel.
-Sensor logger UI panel This fork introduces an additional web-dashboard driven by a sqlite database to keep track of temperature and humidity readings coming from a HDC1080 sensor. This dashboard is accessible by the main page of the camera preview bringing in some statistics of the collected data.]]></description>
+Sensor Logger UI panel. This fork introduces an additional web-dashboard driven by a sqlite database to keep track of temperature and humidity readings coming from a HDC1080 sensor. This dashboard is accessible by the main page of the camera preview bringing in some statistics of the collected data.]]></description>
 </item>
 <item>
     <title>Data Logger for Electrical Power Measurements</title>
@@ -44,10 +44,10 @@ Designing a musical-instrument keyboard confronted me with some ergonomics consi
 </item>
 <item>
     <title>Restoration of an old open-air cinema PA</title>
-    <link>https://lucaji.github.io/geloso-tube-amp-open-air-cinema-restoration/</link>
+    <link>https://lucaji.github.io/geloso-tube-amp-restoration/</link>
     <pubDate>Sun, 30 Oct 2016 00:00:00 &#43;0000</pubDate>
     <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/geloso-tube-amp-open-air-cinema-restoration/</guid>
+    <guid>https://lucaji.github.io/geloso-tube-amp-restoration/</guid>
     <description><![CDATA[GELOSO Geloso, founded in 1931 by Giovanni Geloso, was an Italian manufacturer of radios, televisions, amplifiers, amateur radio receivers, audio equipment and electronic components. Its headquarters were situated in Milan, Viale Brenta 29.
 In 1931 the company started the production not only of radio sets but also most of the electronic components with which they were built and, over time, also developed and patented many others.
 After the Second World War, Geloso expanded and expanded his production, becoming from 1950 onwards, a point of reference for enthusiasts of consumer electronics and hobbyists.]]></description>
@@ -72,10 +72,10 @@ Building tube amps is very rewarding, and can keep you busy with its fair amount
 </item>
 <item>
     <title>Proiezione Origami - Book Cover Design</title>
-    <link>https://lucaji.github.io/proiezione-origami/</link>
+    <link>https://lucaji.github.io/proiezione-origami-book-cover-design/</link>
     <pubDate>Thu, 15 Jan 2015 00:00:00 &#43;0000</pubDate>
     <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/proiezione-origami/</guid>
+    <guid>https://lucaji.github.io/proiezione-origami-book-cover-design/</guid>
     <description><![CDATA[<p>I designed the cover for this enthralling <strong>cyberzen</strong> story, rich in obfuscated structures that only electricity can uncover.</p>]]></description>
 </item>
 <item>
@@ -91,10 +91,10 @@ designing all the graphical elements of the apps designing the UI/UX creating th
 </item>
 <item>
     <title>Diretta Iniezione</title>
-    <link>https://lucaji.github.io/dibox/</link>
+    <link>https://lucaji.github.io/di-box/</link>
     <pubDate>Sat, 20 Sep 2014 00:00:00 &#43;0000</pubDate>
     <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/dibox/</guid>
+    <guid>https://lucaji.github.io/di-box/</guid>
     <description><![CDATA[DI Box a simple audio preamplifier for dynamic microphones with internal noiseless power supply (AC powered).
 Class A FET input stage with high linearity and large bandwidth. XLR input with gain control Line output (balanced/unbalanced) low noise and low distortion high bandwidth Found in need to record sounds with a Shure SM58 into a computer, I decided to build my own little preamplifier so I could plug it to the Mac&rsquo;s line input jack and have a decent timbre and a low noise figure by choosing a voltage controlled amplifier using a single FET, well known for their tube-like sonority and their advantages over a current controller amp.]]></description>
 </item>

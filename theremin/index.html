@@ -34,7 +34,7 @@
                             "url": "https:\/\/lucaji.github.io\/theremin\/theremin-01.jpg",
                             "width":  968 ,
                             "height":  644 
-                        }],"genre": "posts","keywords": "Arduino, Music, Audio","wordcount":  4649 ,
+                        }],"genre": "posts","keywords": "Arduino, Music, Audio","wordcount":  4653 ,
         "url": "https:\/\/lucaji.github.io\/theremin\/","datePublished": "2013-10-13T00:00:00+00:00","dateModified": "2013-10-13T00:00:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "Luca","logo": "https:\/\/lucaji.github.io\/avatar.png"},"author": {
@@ -108,7 +108,7 @@
             <div class="toc-content always-active" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Theremin</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://lucaji.github.io" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Luca Cipressi</a></span>&nbsp;<span class="post-category">included in <a href="/categories/hardware-builds/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Hardware Builds</a>&nbsp;<a href="/categories/software/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Software</a>&nbsp;<a href="/categories/electronics/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Electronics</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2013-10-13">2013-10-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;4649 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2013-10-13">2013-10-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;4653 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;22 minutes&nbsp;</div>
         </div><div class="featured-image"><img
         class="lazyload"
@@ -157,14 +157,11 @@
 <p>One morning I stumbled across the <a href="https://www.gaudi.ch/OpenTheremin/" target="_blank" rel="noopener noreffer ">OpenTheremin</a> project and I ordered immediately one.</p>
 <p>They design and produce Arduino compatible theremin shields with two oscillators as you can control both tone and volume.
 I entered the theremin’s world and found it fashinating. And made my first attempt at it:</p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="theremin-01.jpg"
-        data-srcset="theremin-01.jpg, theremin-01.jpg 1.5x, theremin-01.jpg 2x"
-        data-sizes="auto"
-        alt="theremin-01.jpg"
-        title="theremin-01.jpg" /></p>
+<figure><img src="theremin-01.jpg"/><figcaption>
+            <h4>Theremin</h4>
+        </figcaption>
+</figure>
+
 <h2 id="the-sound-of-theremin">The Sound of Theremin</h2>
 <blockquote>
 <p>Schonberg described the sound of the theremin as
@@ -204,24 +201,18 @@ Among the requests for DIY projects that EM receives, by far the most common is 
 <h3 id="overview">OVERVIEW</h3>
 <p>When you bring your hand near a theremin antenna, you are actually forming a variable capacitor: the antenna is one &ldquo;plate&rdquo; and your hand is the other. With the high frequencies and very low currents used by the instrument, your hand is effectively grounded by being attached to your body, so the antenna and your hand form a variable capacitor to ground. This variable capacitance is called <em>hand capacitance</em>. You increase the hand capacitance by bringing your hand nearer to the antenna. During normal operation, the hand capacitance is less than one picofarad, which is a very small capacitance indeed!
 Each antenna forms a resonant circuit with a group of inductors collectively called an antenna coil. In this design, the resonant frequencies are about 260 kHz for the pitch antenna and about 450 kHz for the volume antenna. At or near the resonant frequency, a tiny change in hand capacitance results in a larger change in the impedance of the antenna circuit as a whole.
-Refer to Figure 1, the functional block diagram
-<img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/theremin/theremin-fig01.jpg"
-        data-srcset="/theremin/theremin-fig01.jpg, /theremin/theremin-fig01.jpg 1.5x, /theremin/theremin-fig01.jpg 2x"
-        data-sizes="auto"
-        alt="/theremin/theremin-fig01.jpg"
-        title="/theremin/theremin-fig01.jpg" width="997" height="603" />
-and Figure 2, the schematic diagram of the entire circuit:
-<img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/theremin/theremin-fig02.jpg"
-        data-srcset="/theremin/theremin-fig02.jpg, /theremin/theremin-fig02.jpg 1.5x, /theremin/theremin-fig02.jpg 2x"
-        data-sizes="auto"
-        alt="/theremin/theremin-fig02.jpg"
-        title="/theremin/theremin-fig02.jpg" width="949" height="668" /></p>
+Refer to Figure 1, the functional block diagram</p>
+<figure><img src="theremin-fig01.jpg"/><figcaption>
+            <h4>Block Diagram</h4>
+        </figcaption>
+</figure>
+
+<p>and Figure 2, the schematic diagram of the entire circuit:</p>
+<figure><img src="theremin-fig02.jpg"/><figcaption>
+            <h4>Schematic</h4>
+        </figcaption>
+</figure>
+
 <p>The <em>variable-pitch oscillator</em> (VPO), <em>fixed-pitch oscillator</em> (FPO), and <em>detector</em> sections form a <em>beat-frequency oscillator</em>. Q1, Q2, and their associated components constitute the VPO, the frequency of which is set slightly higher than the resonant frequency of the pitch-antenna circuit (established by adjusting L5). As a player brings a hand near the pitch antenna, the changing impedance of the pitch antenna circuit lowers the VPO frequency by about 3 kHz.
 Q3, Q4, and their associated components form the FPO, the frequency of which is set equal to the VPO frequency (by adjusting L6) when the player&rsquo;s hand is away from the pitch antenna. The difference, or beat, frequency is extracted by the detector and appears as an audio waveform at the junction of R23 and R24. As the player brings a hand near the pitch antenna, the frequency of the audio waveform goes from 0 to about 3 kHz (31⁄2 octaves above middle C).
 Q5 and its associated components constitute the <em>pitch-tuning circuit</em>. This circuit presents a variable active impedance that is used to make fine adjustments to the FPO frequency while the instrument is being played. Front panel potentiometer P1 adjusts the current through Q5, thereby changing its active impedance.
@@ -322,7 +313,9 @@ The theremin presented here is designed to meet the needs of musicians who wish 
     <div class="post-nav"><a href="/lorena-fontana-a-vision/" class="prev" rel="prev" title="Lorena Fontana - A Vision - Making of"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Lorena Fontana - A Vision - Making of</a>
             <a href="/back-to-the-future-clock-replica/" class="next" rel="next" title="DeLorean Time Circuits">DeLorean Time Circuits<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
-<div id="comments"></div></article></div>
+<div id="comments"><div id="utterances" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://utteranc.es/">utterances</a>.
+            </noscript></div></article></div>
             </main><footer class="footer">
         <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.112.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
                 </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2013 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://lucaji.github.io" target="_blank">Luca Cipressi</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
@@ -334,5 +327,5 @@ The theremin presented here is designed to meet the needs of musicians who wish 
             </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
                 <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
             </a>
-        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{"utterances":{"darkTheme":"github-dark","issueTerm":"pathname","label":"","lightTheme":"github-light","repo":"lucaji/lucaji.github.io"}},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>

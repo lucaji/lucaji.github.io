@@ -21,8 +21,8 @@ The dynamic response of this kind of pre-amp pleases my ear and the spectrogram 
 These are the main reason for this project to be.
 I avoided the USB port as power supply to avoid ground loops and noises from the computer (hisses), but being very practical, it might be a cool idea for a next revision.
 
+{{< image src="fetzervalve.png" caption="FET booster." >}}
 
-![Fetzer](fetzervalve.png "FET booster")
 
 Both the triode version and the FET version works in a very similar way, by using a negative voltage controlled feedback to adjust their transconductance. Using 18V as power supply guarantees a very high dynamic range.
 
@@ -30,11 +30,12 @@ A better and complete explanation is given by the [Fetzer Valve Article](http://
 
 Any JFET would do go, but I had a stash of 2SK30 and 2N5457 to choose from; I made some tests and ended up with the 2N5457 at the end.
 
-![](diretta-iniezione-wave.jpg "direct injection of a -20dBu 1kHz wave from a signal generation AC coupled, output volume maximum")
+{{< image src="diretta-iniezione-wave.jpg" caption="direct injection of a -20dBu 1kHz wave from a signal generation AC coupled, output volume maximum." >}}
+
 
 There was still some DC offset, which was due a defective trimmer for the bias voltage.
 
-![](diretta-iniezione-wave2.jpg "using the Shure SM58 to capture a 1kHz wave at nearly full volume as played by a computer with its internal speakers")
+{{< image src="diretta-iniezione-wave2.jpg" caption="using a Shure SM58 to capture a 1kHz wave at nearly full volume as played by a computer with its internal speakers." >}}
 
 The visible distortion in this last scope image is produced by a number of factors which won't affect the scope of the project at all:
 
@@ -53,7 +54,9 @@ I would consider working on a second prototype with a cascode configuration:
 
 ![](diretta-iniezione-cascode.jpg)
 
+{{< image src="diretta-iniezione-cascode.jpg" caption="Considering future development..." >}}
 
 but that's all for now!
 
-![](diretta-iniezione-01.jpg)
+{{< image src="diretta-iniezione-01.jpg" caption="The assembled DI Box." >}}
+

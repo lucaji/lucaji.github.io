@@ -7,13 +7,14 @@ We were staying in Serramonacesca, me and my old lady. Used often to spend there
 
 The work and the drinking went on for few days during my staying, before that night came at last, rainy and almost ruined by bad weather, but nobody really cared much as it turned out to be a great night with lots of good blues and rock live music.
 
-![Poster](serramonacesca-honey-ants-poster.jpg "70x100 cm Campari Soda Ants Poster - (c) 2014 Luca Cipressi")
+{{< image src="serramonacesca-honey-ants-poster.jpg" caption="Campari Soda Ants Jam Session Poster (70x100cm) - (c) 2014 by Luca Cipressi." >}}
+
 
 ## Red Centre Dreaming
 
 Campari Soda comes in these awesome tiny stubbies with its reddish colour and is a very popular cold drink here (especially with Prosecco or white wine). That time I was going along very well with Campari Soda. Somehow the small bottle made me think to the ants nest we went digging down in the red centre of Australia, under the hot sun, shaded by some *mulga* trees there were this small holes on top of the ground to look at, so it was a very warm summer night that night in Serra too, and I dreamed of digging for camparisoda ants gorged with the drink, squeeze the juice out in a glass, cool it down for half an hour in the fridge..., and and wondered how would they look with the same tone coloring using Photoshop.
 
-![Poster2](serramonacesca-honey-ants-00.jpg "70x100 cm Campari Soda Ants Poster - (c) 2014 Luca Cipressi")
+{{< image src="serramonacesca-honey-ants-00.jpg" caption="Campari Soda Ants Jam Session Poster (70x100) - (c) 2014 by Luca Cipressi." >}}
 
 ## Tourism in Abruzzo, central italy
 

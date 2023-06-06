@@ -9,7 +9,8 @@ Having a software tool that can reliabily take care of storing the measured data
 I have written this utility which interfaces with a hardware power measurement tool: the GPM8310 made by GW-Instek.
 It relies on an Telnet client which periodically queries the GPM to get the exact integrated values of power.
 
-![](gpm8310.jpg "GW-Instek Power Meter GPM8310")
+{{< image src="gpm8310.jpg" caption="GW-Instek Power Meter GPM8310 front panel." >}}
+
 
 If you have a GPM8310 laying around, you can try-out this software utility called [GPMLink](https://github.com/lucaji/GPMLink) whose source code is available at the link.
 

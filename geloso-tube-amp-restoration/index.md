@@ -23,7 +23,7 @@ Remarkably this is an assembled kit, made by this friends' uncle back before the
 Back in its hey-days this very tube amplifier from [**GELOSO**](https://en.wikipedia.org/wiki/Geloso) was used to amplify a cosy open-air cinema in warm summer nights in Italy between 1970 and late 1980. Believe it or not, audio quality was not an issue (it is not an Hi-Fi grade amp) but for spoken voice and those early sound effects present in films in the early '80s, it was more than enough even for an open space. People were not even fussier about wanting a subwoofer or enjoy explosions like modern days: people just wanted to gather together and follow a nice story. So long for todays' tastes...
 Anyway, here it is: it all its old and present glory, the GELOSO G-225/A.
 
-![GELOSO Amplifier](tubege01.jpg)
+{{< image src="tubege01.jpg" caption="GELOSO Amplifier." >}}
 
 
 # Amplificatore G-225/A
@@ -35,7 +35,7 @@ I 25W di potenza utile effettivamente disponibili al secondario del trasformator
 Tale caratteristica lo rendevano particolarmente adatto ad installazioni di capacità superiore alla media e nelle quali era richiesta una elevata (per l'epoca) fedeltà di riproduzione.
 In questo apparecchio l'amplificazione è di ben 100000 volte il segnale di entrata, mentre il noise floor era ridotto a circa 1/2500mo del segnale di uscita. A tali risultati si giunge usando opportuni accorgimenti nella progettazione dei circuiti di filtro e accendendo i filamenti delle due valvole 12SL7-GT con corrente continua ottenuta da un raddrizzatore a secco.
 
-![](tubege02.jpg)
+{{< image src="tubege02.jpg" caption="GELOSO Amplifier." >}}
 
 ## Dati tecnici
 
@@ -58,11 +58,13 @@ In questo apparecchio l'amplificazione è di ben 100000 volte il segnale di entr
 
 ### Potenza
 
-![](tubege03.jpg)
+{{< image src="tubege03.jpg" caption="GELOSO Amplifier." >}}
 
 
 L'amplificatore G275/A ha una potenza di uscita di 25W. La distorsione contenuta nettamente entro un limite del 5%. Diminuendo la potenza d'uscita diminuisce rapidamente anche la percentuale di distorsione come visibile nella curva esplicativa:
-![](geloso-02.jpg)
+
+{{< image src="geloso-02.jpg" caption="THD vs. Output Power." >}}
+
 
 La potenza di picco è di 35" (+37,7dB). Con la sostituzione del normale trasformatore n.5407, il G225/A può essere usato come modulatore di uno stadio finale RF con 50W di alimentazione ed una modulazione del 100%, oppure fino a 70W con una modulazione dell'80%.
 
@@ -74,11 +76,12 @@ Il ronzio ed i rumori di fondo sono stati ridotti a -68dB a massimo guadagno di 
 
 La sensibilità dei canali micro è di 4mV, pari a -85,8dB. Con un segnale di soli 4mV, l'apparecchio da la piena potenza, per cui risulta superfluo l'uso di preamplificatori anche nel caso di microfoni meno sensibili.
 Per i canali phono, la sensibilità è di 180mV, pari a -53,1dB e sufficiente anche per l'uso di pick-up magnetici meno sensibili.
-![](geloso-03.jpg)
+
+{{< image src="geloso-03.jpg" caption="Sensitivity." >}}
 
 Il criterio che ha ispirato, in sede di progettao, la separazione dei due canali micro da quello pick-up è stato di evitare, nel caso di pick-ups di forte uscita, il fenomeno di saturazione e di distorsione nella prima valvola e per dare la possibiltà di mescolare a piacere, a mezzo dei rispettivi controlli di volume, i segnali dei due canali.
 
-![](tubege04.jpg)
+{{< image src="tubege04.jpg" caption="." >}}
 
 
 ### Circuiti di entrata
@@ -90,7 +93,8 @@ Nel caso di microfoni a bassa impedenza (nastro e dinamici) occorre, per avere l
 
 ## Schematic
 
-![](geloso-se.jpg)
+{{< image src="geloso-se.jpg" caption="Schematics." >}}
+
 
 Alle griglie dei due triodi della prima 12SL7, sono applicate le boccole di entrata dei due microfoni. Alla griglia del primo triodo della seconda 12SL7 è applicato, attraverso un commutatore, l'ingresso pick-up.
 L'accoppiamento tra i due triodi della prima 12SL7 e la seconda è a resistenza-capacità con particolari accorgimenti per permettere la miscelazione dei due microfoni e di un pick-up e di regolare separatamente, a mezzo di tre potenziometri, il volume dei singoli canali.
@@ -111,7 +115,7 @@ Le tensioni di lavoro dei condensatori elettrolitici e di quelli a carta, la pot
 
 ## Montaggio
 
-![](geloso-sm.jpg)
+{{< image src="geloso-sm.jpg" caption="Assembly." >}}
 
 Il montaggio dell'amplificatore G225/A non richiede speciali accorgimenti: basta attenersi con scrupolo ed intelligenza alle indicazioni dello schema elettrico e di quello di montaggio.
 Fissare innanzi tutto al telaio le parti meccaniche: zoccoli per le valvole, attacchi micro e fono, potenziometri, impedenze, trasformatori, condensatori elettrolitici.

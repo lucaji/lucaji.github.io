@@ -11,7 +11,8 @@ The first is an audio transmitter over LW radio band (734 kHz) in amplitude modu
 
 A little playground to test audio transmission in AM (amplitude modulation) using the Arduino timers to generate the carrier frequency and its internal ADC to modulate the tuned circuit at the antenna side with the amplitude of the input signal.
 
-![AM receiver schematic](am_receiver.jpg)
+{{< image src="am_receiver.jpg" caption="AM Receiver schematic" >}}
+
 
 Here is a simple AM Receiver schematic included for reference and testing, but being the original source, it has to be adapted to the wavelength used in the above project as it is tuned for 88-108MHz or higher (VHF). Extra wire-loops are needed when winding L1 to lower its resonant frequency.
 
@@ -245,7 +246,7 @@ Galena or lead glance, is the natural mineral form of lead sulfide (PbS) being o
 
 ### Galena Radio
 
-![Galena Radio](galena_fm.jpg)
+{{< image src="galena_fm.jpg" caption="Crystal Radio with Galena" >}}
 
 This is a rather funky project, as it powers itself up from the radio waves it receives, but you will need a very high-impendace headset (> 10KΩ)
 

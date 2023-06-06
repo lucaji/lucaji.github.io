@@ -24,10 +24,10 @@ Building tube amps is very rewarding, and can keep you busy with its fair amount
 </item>
 <item>
     <title>Diretta Iniezione</title>
-    <link>https://lucaji.github.io/dibox/</link>
+    <link>https://lucaji.github.io/di-box/</link>
     <pubDate>Sat, 20 Sep 2014 00:00:00 &#43;0000</pubDate>
     <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/dibox/</guid>
+    <guid>https://lucaji.github.io/di-box/</guid>
     <description><![CDATA[DI Box a simple audio preamplifier for dynamic microphones with internal noiseless power supply (AC powered).
 Class A FET input stage with high linearity and large bandwidth. XLR input with gain control Line output (balanced/unbalanced) low noise and low distortion high bandwidth Found in need to record sounds with a Shure SM58 into a computer, I decided to build my own little preamplifier so I could plug it to the Mac&rsquo;s line input jack and have a decent timbre and a low noise figure by choosing a voltage controlled amplifier using a single FET, well known for their tube-like sonority and their advantages over a current controller amp.]]></description>
 </item>

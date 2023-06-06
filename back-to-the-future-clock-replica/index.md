@@ -13,10 +13,11 @@ Apart from actual time travel, which might be even possible depending on your ti
 > If my calculations are correct, when this baby hits 88 miles per hour... you're gonna see some serious shit.
 > — <cite>Dr. Emmett Brown[^1]</cite>
 
-[^1]: The remarkable quote is obviously excerpted from Robert Zemeckis's [Back To The Future](https://www.youtube.com/watch?v=PAAkCSZUG1c).
+[^1]: The remarkable quote is obviously excerpted from Robert Zemeckis's [Back To The Future](https://www.youtube.com/watch?v=PAAkCSZUG1c) Blockbuster.
 
 
-![](back-to-the-future-prototype-dark.jpg)
+{{< image src="back-to-the-future-prototype-dark.jpg" caption="Time Circuits Alarm Clock Prototype by Luca Cipressi (2014)" >}}
+
 
 ## The Committent
 
@@ -67,39 +68,35 @@ After long research I ended up selecting the Sunbright series with 0.8" font siz
 
 A Raspberry Pi model A (first series) has been selected as the main controller, making it easier to handle mp3 audio and a speaker output, as well as having some NTP protocol support.
 
-The display assembly schematic:
-
-![](back-to-the-future-displayboard-schematic-wm.jpg)
+{{< image src="back-to-the-future-displaybboard-schematic-wm.jpg" caption="The display assembly schematic (c) 2014 Luca Cipressi." >}}
 
 
-Testing the multiplexed display interface
+The Display Interface
 
-![](back-to-the-future-display-test-01.jpg)
+{{< image src="back-to-the-future-display-test-01.jpg" caption="Testing the multiplexed display interface (c) 2014 Luca Cipressi." >}}
 
-
-The display uses the multiplexing technique driving 360 bits from the I2C serial line.
-
-![](back-to-the-future-display-test-03.jpg)
+{{< image src="back-to-the-future-display-test-03.jpg" caption="The display uses the multiplexing technique driving 360 bits from the I2C serial line." >}}
 
 
-## Hand wiring
 
-Authentic craftmanship and lots of patience for this prototype. Designing a custom PCB still would have been the best approach quality-wise with all its advantages, but I do not fear precise hand-soldering and, in fact, completing the operation was much faster than spending lots of hours on Kicad, export the files, send them out to the manufacturer, wait for delivery, finally solder the parts and test. Main reason to stick with the manual soldering, moreover, was to avoid the boring layout routing along those 16 segments displays by using a double layer PCB.
+## Handcrafted
 
+Authentic craftmanship and lots of patience for this prototype. Designing a custom PCB still would have been the best approach quality-wise with all its advantages, but I do not fear precise hand-soldering and, in fact, completing the operation was much faster than spending lots of hours on Kicad, export the files, send them out to the manufacturer, wait for delivery, finally solder the parts and test. Main reason to stick with the manual soldering, moreover, was to avoid the boring layout routing along those 16 segments displays by using a double layer PCB. Yes, this way was **quicker**!
 
-![](back-to-the-future-displayboard-03.jpg)
+{{< image src="back-to-the-future-displayboard-03.jpg" caption="The hand wired connections to each display board (c) 2014 Luca Cipressi." >}}
 
-With a hand-driver router/milling machine the slots for the displays have been opened through the aluminium panels.
+With a hand-driven router/milling machine the slots for the displays have been opened through the aluminium panels.
 
-![](back-to-the-future-displayboard-04.jpg)
+{{< image src="back-to-the-future-displayboard-04.jpg" caption="Routing the openings (c) 2014 Luca Cipressi." >}}
 
 and cleaned up from the dust and debris. The three display boards have found their placement inside the panels. The driver boards are on the bottom side, not yet placed. The latter are the only actual PCB I designed for this prototype.
 
-![](back-to-the-future-displayboard-02.jpg)
+{{< image src="back-to-the-future-displayboard-02.jpg" caption="Assembling the display panel (c) 2014 Luca Cipressi." >}}
+
 
 The final photograph of the completed prototype after setting up the time of the day as it was the 7th of April 2014.
 
-![](bttfac-bg.jpg)
+{{< image src="bttfac-bg.jpg" caption="Time Circuits Alarm Clock (c) 2014 Luca Cipressi." >}}
 
 
 ## BOM
