@@ -8,7 +8,7 @@ This video is the official behind-the-scenes in LA while recording **A Vision** 
 
 # [A Vision](https://www.google.com/search?q=lorena+fontana+a+vision)
 
-Before the summer of 2013 I was engaged in being video editor again for the footage of the jazz music production: `Lorena Fontana - A Vision, making of` by the italian artist Lorena Fontana. A task I took very seriously and gave me opportunity to listen and observe the finest musician in the LA scene.
+In summer 2013 I curated the video editing for the footage of the jazz music production: `Lorena Fontana - A Vision, making of` by the italian singer, teacher and artist Lorena Fontana. A task I took very seriously and gave me opportunity to listen and observe the finest musician in the LA scene.
 
 {{< youtube SxOWRY1u_BY >}}
 

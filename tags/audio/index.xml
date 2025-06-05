@@ -1,18 +1,108 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Audio - Tag - Lucaji</title>
+        <title>Audio - Tag - Milletgrain</title>
         <link>https://lucaji.github.io/tags/audio/</link>
-        <description>Audio - Tag - Lucaji</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucaji()mail(.)ru (Luca Cipressi)</managingEditor>
-            <webMaster>lucaji()mail(.)ru (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 30 Oct 2016 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://lucaji.github.io/tags/audio/" rel="self" type="application/rss+xml" /><item>
+        <description>Audio - Tag - Milletgrain</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi()gmail(.)com (Luca Cipressi)</managingEditor>
+            <webMaster>lucacipressi()gmail(.)com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 30 May 2023 13:44:23 &#43;0100</lastBuildDate><atom:link href="https://lucaji.github.io/tags/audio/" rel="self" type="application/rss+xml" /><item>
+    <title>Bass preamps: Bartolini MK-1 vs. MarkBass MB-1</title>
+    <link>https://lucaji.github.io/cort-bass-active-electronics/</link>
+    <pubDate>Tue, 30 May 2023 13:44:23 &#43;0100</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/cort-bass-active-electronics/</guid>
+    <description><![CDATA[<h1 id="mk-1-vs-mb-1">MK-1 vs. MB-1</h1>
+<p>I compared the inner electronics of two bass guitars made by <a href="https://www.cortguitars.com" target="_blank" rel="noopener noreferrer ">Cort</a> from the Artisan series: a B5 Element and a B4 Plus AS (Fretless).</p>
+<p>The 5-stringer is equipped with Bartolini MK-1 active electronics, while the fretless sports the MarkBass MB-1.</p>
+<div class="table-wrapper">
+  <table>
+    <thead>
+        <tr>
+            <th>SPECIFICATIONS</th>
+            <th>B5 Element</th>
+            <th>B4FL+AS</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Construction</td>
+            <td>Bolt-on</td>
+            <td>Bolt-on</td>
+        </tr>
+        <tr>
+            <td>Body</td>
+            <td>Mahogany (Ash top)</td>
+            <td>Swamp Ash</td>
+        </tr>
+        <tr>
+            <td>Neck</td>
+            <td>5pcs Walnut &amp; Panga Panga</td>
+            <td>Maple/Wenge, 1F 20.5mm, 12F 22mm</td>
+        </tr>
+        <tr>
+            <td>Fretboard</td>
+            <td>Roasted Maple</td>
+            <td>Panga Panga</td>
+        </tr>
+        <tr>
+            <td>Fretboard Radius</td>
+            <td>15.75&quot; (400mm)</td>
+            <td>n.a.</td>
+        </tr>
+        <tr>
+            <td>Frets</td>
+            <td>24</td>
+            <td>fretless 2 octaves</td>
+        </tr>
+        <tr>
+            <td>Scale</td>
+            <td>34&quot; (864mm)</td>
+            <td>34&quot; (864mm)</td>
+        </tr>
+        <tr>
+            <td>Tuners</td>
+            <td>Hipshot(r) Ultralite</td>
+            <td>Hipshot(r) Ultralite</td>
+        </tr>
+        <tr>
+            <td>Bridge</td>
+            <td>MetalCraft M5 - 18mm</td>
+            <td>EB12(4)</td>
+        </tr>
+        <tr>
+            <td>Pickups</td>
+            <td>Bartolini(r) MK-1 set</td>
+            <td>Bartolini(r) MK1-4/F &amp; MK1-4/R</td>
+        </tr>
+        <tr>
+            <td>Electronics</td>
+            <td>Bartolini MK-1</td>
+            <td>Markbass MB-1</td>
+        </tr>
+        <tr>
+            <td>Hardware Color</td>
+            <td>Black</td>
+            <td>Black</td>
+        </tr>
+        <tr>
+            <td>Strings</td>
+            <td>D&rsquo;Addario(r) EXL170-SSL</td>
+            <td>D&rsquo;Addario(r) EXL165 (105-045)</td>
+        </tr>
+    </tbody>
+  </table>
+</div>
+<p>Both guitars share the following characteristics too:</p>]]></description>
+</item>
+<item>
     <title>Restoration of an old open-air cinema PA</title>
     <link>https://lucaji.github.io/geloso-tube-amp-restoration/</link>
     <pubDate>Sun, 30 Oct 2016 00:00:00 &#43;0000</pubDate>
     <author>Luca Cipressi</author>
     <guid>https://lucaji.github.io/geloso-tube-amp-restoration/</guid>
-    <description><![CDATA[GELOSO Geloso, founded in 1931 by Giovanni Geloso, was an Italian manufacturer of radios, televisions, amplifiers, amateur radio receivers, audio equipment and electronic components. Its headquarters were situated in Milan, Viale Brenta 29.
-In 1931 the company started the production not only of radio sets but also most of the electronic components with which they were built and, over time, also developed and patented many others.
-After the Second World War, Geloso expanded and expanded his production, becoming from 1950 onwards, a point of reference for enthusiasts of consumer electronics and hobbyists.]]></description>
+    <description><![CDATA[<h1 id="geloso">GELOSO</h1>
+<p>Geloso, founded in 1931 by Giovanni Geloso, was an Italian manufacturer of radios, televisions, amplifiers, amateur radio receivers, audio equipment and electronic components. Its headquarters were situated in Milan, Viale Brenta 29.</p>
+<p>In 1931 the company started the production not only of radio sets but also most of the electronic components with which they were built and, over time, also developed and patented many others.</p>
+<p>After the Second World War, Geloso expanded and expanded his production, becoming from 1950 onwards, a point of reference for enthusiasts of consumer electronics and hobbyists.</p>]]></description>
 </item>
 <item>
     <title>Tube Amps Builds 🎸</title>
@@ -20,8 +110,9 @@ After the Second World War, Geloso expanded and expanded his production, becomin
     <pubDate>Mon, 19 Jan 2015 00:00:00 &#43;0000</pubDate>
     <author>Luca Cipressi</author>
     <guid>https://lucaji.github.io/tube-amps/</guid>
-    <description><![CDATA[Building Tube Amps Builds builds your knowledge and skills There are many many ways to build an amplifier, depending on money and time available, choosing the most expensive components, creating (or again, buy) a custom metal chassis (or have a friend that can make many as you want) with the objective to obtain a better build for the same price.
-Building tube amps is very rewarding, and can keep you busy with its fair amount of metalwork and various power tools, like folding machines, press, lathe, milling machines and uncountable hand tools.]]></description>
+    <description><![CDATA[<h1 id="building-tube-amps-builds-builds-your-knowledge-and-skills">Building Tube Amps Builds builds your knowledge and skills <i class="fa-solid fa-fire"></i></h1>
+<p>There are many many ways to build an amplifier, depending on money and time available, choosing the most expensive components, creating (or again, buy) a custom metal chassis (or have a friend that can make many as you want) with the objective to obtain a better build for the same price.</p>
+<p>Building tube amps is very rewarding, and can keep you busy with its fair amount of metalwork and various power tools, like folding machines, press, lathe, milling machines and uncountable hand tools. Finishing the build with spray paint, adding lettering, logos, design elements one can go on forever. Custom shop!</p>]]></description>
 </item>
 <item>
     <title>Diretta Iniezione</title>
@@ -29,8 +120,16 @@ Building tube amps is very rewarding, and can keep you busy with its fair amount
     <pubDate>Sat, 20 Sep 2014 00:00:00 &#43;0000</pubDate>
     <author>Luca Cipressi</author>
     <guid>https://lucaji.github.io/di-box/</guid>
-    <description><![CDATA[DI Box a simple audio preamplifier for dynamic microphones with internal noiseless power supply (AC powered).
-Class A FET input stage with high linearity and large bandwidth. XLR input with gain control Line output (balanced/unbalanced) low noise and low distortion high bandwidth Found in need to record sounds with a Shure SM58 into a computer, I decided to build my own little preamplifier so I could plug it to the Mac&rsquo;s line input jack and have a decent timbre and a low noise figure by choosing a voltage controlled amplifier using a single FET, well known for their tube-like sonority and their advantages over a current controller amp.]]></description>
+    <description><![CDATA[<h1 id="di-box">DI Box</h1>
+<p>a simple audio preamplifier for dynamic microphones with internal noiseless power supply (AC powered).</p>
+<ul>
+<li>Class A FET input stage with high linearity and large bandwidth.</li>
+<li>XLR input with gain control</li>
+<li>Line output (balanced/unbalanced)</li>
+<li>low noise and low distortion</li>
+<li>high bandwidth</li>
+</ul>
+<p>Found in need to record sounds with a Shure SM58 into a computer, I decided to build my own little preamplifier so I could plug it to the Mac&rsquo;s line input jack and have a decent timbre and a low noise figure by choosing a voltage controlled amplifier using a single FET, well known for their tube-like sonority and their advantages over a current controller amp.</p>]]></description>
 </item>
 <item>
     <title>Theremin</title>

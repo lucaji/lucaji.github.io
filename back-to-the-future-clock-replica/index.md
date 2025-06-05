@@ -5,7 +5,7 @@
 
 This is a semi-serious rendition of the story behind making this project:
 
-A replica of the time machine circuits from the **Back To The Future** blockbuster with talking alarm clock.
+A replica of the time machine circuits from the **Back To The Future** blockbuster equipped with a talking alarm clock.
 
 Apart from actual time travel, which might be even possible depending on your time-zone, internet provider and your skills in creating your own [flux-capacitor](https://backtothefuture.fandom.com/wiki/Flux_capacitor), it works as a nice talking alarm clock with the most famous quotes from the original movie.
 

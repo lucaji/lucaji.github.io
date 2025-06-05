@@ -1,10 +1,18 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Categories - Category - Lucaji</title>
+        <title>Categories - Category - Milletgrain</title>
         <link>https://lucaji.github.io/categories/</link>
-        <description>Categories - Category - Lucaji</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucaji()mail(.)ru (Luca Cipressi)</managingEditor>
-            <webMaster>lucaji()mail(.)ru (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 30 May 2023 13:44:23 &#43;0100</lastBuildDate><atom:link href="https://lucaji.github.io/categories/" rel="self" type="application/rss+xml" /><item>
+        <description>Categories - Category - Milletgrain</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi()gmail(.)com (Luca Cipressi)</managingEditor>
+            <webMaster>lucacipressi()gmail(.)com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 30 May 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://lucaji.github.io/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>SONGS</title>
+    <link>https://lucaji.github.io/categories/songs/</link>
+    <pubDate>Fri, 30 May 2025 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/categories/songs/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Electronics</title>
     <link>https://lucaji.github.io/categories/electronics/</link>
     <pubDate>Tue, 30 May 2023 13:44:23 &#43;0100</pubDate>
@@ -34,6 +42,14 @@
     <pubDate>Thu, 15 Jan 2015 00:00:00 &#43;0000</pubDate>
     <author>Luca Cipressi</author>
     <guid>https://lucaji.github.io/categories/media/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Apps</title>
+    <link>https://lucaji.github.io/categories/apps/</link>
+    <pubDate>Mon, 12 Jan 2015 13:44:23 &#43;0100</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/categories/apps/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

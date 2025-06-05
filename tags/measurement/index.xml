@@ -1,17 +1,28 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Measurement - Tag - Lucaji</title>
+        <title>Measurement - Tag - Milletgrain</title>
         <link>https://lucaji.github.io/tags/measurement/</link>
-        <description>Measurement - Tag - Lucaji</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucaji()mail(.)ru (Luca Cipressi)</managingEditor>
-            <webMaster>lucaji()mail(.)ru (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 19 Jan 1996 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://lucaji.github.io/tags/measurement/" rel="self" type="application/rss+xml" /><item>
+        <description>Measurement - Tag - Milletgrain</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi()gmail(.)com (Luca Cipressi)</managingEditor>
+            <webMaster>lucacipressi()gmail(.)com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 19 Jan 1996 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://lucaji.github.io/tags/measurement/" rel="self" type="application/rss+xml" /><item>
     <title>Digital Tacho for a Scooter</title>
     <link>https://lucaji.github.io/speedometer/</link>
     <pubDate>Fri, 19 Jan 1996 00:00:00 &#43;0000</pubDate>
     <author>Luca Cipressi</author>
     <guid>https://lucaji.github.io/speedometer/</guid>
-    <description><![CDATA[A relic project from late &rsquo;90s Info This project dates back to my high-school days and albeit it should still be working, the original display board is missing. An effort to restore it to working conditions might be made in the future. The Scooter &ldquo;Car&rsquo;s got a lot of pickup.&rdquo;
-As every teenager could enjoy riding a 50 cubic centimeters (1.7 cubic feet) scooter, I was no exception back in the schooldays.]]></description>
+    <description><![CDATA[<h1 id="a-relic-project-from-late-90s">A relic project from late &rsquo;90s</h1>
+<div class="details admonition info open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-info-circle fa-fw" aria-hidden="true"></i>Info<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">This project dates back to my high-school days and albeit it should still be working, the original display board is missing. An effort to restore it to working conditions might be made in the future.</div>
+        </div>
+    </div>
+<h2 id="the-scooter">The Scooter</h2>
+<blockquote>
+<p>&ldquo;Car&rsquo;s got a lot of pickup.&rdquo;</p></blockquote>
+<p>As every teenager could enjoy riding a 50 cubic centimeters (1.7 cubic feet) scooter, I was no exception back in the schooldays. Like others, mine too was almost completely modified and not officially road-worthy anymore.</p>]]></description>
 </item>
 </channel>
 </rss>

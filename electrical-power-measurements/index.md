@@ -14,7 +14,7 @@ It relies on an Telnet client which periodically queries the GPM to get the exac
 
 If you have a GPM8310 laying around, you can try-out this software utility called [GPMLink](https://github.com/lucaji/GPMLink) whose source code is available at the link.
 
-A complete build is not provided yet, but shall be pretty easy to build it yourself using Visual Studio Community.
+A complete build is not provided yet, but shall be pretty easy to build it yourself using Visual Studio Community or any other IDE.
 
 # GPMLink
 

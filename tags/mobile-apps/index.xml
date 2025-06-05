@@ -1,19 +1,110 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Mobile Apps - Tag - Lucaji</title>
+        <title>Mobile Apps - Tag - Milletgrain</title>
         <link>https://lucaji.github.io/tags/mobile-apps/</link>
-        <description>Mobile Apps - Tag - Lucaji</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucaji()mail(.)ru (Luca Cipressi)</managingEditor>
-            <webMaster>lucaji()mail(.)ru (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 12 Jan 2015 13:44:23 &#43;0100</lastBuildDate><atom:link href="https://lucaji.github.io/tags/mobile-apps/" rel="self" type="application/rss+xml" /><item>
+        <description>Mobile Apps - Tag - Milletgrain</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi()gmail(.)com (Luca Cipressi)</managingEditor>
+            <webMaster>lucacipressi()gmail(.)com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 12 Jan 2015 13:44:23 &#43;0100</lastBuildDate><atom:link href="https://lucaji.github.io/tags/mobile-apps/" rel="self" type="application/rss+xml" /><item>
+    <title>Chatea</title>
+    <link>https://lucaji.github.io/app-chatea/</link>
+    <pubDate>Mon, 12 Jan 2015 13:44:23 &#43;0100</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/app-chatea/</guid>
+    <description><![CDATA[<p>For some years I worked with and published mobile apps. Albeit mostly on the iOS Apple platform, I ventured into porting onto Android (JAVA, Kotlin) as well.
+This post lists the apps I worked on, worth of being published. Make sure you check those open-source ones, as their code is available for download.</p>
+<blockquote>
+<p>Modern software programs usually known as Apps&hellip;</p></blockquote>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>Unless otherwise stated, I took care of</p>]]></description>
+</item>
+<item>
     <title>Mobile Apps</title>
     <link>https://lucaji.github.io/apps/</link>
     <pubDate>Mon, 12 Jan 2015 13:44:23 &#43;0100</pubDate>
     <author>Luca Cipressi</author>
     <guid>https://lucaji.github.io/apps/</guid>
-    <description><![CDATA[For some years I worked with and published mobile apps. Albeit mostly on the iOS Apple platform, I ventured into porting onto Android (JAVA, Kotlin) as well. This post lists the apps I worked on, worth of being published. Make sure you check those open-source ones, as their code is available for download.
-Modern software programs usually known as Apps&hellip;
-Tip Unless otherwise stated, I took care of
-designing all the graphical elements of the apps designing the UI/UX creating the promo videos writing/arranging the musics everything else ANTOINE: that little Prince 🤴 This text reader App implements a pretty new and interactive paradigm to enjoy a written story.]]></description>
+    <description><![CDATA[<p>For some years I worked with and published mobile apps. Albeit mostly on the iOS Apple platform, I ventured into porting onto Android (JAVA, Kotlin) as well.
+This post lists the apps I worked on, worth of being published. Make sure you check those open-source ones, as their code is available for download.</p>
+<blockquote>
+<p>Modern software programs usually known as Apps&hellip;</p></blockquote>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>Unless otherwise stated, I took care of</p>]]></description>
+</item>
+<item>
+    <title>Mytuna</title>
+    <link>https://lucaji.github.io/app-mytuna/</link>
+    <pubDate>Mon, 12 Jan 2015 13:44:23 &#43;0100</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/app-mytuna/</guid>
+    <description><![CDATA[<p>For some years I worked with and published mobile apps. Albeit mostly on the iOS Apple platform, I ventured into porting onto Android (JAVA, Kotlin) as well.
+This post lists the apps I worked on, worth of being published. Make sure you check those open-source ones, as their code is available for download.</p>
+<blockquote>
+<p>Modern software programs usually known as Apps&hellip;</p></blockquote>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>Unless otherwise stated, I took care of</p>]]></description>
+</item>
+<item>
+    <title>Shari</title>
+    <link>https://lucaji.github.io/app-shari/</link>
+    <pubDate>Mon, 12 Jan 2015 13:44:23 &#43;0100</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/app-shari/</guid>
+    <description><![CDATA[<p>For some years I worked with and published mobile apps. Albeit mostly on the iOS Apple platform, I ventured into porting onto Android (JAVA, Kotlin) as well.
+This post lists the apps I worked on, worth of being published. Make sure you check those open-source ones, as their code is available for download.</p>
+<blockquote>
+<p>Modern software programs usually known as Apps&hellip;</p></blockquote>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>Unless otherwise stated, I took care of</p>]]></description>
+</item>
+<item>
+    <title>Startrec</title>
+    <link>https://lucaji.github.io/app-startrec/</link>
+    <pubDate>Mon, 12 Jan 2015 13:44:23 &#43;0100</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/app-startrec/</guid>
+    <description><![CDATA[<p>For some years I worked with and published mobile apps. Albeit mostly on the iOS Apple platform, I ventured into porting onto Android (JAVA, Kotlin) as well.
+This post lists the apps I worked on, worth of being published. Make sure you check those open-source ones, as their code is available for download.</p>
+<blockquote>
+<p>Modern software programs usually known as Apps&hellip;</p></blockquote>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>Unless otherwise stated, I took care of</p>]]></description>
+</item>
+<item>
+    <title>ToneTuna</title>
+    <link>https://lucaji.github.io/app-tonetuna/</link>
+    <pubDate>Mon, 12 Jan 2015 13:44:23 &#43;0100</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/app-tonetuna/</guid>
+    <description><![CDATA[<p>For some years I worked with and published mobile apps. Albeit mostly on the iOS Apple platform, I ventured into porting onto Android (JAVA, Kotlin) as well.
+This post lists the apps I worked on, worth of being published. Make sure you check those open-source ones, as their code is available for download.</p>
+<blockquote>
+<p>Modern software programs usually known as Apps&hellip;</p></blockquote>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>Unless otherwise stated, I took care of</p>]]></description>
 </item>
 </channel>
 </rss>

@@ -3,7 +3,7 @@
 
 I designed the cover for this enthralling **cyberzen** story, rich in obfuscated structures that only electricity can uncover.
 
-<!--more-->
+> Rome, New York, Bombay. What will be the next target? In a scenario á-la Blade Runner, in a time marked by attacks and dominated by the logics of psycho-empowering games, every experience is transformed into Agone and every gamer in Ludopath. The jingle of the new role-playing game is a song by the TV musical "Fame", inspired by the verses of Walt Whitman. Among these verses lies the secret of Agent Alpha's mission. The rebel player, determined to neutralize the mother-company and to discover the identity of the powerful demiurge, will have to deal with a fearsome opponent sent to flush her out, some mercenaries and a series of events created on-spot by the game. Among excellent university campuses, historic cities and metropolis with gray tones, all is played without the exclusion of blows. Alpha has a precious ally, a valid Master and a secret and very powerful energy resource, which she does not yet know. She will first have to sing the electric body. Finalist book at BUK Modena 2017.
 
 # Prologue
 
@@ -11,7 +11,7 @@ The Author of this story had clear ideas about how the cover should look like. T
 
 - She said the story and the cover were to be cast within a city skyline.
 - Math formulas and expressions should have popped around, in a similar way to The Matrix.
-- The catch phrase "Mata-Hari non è mai esistita" needed to be highlighted.
+- The catch phrase "Mata-Hari non è mai esistita - Mata-Hari has never existed." needed to be highlighted.
 - Duality and Binary (plus and minus, opposites, extremes, etc.) are part of the story she'd like to see in the cover image as well.
 
 ## Assembling the Cover
