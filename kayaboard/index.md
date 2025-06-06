@@ -1,7 +1,6 @@
 # KAYABOARD - mag-lev organ keyboard (POC)
 
 
-# KAYABOARD
 
 This is a Proof-Of-Concept of an **organ keyboard** using **magnets** instead of springs to obtain a nice upward release action and a decent downward counter-pressure when playing.
 
@@ -9,6 +8,7 @@ Designing a musical-instrument keyboard confronted me with some ergonomics consi
 I did some research on magnets as well, to have a better understanding of their force irradiation and how to select them to save space, weight and achieve the best feeling when playing.
 
 {{< gallery match="kayaboard*" sortOrder="desc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}
+
 
 ## The model
 
@@ -19,7 +19,7 @@ It is by any means totally different from an organ manual, was the original insp
 {{< image src="grand_piano_action.jpg" caption="a Grand Piano mechanical action." >}}
 
 
-## The Size of the Piano Keyboard
+## Insights on the real Piano action
 
 {{< image src="Artboard1.jpg" caption="Spacing 1/2." >}}
 
@@ -81,3 +81,20 @@ Three of the white keys would be 24 mm wide at the front, four would be 23 mm wi
 The spacings between successive mechanisms would be 14 mm in eight cases, and 13 mm in four cases. The condition for symmetry is that the C sharp to D and D to D sharp spacings both be the same, as those for G to G sharp, and G sharp to A, as well as the rest of the spacings lining up.
 The diagram on the left, drawn to scale, shows how that can be achieved with the maximally-even spacing of 14 mm, 14 mm, and 13 mm distances repeating in a cycle of three.
 So there you have it, a piano keyboard of standard size that may be drawn with an ordinary ruler.
+
+
+## Engineering Notes
+
+- **Key Layout**: Follows 7 white / 5 black key model per octave. Total key travel is approx. 10–12 mm.
+- **Magnets**: Neodymium disc magnets provide upward force. By spacing opposing polarities, we achieve a ‘levitation’ feel.
+- **Sensor Interface**: IR emitter/photodiode pairs across each key slot.
+- **Controller**: STM32 with ADC and digital input scanning.
+- **Output**: MIDI over USB (USB CDC) or traditional 5-pin DIN MIDI.
+
+{{< image src="Artboard3.jpg" caption="Spacing 3." >}}
+
+## Conclusion
+
+The Kayaboard combines magnetic engineering, optical sensing, and precise key sizing to create a unique mechanical keyboard instrument. Its modularity and tweakable feel make it ideal for experimental setups, organ emulators, or custom MIDI rigs.
+
+More updates to follow as the firmware matures and the enclosure evolves!

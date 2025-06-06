@@ -3,8 +3,8 @@
         <title>Diploma - Tag - Milletgrain</title>
         <link>https://lucaji.github.io/tags/diploma/</link>
         <description>Diploma - Tag - Milletgrain</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi()gmail(.)com (Luca Cipressi)</managingEditor>
-            <webMaster>lucacipressi()gmail(.)com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 10 Jun 2000 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://lucaji.github.io/tags/diploma/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi@gmail.com (Luca Cipressi)</managingEditor>
+            <webMaster>lucacipressi@gmail.com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 10 Jun 2000 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://lucaji.github.io/tags/diploma/" rel="self" type="application/rss+xml" /><item>
     <title>Visual Communication and Video Acquisition</title>
     <link>https://lucaji.github.io/diploma/</link>
     <pubDate>Sat, 10 Jun 2000 00:00:00 &#43;0000</pubDate>
@@ -12,9 +12,7 @@
     <guid>https://lucaji.github.io/diploma/</guid>
     <description><![CDATA[<h1 id="foreword">Foreword</h1>
 <p>This is a transcription of my Diploma thesis simply titled &ldquo;<strong>Visual Communication</strong>&rdquo; written in June 2000.</p>
-<p>The topic is woven around Visual Communication, an emerging trend in computer science in those years.
-Personal computers were just beginning to gain more computing power, little by little, slowly approaching that of mainframes of the era. Digital Signal Processing was out-of-the-question for a little home computer.
-But the direction was set, and soon enough, some decades later we can do the unthinkable on our notebooks now.</p>]]></description>
+<p>At the time, visual communication was emerging as a compelling and novel field within computer science. Personal computers were just beginning to gain enough processing power to approach — albeit slowly — the capabilities of the mainframes of the era. Digital signal processing was still out of reach for home computers, but the direction was clear: we were heading into a visual era. A few decades later, the “unthinkable” can now be performed on a standard notebook.</p>]]></description>
 </item>
 </channel>
 </rss>

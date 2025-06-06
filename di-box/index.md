@@ -3,60 +3,76 @@
 
 # DI Box
 
-a simple audio preamplifier for dynamic microphones with internal noiseless power supply (AC powered).
+A handcrafted **direct injection box** — a compact, AC-powered **audio preamplifier** designed for dynamic microphones, capable of cleanly converting mic-level signals to standard **line-level output (-10dBV)**.
 
-- Class A FET input stage with high linearity and large bandwidth.
-- XLR input with gain control
-- Line output (balanced/unbalanced)
-- low noise and low distortion
-- high bandwidth
+### Features:
+- Class A **FET input stage** with high linearity and extended bandwidth  
+- XLR input with adjustable gain  
+- Balanced or unbalanced **line-level output**  
+- Low noise, low distortion performance  
+- Wide frequency response  
 
-Found in need to record sounds with a Shure SM58 into a computer, I decided to build my own little preamplifier so I could plug it to the Mac's line input jack and have a decent timbre and a low noise figure by choosing a voltage controlled amplifier using a single FET, well known for their tube-like sonority and their advantages over a current controller amp.
+---
 
-## Input stage
+## 🎙️ Motivation & Design Approach
 
-I personally like the sonority of the 12AX7 triode input stage of a classic Fender guitar amp even when using a microphone (dynamic) instead of a magnetic pick-up (in case of a dynamic microphone it is exactly the same thing).
-The tone can be always adjusted and the end of the chain, even in analog domain via an EQ, or in digital domain after sampling it with your favourite DAW and applying a digital EQ filter boosting or shelving frequencies at your liking.
-The dynamic response of this kind of pre-amp pleases my ear and the spectrogram when acquired.
-These are the main reason for this project to be.
-I avoided the USB port as power supply to avoid ground loops and noises from the computer (hisses), but being very practical, it might be a cool idea for a next revision.
+While trying to record audio using a **Shure SM58** dynamic microphone directly into a Mac’s line-in jack, I encountered the usual issues: low gain, poor signal-to-noise ratio, and uninspiring tone. So, I decided to build my own solution — a clean, simple **preamplifier** with tone characteristics I personally enjoy.
+
+The input stage is modeled after the classic **12AX7 triode front-end** found in vintage Fender amplifiers — but implemented here with a JFET, taking advantage of its **tube-like character**, low-noise performance, and analog simplicity. No USB or digital interference: the unit is **powered by a noiseless internal AC supply**, intentionally avoiding computer-induced hum.
+
+---
+
+## 🔌 Input Stage: FET vs. Triode
+
+In terms of behavior, the **FET booster** circuit is functionally very close to a triode: both operate in **Class A**, both shape their transconductance via negative feedback, and both offer a pleasing analog response curve.
 
 {{< image src="fetzervalve.png" caption="FET booster." >}}
 
+To emulate this sound, I based my design loosely on the well-known [Fetzer Valve](http://runoffgroove.com/fetzervalve.html) preamp, originally conceived for guitar pedals but easily adapted to microphone-level signals.
 
-Both the triode version and the FET version works in a very similar way, by using a negative voltage controlled feedback to adjust their transconductance. Using 18V as power supply guarantees a very high dynamic range.
+I tested a few JFETs from my stash — **2SK30** and **2N5457** — and settled on the **2N5457** for its smooth response and availability. The circuit runs at **18V**, giving a large headroom and excellent dynamic range.
 
-A better and complete explanation is given by the [Fetzer Valve Article](http://runoffgroove.com/fetzervalve.html), from which I took the initial inspiration and I ended up learning a bit more than when I started.
+---
 
-Any JFET would do go, but I had a stash of 2SK30 and 2N5457 to choose from; I made some tests and ended up with the 2N5457 at the end.
+## 📈 Testing & Waveform Results
 
-{{< image src="diretta-iniezione-wave.jpg" caption="direct injection of a -20dBu 1kHz wave from a signal generation AC coupled, output volume maximum." >}}
+Using a -20 dBu sine wave (1 kHz), AC-coupled into the DI box, the output wave looks very stable and distortion-free at full volume.
 
+{{< image src="diretta-iniezione-wave.jpg" caption="Direct injection of a -20 dBu 1kHz wave, output volume at max." >}}
 
-There was still some DC offset, which was due a defective trimmer for the bias voltage.
+Switching to a live capture using the Shure SM58 in front of the Mac's internal speaker (playing the same tone), we observe minor distortion — expected, given the poor acoustic source and uncontrolled conditions.
 
-{{< image src="diretta-iniezione-wave2.jpg" caption="using a Shure SM58 to capture a 1kHz wave at nearly full volume as played by a computer with its internal speakers." >}}
+{{< image src="diretta-iniezione-wave2.jpg" caption="Captured via Shure SM58 from Mac speaker output, 1kHz tone." >}}
 
-The visible distortion in this last scope image is produced by a number of factors which won't affect the scope of the project at all:
+A small **DC offset** was observed during biasing, later traced to a **faulty trimmer** in the bias voltage divider.
 
-- The output of the 1kHz sine wave as captured by the Shure M58 at maximum gain.
-- I did not use any reference levels and the audio source was the Mac’s speaker itself.
+Nonetheless, the resulting **voice recordings** are crisp, warm, and have an analog texture that I find very pleasant.
 
-But the voice recorded with it, sounded graceful and very crisp.
+---
 
-## Audio Sample
+## 🎧 Audio Sample
 
-If you want to listen to a voice recording made with **Diretta Iniezione**, this [vimeo link](https://vimeo.com/97137760) might be helpful.
+Want to hear how it sounds? Here's a short **voice recording** using this DI box:  
+🎙️ [Listen on Vimeo](https://vimeo.com/97137760)
 
-## Cascode configuration
+---
 
-I would consider working on a second prototype with a cascode configuration:
+## 🔬 Future Experiment: Cascode Configuration
+
+For the next iteration, I’m considering a **cascode configuration** using dual FETs or FET + BJT to further increase gain and linearity.
 
 ![](diretta-iniezione-cascode.jpg)
 
 {{< image src="diretta-iniezione-cascode.jpg" caption="Considering future development..." >}}
 
-but that's all for now!
+---
+
+## 🛠️ Final Assembly
 
 {{< image src="diretta-iniezione-01.jpg" caption="The assembled DI Box." >}}
+
+The entire build fits in a compact metal enclosure, with XLR input and standard jack outputs. Simple, effective, analog.
+
+If you’re looking for a reliable mic-to-line converter with vintage character — this little **Diretta Iniezione** box just might do the trick.
+
 

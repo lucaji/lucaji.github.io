@@ -3,26 +3,24 @@
         <title>Hardware Builds - Category - Milletgrain</title>
         <link>https://lucaji.github.io/categories/hardware-builds/</link>
         <description>Hardware Builds - Category - Milletgrain</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi()gmail(.)com (Luca Cipressi)</managingEditor>
-            <webMaster>lucacipressi()gmail(.)com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 02 Jul 2020 11:04:49 &#43;0800</lastBuildDate><atom:link href="https://lucaji.github.io/categories/hardware-builds/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi@gmail.com (Luca Cipressi)</managingEditor>
+            <webMaster>lucacipressi@gmail.com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 02 Jul 2020 11:04:49 &#43;0800</lastBuildDate><atom:link href="https://lucaji.github.io/categories/hardware-builds/" rel="self" type="application/rss+xml" /><item>
     <title>KAYABOARD - mag-lev organ keyboard (POC)</title>
     <link>https://lucaji.github.io/kayaboard/</link>
     <pubDate>Thu, 02 Jul 2020 11:04:49 &#43;0800</pubDate>
     <author>Luca Cipressi</author>
     <guid>https://lucaji.github.io/kayaboard/</guid>
-    <description><![CDATA[<h1 id="kayaboard">KAYABOARD</h1>
-<p>This is a Proof-Of-Concept of an <strong>organ keyboard</strong> using <strong>magnets</strong> instead of springs to obtain a nice upward release action and a decent downward counter-pressure when playing.</p>
+    <description><![CDATA[<p>This is a Proof-Of-Concept of an <strong>organ keyboard</strong> using <strong>magnets</strong> instead of springs to obtain a nice upward release action and a decent downward counter-pressure when playing.</p>
 <p>Designing a musical-instrument keyboard confronted me with some ergonomics considerations and material choices.
 I did some research on magnets as well, to have a better understanding of their force irradiation and how to select them to save space, weight and achieve the best feeling when playing.</p>]]></description>
 </item>
 <item>
-    <title>Tube Amps Builds 🎸</title>
+    <title>DIY Tube Amps Builds 🎸</title>
     <link>https://lucaji.github.io/tube-amps/</link>
     <pubDate>Mon, 19 Jan 2015 00:00:00 &#43;0000</pubDate>
     <author>Luca Cipressi</author>
     <guid>https://lucaji.github.io/tube-amps/</guid>
-    <description><![CDATA[<h1 id="building-tube-amps-builds-builds-your-knowledge-and-skills">Building Tube Amps Builds builds your knowledge and skills <i class="fa-solid fa-fire"></i></h1>
-<p>There are many many ways to build an amplifier, depending on money and time available, choosing the most expensive components, creating (or again, buy) a custom metal chassis (or have a friend that can make many as you want) with the objective to obtain a better build for the same price.</p>
+    <description><![CDATA[<p>There are many many ways to build an amplifier, depending on money and time available, choosing the most expensive components, creating (or again, buy) a custom metal chassis (or have a friend that can make many as you want) with the objective to obtain a better build for the same price.</p>
 <p>Building tube amps is very rewarding, and can keep you busy with its fair amount of metalwork and various power tools, like folding machines, press, lathe, milling machines and uncountable hand tools. Finishing the build with spray paint, adding lettering, logos, design elements one can go on forever. Custom shop!</p>]]></description>
 </item>
 <item>
@@ -32,15 +30,18 @@ I did some research on magnets as well, to have a better understanding of their 
     <author>Luca Cipressi</author>
     <guid>https://lucaji.github.io/di-box/</guid>
     <description><![CDATA[<h1 id="di-box">DI Box</h1>
-<p>a simple audio preamplifier for dynamic microphones with internal noiseless power supply (AC powered).</p>
+<p>A handcrafted <strong>direct injection box</strong> — a compact, AC-powered <strong>audio preamplifier</strong> designed for dynamic microphones, capable of cleanly converting mic-level signals to standard <strong>line-level output (-10dBV)</strong>.</p>
+<h3 id="features">Features:</h3>
 <ul>
-<li>Class A FET input stage with high linearity and large bandwidth.</li>
-<li>XLR input with gain control</li>
-<li>Line output (balanced/unbalanced)</li>
-<li>low noise and low distortion</li>
-<li>high bandwidth</li>
+<li>Class A <strong>FET input stage</strong> with high linearity and extended bandwidth</li>
+<li>XLR input with adjustable gain</li>
+<li>Balanced or unbalanced <strong>line-level output</strong></li>
+<li>Low noise, low distortion performance</li>
+<li>Wide frequency response</li>
 </ul>
-<p>Found in need to record sounds with a Shure SM58 into a computer, I decided to build my own little preamplifier so I could plug it to the Mac&rsquo;s line input jack and have a decent timbre and a low noise figure by choosing a voltage controlled amplifier using a single FET, well known for their tube-like sonority and their advantages over a current controller amp.</p>]]></description>
+<hr>
+<h2 id="-motivation--design-approach">🎙️ Motivation &amp; Design Approach</h2>
+<p>While trying to record audio using a <strong>Shure SM58</strong> dynamic microphone directly into a Mac’s line-in jack, I encountered the usual issues: low gain, poor signal-to-noise ratio, and uninspiring tone. So, I decided to build my own solution — a clean, simple <strong>preamplifier</strong> with tone characteristics I personally enjoy.</p>]]></description>
 </item>
 <item>
     <title>DeLorean Time Circuits</title>
@@ -48,10 +49,10 @@ I did some research on magnets as well, to have a better understanding of their 
     <pubDate>Mon, 07 Apr 2014 00:00:00 &#43;0000</pubDate>
     <author>Luca Cipressi</author>
     <guid>https://lucaji.github.io/back-to-the-future-clock-replica/</guid>
-    <description><![CDATA[<h1 id="bttf">BTTF</h1>
-<p>This is a semi-serious rendition of the story behind making this project:</p>
-<p>A replica of the time machine circuits from the <strong>Back To The Future</strong> blockbuster equipped with a talking alarm clock.</p>
-<p>Apart from actual time travel, which might be even possible depending on your time-zone, internet provider and your skills in creating your own <a href="https://backtothefuture.fandom.com/wiki/Flux_capacitor" target="_blank" rel="noopener noreferrer ">flux-capacitor</a>, it works as a nice talking alarm clock with the most famous quotes from the original movie.</p>]]></description>
+    <description><![CDATA[<h1 id="back-to-the-future">Back To The Future</h1>
+<p>This is a semi-serious rendition of the story behind the making of this project —<br>
+a <strong>replica of the Time Circuits from <em>Back to the Future</em></strong>, turned into a <strong>talking alarm clock</strong>.</p>
+<p>Aside from actual time travel (which may or may not be possible depending on your time zone, ISP, and your ability to construct a <a href="https://backtothefuture.fandom.com/wiki/Flux_capacitor" target="_blank" rel="noopener noreferrer ">flux capacitor</a>), it works beautifully as a nostalgic gadget, delivering iconic quotes from the film.</p>]]></description>
 </item>
 <item>
     <title>Theremin</title>
@@ -68,7 +69,7 @@ I did some research on magnets as well, to have a better understanding of their 
     <author>Luca Cipressi</author>
     <guid>https://lucaji.github.io/leslie-speaker/</guid>
     <description><![CDATA[<blockquote>
-<p>This article explains the principles behind Leslie type loudspeakers and goes on to describe the construction of a generously proportioned system intended for use with a home constructed electronic organ. The article could provide the starting point from which individual readers could build up a rotating loudspeaker system to suit their own particular requirements.</p></blockquote>
+<p>This article explains the principles behind Leslie-type loudspeakers and goes on to describe the construction of a generously proportioned system intended for use with a home constructed electronic organ. The article could provide the starting point from which individual readers could build up a rotating loudspeaker system to suit their own particular requirements.</p></blockquote>
 <h1 id="rotating-system-loudspeakers-for-electronic-organs">Rotating System Loudspeakers for Electronic Organs</h1>
 <p>The most obvious and the routine method of radiating sound from an electronic organ is by means of one or more loudspeakers, suitably and conventionally baffled. In a single-unit instrument, the loudspeaker(s) are mounted behind cutouts, usually in the front panel below the keyboard and above the pedal clavier.
 While compact and convenient, this arrangement usually suffers some limitation in the effectiveness of the baffling which can be provided and the efficiency with which the sound can be propagated.</p>]]></description>

@@ -3,15 +3,14 @@
         <title>Hammond - Tag - Milletgrain</title>
         <link>https://lucaji.github.io/tags/hammond/</link>
         <description>Hammond - Tag - Milletgrain</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi()gmail(.)com (Luca Cipressi)</managingEditor>
-            <webMaster>lucacipressi()gmail(.)com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 02 Jul 2020 11:04:49 &#43;0800</lastBuildDate><atom:link href="https://lucaji.github.io/tags/hammond/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi@gmail.com (Luca Cipressi)</managingEditor>
+            <webMaster>lucacipressi@gmail.com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 02 Jul 2020 11:04:49 &#43;0800</lastBuildDate><atom:link href="https://lucaji.github.io/tags/hammond/" rel="self" type="application/rss+xml" /><item>
     <title>KAYABOARD - mag-lev organ keyboard (POC)</title>
     <link>https://lucaji.github.io/kayaboard/</link>
     <pubDate>Thu, 02 Jul 2020 11:04:49 &#43;0800</pubDate>
     <author>Luca Cipressi</author>
     <guid>https://lucaji.github.io/kayaboard/</guid>
-    <description><![CDATA[<h1 id="kayaboard">KAYABOARD</h1>
-<p>This is a Proof-Of-Concept of an <strong>organ keyboard</strong> using <strong>magnets</strong> instead of springs to obtain a nice upward release action and a decent downward counter-pressure when playing.</p>
+    <description><![CDATA[<p>This is a Proof-Of-Concept of an <strong>organ keyboard</strong> using <strong>magnets</strong> instead of springs to obtain a nice upward release action and a decent downward counter-pressure when playing.</p>
 <p>Designing a musical-instrument keyboard confronted me with some ergonomics considerations and material choices.
 I did some research on magnets as well, to have a better understanding of their force irradiation and how to select them to save space, weight and achieve the best feeling when playing.</p>]]></description>
 </item>
@@ -21,13 +20,9 @@ I did some research on magnets as well, to have a better understanding of their 
     <pubDate>Fri, 23 Nov 2007 09:17:17 -0800</pubDate>
     <author>Luca Cipressi</author>
     <guid>https://lucaji.github.io/firemakers-metal-empire/</guid>
-    <description><![CDATA[<p>In between my travels I participated as guest keyboard player for a metal-band project while they were recording and releasing their album &ldquo;Metal Empire&rdquo;, the band name was <a href="https://www.facebook.com/firemakersmetalband" target="_blank" rel="noopener noreferrer ">Fire Makers</a>.</p>
-<p>I was very impressed by the lead singer, as it turned out he was <a href="https://en.wikipedia.org/wiki/Eugent_Bushpepa" target="_blank" rel="noopener noreferrer ">Eugent Bushpepa</a>.</p>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/WdRE4tFt2H4?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
-    </div>
-
-<p>For this recording I played the organ parts on a Roland VK-8 and the piano/synths part on a GEM S3.</p>]]></description>
+    <description><![CDATA[<h1 id="fire-makers--metal-empire">Fire Makers – Metal Empire</h1>
+<p>In 2005, during a gap between travels and projects, I had the chance to collaborate as a guest keyboardist for an independent metal band named <a href="https://www.facebook.com/firemakersmetalband" target="_blank" rel="noopener noreferrer ">Fire Makers</a>. They were in the process of recording their debut album <em>Metal Empire</em>, and I was invited to contribute organ, piano, and synthesizer parts on several tracks.</p>
+<p>It turned out to be an electrifying and high-adrenaline experience. What struck me most was the stunning voice of their lead vocalist at the time—none other than <a href="https://en.wikipedia.org/wiki/Eugent_Bushpepa" target="_blank" rel="noopener noreferrer ">Eugent Bushpepa</a>, who would later rise to prominence on international stages.</p>]]></description>
 </item>
 <item>
     <title>The Leslie Speaker</title>
@@ -36,7 +31,7 @@ I did some research on magnets as well, to have a better understanding of their 
     <author>Luca Cipressi</author>
     <guid>https://lucaji.github.io/leslie-speaker/</guid>
     <description><![CDATA[<blockquote>
-<p>This article explains the principles behind Leslie type loudspeakers and goes on to describe the construction of a generously proportioned system intended for use with a home constructed electronic organ. The article could provide the starting point from which individual readers could build up a rotating loudspeaker system to suit their own particular requirements.</p></blockquote>
+<p>This article explains the principles behind Leslie-type loudspeakers and goes on to describe the construction of a generously proportioned system intended for use with a home constructed electronic organ. The article could provide the starting point from which individual readers could build up a rotating loudspeaker system to suit their own particular requirements.</p></blockquote>
 <h1 id="rotating-system-loudspeakers-for-electronic-organs">Rotating System Loudspeakers for Electronic Organs</h1>
 <p>The most obvious and the routine method of radiating sound from an electronic organ is by means of one or more loudspeakers, suitably and conventionally baffled. In a single-unit instrument, the loudspeaker(s) are mounted behind cutouts, usually in the front panel below the keyboard and above the pedal clavier.
 While compact and convenient, this arrangement usually suffers some limitation in the effectiveness of the baffling which can be provided and the efficiency with which the sound can be propagated.</p>]]></description>

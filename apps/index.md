@@ -1,67 +1,66 @@
 # Mobile Apps
 
 
-For some years I worked with and published mobile apps. Albeit mostly on the iOS Apple platform, I ventured into porting onto Android (JAVA, Kotlin) as well.
-This post lists the apps I worked on, worth of being published. Make sure you check those open-source ones, as their code is available for download.
+Over the years, I’ve developed and published a number of mobile apps — primarily for **Apple iOS**, though I’ve also ventured into **Android** using **Java** and **Kotlin**. This post offers a curated list of those projects that I believe are most worth sharing.
 
-> Modern software programs usually known as Apps...
+Some of these apps are **open source**, and I’ve linked to their public repositories where available — feel free to explore, fork, or contribute.
+
+> What we now call “apps” began as simple, standalone tools. Here are mine — crafted from scratch, designed with care, and sometimes a bit of eccentric joy.
 
 {{< admonition type=tip >}}
-
-Unless otherwise stated, I took care of
-- designing all the graphical elements of the apps
-- designing the UI/UX
-- creating the promo videos
-- writing/arranging the musics
-- everything else
-
+Unless otherwise noted, I was responsible for:
+- UI/UX and graphic design  
+- Core development and architecture  
+- Music composition or arrangement  
+- Promotional video production  
+- ... and nearly everything else.
 {{< /admonition >}}
 
-# ANTOINE: *that* little Prince 🤴
+---
+
+## ANTOINE: *that* little Prince 🤴
 
 ![](antoine-appicon.png)
 
-This text reader App implements a pretty new and interactive paradigm to enjoy a written story.
+An experimental text reader app based on *The Little Prince* by Antoine de Saint-Exupéry. “Antoine” reimagines the reading experience with an **interactive, multilingual, and sensor-enhanced** storytelling interface.
 
-## Feature List
-
-- it encompass the Little Prince's story by Antoine De Saint Exupery in four different languages (limited only by the number of translations available)
-- each paragraph of the text can respond to a single touch
-- the resulting behaviour can be customized between displaying a different translation in a circular order between all the available ones or
-- the displayed language can be alternatively chosen between twos.
-- the text color can be customized for each language
-- the font size can be customized for each language
-- the drawing and figures are presented along the text and by interacting with them, the user is offered a parallax rendition of them, with gyroscopic sensor active
-- a shoot-em-all game can be run anytime, on a side-scrolling parallax screen with most of the drawings appearing both as moving background or as bonus/enemies.
-- the music during the game changes dynamically style depending on the game conditions.
+### ✨ Features
+- Includes the full text of *The Little Prince* in **four different languages**, switchable interactively.
+- Every paragraph is **touch-sensitive**: tap once to switch translations in a circular sequence, or toggle between a preferred pair of languages.
+- Each language has its **own font size and color settings**, individually customizable.
+- Embedded **illustrations come alive** with subtle parallax and **gyroscopic** motion effects.
+- A hidden **side-scrolling arcade mini-game** transforms the illustrations into enemies and bonuses — set against dynamic music that evolves with gameplay intensity.
+- Soundtrack and effects are context-sensitive, dynamically responding to in-game events.
 
 {{< vimeo 211160209 >}}
 
-> The music on the promo video is composed and performed by Christian Cellini and it is used with his permission.
+> 🎵 Music composed and performed by Christian Cellini. Used with permission.
 
-# CHATEA messaging app
+---
+
+## CHATEA Messaging App
 
 ![](chatea-appicon.png)
-
 
 ![License](https://img.shields.io/github/license/lucaji/chatea)
 ![GitHub stars](https://img.shields.io/github/stars/lucaji/chatea)
 ![GitHub forks](https://img.shields.io/github/forks/lucaji/chatea)
 
-Messaging app for nearby devices over Bluetooth or Wifi network.
+A **peer-to-peer messaging app** for nearby devices using Bluetooth and Wi-Fi, **without the need for internet or external servers**. Built primarily for iOS as a lightweight chat utility with rich media features.
 
-## Feature List
+### ✨ Features
+- Real-time **text chat with emoji** support
+- **Photo sharing** and previews
+- **Hand-drawn sketches** using touch gestures
+- **Push-to-talk (PTT)** voice messaging for walkie-talkie style communication
 
-- text messages with emoji support;
-- photo attachments;
-- hand-drawn sketches;
-- PTT (push-to-talk) voice messages like a walkie talkie;
+## 🔗 iOS [Source Code](https://github.com/lucaji/chatea)
 
-## iOS [Source Code](https://github.com/lucaji/chatea).
+> The name *Chatea* is a blend of “Chat” and “Tea” — with a nod to the Mandarin word “Cha” (茶), meaning tea. The app’s logo also reflects this ideogram.
 
-> the name "Chatea" joins the substantives "Chat" and "tea", but "cha" means "tea" in mandarin and the ideogram in the logo remarks this association.
+---
 
-# MYTUNA tunings librarian
+## MYTUNA: Tunings Librarian
 
 ![](mytuna-appicon.png)
 
@@ -69,124 +68,115 @@ Messaging app for nearby devices over Bluetooth or Wifi network.
 ![GitHub stars](https://img.shields.io/github/stars/lucaji/MyTuna)
 ![GitHub forks](https://img.shields.io/github/forks/lucaji/MyTuna)
 
-A librarian app to store and collect various tunings for stringed instruments. It featured:
+A highly practical **tuning preset organizer** for musicians working with stringed instruments. Designed with flexibility and playback features in mind.
 
-- a sine wave tone generator to generate the correct notes;
-- a preview of the tuning played as plucked arpeggio or strumming arpeggiator;
-- iCloud Drive support and exporting all tunings as CSV files for Excel;
-- Pitch recognition;
-- Reference tone generation;
-- trasposition;
+### ✨ Features
+- Save and label **custom tunings** for any number of strings
+- Generate **sine wave tones** for each string
+- Play full tuning sets via **arpeggiated playback** or **strumming simulation**
+- Export your library to **CSV** (compatible with Excel and Numbers)
+- Optional **pitch detection** and **reference tone playback**
+- Full **iCloud Drive support** for backup and sharing
 
 {{< figure src="mytuna05.jpg" title="MYTUNA tunings librarian" >}}
 
+## 🔗 iOS [Source Code](https://github.com/lucaji/mytuna)
 
-## iOS [Source Code](https://github.com/lucaji/mytuna).
+---
 
-# PIANOTONER aka ToneTuna
+## PIANOTONER (aka ToneTuna)
 
 ![](tonetuna-appicon.png)
 
-## iOS [Source Code](https://github.com/lucaji/pianotoner_ios) 
+A **precision tone generator** built around a **fully playable piano interface**, covering the standard 88-key range. Ideal for tuning pianos, synths, and analog instruments by ear.
+
+### ✨ Features
+- Interactive **keyboard interface**
+- Generates accurate **sine wave tones** for all 88 keys
+- Adjust the **reference pitch of A4** to explore different temperaments
+- Ultra-low-latency output ideal for tuning analog gear
+
+{{< figure src="tonetuna01.jpg" title="ToneTuna: sine wave piano tone generator" >}}
+
+## 🔗 iOS [Source Code](https://github.com/lucaji/pianotoner_ios)  
+## 🔗 Android [Source Code](https://github.com/lucaji/pianotoner_android)
 
 ![License](https://img.shields.io/github/license/lucaji/pianotoner_ios)
 ![GitHub stars](https://img.shields.io/github/stars/lucaji/pianotoner_ios)
 ![GitHub forks](https://img.shields.io/github/forks/lucaji/pianotoner_ios)
 
+---
 
-## Android [Source Code](https://github.com/lucaji/pianotoner_android) 
-
-
-![License](https://img.shields.io/github/license/lucaji/pianotoner_android)
-![GitHub stars](https://img.shields.io/github/stars/lucaji/pianotoner_android)
-![GitHub forks](https://img.shields.io/github/forks/lucaji/pianotoner_android)
-
-Another app from the *tuna series: a sine tone generator equipped with a interactive piano-like keyboard able to generate the correct note frequencies for the entire 88 keys of the piano. The catch is that is possible to adjust the concert "A" reference frequency in order to get a different character to the whole piano if you are, like me, into actually tuning acoustic pianos :)
-
-{{< figure src="tonetuna01.jpg" title="PIANOTONER aka ToneTuna, a tone generator for tuning stringed instruments" >}}
-
-
-# SHARI pdf reader with web server
-
+## SHARI: PDF Reader with Web Server
 
 ![License](https://img.shields.io/github/license/lucaji/Shari)
 ![GitHub stars](https://img.shields.io/github/stars/lucaji/Shari)
 ![GitHub forks](https://img.shields.io/github/forks/lucaji/Shari)
 
-PDF reader plus local webDAV server for upload/download of documents. This simple app combines two great open source projects into one:
+A simple but elegant **PDF document reader** with built-in **WebDAV server** support — enabling file uploads/downloads without cloud storage.
 
-It has a very nice reader for PDF files, and the addition of the WebDAV server gives the option to directly upload/download files onto the App's local directory on the device is running onto. For those who don't want to use cloud services, but good-old transfer and management of own files and documents.
+### ✨ Features
+- Smooth and responsive **PDF viewing experience**
+- Built-in **WebDAV file server** (connect via Wi-Fi browser or Finder)
+- Manage documents directly from your laptop or desktop
+- Perfect for air-gapped devices or local-only workflows
 
-## iOS [Source Code](https://github.com/lucaji/Shari)
+## 🔗 iOS [Source Code](https://github.com/lucaji/Shari)
 
-# STARTREC multicam timelapse
+---
+
+## STARTREC: Multicam Timelapse and Sync App
 
 ![](startrec-appicon.png)
 
-A multi-camera audio/video/photo recording app with time-synchronization across all networked instances.
+A robust, experimental **multi-camera app** supporting synchronized audio/video/timelapse recording across multiple iOS devices connected via local network.
 
-Sadly, the project is at the moment paused due to lack of time.
+> 🚧 This project is currently on hold due to time constraints.
 
-## Feature List
+### ✨ Features
+- **Timelapse**, **photo**, **audio**, and **video** capture
+- On-device **media gallery** and **GIF generator**
+- Advanced **timing and synchronization** tools for multicam environments
+- Built-in **timelapse calculator** for real-time planning
+- Customizable **manual camera controls** with live focus/exposure gestures
+- **iCloud Drive** support for media storage
 
-- audio, video and timelapse photography;
-- media gallery;
-- time-lapse calculator;
-- time synchronization;
-- media synchronization;
-- GIF generator;
-- supported **iCloud Drive**
-- fully customizable touch interface for camera controls;
-
-
-## Timelapse calculator
+### 🧮 Timelapse Calculator
 
 ![](startrec03.jpg)
 
-There are two ways you can use the timelapse calculator combined with:
+You can either:
+- Enter the interval time, number of takes, and desired FPS, **or**
+- Input the total shoot duration, interval, FPS, and playback length.
 
-- Entering the desired *interval* duration, expected *takes* and *fps* rate,
-- Selecting the desired *shooting duration*, *interval* time, *fps* rate, and *playback time*.
+The app calculates the required recording time and resulting playback duration.
 
 ![](startrec05.jpg)
 
-Either ways, the calculator will inform you about:
+### ⏱️ Timed Recordings
 
-- the required time to complete the timelapse recording with the displayed parameters.
-- the resulting playing time at the given FPS rate.
+The app runs two timers during automated sessions:
+- A **preroll timer** to prep before capture starts
+- An **interval timer** that manages spacing between takes
 
-## Timed recordings
+For each take, the app automatically triggers `start` and `stop` based on your mode (photo, video, or audio).
 
-Start Rec App runs two timers that can be run pressing the trigger button while in camera preview:
-
-- A **preroll** timer which runs only once when the recording commences.
-- An **interval** timer which waits between each take operation.
-
-If the audio or video recording mode is selected when a timed recording is starting, for each expected take there will be a `start` trigger and a subsequent `stop` trigger.
-
-
-## MANUAL CAMERA CONTROLS
+### 📷 Manual Camera Controls
 
 ![](startrec04.jpg)
 
-Activate the Touchy feature and when using the Camera, you can change focus and exposure by sliding your finger across the display.
+Enable **Touchy mode** to set focus and exposure dynamically by dragging across the preview area.
 
-## Videos
+### 🎞️ Videos
 
-StartRec App Promo Video
+- Promo Video:  
+  {{< vimeo 211155832 >}}
 
-{{< vimeo 211155832 >}}
+- Touch Live Controls:  
+  {{< vimeo 211154409 >}}
 
-Touch live controls
+- Live Session Footage:  
+  {{< vimeo 211158581 >}}
 
-{{< vimeo 211154409 >}}
-
-Live session footage
-
-{{< vimeo 211158581 >}}
-
-
-## Music Credits
- The promo music is composed and performed by Christian Cellini used with permission.
-
+> 🎵 Music by Christian Cellini. Used with permission.
 

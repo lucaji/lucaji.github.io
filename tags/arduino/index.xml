@@ -3,16 +3,15 @@
         <title>Arduino - Tag - Milletgrain</title>
         <link>https://lucaji.github.io/tags/arduino/</link>
         <description>Arduino - Tag - Milletgrain</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi()gmail(.)com (Luca Cipressi)</managingEditor>
-            <webMaster>lucacipressi()gmail(.)com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 19 Jan 2015 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://lucaji.github.io/tags/arduino/" rel="self" type="application/rss+xml" /><item>
-    <title>Analog Radio</title>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi@gmail.com (Luca Cipressi)</managingEditor>
+            <webMaster>lucacipressi@gmail.com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 19 Jan 2015 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://lucaji.github.io/tags/arduino/" rel="self" type="application/rss+xml" /><item>
+    <title>AM Radio on Arduino UNO</title>
     <link>https://lucaji.github.io/analog-radio/</link>
     <pubDate>Mon, 19 Jan 2015 00:00:00 &#43;0000</pubDate>
     <author>Luca Cipressi</author>
     <guid>https://lucaji.github.io/analog-radio/</guid>
-    <description><![CDATA[<h1 id="analog-radio">ANALOG RADIO!</h1>
-<p>being a fan of old analog radio sets, I decided to collect these related projects starting from a Galena radio receiver that does not need power supply to operate, up to some Arduino experiments&hellip; Some analog but digitally driven audio transmission and analog modulation (mostly amplitude). Have fun!</p>
-<p>The first is an audio transmitter over LW radio band (734 kHz) in amplitude modulation (AM) which might be easily picked by a once-common radio set.</p>]]></description>
+    <description><![CDATA[<h2 id="-introduction">🛠️ Introduction</h2>
+<p>This blog article gathers a series of <strong>DIY radio experiments</strong>, ranging from early analog detection with <em>Galena crystal receivers</em> to digitally driven AM transmission via <strong>Arduino microcontrollers</strong>. Inspired by a love for vintage radio sets and low-power communication techniques, this collection explores both the simplicity of early unpowered detection and the elegance of amplitude modulation (AM) implemented in modern embedded systems. These are primarily <strong>short-range (QRP)</strong> experiments — ideal for educational settings, hobbyists, and radio tinkerers looking to bridge past and present technologies.</p>]]></description>
 </item>
 <item>
     <title>Theremin</title>

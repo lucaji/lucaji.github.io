@@ -3,125 +3,17 @@
         <title>IOS - Tag - Milletgrain</title>
         <link>https://lucaji.github.io/tags/ios/</link>
         <description>IOS - Tag - Milletgrain</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi()gmail(.)com (Luca Cipressi)</managingEditor>
-            <webMaster>lucacipressi()gmail(.)com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 12 Jan 2015 13:44:23 &#43;0100</lastBuildDate><atom:link href="https://lucaji.github.io/tags/ios/" rel="self" type="application/rss+xml" /><item>
-    <title>Antoine</title>
-    <link>https://lucaji.github.io/app-antoine/</link>
-    <pubDate>Mon, 12 Jan 2015 13:44:23 &#43;0100</pubDate>
-    <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/app-antoine/</guid>
-    <description><![CDATA[<p>For some years I worked with and published mobile apps. Albeit mostly on the iOS Apple platform, I ventured into porting onto Android (JAVA, Kotlin) as well.
-This post lists the apps I worked on, worth of being published. Make sure you check those open-source ones, as their code is available for download.</p>
-<blockquote>
-<p>Modern software programs usually known as Apps&hellip;</p></blockquote>
-<div class="details admonition tip open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><p>Unless otherwise stated, I took care of</p>]]></description>
-</item>
-<item>
-    <title>Chatea</title>
-    <link>https://lucaji.github.io/app-chatea/</link>
-    <pubDate>Mon, 12 Jan 2015 13:44:23 &#43;0100</pubDate>
-    <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/app-chatea/</guid>
-    <description><![CDATA[<p>For some years I worked with and published mobile apps. Albeit mostly on the iOS Apple platform, I ventured into porting onto Android (JAVA, Kotlin) as well.
-This post lists the apps I worked on, worth of being published. Make sure you check those open-source ones, as their code is available for download.</p>
-<blockquote>
-<p>Modern software programs usually known as Apps&hellip;</p></blockquote>
-<div class="details admonition tip open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><p>Unless otherwise stated, I took care of</p>]]></description>
-</item>
-<item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi@gmail.com (Luca Cipressi)</managingEditor>
+            <webMaster>lucacipressi@gmail.com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 12 Jan 2015 13:44:23 &#43;0100</lastBuildDate><atom:link href="https://lucaji.github.io/tags/ios/" rel="self" type="application/rss+xml" /><item>
     <title>Mobile Apps</title>
     <link>https://lucaji.github.io/apps/</link>
     <pubDate>Mon, 12 Jan 2015 13:44:23 &#43;0100</pubDate>
     <author>Luca Cipressi</author>
     <guid>https://lucaji.github.io/apps/</guid>
-    <description><![CDATA[<p>For some years I worked with and published mobile apps. Albeit mostly on the iOS Apple platform, I ventured into porting onto Android (JAVA, Kotlin) as well.
-This post lists the apps I worked on, worth of being published. Make sure you check those open-source ones, as their code is available for download.</p>
+    <description><![CDATA[<p>Over the years, I’ve developed and published a number of mobile apps — primarily for <strong>Apple iOS</strong>, though I’ve also ventured into <strong>Android</strong> using <strong>Java</strong> and <strong>Kotlin</strong>. This post offers a curated list of those projects that I believe are most worth sharing.</p>
+<p>Some of these apps are <strong>open source</strong>, and I’ve linked to their public repositories where available — feel free to explore, fork, or contribute.</p>
 <blockquote>
-<p>Modern software programs usually known as Apps&hellip;</p></blockquote>
-<div class="details admonition tip open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><p>Unless otherwise stated, I took care of</p>]]></description>
-</item>
-<item>
-    <title>Mytuna</title>
-    <link>https://lucaji.github.io/app-mytuna/</link>
-    <pubDate>Mon, 12 Jan 2015 13:44:23 &#43;0100</pubDate>
-    <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/app-mytuna/</guid>
-    <description><![CDATA[<p>For some years I worked with and published mobile apps. Albeit mostly on the iOS Apple platform, I ventured into porting onto Android (JAVA, Kotlin) as well.
-This post lists the apps I worked on, worth of being published. Make sure you check those open-source ones, as their code is available for download.</p>
-<blockquote>
-<p>Modern software programs usually known as Apps&hellip;</p></blockquote>
-<div class="details admonition tip open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><p>Unless otherwise stated, I took care of</p>]]></description>
-</item>
-<item>
-    <title>Shari</title>
-    <link>https://lucaji.github.io/app-shari/</link>
-    <pubDate>Mon, 12 Jan 2015 13:44:23 &#43;0100</pubDate>
-    <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/app-shari/</guid>
-    <description><![CDATA[<p>For some years I worked with and published mobile apps. Albeit mostly on the iOS Apple platform, I ventured into porting onto Android (JAVA, Kotlin) as well.
-This post lists the apps I worked on, worth of being published. Make sure you check those open-source ones, as their code is available for download.</p>
-<blockquote>
-<p>Modern software programs usually known as Apps&hellip;</p></blockquote>
-<div class="details admonition tip open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><p>Unless otherwise stated, I took care of</p>]]></description>
-</item>
-<item>
-    <title>Startrec</title>
-    <link>https://lucaji.github.io/app-startrec/</link>
-    <pubDate>Mon, 12 Jan 2015 13:44:23 &#43;0100</pubDate>
-    <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/app-startrec/</guid>
-    <description><![CDATA[<p>For some years I worked with and published mobile apps. Albeit mostly on the iOS Apple platform, I ventured into porting onto Android (JAVA, Kotlin) as well.
-This post lists the apps I worked on, worth of being published. Make sure you check those open-source ones, as their code is available for download.</p>
-<blockquote>
-<p>Modern software programs usually known as Apps&hellip;</p></blockquote>
-<div class="details admonition tip open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><p>Unless otherwise stated, I took care of</p>]]></description>
-</item>
-<item>
-    <title>ToneTuna</title>
-    <link>https://lucaji.github.io/app-tonetuna/</link>
-    <pubDate>Mon, 12 Jan 2015 13:44:23 &#43;0100</pubDate>
-    <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/app-tonetuna/</guid>
-    <description><![CDATA[<p>For some years I worked with and published mobile apps. Albeit mostly on the iOS Apple platform, I ventured into porting onto Android (JAVA, Kotlin) as well.
-This post lists the apps I worked on, worth of being published. Make sure you check those open-source ones, as their code is available for download.</p>
-<blockquote>
-<p>Modern software programs usually known as Apps&hellip;</p></blockquote>
-<div class="details admonition tip open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><p>Unless otherwise stated, I took care of</p>]]></description>
+<p>What we now call “apps” began as simple, standalone tools. Here are mine — crafted from scratch, designed with care, and sometimes a bit of eccentric joy.</p>]]></description>
 </item>
 </channel>
 </rss>

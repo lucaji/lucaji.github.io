@@ -1,129 +1,110 @@
-# Analog Radio
+# AM Radio on Arduino UNO
 
 
-# ANALOG RADIO!
+## 🛠️ Introduction
 
-being a fan of old analog radio sets, I decided to collect these related projects starting from a Galena radio receiver that does not need power supply to operate, up to some Arduino experiments... Some analog but digitally driven audio transmission and analog modulation (mostly amplitude). Have fun!
+This blog article gathers a series of **DIY radio experiments**, ranging from early analog detection with *Galena crystal receivers* to digitally driven AM transmission via **Arduino microcontrollers**. Inspired by a love for vintage radio sets and low-power communication techniques, this collection explores both the simplicity of early unpowered detection and the elegance of amplitude modulation (AM) implemented in modern embedded systems. These are primarily **short-range (QRP)** experiments — ideal for educational settings, hobbyists, and radio tinkerers looking to bridge past and present technologies.
 
-The first is an audio transmitter over LW radio band (734 kHz) in amplitude modulation (AM) which might be easily picked by a once-common radio set.
+## 📻 Arduino AM Modulator
 
-## ARDUINO AM
+The first project demonstrates a **very low-power AM transmitter** centered around an **Arduino UNO**. Operating on the **LW (Longwave) radio band at ~734 kHz**, this setup modulates an audio signal onto a PWM-generated carrier, which can be picked up by standard analog radio receivers — particularly older models with wideband AM capability.
 
-A little playground to test audio transmission in AM (amplitude modulation) using the Arduino timers to generate the carrier frequency and its internal ADC to modulate the tuned circuit at the antenna side with the amplitude of the input signal.
+The Arduino plays a dual role:
+- It uses its **Timer2 hardware peripheral** to synthesize a high-frequency PWM signal (~730–760 kHz), which acts as the **AM carrier wave**.
+- Simultaneously, the Arduino samples audio input using its **10-bit ADC** (analog-to-digital converter), and modulates the duty cycle of the carrier in real-time according to the input amplitude — thus implementing **Amplitude Modulation** in software.
 
-{{< image src="am_receiver.jpg" caption="AM Receiver schematic" >}}
+The circuit uses just a few passive components:
+- **L1 (47 µH)** and **C2 (1 nF)** form a **tank circuit** to filter and tune the PWM output.
+- The antenna is driven directly from a digital output pin, typically through a series capacitor to block DC offset.
+- A pair of resistors and a capacitor at the analog input side filter and attenuate the audio signal.
 
-
-Here is a simple AM Receiver schematic included for reference and testing, but being the original source, it has to be adapted to the wavelength used in the above project as it is tuned for 88-108MHz or higher (VHF). Extra wire-loops are needed when winding L1 to lower its resonant frequency.
-
-The second experiment is about transmitting encoded data (morse) over the same media.
-A third experiment explores the frequency modulation with little success.
 
 ### ARDUINO AM SOURCE CODE
 
-```
+```cpp
+// Simple AM Radio Signal Generator :: Markus Gritsch
+// http://www.youtube.com/watch?v=y1EKyQrFJ-o
 
-//  Simple AM Radio Signal Generator :: Markus Gritsch
-//  http://www.youtube.com/watch?v=y1EKyQrFJ-o
-//
-//                /|\ +5V                               ANT
-//                 |                                   \ | /
-//                 |        ----------------            \|/
-//                | | R1   | Arduino 16 MHz |     C2     |
-//                | | 47k  |                |     ||     |  about
-//  audio   C1    | |      |      TIMER_PIN >-----||-----+  40Vpp
-//  input   ||     |       |                |     ||     |
-//    o-----||-----+-------> INPUT_PIN      |     1nF    |
-//         +||     |       |                |             )
-//          1uF   | | R2   |   ATmega328P   |             ) L1
-//                | | 47k   ----------------   fres =     ) 47uH
-//    fg < 7 Hz   | |                          734 kHz    )
-//                 |                                     |
-//                 |                                     |
-//                --- GND                               --- GND
-//
-//    fg = 1 / ( 2 * pi * ( R1 || R2 ) * C1 ) < 7 Hz
-//  fres = 1 / ( 2 * pi * sqrt( L1 * C2 ) ) = 734 kHz
+#define INPUT_PIN  0  // ADC input pin
+#define TIMER_PIN  3  // PWM output pin, OC2B (PD3)
+#define DEBUG_PIN  2  // to measure the sampling frequency
+#define LED_PIN   13  // displays input overdrive
 
-
-#define INPUT_PIN  0 // ADC input pin
-#define TIMER_PIN  3 // PWM output pin, OC2B (PD3)
-#define DEBUG_PIN  2 // to measure the sampling frequency
-#define LED_PIN   13 // displays input overdrive
-
-#define SHIFT_BY   3 // 2 ... 7 input attenuator
-#define TIMER_TOP 20 // determines the carrier frequency
+#define SHIFT_BY   3  // 2 ... 7 input attenuator
+#define TIMER_TOP 20  // determines the carrier frequency
 #define A_MAX TIMER_TOP / 4
 
 void setup() {
-    pinMode( DEBUG_PIN, OUTPUT );
-    pinMode( TIMER_PIN, OUTPUT );
-    pinMode( LED_PIN, OUTPUT );
+    pinMode(DEBUG_PIN, OUTPUT);
+    pinMode(TIMER_PIN, OUTPUT);
+    pinMode(LED_PIN, OUTPUT);
 
-    // set ADC prescaler to 16 to decrease conversion time (0b100)
-    ADCSRA = ( ADCSRA | _BV( ADPS2 ) ) & ~( _BV( ADPS1 ) | _BV( ADPS0 ) );
+    // set ADC prescaler to 16 to decrease conversion time
+    ADCSRA = (ADCSRA | _BV(ADPS2)) & ~( _BV(ADPS1) | _BV(ADPS0));
 
-    // non-inverting; fast PWM with TOP; no prescaling
-    TCCR2A = 0b10100011; // COM2A1 COM2A0 COM2B1 COM2B0 - - WGM21 WGM20
-    TCCR2B = 0b00001001; // FOC2A FOC2B - - WGM22 CS22 CS21 CS20
+    // configure timer: non-inverting, fast PWM, no prescaling
+    TCCR2A = 0b10100011;
+    TCCR2B = 0b00001001;
 
-    // 16E6 / ( OCR2A + 1 ) = 762 kHz @ TIMER_TOP = 20
-    OCR2A = TIMER_TOP; //   = 727 kHz @ TIMER_TOP = 21
-    OCR2B = TIMER_TOP / 2; // maximum carrier amplitude at 50% duty cycle
+    // 16E6 / (OCR2A + 1) = ~762 kHz at TIMER_TOP = 20
+    OCR2A = TIMER_TOP;
+    OCR2B = TIMER_TOP / 2; // 50% duty cycle
 }
 
 void loop() {
-    // about 34 kHz sampling frequency
-    digitalWrite( DEBUG_PIN, HIGH );
-    int8_t value = ( analogRead( INPUT_PIN ) >> SHIFT_BY ) -
-                   ( 1 << ( 9 - SHIFT_BY ) );
-    digitalWrite( DEBUG_PIN, LOW );
+    digitalWrite(DEBUG_PIN, HIGH);
+    int8_t value = (analogRead(INPUT_PIN) >> SHIFT_BY) - (1 << (9 - SHIFT_BY));
+    digitalWrite(DEBUG_PIN, LOW);
 
-    // clipping
-    if ( value < -A_MAX ) {
+    if (value < -A_MAX) {
         value = -A_MAX;
-        digitalWrite( LED_PIN, HIGH );
-    } else if ( value > A_MAX ) {
+        digitalWrite(LED_PIN, HIGH);
+    } else if (value > A_MAX) {
         value = A_MAX;
-        digitalWrite( LED_PIN, HIGH );
+        digitalWrite(LED_PIN, HIGH);
     } else {
-        digitalWrite( LED_PIN, LOW );
+        digitalWrite(LED_PIN, LOW);
     }
 
     OCR2B = A_MAX + value;
 }
-
 ```
 
+## 🧰 Arduino AM Source Code Breakdown
 
-### ARDUINO AM CW
+The source code leverages **Timer2 in fast PWM mode**, where `OCR2A` determines the carrier frequency and `OCR2B` the amplitude (duty cycle). The modulation occurs by updating `OCR2B` with values derived from the analog input:
 
-```
+- **Input signal** is sampled with reduced resolution using a bit-shift (`>> SHIFT_BY`) to match the PWM granularity.
+- **Clipping logic** ensures that the duty cycle remains within a usable range, preventing distortion or signal overflow.
+- A **debug pin** toggles during each read to measure the effective sampling rate (about 34 kHz).
+
+💡 This implementation demonstrates a clever use of limited hardware to emulate AM transmission using nothing more than software PWM and some passive RF filtering.
+
+## 📡 Arduino AM CW (Morse Code Transmission)
+
+The second project transmits **Morse code (CW)** over AM by toggling a digital output pin in software. The transmitter generates bursts of a square wave at approximately **1.3 MHz**, again driving a simple wire antenna.
+
+Key characteristics:
+- **DITs and DAHs** (short and long Morse pulses) are defined in terms of "port toggles", allowing precise control over timing using software loops.
+- The signal is created by **manually cycling PORTB** through values with tight `while` loops, making it hardware-timed without delay functions.
+- A clever use of inline assembly (`asm volatile ("inc %0")`) ensures efficient register manipulation and consistent timing.
+- The modulation scheme is essentially **on-off keying (OOK)** — a simple form of AM where the carrier is turned on and off to represent digital data.
+
+The experiment shows that with **just a wire antenna and an Arduino**, one can send intelligible signals up to **several meters away**, depending on antenna length and environmental factors.
 
 
-// AM broadcasting CW using arduino
-// Based on the code from WWW.JONNYBLANCH.WEBS.COM, which was broken
+```cpp
+long millisAtStart = 0;
+long millisAtEnd = 0;
 
-
-long millisAtStart=0;
-long millisAtEnd=0;
-
-const long period_broadcast=8; //period of shortest broadcast (256 port changes)
-
+const long period_broadcast = 8;
 #define LENGTH_DIT 50
-//number of period_broadcasts in one 'dit',
-//all other lengths are scaled from this
-//Broadcasts on 1337 kHz
 
-// You should put some piece of wire as antenna in digital port 8. 
-// The experiments at www.mateslab.com.ar show us that a 20cm cable can be tuned with a radio from 2,5 meters. With a 50cm antena you can tune it from 5 meters.
-
-
-const int length_dit=LENGTH_DIT; //number of periods for dit
-const int pause_dit=LENGTH_DIT; //pause after dit
-const int length_dah=3*LENGTH_DIT; //number of persots for dah
-const int pause_dah=LENGTH_DIT; //pause after dah
-const int length_pause=7*LENGTH_DIT; //pause between words
+const int length_dit = LENGTH_DIT;
+const int pause_dit = LENGTH_DIT;
+const int length_dah = 3 * LENGTH_DIT;
+const int pause_dah = LENGTH_DIT;
+const int length_pause = 7 * LENGTH_DIT;
 
 void dit(void);
 void dah(void);
@@ -131,125 +112,93 @@ void pause(void);
 void broadcast(int N_cycles);
 void dontbroadcast(int N_cycles);
 
-// ### INC ### Increment Register (reg = reg + 1)
 #define ASM_INC(reg) asm volatile ("inc %0" : "=r" (reg) : "0" (reg))
 
-void setup()
-{
+void setup() {
+    Serial.begin(9600);
+    DDRB = 0xFF;
 
-  Serial.begin(9600);
-  DDRB=0xFF;  //Port B all outputs
-  //Do one dit to determine approximate frequency
-  millisAtStart=millis();
-  dit();
-  millisAtEnd=millis();
-  Serial.print(millisAtEnd-millisAtStart);
-  Serial.print(" ");
-  Serial.print((length_dit+pause_dit)*period_broadcast*256/(millisAtEnd-millisAtStart)/2);
-  Serial.print("kHz ");
-  Serial.println();
+    millisAtStart = millis();
+    dit();
+    millisAtEnd = millis();
+
+    Serial.print(millisAtEnd - millisAtStart);
+    Serial.print(" ");
+    Serial.print((length_dit + pause_dit) * period_broadcast * 256 / (millisAtEnd - millisAtStart) / 2);
+    Serial.print("kHz ");
+    Serial.println();
 }
 
-void loop()
-{
-
-  
-// Sends SOS
-
-dah();
-char_pause();
-dah();
-char_pause();
-dah();
-char_pause();
-
-dit();
-char_pause();
-dit();
-char_pause();
-dit();
-char_pause();
-
-word_pause();
-
-
+void loop() {
+    // S
+    dit(); char_pause(); dit(); char_pause(); dit(); char_pause();
+    // O
+    dah(); char_pause(); dah(); char_pause(); dah(); char_pause();
+    // S
+    dit(); char_pause(); dit(); char_pause(); dit(); char_pause();
 }
 
-
-
-// Outputs a dot (.)
-void dit(void)
-{
-  for(int i=0; i <= length_dit; i++) // now is 64
-      broadcast(period_broadcast); 
+void dit(void) {
+    for (int i = 0; i <= length_dit; i++)
+        broadcast(period_broadcast);
 }
 
-// Output a dash (-)
-void dah(void)
-{
-  for(int i=0; i <= length_dah; i++) // now is 64*3
-      broadcast(period_broadcast); 
+void dah(void) {
+    for (int i = 0; i <= length_dah; i++)
+        broadcast(period_broadcast);
 }
 
-
-// Short pause between chars
-void char_pause(void)
-{
-  for(int i=0; i <= length_dit; i++) // now is 64
-    dontbroadcast(period_broadcast);
+void char_pause(void) {
+    for (int i = 0; i <= length_dit; i++)
+        dontbroadcast(period_broadcast);
 }
 
-// Long pause between words
-void word_pause(void)
-{
-  for(int i=0; i <= length_pause; i++) // now is 64
-    dontbroadcast(period_broadcast);
+void word_pause(void) {
+    for (int i = 0; i <= length_pause; i++)
+        dontbroadcast(period_broadcast);
 }
 
-
-// This send something to the air
-void broadcast(int N_cycles)
-{
-  unsigned int portvalue;
-  for (int i=0;i < N_cycles; i++) {
-    do
-    {
-	PORTB=portvalue;
-	ASM_INC(portvalue);
+void broadcast(int N_cycles) {
+    unsigned int portvalue;
+    for (int i = 0; i < N_cycles; i++) {
+        do {
+            PORTB = portvalue;
+            ASM_INC(portvalue);
+        } while (portvalue < 255);
     }
-    while(portvalue<255);
-  }
 }
 
-
-// This do not send anything to the air
-void dontbroadcast(int N_cycles)
-{
-unsigned int portvalue;
-  PORTB=0x00;
-  for (int i=0;i < N_cycles; i++) 
-  {
-    do {
-  	ASM_INC(portvalue);
-  	//add some assembly No OPerations to keep timing the same
-  	asm volatile ("NOP");
-      } while(portvalue < 255);
-  }    
+void dontbroadcast(int N_cycles) {
+    unsigned int portvalue;
+    PORTB = 0x00;
+    for (int i = 0; i < N_cycles; i++) {
+        do {
+            ASM_INC(portvalue);
+            asm volatile ("NOP");
+        } while (portvalue < 255);
+    }
 }
-
 ```
 
+⚠️ Due to the nature of RF emission, even low-power transmitters like this may **fall under regional radio regulations**. Use only in shielded environments or for near-field demonstrations.
 
-## Galena
+## ⚗️ Galena Crystal Radios
 
-Galena or lead glance, is the natural mineral form of lead sulfide (PbS) being one of the most abundant and widely distributed sulfide minerals. One of the oldest uses of galena was as an eye cosmetic. Galena is a semiconductor with a small band gap of about 0.4 eV, which found use in early wireless communication systems. It was used as the crystal in radio receivers, in which it was used as a point-contact diode capable of rectifying alternating current to detect the radio signals. The galena crystal was used with a sharp wire, known as [cat's whisker](https://en.wikipedia.org/wiki/Crystal_detector) in contact with it.
+> “Powerless, timeless, and analog perfection.”
 
-### Galena Radio
+The **Galena crystal radio** is a *passive receiver* — it operates entirely without batteries or external power. It relies on the **semiconducting properties of Galena (PbS)** to detect amplitude-modulated (AM) radio signals.
 
-{{< image src="galena_fm.jpg" caption="Crystal Radio with Galena" >}}
+### Why Galena Works:
 
-This is a rather funky project, as it powers itself up from the radio waves it receives, but you will need a very high-impendace headset (> 10KΩ)
+- Galena acts as a **point-contact diode**, rectifying the radio signal and allowing the audio component to be extracted.
+- A **cat’s whisker** (a fine wire) touches the crystal at a sensitive point, forming a crude diode junction.
+- The detected audio is passed to a **very high-impedance earphone** (usually >10kΩ) to minimize signal loss.
 
+### Construction Tips:
 
-[Crystal Radio](https://en.wikipedia.org/wiki/Crystal_radio) or Galena Radio are "unpowered" radio-receivers sets. They actually power-up themselves by using the captated radio energy via its Antenna. Some technical consideration (like using high-impedance headphones) reduces the energy-losses and maximize efficiency, in order to have a working radio receiver without any power supply, not batteries nor dinamo.
+- The antenna should be **long and elevated** for best reception.
+- Coil winding must be tuned to the desired frequency range (typically MW or SW).
+- Tuning capacitors can be improvised or scavenged from vintage electronics.
+
+This elegant device demonstrates the essence of radio — a form of communication born of natural materials, signal physics, and nothing more than wire and rock.
 

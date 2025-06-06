@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>SCPI - Tag - Milletgrain</title>
+        <link>https://lucaji.github.io/tags/scpi/</link>
+        <description>SCPI - Tag - Milletgrain</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi@gmail.com (Luca Cipressi)</managingEditor>
+            <webMaster>lucacipressi@gmail.com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 19 Jan 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://lucaji.github.io/tags/scpi/" rel="self" type="application/rss+xml" /><item>
+    <title>Data Logger for Electrical Power Measurements</title>
+    <link>https://lucaji.github.io/electrical-power-measurements/</link>
+    <pubDate>Tue, 19 Jan 2021 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/electrical-power-measurements/</guid>
+    <description><![CDATA[<h1 id="foreword">Foreword</h1>
+<p>Measuring electrical power—whether consumed or supplied—over long durations can be essential for analyzing appliance behavior, validating designs, or performing reliability testing. Some measurement sessions may extend over hours or even days. In such scenarios, having a reliable software tool that can log data continuously, plot graphs, and export datasets becomes invaluable.</p>
+<p>To support this need, I developed a utility named <strong>GPMLink</strong>, which interfaces with the <strong>GW-Instek GPM8310</strong> power meter. The software uses a Telnet-based interface to communicate with the device and periodically queries it using SCPI commands to retrieve integrated power metrics.</p>]]></description>
+</item>
+</channel>
+</rss>

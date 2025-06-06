@@ -1,7 +1,7 @@
 # The Leslie Speaker
 
 
-> This article explains the principles behind Leslie type loudspeakers and goes on to describe the construction of a generously proportioned system intended for use with a home constructed electronic organ. The article could provide the starting point from which individual readers could build up a rotating loudspeaker system to suit their own particular requirements.
+> This article explains the principles behind Leslie-type loudspeakers and goes on to describe the construction of a generously proportioned system intended for use with a home constructed electronic organ. The article could provide the starting point from which individual readers could build up a rotating loudspeaker system to suit their own particular requirements.
 
 
 # Rotating System Loudspeakers for Electronic Organs

@@ -25,4 +25,6 @@ The video is available on:
 
 {{< /admonition >}}
 
+{{< figure src="didgeridoo-yoga-park-relaxing-story-comic.png" title="Of Breath and Bark: a morning yoga interlude in the park" >}}
+
 

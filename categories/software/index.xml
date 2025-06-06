@@ -3,14 +3,18 @@
         <title>Software - Category - Milletgrain</title>
         <link>https://lucaji.github.io/categories/software/</link>
         <description>Software - Category - Milletgrain</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi()gmail(.)com (Luca Cipressi)</managingEditor>
-            <webMaster>lucacipressi()gmail(.)com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 29 Oct 2022 10:54:54 &#43;0600</lastBuildDate><atom:link href="https://lucaji.github.io/categories/software/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi@gmail.com (Luca Cipressi)</managingEditor>
+            <webMaster>lucacipressi@gmail.com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 29 Oct 2022 10:54:54 &#43;0600</lastBuildDate><atom:link href="https://lucaji.github.io/categories/software/" rel="self" type="application/rss+xml" /><item>
     <title>PikrellCam Motion-detection plus temperature Logger</title>
     <link>https://lucaji.github.io/pikrellcam-environmental-logger/</link>
     <pubDate>Sat, 29 Oct 2022 10:54:54 &#43;0600</pubDate>
     <author>Luca Cipressi</author>
     <guid>https://lucaji.github.io/pikrellcam-environmental-logger/</guid>
     <description><![CDATA[<h1 id="pikrellcam-reborn">PiKrellCam Reborn</h1>
+<figure><a class="lightgallery" href="/pikrellcam-environmental-logger/pikrellcam-ui-01.jpg" title="/pikrellcam-environmental-logger/pikrellcam-ui-01.jpg" data-thumbnail="/pikrellcam-environmental-logger/pikrellcam-ui-01.jpg" data-sub-html="<h2>Logger UI panel.</h2>">
+        
+    </a><figcaption class="image-caption">Logger UI panel.</figcaption>
+    </figure>
 <h2 id="motion-detection-with-sensor-data-logger">Motion Detection with Sensor Data Logger</h2>
 <blockquote>
 <p>One of the most used motion detection and surveillance software for the Raspberry Pi with additional temperature and humidity logging and graph panel.</p></blockquote>
@@ -27,42 +31,8 @@
     <author>Luca Cipressi</author>
     <guid>https://lucaji.github.io/electrical-power-measurements/</guid>
     <description><![CDATA[<h1 id="foreword">Foreword</h1>
-<p>Measuring power (consumption or supplied) in certain electric (and electronic) appliances or projects sometimes requires very long running times. Some might even last for days or more.
-Having a software tool that can reliabily take care of storing the measured data and plot some nice graphs and even export the whole data-set is a great deal of help. Especially when such software can be customized to fulfill any kind of requirements.</p>]]></description>
-</item>
-<item>
-    <title>Antoine</title>
-    <link>https://lucaji.github.io/app-antoine/</link>
-    <pubDate>Mon, 12 Jan 2015 13:44:23 &#43;0100</pubDate>
-    <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/app-antoine/</guid>
-    <description><![CDATA[<p>For some years I worked with and published mobile apps. Albeit mostly on the iOS Apple platform, I ventured into porting onto Android (JAVA, Kotlin) as well.
-This post lists the apps I worked on, worth of being published. Make sure you check those open-source ones, as their code is available for download.</p>
-<blockquote>
-<p>Modern software programs usually known as Apps&hellip;</p></blockquote>
-<div class="details admonition tip open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><p>Unless otherwise stated, I took care of</p>]]></description>
-</item>
-<item>
-    <title>Chatea</title>
-    <link>https://lucaji.github.io/app-chatea/</link>
-    <pubDate>Mon, 12 Jan 2015 13:44:23 &#43;0100</pubDate>
-    <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/app-chatea/</guid>
-    <description><![CDATA[<p>For some years I worked with and published mobile apps. Albeit mostly on the iOS Apple platform, I ventured into porting onto Android (JAVA, Kotlin) as well.
-This post lists the apps I worked on, worth of being published. Make sure you check those open-source ones, as their code is available for download.</p>
-<blockquote>
-<p>Modern software programs usually known as Apps&hellip;</p></blockquote>
-<div class="details admonition tip open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><p>Unless otherwise stated, I took care of</p>]]></description>
+<p>Measuring electrical power—whether consumed or supplied—over long durations can be essential for analyzing appliance behavior, validating designs, or performing reliability testing. Some measurement sessions may extend over hours or even days. In such scenarios, having a reliable software tool that can log data continuously, plot graphs, and export datasets becomes invaluable.</p>
+<p>To support this need, I developed a utility named <strong>GPMLink</strong>, which interfaces with the <strong>GW-Instek GPM8310</strong> power meter. The software uses a Telnet-based interface to communicate with the device and periodically queries it using SCPI commands to retrieve integrated power metrics.</p>]]></description>
 </item>
 <item>
     <title>Mobile Apps</title>
@@ -70,84 +40,10 @@ This post lists the apps I worked on, worth of being published. Make sure you ch
     <pubDate>Mon, 12 Jan 2015 13:44:23 &#43;0100</pubDate>
     <author>Luca Cipressi</author>
     <guid>https://lucaji.github.io/apps/</guid>
-    <description><![CDATA[<p>For some years I worked with and published mobile apps. Albeit mostly on the iOS Apple platform, I ventured into porting onto Android (JAVA, Kotlin) as well.
-This post lists the apps I worked on, worth of being published. Make sure you check those open-source ones, as their code is available for download.</p>
+    <description><![CDATA[<p>Over the years, I’ve developed and published a number of mobile apps — primarily for <strong>Apple iOS</strong>, though I’ve also ventured into <strong>Android</strong> using <strong>Java</strong> and <strong>Kotlin</strong>. This post offers a curated list of those projects that I believe are most worth sharing.</p>
+<p>Some of these apps are <strong>open source</strong>, and I’ve linked to their public repositories where available — feel free to explore, fork, or contribute.</p>
 <blockquote>
-<p>Modern software programs usually known as Apps&hellip;</p></blockquote>
-<div class="details admonition tip open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><p>Unless otherwise stated, I took care of</p>]]></description>
-</item>
-<item>
-    <title>Mytuna</title>
-    <link>https://lucaji.github.io/app-mytuna/</link>
-    <pubDate>Mon, 12 Jan 2015 13:44:23 &#43;0100</pubDate>
-    <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/app-mytuna/</guid>
-    <description><![CDATA[<p>For some years I worked with and published mobile apps. Albeit mostly on the iOS Apple platform, I ventured into porting onto Android (JAVA, Kotlin) as well.
-This post lists the apps I worked on, worth of being published. Make sure you check those open-source ones, as their code is available for download.</p>
-<blockquote>
-<p>Modern software programs usually known as Apps&hellip;</p></blockquote>
-<div class="details admonition tip open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><p>Unless otherwise stated, I took care of</p>]]></description>
-</item>
-<item>
-    <title>Shari</title>
-    <link>https://lucaji.github.io/app-shari/</link>
-    <pubDate>Mon, 12 Jan 2015 13:44:23 &#43;0100</pubDate>
-    <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/app-shari/</guid>
-    <description><![CDATA[<p>For some years I worked with and published mobile apps. Albeit mostly on the iOS Apple platform, I ventured into porting onto Android (JAVA, Kotlin) as well.
-This post lists the apps I worked on, worth of being published. Make sure you check those open-source ones, as their code is available for download.</p>
-<blockquote>
-<p>Modern software programs usually known as Apps&hellip;</p></blockquote>
-<div class="details admonition tip open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><p>Unless otherwise stated, I took care of</p>]]></description>
-</item>
-<item>
-    <title>Startrec</title>
-    <link>https://lucaji.github.io/app-startrec/</link>
-    <pubDate>Mon, 12 Jan 2015 13:44:23 &#43;0100</pubDate>
-    <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/app-startrec/</guid>
-    <description><![CDATA[<p>For some years I worked with and published mobile apps. Albeit mostly on the iOS Apple platform, I ventured into porting onto Android (JAVA, Kotlin) as well.
-This post lists the apps I worked on, worth of being published. Make sure you check those open-source ones, as their code is available for download.</p>
-<blockquote>
-<p>Modern software programs usually known as Apps&hellip;</p></blockquote>
-<div class="details admonition tip open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><p>Unless otherwise stated, I took care of</p>]]></description>
-</item>
-<item>
-    <title>ToneTuna</title>
-    <link>https://lucaji.github.io/app-tonetuna/</link>
-    <pubDate>Mon, 12 Jan 2015 13:44:23 &#43;0100</pubDate>
-    <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/app-tonetuna/</guid>
-    <description><![CDATA[<p>For some years I worked with and published mobile apps. Albeit mostly on the iOS Apple platform, I ventured into porting onto Android (JAVA, Kotlin) as well.
-This post lists the apps I worked on, worth of being published. Make sure you check those open-source ones, as their code is available for download.</p>
-<blockquote>
-<p>Modern software programs usually known as Apps&hellip;</p></blockquote>
-<div class="details admonition tip open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><p>Unless otherwise stated, I took care of</p>]]></description>
+<p>What we now call “apps” began as simple, standalone tools. Here are mine — crafted from scratch, designed with care, and sometimes a bit of eccentric joy.</p>]]></description>
 </item>
 <item>
     <title>Theremin</title>

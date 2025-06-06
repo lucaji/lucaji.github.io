@@ -1,13 +1,11 @@
-# Tube Amps Builds 🎸
+# DIY Tube Amps Builds 🎸
 
-
-# Building Tube Amps Builds builds your knowledge and skills <i class="fa-solid fa-fire"></i>
 
 There are many many ways to build an amplifier, depending on money and time available, choosing the most expensive components, creating (or again, buy) a custom metal chassis (or have a friend that can make many as you want) with the objective to obtain a better build for the same price.
 
 Building tube amps is very rewarding, and can keep you busy with its fair amount of metalwork and various power tools, like folding machines, press, lathe, milling machines and uncountable hand tools. Finishing the build with spray paint, adding lettering, logos, design elements one can go on forever. Custom shop!
 
-There are drawbacks though. The risks I experienced can be listed below.
+# Building Tube Amps Builds builds your knowledge and skills <i class="fa-solid fa-fire"></i>
 
 {{< admonition type=danger >}}
 - getting an electric shock :(fa-solid fa-bolt):

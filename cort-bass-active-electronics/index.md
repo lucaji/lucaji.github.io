@@ -1,11 +1,12 @@
-# Bass preamps: Bartolini MK-1 vs. MarkBass MB-1
+# Bass Guitar preamps comparison: Bartolini MK-1 vs. MarkBass MB-1
 
 
-# MK-1 vs. MB-1
+{{< figure src="ArtisanB4FLPlusAS.png" title="Artisan B4 with Markbass MB-1 preamp" >}}  
+{{< figure src="B5ElementOPTRfull.png" title="Element B5 with Bartolini MK-1 preamp" >}}
 
-I compared the inner electronics of two bass guitars made by [Cort](https://www.cortguitars.com) from the Artisan series: a B5 Element and a B4 Plus AS (Fretless).
+This article explores and compares two preamps commonly found in mid-tier factory bass guitars: the **Bartolini MK-1** and the **Markbass MB-1**. These two systems—despite being similarly specced in terms of controls and layout—differ substantially in design philosophy, implementation, and performance. The goal is to provide insight into their internal architecture and practical implications for musicians and tinkerers.
 
-The 5-stringer is equipped with Bartolini MK-1 active electronics, while the fretless sports the MarkBass MB-1.
+## Instrument Specifications
 
 | SPECIFICATIONS   | B5 Element                | B4FL+AS                          |
 | ---------------- | ------------------------- | -------------------------------- |
@@ -13,86 +14,80 @@ The 5-stringer is equipped with Bartolini MK-1 active electronics, while the fre
 | Body             | Mahogany (Ash top)        | Swamp Ash                        |
 | Neck             | 5pcs Walnut & Panga Panga | Maple/Wenge, 1F 20.5mm, 12F 22mm |
 | Fretboard        | Roasted Maple             | Panga Panga                      |
-| Fretboard Radius | 15.75" (400mm)            | n.a.                             |
-| Frets            | 24                        | fretless 2 octaves               |
-| Scale            | 34" (864mm)               | 34" (864mm)                      |
-| Tuners           | Hipshot(r) Ultralite      | Hipshot(r) Ultralite             |
+| Fretboard Radius | 15.75" (400mm)           | n.a.                             |
+| Frets            | 24                        | Fretless, 2 octaves              |
+| Scale            | 34" (864mm)              | 34" (864mm)                     |
+| Tuners           | Hipshot® Ultralite        | Hipshot® Ultralite               |
 | Bridge           | MetalCraft M5 - 18mm      | EB12(4)                          |
-| Pickups          | Bartolini(r) MK-1 set     | Bartolini(r) MK1-4/F & MK1-4/R   |
+| Pickups          | Bartolini® MK-1 set       | Bartolini® MK1-4/F & MK1-4/R     |
 | Electronics      | Bartolini MK-1            | Markbass MB-1                    |
 | Hardware Color   | Black                     | Black                            |
-| Strings          | D'Addario(r) EXL170-SSL   | D'Addario(r) EXL165 (105-045)    |
+| Strings          | D'Addario® EXL170-SSL     | D'Addario® EXL165 (105–045)      |
 
-Both guitars share the following characteristics too:
+**Shared Features**:
+- Master volume potentiometer  
+- Pickup balancer (bridge/neck)  
+- Three-band EQ (active mode)  
+- Passive/active switch  
+- 9V battery power supply
 
-- a master volume poti;
-- a passive/active switch;
-- pick-up balancer poti (bridge/neck);
-- three band EQ for the active mode;
-- a single 9V power supply.
+{{< admonition type=tip >}}
+**Note**: On the Bartolini MK-1, the switch *only* bypasses the EQ section — the circuit still requires a battery to function.
+{{< /admonition >}}
 
+## Overview of the Preamp Architectures
 
-In this article you will find:
+| Function               | Markbass MB-1       | Bartolini MK-1        |
+|------------------------|---------------------|------------------------|
+| Switch function        | Full passive mode   | EQ bypass only         |
+| Battery-less operation | Yes                 | No                     |
+| Tone control gains     | TBD                 | TBD                    |
+| Noise figure           | TBD                 | TBD                    |
 
-- reverse-engineer the Bartolini MK-1
-- reverse-engineer the MarkBass MB-1
-- schematics for both electronics with component values
-- point out at the differences.
-
-Both electronics share the same connectors and pinouts and the same size. But the internals are very different.
+While both preamps share identical pinouts and footprint (e.g., interchangeable within similar bass bodies), their internal circuitry reveals a stark contrast in engineering choices.
 
 ## Bartolini MK-1 Reverse Engineering
 
-{{< image src="bartolini-mk1-01.jpg" caption="The component side of the Bartolini MK-1 PCB." >}}
+{{< image src="bartolini-mk1-01.jpg" caption="Component side of the Bartolini MK-1 PCB." >}}
 
+The MK-1’s circuit is composed entirely of **surface-mount components** on a silkscreen-free PCB. A polarity protection diode is soldered directly across the battery terminals, and all signal processing is handled by **three TL062 dual op-amps** (JRC).
 
-The safety diode is soldered directly across the battery pins to provide protection against polarity inversion. The rest of the components are SMD and find their place on a silkscreen-free PCB which exposes only the solder pads to the components placement.
-Three double operational amplifiers ICs are present, very common TL062s made by JRC.
+Two **tantalum capacitors** act as low-leakage filters, stabilizing the **V/2 bias voltage** derived from the 9V power supply.
 
-Two tantalium capacitors (the yellow ones) provide stable bias voltage (9V/2) as visible from the supply stage schematic below.
+{{< image src="bartolini-mk1-03.jpg" caption="Power supply stage. Battery ground is activated by cable insertion, not shown here." >}}
 
-{{< image src="bartolini-mk1-03.jpg" caption="The power supply stage with the bias voltage V/2. The battery ground conection is actually closed when the cable jack is inserted, and it is not reflected in the schematic." >}}
+### MK-1 Signal Path and Schematic
 
+{{< image src="bartolini-mk1-02.jpg" caption="Wiring of pickups and balancer dual-potentiometer to the PCB connector." >}}
 
-### MK-1 Schematic
+The input stage consists of passive pickups routed through a **balancer potentiometer** and passed to a unity-gain op-amp stage. The initial preamp output is then routed via the switch to either:
 
+- The output jack (EQ bypassed), or  
+- The three-band EQ section.
 
-{{< image src="bartolini-mk1-02.jpg" caption="Wiring of pickups and balancer double-potentiomer to the connector. The potentiometer's stripes are actually counter-wired against the rotating axis, as one decreases, the other increases its resistance." >}}
+{{< image src="bartolini-mk1-04.jpg" caption="Input buffer stage. Unity gain is set via 3.9k resistors." >}}
 
-{{< image src="bartolini-mk1-04.jpg" caption="The very first input stage from the pickups and balancer potentiometer. The pre-out wire brings this initial signal, with unity gain, to the switch." >}}
+The input coupling capacitors are 100nF, forming a **high-pass filter**. Substituting these with 1uF+ electrolytics would extend the bass range but may increase susceptibility to microphonic or subsonic noise (e.g., from finger taps).
 
+{{< image src="bartolini-mk1-05.jpg" caption="EQ stage after the bypass switch. One op-amp section remains unused with floating pins." >}}
 
-The schematic section above clarifies both why it is not possible to play without battery nor exists a passive mode. The gain is set to 1 by the 3.9k resistors on both channels. A 100n decoupling capacitor between the pickups and the op-amp might be replaced with a 1uF or more for extended bass-range as it act as a high pass filter. The factory value might actually help in rejecting very low frequencies like microphonics due to finger taps onto the strings.
+An important note: one op-amp remains entirely unconnected, with **floating inputs**, which is generally considered poor practice. Connecting the non-inverting input to ground and configuring it as a buffer (unity gain) would reduce potential noise and mitigate risk of RF interference or parasitic oscillation.
 
-{{< image src="bartolini-mk1-05.jpg" caption="The EQ stage is connected after the switch. The whole circuit uses 5 of the 6 op-amps available, leaving the latter disconnected with its pin floating." >}}
-
-
-The signal from the input stage "pre-out" is commuted either to the output jack or fed inside the EQ circuit. Here again a 100n capacitor provides AC coupling. If you feel like experimenting, a 1uF can be installed.
-For some reason, the unused op-amp has been left with its inputs floating. IMHO it would be best to tie the non-inverting input to ground and connect the inverting input as buffer follower to its output to lower the noise-floor by some dB. This would mitigate unwanted noises to pollute the adiacent op-amp and reduce the risk of self-oscillating phenomena in presence of strong radiations especially RF/EMF.
-
-## MarkBass MB-1 Reverse Engineering
+## Markbass MB-1 Reverse Engineering
 
 {{< image src="mb1-comp-side.png" caption="Markbass MB-1 component side PCB." >}}
 
-work in progress...
+(*Section under construction — the following will be added soon:*)
 
-### MB-1 Schematic
+- Full schematic diagram  
+- Component analysis and values  
+- Tone control architecture  
+- Comparison of output impedance and gain stages
 
-will be published soon...
+## Conclusion
 
-# Comparison table
+This side-by-side comparison of the MK-1 and MB-1 reveals a shared design context (modern active bass electronics with 3-band EQ and pickup balance), but divergent internal strategies.
 
-
-{{< figure src="ArtisanB4FLPlusAS.png" title="Artisan B4 with Markbass MB-1 preamp" >}}
-
-{{< figure src="B5ElementOPTRfull.png" title="Element B5 with Bartolini MK-1 preamp" >}}
-
-
-| Function               | Markbass MB-1 | Bartolini MK-1 |
-| ---------------------- | ------------- | -------------- |
-| Switch function        | passive mode  | EQ bypass only |
-| Battery-less operation | possible      | battery needed |
-| Tone controls gains    | TBD           | TBD            | 
-| Noise figure           | TBD           | TBD            |
-
+The **Bartolini MK-1** is minimal and efficient but lacks a true passive mode and contains some questionable design choices like unused op-amps.  
+The **Markbass MB-1** appears to offer a more flexible and serviceable approach, with passive fallback — but a detailed teardown will confirm or refute this in the upcoming update.
 

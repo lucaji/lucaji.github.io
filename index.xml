@@ -2,9 +2,9 @@
     <channel>
         <title>Milletgrain</title>
         <link>https://lucaji.github.io/</link>
-        <description>indie music artist and producer</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi()gmail(.)com (Luca Cipressi)</managingEditor>
-            <webMaster>lucacipressi()gmail(.)com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 30 May 2025 00:00:00 &#43;0000</lastBuildDate>
+        <description>indie music artist and producer - software and hardware engineer</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi@gmail.com (Luca Cipressi)</managingEditor>
+            <webMaster>lucacipressi@gmail.com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 30 May 2025 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://lucaji.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>🎵 Goats, Tea and Trouble — New Song Out Now 🌙</title>
@@ -24,93 +24,12 @@
     <description><![CDATA[<p>It was one of those summer mornings when time feels almost paused — a tranquil pocket of stillness nestled within the city’s otherwise relentless pulse. The grass was already warm with sun, and the air carried the scent of cut leaves and waking soil. Beneath the shade of a tall plane tree, a small group had gathered on mats, in silent reverence to breath and body. At the center stood a yoga teacher, her posture fluid, calm, unhurried — an embodiment of presence.</p>]]></description>
 </item>
 <item>
-    <title>Bass preamps: Bartolini MK-1 vs. MarkBass MB-1</title>
+    <title>Bass Guitar preamps comparison: Bartolini MK-1 vs. MarkBass MB-1</title>
     <link>https://lucaji.github.io/cort-bass-active-electronics/</link>
     <pubDate>Tue, 30 May 2023 13:44:23 &#43;0100</pubDate>
     <author>Luca Cipressi</author>
     <guid>https://lucaji.github.io/cort-bass-active-electronics/</guid>
-    <description><![CDATA[<h1 id="mk-1-vs-mb-1">MK-1 vs. MB-1</h1>
-<p>I compared the inner electronics of two bass guitars made by <a href="https://www.cortguitars.com" target="_blank" rel="noopener noreferrer ">Cort</a> from the Artisan series: a B5 Element and a B4 Plus AS (Fretless).</p>
-<p>The 5-stringer is equipped with Bartolini MK-1 active electronics, while the fretless sports the MarkBass MB-1.</p>
-<div class="table-wrapper">
-  <table>
-    <thead>
-        <tr>
-            <th>SPECIFICATIONS</th>
-            <th>B5 Element</th>
-            <th>B4FL+AS</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Construction</td>
-            <td>Bolt-on</td>
-            <td>Bolt-on</td>
-        </tr>
-        <tr>
-            <td>Body</td>
-            <td>Mahogany (Ash top)</td>
-            <td>Swamp Ash</td>
-        </tr>
-        <tr>
-            <td>Neck</td>
-            <td>5pcs Walnut &amp; Panga Panga</td>
-            <td>Maple/Wenge, 1F 20.5mm, 12F 22mm</td>
-        </tr>
-        <tr>
-            <td>Fretboard</td>
-            <td>Roasted Maple</td>
-            <td>Panga Panga</td>
-        </tr>
-        <tr>
-            <td>Fretboard Radius</td>
-            <td>15.75&quot; (400mm)</td>
-            <td>n.a.</td>
-        </tr>
-        <tr>
-            <td>Frets</td>
-            <td>24</td>
-            <td>fretless 2 octaves</td>
-        </tr>
-        <tr>
-            <td>Scale</td>
-            <td>34&quot; (864mm)</td>
-            <td>34&quot; (864mm)</td>
-        </tr>
-        <tr>
-            <td>Tuners</td>
-            <td>Hipshot(r) Ultralite</td>
-            <td>Hipshot(r) Ultralite</td>
-        </tr>
-        <tr>
-            <td>Bridge</td>
-            <td>MetalCraft M5 - 18mm</td>
-            <td>EB12(4)</td>
-        </tr>
-        <tr>
-            <td>Pickups</td>
-            <td>Bartolini(r) MK-1 set</td>
-            <td>Bartolini(r) MK1-4/F &amp; MK1-4/R</td>
-        </tr>
-        <tr>
-            <td>Electronics</td>
-            <td>Bartolini MK-1</td>
-            <td>Markbass MB-1</td>
-        </tr>
-        <tr>
-            <td>Hardware Color</td>
-            <td>Black</td>
-            <td>Black</td>
-        </tr>
-        <tr>
-            <td>Strings</td>
-            <td>D&rsquo;Addario(r) EXL170-SSL</td>
-            <td>D&rsquo;Addario(r) EXL165 (105-045)</td>
-        </tr>
-    </tbody>
-  </table>
-</div>
-<p>Both guitars share the following characteristics too:</p>]]></description>
+    <description><![CDATA[A side-by-side teardown and analysis of the Bartolini MK-1 and Markbass MB-1 preamps, highlighting key differences in circuit design, switch behavior, and signal handling.]]></description>
 </item>
 <item>
     <title>PikrellCam Motion-detection plus temperature Logger</title>
@@ -119,6 +38,10 @@
     <author>Luca Cipressi</author>
     <guid>https://lucaji.github.io/pikrellcam-environmental-logger/</guid>
     <description><![CDATA[<h1 id="pikrellcam-reborn">PiKrellCam Reborn</h1>
+<figure><a class="lightgallery" href="/pikrellcam-environmental-logger/pikrellcam-ui-01.jpg" title="/pikrellcam-environmental-logger/pikrellcam-ui-01.jpg" data-thumbnail="/pikrellcam-environmental-logger/pikrellcam-ui-01.jpg" data-sub-html="<h2>Logger UI panel.</h2>">
+        
+    </a><figcaption class="image-caption">Logger UI panel.</figcaption>
+    </figure>
 <h2 id="motion-detection-with-sensor-data-logger">Motion Detection with Sensor Data Logger</h2>
 <blockquote>
 <p>One of the most used motion detection and surveillance software for the Raspberry Pi with additional temperature and humidity logging and graph panel.</p></blockquote>
@@ -135,8 +58,8 @@
     <author>Luca Cipressi</author>
     <guid>https://lucaji.github.io/electrical-power-measurements/</guid>
     <description><![CDATA[<h1 id="foreword">Foreword</h1>
-<p>Measuring power (consumption or supplied) in certain electric (and electronic) appliances or projects sometimes requires very long running times. Some might even last for days or more.
-Having a software tool that can reliabily take care of storing the measured data and plot some nice graphs and even export the whole data-set is a great deal of help. Especially when such software can be customized to fulfill any kind of requirements.</p>]]></description>
+<p>Measuring electrical power—whether consumed or supplied—over long durations can be essential for analyzing appliance behavior, validating designs, or performing reliability testing. Some measurement sessions may extend over hours or even days. In such scenarios, having a reliable software tool that can log data continuously, plot graphs, and export datasets becomes invaluable.</p>
+<p>To support this need, I developed a utility named <strong>GPMLink</strong>, which interfaces with the <strong>GW-Instek GPM8310</strong> power meter. The software uses a Telnet-based interface to communicate with the device and periodically queries it using SCPI commands to retrieve integrated power metrics.</p>]]></description>
 </item>
 <item>
     <title>KAYABOARD - mag-lev organ keyboard (POC)</title>
@@ -144,8 +67,7 @@ Having a software tool that can reliabily take care of storing the measured data
     <pubDate>Thu, 02 Jul 2020 11:04:49 &#43;0800</pubDate>
     <author>Luca Cipressi</author>
     <guid>https://lucaji.github.io/kayaboard/</guid>
-    <description><![CDATA[<h1 id="kayaboard">KAYABOARD</h1>
-<p>This is a Proof-Of-Concept of an <strong>organ keyboard</strong> using <strong>magnets</strong> instead of springs to obtain a nice upward release action and a decent downward counter-pressure when playing.</p>
+    <description><![CDATA[<p>This is a Proof-Of-Concept of an <strong>organ keyboard</strong> using <strong>magnets</strong> instead of springs to obtain a nice upward release action and a decent downward counter-pressure when playing.</p>
 <p>Designing a musical-instrument keyboard confronted me with some ergonomics considerations and material choices.
 I did some research on magnets as well, to have a better understanding of their force irradiation and how to select them to save space, weight and achieve the best feeling when playing.</p>]]></description>
 </item>
@@ -161,23 +83,21 @@ I did some research on magnets as well, to have a better understanding of their 
 <p>After the Second World War, Geloso expanded and expanded his production, becoming from 1950 onwards, a point of reference for enthusiasts of consumer electronics and hobbyists.</p>]]></description>
 </item>
 <item>
-    <title>Analog Radio</title>
+    <title>AM Radio on Arduino UNO</title>
     <link>https://lucaji.github.io/analog-radio/</link>
     <pubDate>Mon, 19 Jan 2015 00:00:00 &#43;0000</pubDate>
     <author>Luca Cipressi</author>
     <guid>https://lucaji.github.io/analog-radio/</guid>
-    <description><![CDATA[<h1 id="analog-radio">ANALOG RADIO!</h1>
-<p>being a fan of old analog radio sets, I decided to collect these related projects starting from a Galena radio receiver that does not need power supply to operate, up to some Arduino experiments&hellip; Some analog but digitally driven audio transmission and analog modulation (mostly amplitude). Have fun!</p>
-<p>The first is an audio transmitter over LW radio band (734 kHz) in amplitude modulation (AM) which might be easily picked by a once-common radio set.</p>]]></description>
+    <description><![CDATA[<h2 id="-introduction">🛠️ Introduction</h2>
+<p>This blog article gathers a series of <strong>DIY radio experiments</strong>, ranging from early analog detection with <em>Galena crystal receivers</em> to digitally driven AM transmission via <strong>Arduino microcontrollers</strong>. Inspired by a love for vintage radio sets and low-power communication techniques, this collection explores both the simplicity of early unpowered detection and the elegance of amplitude modulation (AM) implemented in modern embedded systems. These are primarily <strong>short-range (QRP)</strong> experiments — ideal for educational settings, hobbyists, and radio tinkerers looking to bridge past and present technologies.</p>]]></description>
 </item>
 <item>
-    <title>Tube Amps Builds 🎸</title>
+    <title>DIY Tube Amps Builds 🎸</title>
     <link>https://lucaji.github.io/tube-amps/</link>
     <pubDate>Mon, 19 Jan 2015 00:00:00 &#43;0000</pubDate>
     <author>Luca Cipressi</author>
     <guid>https://lucaji.github.io/tube-amps/</guid>
-    <description><![CDATA[<h1 id="building-tube-amps-builds-builds-your-knowledge-and-skills">Building Tube Amps Builds builds your knowledge and skills <i class="fa-solid fa-fire"></i></h1>
-<p>There are many many ways to build an amplifier, depending on money and time available, choosing the most expensive components, creating (or again, buy) a custom metal chassis (or have a friend that can make many as you want) with the objective to obtain a better build for the same price.</p>
+    <description><![CDATA[<p>There are many many ways to build an amplifier, depending on money and time available, choosing the most expensive components, creating (or again, buy) a custom metal chassis (or have a friend that can make many as you want) with the objective to obtain a better build for the same price.</p>
 <p>Building tube amps is very rewarding, and can keep you busy with its fair amount of metalwork and various power tools, like folding machines, press, lathe, milling machines and uncountable hand tools. Finishing the build with spray paint, adding lettering, logos, design elements one can go on forever. Custom shop!</p>]]></description>
 </item>
 <item>
@@ -186,9 +106,12 @@ I did some research on magnets as well, to have a better understanding of their 
     <pubDate>Thu, 15 Jan 2015 00:00:00 &#43;0000</pubDate>
     <author>Luca Cipressi</author>
     <guid>https://lucaji.github.io/proiezione-origami-book-cover-design/</guid>
-    <description><![CDATA[<p>I designed the cover for this enthralling <strong>cyberzen</strong> story, rich in obfuscated structures that only electricity can uncover.</p>
+    <description><![CDATA[<h1 id="proiezione-origami--book-cover-design">Proiezione Origami – Book Cover Design</h1>
+<p>This cover design project began as a collaboration with the Italian author Alessandra Arcieri, who penned a cryptic and futuristic tale titled <em>Proiezione Origami</em>, set in a cyberzen world where consciousness, code, and combat blur into a single stream of unfolding events.</p>
+<h2 id="introduction-to-the-narrative">Introduction to the Narrative</h2>
 <blockquote>
-<p>Rome, New York, Bombay. What will be the next target? In a scenario á-la Blade Runner, in a time marked by attacks and dominated by the logics of psycho-empowering games, every experience is transformed into Agone and every gamer in Ludopath. The jingle of the new role-playing game is a song by the TV musical &ldquo;Fame&rdquo;, inspired by the verses of Walt Whitman. Among these verses lies the secret of Agent Alpha&rsquo;s mission. The rebel player, determined to neutralize the mother-company and to discover the identity of the powerful demiurge, will have to deal with a fearsome opponent sent to flush her out, some mercenaries and a series of events created on-spot by the game. Among excellent university campuses, historic cities and metropolis with gray tones, all is played without the exclusion of blows. Alpha has a precious ally, a valid Master and a secret and very powerful energy resource, which she does not yet know. She will first have to sing the electric body. Finalist book at BUK Modena 2017.</p>]]></description>
+<p>“Rome, New York, Bombay. What will be the next target?”</p></blockquote>
+<p>Set in a fragmented future, the narrative explores transcontinental power plays, high-stakes psycho-games, and mythic figures recast in digital landscapes. The protagonist, known as Agent Alpha, must decode a layered conspiracy crafted by a corporate demiurge. Her mission is embedded within verses from Walt Whitman’s <em>I Sing the Body Electric</em>—a haunting reference and anthem for the electrified self.</p>]]></description>
 </item>
 </channel>
 </rss>

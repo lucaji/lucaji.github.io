@@ -4,22 +4,25 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>Data Logger for Electrical Power Measurements - Milletgrain</title><meta name="Description" content="GW-Instek GPM8310 AC/DC Power Meter data logger utility."><meta property="og:url" content="https://lucaji.github.io/electrical-power-measurements/">
+        <title>Data Logger for Electrical Power Measurements - Milletgrain</title><meta name="Description" content="A logging utility for the GW-Instek GPM8310 AC/DC Power Meter using SCPI over Telnet."><meta property="og:url" content="https://lucaji.github.io/electrical-power-measurements/">
   <meta property="og:site_name" content="Milletgrain">
   <meta property="og:title" content="Data Logger for Electrical Power Measurements">
-  <meta property="og:description" content="GW-Instek GPM8310 AC/DC Power Meter data logger utility.">
+  <meta property="og:description" content="A logging utility for the GW-Instek GPM8310 AC/DC Power Meter using SCPI over Telnet.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2021-01-19T00:00:00+00:00">
     <meta property="article:modified_time" content="2023-05-29T00:00:00+00:00">
     <meta property="article:tag" content="Measurements">
+    <meta property="article:tag" content="SCPI">
+    <meta property="article:tag" content="Power Meter">
+    <meta property="article:tag" content="Data Logging">
     <meta property="og:image" content="https://lucaji.github.io/">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://lucaji.github.io/">
   <meta name="twitter:title" content="Data Logger for Electrical Power Measurements">
-  <meta name="twitter:description" content="GW-Instek GPM8310 AC/DC Power Meter data logger utility.">
+  <meta name="twitter:description" content="A logging utility for the GW-Instek GPM8310 AC/DC Power Meter using SCPI over Telnet.">
 <meta name="application-name" content="My cool site">
 <meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -34,13 +37,13 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/lucaji.github.io\/electrical-power-measurements\/"
-        },"image": ["https:\/\/lucaji.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "Measurements","wordcount":  434 ,
+        },"image": ["https:\/\/lucaji.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "Measurements, SCPI, Power Meter, Data Logging","wordcount":  820 ,
         "url": "https:\/\/lucaji.github.io\/electrical-power-measurements\/","datePublished": "2021-01-19T00:00:00+00:00","dateModified": "2023-05-29T00:00:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "Luca","logo": "https:\/\/lucaji.github.io\/avatar.png"},"author": {
                 "@type": "Person",
                 "name": "Luca Cipressi"
-            },"description": "GW-Instek GPM8310 AC/DC Power Meter data logger utility."
+            },"description": "A logging utility for the GW-Instek GPM8310 AC/DC Power Meter using SCPI over Telnet."
     }
     </script></head>
     <body data-header-desktop="fixed" data-header-mobile="auto"><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
@@ -51,7 +54,7 @@
             <a href="/" title="Milletgrain"><span class="header-title-pre"><i class='fa-solid fa-pepper-hot' aria-hidden='true'></i></span>milletgrain</a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/dev/" title="Software and Hardware projects"> Dev </a><a class="menu-item" href="https://github.com/lucaji" title="GitHub" rel="noopener noreferrer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><a class="menu-item" href="https://stackoverflow.com/users/4111774" title="StackOverflow" rel="noopener noreferrer" target="_blank"><i class='fab fa-stack-overflow fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="https://github.com/lucaji" title="GitHub" rel="noopener noreferrer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><a class="menu-item" href="https://stackoverflow.com/users/4111774" title="StackOverflow" rel="noopener noreferrer" target="_blank"><i class='fab fa-stack-overflow fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
                         <input type="text" placeholder="Search..." id="search-input-desktop">
                         <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
                             <i class="fas fa-search fa-fw" aria-hidden="true"></i>
@@ -93,7 +96,7 @@
                     <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
                         Cancel
                     </a>
-                </div><a class="menu-item" href="/posts/">Posts</a><a class="menu-item" href="/tags/">Tags</a><a class="menu-item" href="/categories/">Categories</a><a class="menu-item" href="/dev/" title="Software and Hardware projects">DevSoftware and Hardware projects</a><a class="menu-item" href="https://github.com/lucaji" title="GitHub" rel="noopener noreferrer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>GitHub</a><a class="menu-item" href="https://stackoverflow.com/users/4111774" title="StackOverflow" rel="noopener noreferrer" target="_blank"><i class='fab fa-stack-overflow fa-fw' aria-hidden='true'></i>StackOverflow</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                </div><a class="menu-item" href="/posts/">Posts</a><a class="menu-item" href="/tags/">Tags</a><a class="menu-item" href="/categories/">Categories</a><a class="menu-item" href="https://github.com/lucaji" title="GitHub" rel="noopener noreferrer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>GitHub</a><a class="menu-item" href="https://stackoverflow.com/users/4111774" title="StackOverflow" rel="noopener noreferrer" target="_blank"><i class='fab fa-stack-overflow fa-fw' aria-hidden='true'></i>StackOverflow</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
                 <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>Switch Theme</a></div>
     </div>
 </header><div class="search-dropdown desktop">
@@ -105,14 +108,14 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content always-active" id="toc-content-auto"></div>
-        </div><article class="page single"><div class="single-card"><h1 class="single-title animate__animated animate__flipInX">Data Logger for Electrical Power Measurements</h1><h2 class="single-subtitle">Interfacing an electrical power meter via Telnet and SCPI</h2><div class="post-meta">
+        </div><article class="page single"><div class="single-card"><h1 class="single-title animate__animated animate__flipInX">Data Logger for Electrical Power Measurements</h1><h2 class="single-subtitle">Interfacing an Electrical Power Meter via Telnet and SCPI</h2><div class="post-meta">
                 <div class="post-meta-line"><span class="post-author"><a href="https://lucaji.github.io" title="Author" target="_blank" rel="noopener noreferrer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Luca Cipressi</a></span><span class="post-category">included in <a href="/categories/software/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Software</a>&nbsp;<a href="/categories/electronics/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Electronics</a></span></div>
                 <div class="post-meta-line"><span class="post-publish">
                             <i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i><time datetime="2021-01-19">2021-01-19</time>
                         </span><span class="post-word-count">
-                            <i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>434 words
+                            <i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>820 words
                         </span><span class="post-reading-time">
-                            <i class="far fa-clock fa-fw" aria-hidden="true"></i>3 minutes
+                            <i class="far fa-clock fa-fw" aria-hidden="true"></i>4 minutes
                         </span></div>
             </div><div class="details toc" id="toc-static"  data-kept="">
                     <div class="details-summary toc-title">
@@ -124,18 +127,18 @@
     <li><a href="#foreword">Foreword</a></li>
     <li><a href="#gpmlink">GPMLink</a>
       <ul>
-        <li><a href="#the-power-meter">The Power Meter</a></li>
-        <li><a href="#connection-and-speed">Connection and speed</a></li>
+        <li><a href="#the-power-meter-gw-instek-gpm-8310">The Power Meter: GW-Instek GPM-8310</a></li>
+        <li><a href="#communication-and-polling-rate">Communication and Polling Rate</a></li>
         <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#scpi-command-reference">SCPI Command Reference</a></li>
+        <li><a href="#sample-csv-log-output">Sample CSV Log Output</a></li>
       </ul>
     </li>
   </ul>
 </nav></div>
                 </div><div class="content" id="content"><h1 id="foreword">Foreword</h1>
-<p>Measuring power (consumption or supplied) in certain electric (and electronic) appliances or projects sometimes requires very long running times. Some might even last for days or more.
-Having a software tool that can reliabily take care of storing the measured data and plot some nice graphs and even export the whole data-set is a great deal of help. Especially when such software can be customized to fulfill any kind of requirements.</p>
-<p>I have written this utility which interfaces with a hardware power measurement tool: the GPM8310 made by GW-Instek.
-It relies on an Telnet client which periodically queries the GPM to get the exact integrated values of power.</p>
+<p>Measuring electrical power—whether consumed or supplied—over long durations can be essential for analyzing appliance behavior, validating designs, or performing reliability testing. Some measurement sessions may extend over hours or even days. In such scenarios, having a reliable software tool that can log data continuously, plot graphs, and export datasets becomes invaluable.</p>
+<p>To support this need, I developed a utility named <strong>GPMLink</strong>, which interfaces with the <strong>GW-Instek GPM8310</strong> power meter. The software uses a Telnet-based interface to communicate with the device and periodically queries it using SCPI commands to retrieve integrated power metrics.</p>
 <figure><a class="lightgallery" href="/electrical-power-measurements/gpm8310.jpg" title="/electrical-power-measurements/gpm8310.jpg" data-thumbnail="/electrical-power-measurements/gpm8310.jpg" data-sub-html="<h2>GW-Instek Power Meter GPM8310 front panel.</h2>">
         <img
             class="lazyload"
@@ -146,25 +149,41 @@ It relies on an Telnet client which periodically queries the GPM to get the exac
             alt="/electrical-power-measurements/gpm8310.jpg" width="4241" height="1804" />
     </a><figcaption class="image-caption">GW-Instek Power Meter GPM8310 front panel.</figcaption>
     </figure>
-<p>If you have a GPM8310 laying around, you can try-out this software utility called <a href="https://github.com/lucaji/GPMLink" target="_blank" rel="noopener noreferrer ">GPMLink</a> whose source code is available at the link.</p>
-<p>A complete build is not provided yet, but shall be pretty easy to build it yourself using Visual Studio Community or any other IDE.</p>
+<p>If you own a GPM8310, you can try out <a href="https://github.com/lucaji/GPMLink" target="_blank" rel="noopener noreferrer ">GPMLink</a>. The source code is openly available. Although prebuilt binaries are not provided yet, compiling it is straightforward using Visual Studio Community or any other compatible IDE.</p>
 <h1 id="gpmlink">GPMLink</h1>
-<p>GW-Instek Power Meter Logging Utility</p>
-<p>GW-Instek GPM8310 AC/DC Power Meter data logger utility.</p>
-<p>This project includes a .NET Winforms and a WPF application (and .NETCore work in progress) to perform long measurements and data logging sessions with the above power meter device.</p>
-<h2 id="the-power-meter">The Power Meter</h2>
-<p>GW Instek GPM-8310 is a digital power meter for single-phase (1P/2W) AC power measurement. Features include DC, 0.1Hz~100kHz test bandwidth, 16bits A/D, and 300 kHz sampling rate. It adopts 5” TFT LCD screen with a five-digit measurement display and provides 25 power measurement related parameters, and has a high-precision measurement capability. It also features the ability to display waveform (voltage/current/power), the integration measurement function, harmonic measurement and analysis of each order, external sensor input terminals, and various communication interfaces, etc., to help users achieve clear, convenient and accurate power measurements. This power meter is a most cost-effective power meter with most complete functionalities among the products of the same category.</p>
-<p><a href="https://www.gwinstek.com/en-global/products/detail/GPM-8310" target="_blank" rel="noopener noreferrer ">Product Page</a></p>
-<p><a href="https://www.gwinstek.com/en-global/products/downloadSeriesSpec/2114" target="_blank" rel="noopener noreferrer ">Specifications</a></p>
-<h2 id="connection-and-speed">Connection and speed</h2>
-<p>The GPM-8310 has RS232C, USB port, Ethernet and GBIP ports. This program relies on its Ethernet port and implements a simple Telnet class to remote control and retrieve the measurements data out of the GPM via SCPI commands.</p>
-<p>The data requests are polled at intervals from half a second to two seconds intervals.</p>
-<p>This &ldquo;slow&rdquo; speed or interval lag has nothing to do with the accuracy of the measurements: the device itself samples and computes data at very high rates and make it available through an internal Integrator that is accessible via proper SCPI commands, delivering precise estimation for the requested electrical magnitudes (voltage, current, power, energy, phase, etc.)</p>
+<p><strong>GPMLink</strong> is a .NET-based utility that supports both <strong>WinForms</strong> and <strong>WPF</strong> frontends (with a .NET Core version under development). It allows users to perform extended power measurements and log them to CSV files with adjustable polling intervals.</p>
+<h2 id="the-power-meter-gw-instek-gpm-8310">The Power Meter: GW-Instek GPM-8310</h2>
+<p>The <strong>GPM-8310</strong> is a precision digital power meter designed for single-phase (1P/2W) AC and DC measurements. Key specifications include:</p>
+<ul>
+<li>Bandwidth: DC, 0.1 Hz–100 kHz</li>
+<li>Sampling Rate: 300 kHz</li>
+<li>ADC Resolution: 16 bits</li>
+<li>Display: 5” TFT LCD (five-digit display)</li>
+<li>Measurement Parameters: 25+ (voltage, current, power, energy, phase, etc.)</li>
+<li>Features: waveform display, harmonic analysis, integration measurements, external sensor support</li>
+</ul>
+<p>This model strikes a solid balance between performance and cost, offering high measurement precision and flexible interface options.</p>
+<p><a href="https://www.gwinstek.com/en-global/products/detail/GPM-8310" target="_blank" rel="noopener noreferrer ">Product Page →</a><br>
+<a href="https://www.gwinstek.com/en-global/products/downloadSeriesSpec/2114" target="_blank" rel="noopener noreferrer ">Datasheet / Specifications →</a></p>
+<h2 id="communication-and-polling-rate">Communication and Polling Rate</h2>
+<p>The GPM-8310 provides several communication interfaces: <strong>RS232C</strong>, <strong>USB</strong>, <strong>Ethernet</strong>, and <strong>GPIB</strong>. <strong>GPMLink</strong> relies on the <strong>Ethernet</strong> port and communicates over <strong>Telnet</strong> using <strong>SCPI (Standard Commands for Programmable Instruments)</strong> to control the device and fetch measurements.</p>
+<p>The logging interval can be configured between <strong>0.5 seconds to 2 seconds</strong>. While this may seem slow, it&rsquo;s important to note that the GPM samples data internally at much higher rates. It computes averages or integrated values over time, which are retrieved through SCPI queries. These include:</p>
+<ul>
+<li>Instantaneous and average voltage/current</li>
+<li>Active, apparent, and reactive power</li>
+<li>Energy totals (Wh, Ah)</li>
+<li>Frequency and phase angle</li>
+<li>Harmonics and THD (Total Harmonic Distortion)</li>
+</ul>
+<p>This architecture ensures high precision even with infrequent polling, making it ideal for long-term logging.</p>
 <h2 id="gallery">Gallery</h2>
 
 
 
 
+
+
+
 	
 
 
@@ -202,13 +221,15 @@ It relies on an Telnet client which periodically queries the GPM to get the exac
 
 
 
-  	
+
+
+	
 	
 
 	
-		<script src="/shortcode-gallery/jquery-3.6.1.min.js"></script>
+		<script src="/shortcode-gallery/jquery-3.7.1.min.js"></script>
 	
-	
+
 	
 		<script src="/shortcode-gallery/lazy/jquery.lazy.min.js"></script>
 	
@@ -234,36 +255,48 @@ It relies on an Telnet client which periodically queries the GPM to get the exac
 <div id="gallery-52a1ffecf7c54ed508f8e2d87990b3bc-1" class="justified-gallery">
 	
 		
-		
+
+			
+			
+
+			
+			
 				
 			
-			
+
 			
 				
 			
 
 			
 			
-
-
-			
-			
-			
-
-			
+				
+					
+				
 			
 
+
+			
+			
 
 			<div>
 				
 				
 					
+					
 				
-				<a href="/electrical-power-measurements/gpmlink09.png" 
+
+				
+				
+					
+					
+				
+
+				<a href="/electrical-power-measurements/gpmlink09.png"
 					class="galleryImg"
 					
 					>
-					<img			
+					<img
 						width="470" height="272"
 
 						
@@ -273,7 +306,7 @@ It relies on an Telnet client which periodically queries the GPM to get the exac
 								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABMAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AO6fw9o6Srt0uBl2jI8s4/RT/Ol1Hwt4fk06fzNKtWCxsw&#43;QcEA81Wm07WNwDawGfAw/2WPAHpyc1KND1kBlfXEZHGHUWajI7jOa29nH&#43;dfj/kY&#43;0l/I/wAP8z5zb7Pt&#43;USBsdyMZqO/IW5TOf8AUp/6CK94b4YeEje&#43;SunED3ncnp/v5/SuJ8YeGfB2na/LbStqUHlqiiOBomUDaP777qxNjshqN41wu64c/L3NaFjqV40rh7hnBXo3I/WsVP8Aj4X/AHa0NP8A9c3&#43;7TYkW3lxbjEUHXr5CZ/lXO&#43;KBGbGOQW9urm4jBdYUDEZ6ZAzit&#43;T/j3H1rA8T/8AINi/6&#43;Y/50hn/9k="
 							
 							class="lazy"
-							data-src="/electrical-power-measurements/gpmlink09_hu_edf2005dd4bef5da.png"
+							data-src="/electrical-power-measurements/gpmlink09_hu_74224321652551e9.png"
 						
 
 						
@@ -283,36 +316,48 @@ It relies on an Telnet client which periodically queries the GPM to get the exac
 		
 	
 		
-		
+
+			
+			
+
+			
+			
 				
 			
-			
+
 			
 				
 			
 
 			
 			
-
-
-			
-			
-			
-
-			
+				
+					
+				
 			
 
+
+			
+			
 
 			<div>
 				
 				
 					
+					
 				
-				<a href="/electrical-power-measurements/gpmlink08.png" 
+
+				
+				
+					
+					
+				
+
+				<a href="/electrical-power-measurements/gpmlink08.png"
 					class="galleryImg"
 					
 					>
-					<img			
+					<img
 						width="600" height="328"
 
 						
@@ -322,7 +367,7 @@ It relies on an Telnet client which periodically queries the GPM to get the exac
 								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABEAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AOBuJvEFnFM73t1GIidrKWUgZ4II/wAay/8AhJdf/wCg3qP/AIFP/jW1rtxcEiziTeJo87QpLE&#43;35Vzn9mahn/jxuf8Av03&#43;FCAs/wDCSa6DxrWo/wDgU/8AjTl8S68WH/E61H/wKf8Axqp/Zt/nH2G4z/1yb/ClXTb/AHD/AEG4/wC/Tf4UAeuXf/Hu3&#43;4f5Uv8f40l3/x7t/uH&#43;VL/AB/jQAn8X40lL/F&#43;NJQB/9k="
 							
 							class="lazy"
-							data-src="/electrical-power-measurements/gpmlink08_hu_34a073ec019952e0.png"
+							data-src="/electrical-power-measurements/gpmlink08_hu_3dfb1c9c4921d9ca.png"
 						
 
 						
@@ -332,36 +377,48 @@ It relies on an Telnet client which periodically queries the GPM to get the exac
 		
 	
 		
-		
+
+			
+			
+
+			
+			
 				
 			
-			
+
 			
 				
 			
 
 			
 			
-
-
-			
-			
-			
-
-			
+				
+					
+				
 			
 
+
+			
+			
 
 			<div>
 				
 				
 					
+					
 				
-				<a href="/electrical-power-measurements/gpmlink07.png" 
+
+				
+				
+					
+					
+				
+
+				<a href="/electrical-power-measurements/gpmlink07.png"
 					class="galleryImg"
 					
 					>
-					<img			
+					<img
 						width="600" height="328"
 
 						
@@ -371,7 +428,7 @@ It relies on an Telnet client which periodically queries the GPM to get the exac
 								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABEAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AOBnn8QWcUzve3SCInayllIGeCCKy/8AhJdfz/yG9R/8Cn/xra124nOLKFN4mjztCksT7flXOHTNQz/x43P/AH5b/CgC1/wkevA5/trUOf8Ap6f/ABpU8Sa/vXOtaj1/5&#43;n/AMaqf2bfnj7FcZ/65N/hSppl&#43;HGbK46/88W/woA9cu/&#43;Pdv9xv5Uv/LT8aS7/wCPdv8Acb&#43;VL/y0/GgBP4/xpB1pf4/xpB1oA//Z"
 							
 							class="lazy"
-							data-src="/electrical-power-measurements/gpmlink07_hu_b303acdcd601e1f5.png"
+							data-src="/electrical-power-measurements/gpmlink07_hu_1b55382aba311691.png"
 						
 
 						
@@ -381,36 +438,48 @@ It relies on an Telnet client which periodically queries the GPM to get the exac
 		
 	
 		
-		
+
+			
+			
+
+			
+			
 				
 			
-			
+
 			
 				
 			
 
 			
 			
-
-
-			
-			
-			
-
-			
+				
+					
+				
 			
 
+
+			
+			
 
 			<div>
 				
 				
 					
+					
 				
-				<a href="/electrical-power-measurements/gpmlink06.png" 
+
+				
+				
+					
+					
+				
+
+				<a href="/electrical-power-measurements/gpmlink06.png"
 					class="galleryImg"
 					
 					>
-					<img			
+					<img
 						width="600" height="328"
 
 						
@@ -420,7 +489,7 @@ It relies on an Telnet client which periodically queries the GPM to get the exac
 								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABEAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APP5rvXLWGVzfXSCMnYyl1wMjGCB/Ws4&#43;Jtf/wCg3qH/AIFP/jWzrtxcHFlEu8TR5KhSWJ9vyrnTpl//AM&#43;Nz/35b/Ckh6dCx/wkuvZz/bWof&#43;BT/wCNKPEuvE4/trUP/Ap/8aq/2ZqGcfYrj6eU3&#43;FKumX4Yf6Fcf8Afpv8KYj1y7/492/3D/Kl/j/Gku/&#43;Pdv9w/ypf4/xoAT&#43;L8ab2p38X403tQB//9k="
 							
 							class="lazy"
-							data-src="/electrical-power-measurements/gpmlink06_hu_ff24f37edb839b12.png"
+							data-src="/electrical-power-measurements/gpmlink06_hu_e935f4b8b94bc562.png"
 						
 
 						
@@ -430,36 +499,48 @@ It relies on an Telnet client which periodically queries the GPM to get the exac
 		
 	
 		
-		
+
+			
+			
+
+			
+			
 				
 			
-			
+
 			
 				
 			
 
 			
 			
-
-
-			
-			
-			
-
-			
+				
+					
+				
 			
 
+
+			
+			
 
 			<div>
 				
 				
 					
+					
 				
-				<a href="/electrical-power-measurements/gpmlink05.png" 
+
+				
+				
+					
+					
+				
+
+				<a href="/electrical-power-measurements/gpmlink05.png"
 					class="galleryImg"
 					
 					>
-					<img			
+					<img
 						width="600" height="453"
 
 						
@@ -469,7 +550,7 @@ It relies on an Telnet client which periodically queries the GPM to get the exac
 								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABgAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APRILaFNPWUeQqoq7l8hT1A74rQW3tSoJtUB9Psx/wDiarW23&#43;y2xnOI&#43;mc54q&#43;q3IUAGbA9SmaAI1tLV2Ci2jBPrb4H5kVg&#43;NLVI/CGuEQQbUspRuWNQQdhP&#43;FdIq3DMAXkUep2Vi&#43;NgR4H18Ekn7JLknv&#43;7oAy7fxr4X&#43;zJE&#43;vacqMq7/3/OQPT/69WF8aeE1UKvii1AHQCc8f&#43;PV8x0UAfTn/AAm3hT/oabX/AMCD/wDFVjeKPGug3XhbV7OHWrGZprSVUVZgXdthAH16V8&#43;dqO4oA//Z"
 							
 							class="lazy"
-							data-src="/electrical-power-measurements/gpmlink05_hu_ea448b8cdb2a6f71.png"
+							data-src="/electrical-power-measurements/gpmlink05_hu_bad5e5d4086ce498.png"
 						
 
 						
@@ -479,36 +560,48 @@ It relies on an Telnet client which periodically queries the GPM to get the exac
 		
 	
 		
-		
+
+			
+			
+
+			
+			
 				
 			
-			
+
 			
 				
 			
 
 			
 			
-
-
-			
-			
-			
-
-			
+				
+					
+				
 			
 
+
+			
+			
 
 			<div>
 				
 				
 					
+					
 				
-				<a href="/electrical-power-measurements/gpmlink04.png" 
+
+				
+				
+					
+					
+				
+
+				<a href="/electrical-power-measurements/gpmlink04.png"
 					class="galleryImg"
 					
 					>
-					<img			
+					<img
 						width="600" height="327"
 
 						
@@ -518,7 +611,7 @@ It relies on an Telnet client which periodically queries the GPM to get the exac
 								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABEAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APPprvXrWKVzfXKLGTsZS6kc9iB/Ws7/AISbXx/zG9Q/8Cn/AMa2tduLg4soV3iaPJVVJYn2/KudOlah/wA&#43;Nz/35b/Ckh6dDv8AwV4a8R&#43;MdJk1FPF17aBJzDtZ3fJCg5zvHrUnjPwv4k8H6PHqMni&#43;9vFknWHYskiYyGOc7z/dqh4O8ba14P0qTT4NAe5DzmYs6uCCQBjGPb9ad4w8c654w0mPTp9Bkto0nWbciuTkBhjp/tUxHTXf/Hu3&#43;438qX/lp&#43;NJd/8AHu3&#43;438qX/lp&#43;NACfx/jTT90/Snfx/jTT90/SgD/2Q=="
 							
 							class="lazy"
-							data-src="/electrical-power-measurements/gpmlink04_hu_56a7c92f5d3e6c15.png"
+							data-src="/electrical-power-measurements/gpmlink04_hu_a0cc1f5bc28a3ac9.png"
 						
 
 						
@@ -528,36 +621,48 @@ It relies on an Telnet client which periodically queries the GPM to get the exac
 		
 	
 		
-		
+
+			
+			
+
+			
+			
 				
 			
-			
+
 			
 				
 			
 
 			
 			
-
-
-			
-			
-			
-
-			
+				
+					
+				
 			
 
+
+			
+			
 
 			<div>
 				
 				
 					
+					
 				
-				<a href="/electrical-power-measurements/gpmlink03.png" 
+
+				
+				
+					
+					
+				
+
+				<a href="/electrical-power-measurements/gpmlink03.png"
 					class="galleryImg"
 					
 					>
-					<img			
+					<img
 						width="551" height="508"
 
 						
@@ -567,7 +672,7 @@ It relies on an Telnet client which periodically queries the GPM to get the exac
 								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIAB4AIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AINL8WaxOIxea6YFZc&#43;Z5MOF68Y2fSqb&#43;OPE/wBrmih1WRoo3KqwtIicZ4z8vtXLo8iICtyEx/D5mCPwpG8qMEyESMT1SUf4UwPTtB1TxBqmnmebU7/zN7KBFZRkEjt/qz61qaidVtdJurpdY1jzIYHkCvpcYXIUnBOzp7157oXibTdLs/JnTVdwcsv2XUDEBn2Hf8Kj1vxdcX8vl6bf6vDavHslhuNQaXeTnPfoQcYpAYEane5EhTgDh1XPHua2/DGm2Op6rLHqF5PGixgq8dwiEnOMZOR0qfS/CTanb&#43;at8I&#43;cYMef61d/4V/L/wBBJf8Av0f8aAJPFHhrQ9J0lJ9N1C6kmEgUK9/A4A2nsuD2/pXEyqFux824kgklw2T9RXbW/gIxXMUkt6kyI4ZozGQHAPIyD3rauvDmlPazLFpNrDI0bBJBJIShxwQM84pgf//Z"
 							
 							class="lazy"
-							data-src="/electrical-power-measurements/gpmlink03_hu_827e3b052eeb2366.png"
+							data-src="/electrical-power-measurements/gpmlink03_hu_e0498f979d61bd71.png"
 						
 
 						
@@ -577,36 +682,48 @@ It relies on an Telnet client which periodically queries the GPM to get the exac
 		
 	
 		
-		
+
+			
+			
+
+			
+			
 				
 			
-			
+
 			
 				
 			
 
 			
 			
-
-
-			
-			
-			
-
-			
+				
+					
+				
 			
 
+
+			
+			
 
 			<div>
 				
 				
 					
+					
 				
-				<a href="/electrical-power-measurements/gpmlink02.png" 
+
+				
+				
+					
+					
+				
+
+				<a href="/electrical-power-measurements/gpmlink02.png"
 					class="galleryImg"
 					
 					>
-					<img			
+					<img
 						width="600" height="327"
 
 						
@@ -616,7 +733,7 @@ It relies on an Telnet client which periodically queries the GPM to get the exac
 								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABEAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APPprvXrWKV2vrpFjJ2MpdSBnsR/jWd/wkuv5/5Deof&#43;BT/41ta7c3BxZRLvE0eSoUlifbH0rnf7L1D/AJ8bj/vy3&#43;FJD0LH/CS6/njWtQz/ANfT/wCNKPEuvE4Ot6gf&#43;3p/8aq/2ZqHT7Dcf9&#43;m/wAKVdM1AN/x43P/AH5b/CmI9Yu/9S3&#43;4f5Uf8tR9aLv/Ut/uH&#43;VH/LUfWgBD9/8aZ2NPP3/AMaZ2NAH/9k="
 							
 							class="lazy"
-							data-src="/electrical-power-measurements/gpmlink02_hu_6ecc0ac957f8b8da.png"
+							data-src="/electrical-power-measurements/gpmlink02_hu_7e01ee8c0a713506.png"
 						
 
 						
@@ -626,36 +743,48 @@ It relies on an Telnet client which periodically queries the GPM to get the exac
 		
 	
 		
-		
+
+			
+			
+
+			
+			
 				
 			
-			
+
 			
 				
 			
 
 			
 			
-
-
-			
-			
-			
-
-			
+				
+					
+				
 			
 
+
+			
+			
 
 			<div>
 				
 				
 					
+					
 				
-				<a href="/electrical-power-measurements/gpmlink01.png" 
+
+				
+				
+					
+					
+				
+
+				<a href="/electrical-power-measurements/gpmlink01.png"
 					class="galleryImg"
 					
 					>
-					<img			
+					<img
 						width="600" height="364"
 
 						
@@ -665,7 +794,7 @@ It relies on an Telnet client which periodically queries the GPM to get the exac
 								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABMAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APPx4u16OaS2N/cjaTyZ5MjH/AqJfHHie3do49cu1RTgDzCf51rNpVs7s5Yhm5JGP8K5HVkCancRhicP1bqeBSTv0HZW0Zqf8J74qLA/27ef9/DSjx94rP8AzHbv/vuueA75FKv3qYj3KLw3pN0uya1LAc8SuO&#43;OxqOHQ7FLuW2VZ1ijjQqq3Uoxktn&#43;L2FbFl1P0/rVeP8A5Clz/wBco/5vQBWOgaecZW446H7XL/8AFUHQbDk/6V/4GTf/ABVaVB6UAf/Z"
 							
 							class="lazy"
-							data-src="/electrical-power-measurements/gpmlink01_hu_c6338d28e648de35.png"
+							data-src="/electrical-power-measurements/gpmlink01_hu_430467dceb249032.png"
 						
 
 						
@@ -678,56 +807,188 @@ It relies on an Telnet client which periodically queries the GPM to get the exac
 </div>
 
 <script>
-	if (!jQuery) {
-		alert("jquery is not loaded");
+	if (!("HSCGjQuery" in window)) {
+		if (!window.jQuery) {
+			throw new Error("jQuery is not loaded, hugo-shortcode-gallery wont work without it!");
+		}
+		window.HSCGjQuery = window.jQuery.noConflict(true);
 	}
 
-	$( document ).ready(() => {
-		const gallery = $("#gallery-52a1ffecf7c54ed508f8e2d87990b3bc-1");
-		
+	
+	
+	
+	
+	
+	;(function($) {
 
-		
-		let swipeboxInstance = null;
-
-		
-		
-		gallery.on('jg.complete', () => {
+		$( document ).ready(() => {
+			const gallery = $("#gallery-52a1ffecf7c54ed508f8e2d87990b3bc-1");
 			
+
+			
+			let swipeboxInstance = null;
+
+			
+			
+			gallery.on('jg.complete', () => {
 				
-				
-				$(() => {
-					$('.lazy').Lazy({
-						visibleOnly: true,
-						afterLoad: element => element.css({filter: "none", transition: "filter 1.0s ease-in-out"})
+					
+					
+					$(() => {
+						$('.lazy').Lazy({
+							visibleOnly: true,
+							afterLoad: element => element.css({filter: "none", transition: "filter 1.0s ease-in-out"})
+						});
 					});
-				});
-			
+				
 
-			swipeboxInstance = $('.galleryImg').swipebox(
-				jQuery.extend({},
-					{  }
-				)
-			);
+				swipeboxInstance = $('.galleryImg').swipebox(
+					$.extend({},
+						{  }
+					)
+				);
+			});
+
+			
+			gallery.justifiedGallery($.extend(
+				{
+					rowHeight : "150",
+					margins : "5",
+					border : 0,
+					randomize :  false ,
+					waitThumbnailsLoad : false,
+					lastRow : "justify",
+					captions : false,
+					
+					
+				},
+				{  }
+			));
+
+			
+			
 		});
 
-		
-		gallery.justifiedGallery({
-			rowHeight : "150",
-			margins : "5",
-			border : 0,
-			randomize :  false ,
-			waitThumbnailsLoad : false,
-			lastRow : "justify",
-			captions : false,
-			
-			
-		});
-
-		
-		
-	});
+	
+	
+	
+	})(window.HSCGjQuery)
 </script>
 
+<hr>
+<p>Whether you&rsquo;re monitoring power consumption in a lab, validating the behavior of an embedded device under load, or just trying to keep track of energy usage in real-time, <strong>GPMLink</strong> offers a customizable and transparent solution.</p>
+<h2 id="scpi-command-reference">SCPI Command Reference</h2>
+<p>The GW-Instek GPM-8310 supports <strong>SCPI</strong> (Standard Commands for Programmable Instruments), a standardized command language widely used for controlling test and measurement equipment. <strong>GPMLink</strong> communicates via Telnet by sending SCPI queries and parsing the responses.</p>
+<p>Below is a brief overview of commonly used SCPI commands in the application:</p>
+<div class="table-wrapper">
+  <table>
+    <thead>
+        <tr>
+            <th>Command</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><code>*IDN?</code></td>
+            <td>Queries the identity string of the instrument (manufacturer, model, firmware).</td>
+        </tr>
+        <tr>
+            <td><code>MEAS:VOLT?</code></td>
+            <td>Measures the RMS voltage of the current channel.</td>
+        </tr>
+        <tr>
+            <td><code>MEAS:CURR?</code></td>
+            <td>Measures the RMS current.</td>
+        </tr>
+        <tr>
+            <td><code>MEAS:POW?</code></td>
+            <td>Retrieves the active power (Watts).</td>
+        </tr>
+        <tr>
+            <td><code>MEAS:ENER?</code></td>
+            <td>Retrieves the accumulated energy (Wh or Ah).</td>
+        </tr>
+        <tr>
+            <td><code>SYST:ERR?</code></td>
+            <td>Returns system error status.</td>
+        </tr>
+        <tr>
+            <td><code>FUNCtion:IMMediate:POWer?</code></td>
+            <td>Reads instantaneous power measurement.</td>
+        </tr>
+        <tr>
+            <td><code>MEAS:ALL?</code></td>
+            <td>Custom compound command to retrieve all configured measurements in a single call (used for efficient polling).</td>
+        </tr>
+    </tbody>
+  </table>
+</div>
+<p>These commands are periodically issued by the logger to build a continuous dataset, which is stored in CSV format for later analysis.</p>
+<p>For a full list of supported SCPI commands, refer to the official GPM-8310 <a href="https://www.gwinstek.com/en-global/products/downloadSeriesManual/2114" target="_blank" rel="noopener noreferrer ">programming manual</a>.</p>
+<h2 id="sample-csv-log-output">Sample CSV Log Output</h2>
+<p>GPMLink continuously polls the power meter and appends each measurement to a CSV file. Each row represents one snapshot in time, including a timestamp and key electrical parameters.</p>
+<p>Here&rsquo;s a short example of a CSV output:</p>
+<div class="code-block code-line-numbers" style="counter-reset: code-block 0">
+    <div class="code-header language-csv">
+        <span class="code-title"><i class="arrow fas fa-angle-right fa-fw" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
+        <span class="copy" title="Copy to clipboard"><i class="far fa-copy fa-fw" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-csv" data-lang="csv"><span class="line"><span class="cl"><span class="s">Timestamp</span><span class="p">,</span><span class="s"> Voltage (V)</span><span class="p">,</span><span class="s"> Current (A)</span><span class="p">,</span><span class="s"> Power (W)</span><span class="p">,</span><span class="s"> Energy (Wh)</span><span class="p">,</span><span class="s"> Power Factor</span><span class="p">
+</span></span></span><span class="line"><span class="cl"><span class="p"></span><span class="s">2024-12-01 14:00:00</span><span class="p">,</span><span class="s"> 230.12</span><span class="p">,</span><span class="s"> 0.545</span><span class="p">,</span><span class="s"> 125.67</span><span class="p">,</span><span class="s"> 10.35</span><span class="p">,</span><span class="s"> 0.98</span><span class="p">
+</span></span></span><span class="line"><span class="cl"><span class="p"></span><span class="s">2024-12-01 14:00:01</span><span class="p">,</span><span class="s"> 229.95</span><span class="p">,</span><span class="s"> 0.548</span><span class="p">,</span><span class="s"> 126.12</span><span class="p">,</span><span class="s"> 10.37</span><span class="p">,</span><span class="s"> 0.97</span><span class="p">
+</span></span></span><span class="line"><span class="cl"><span class="p"></span><span class="s">2024-12-01 14:00:02</span><span class="p">,</span><span class="s"> 230.08</span><span class="p">,</span><span class="s"> 0.550</span><span class="p">,</span><span class="s"> 126.56</span><span class="p">,</span><span class="s"> 10.39</span><span class="p">,</span><span class="s"> 0.98</span><span class="p">
+</span></span></span><span class="line"><span class="cl"><span class="p"></span><span class="s">...</span><span class="p">
+</span></span></span><span class="line"><span class="cl"><span class="p">
+</span></span></span><span class="line"><span class="cl"><span class="p">
+</span></span></span><span class="line"><span class="cl"><span class="p">
+</span></span></span><span class="line"><span class="cl"><span class="p"></span><span class="s">## SCPI Parsing Logic</span><span class="p">
+</span></span></span><span class="line"><span class="cl"><span class="p">
+</span></span></span><span class="line"><span class="cl"><span class="p"></span><span class="s">Once a SCPI command is sent via Telnet</span><span class="p">,</span><span class="s"> the GPM-8310 replies with a plain text string</span><span class="p">,</span><span class="s"> typically terminated by a newline (`\n`). The structure of the reply depends on the command.</span><span class="p">
+</span></span></span><span class="line"><span class="cl"><span class="p">
+</span></span></span><span class="line"><span class="cl"><span class="p"></span><span class="s">### Example 1 – Single Value</span></span></span></code></pre></div></div>
+<blockquote>
+<p>MEAS:VOLT?
+&lt; 230.12</p></blockquote>
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-">
+        <span class="code-title"><i class="arrow fas fa-angle-right fa-fw" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
+        <span class="copy" title="Copy to clipboard"><i class="far fa-copy fa-fw" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">This can be parsed directly as a floating-point number.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">### Example 2 – Compound Measurement</span></span></code></pre></div></div>
+<blockquote>
+<p>MEAS:ALL?
+&lt; 230.12,0.545,125.67,10.35,0.98</p></blockquote>
+<div class="code-block code-line-numbers" style="counter-reset: code-block 0">
+    <div class="code-header language-">
+        <span class="code-title"><i class="arrow fas fa-angle-right fa-fw" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
+        <span class="copy" title="Copy to clipboard"><i class="far fa-copy fa-fw" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">When multiple values are returned, they are comma-separated. In this case:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">- `230.12` → Voltage (V)
+</span></span><span class="line"><span class="cl">- `0.545` → Current (A)
+</span></span><span class="line"><span class="cl">- `125.67` → Active Power (W)
+</span></span><span class="line"><span class="cl">- `10.35` → Energy (Wh)
+</span></span><span class="line"><span class="cl">- `0.98` → Power Factor
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">These values are split by comma and mapped to their corresponding headers in the CSV file.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">### Python-style Pseudocode
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">```python
+</span></span><span class="line"><span class="cl">response = &#34;230.12,0.545,125.67,10.35,0.98&#34;
+</span></span><span class="line"><span class="cl">fields = response.strip().split(&#34;,&#34;)
+</span></span><span class="line"><span class="cl">voltage = float(fields[0])
+</span></span><span class="line"><span class="cl">current = float(fields[1])
+</span></span><span class="line"><span class="cl">power = float(fields[2])
+</span></span><span class="line"><span class="cl">energy = float(fields[3])
+</span></span><span class="line"><span class="cl">pf = float(fields[4])</span></span></code></pre></div></div>
+<p>Error handling is also implemented: if the device returns an unexpected value or times out, the software skips that row and logs the issue separately, ensuring data integrity over long logging sessions.</p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
@@ -737,13 +998,13 @@ It relies on an Telnet client which periodically queries the GPM to get the exac
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on X" data-sharer="x" data-url="https://lucaji.github.io/electrical-power-measurements/" data-title="Data Logger for Electrical Power Measurements" data-hashtags="Measurements"><i class="fab fa-x-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Threads" data-sharer="threads" data-url="https://lucaji.github.io/electrical-power-measurements/" data-title="Data Logger for Electrical Power Measurements"><i class="fab fa-threads fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://lucaji.github.io/electrical-power-measurements/" data-hashtag="Measurements"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://lucaji.github.io/electrical-power-measurements/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://lucaji.github.io/electrical-power-measurements/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://lucaji.github.io/electrical-power-measurements/" data-title="Data Logger for Electrical Power Measurements"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@14.9.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://lucaji.github.io/electrical-power-measurements/" data-title="Data Logger for Electrical Power Measurements"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Diaspora" data-sharer="diaspora" data-url="https://lucaji.github.io/electrical-power-measurements/" data-title="Data Logger for Electrical Power Measurements" data-description="GW-Instek GPM8310 AC/DC Power Meter data logger utility."><i class="fab fa-diaspora fa-fw" aria-hidden="true"></i></a><a href="https://t.me/share/url?url=https%3a%2f%2flucaji.github.io%2felectrical-power-measurements%2f&amp;text=Data%20Logger%20for%20Electrical%20Power%20Measurements" target="_blank" title="Share on Telegram"><i class="fab fa-telegram fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on X" data-sharer="x" data-url="https://lucaji.github.io/electrical-power-measurements/" data-title="Data Logger for Electrical Power Measurements" data-hashtags="Measurements,SCPI,Power Meter,Data Logging"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Threads" data-sharer="threads" data-url="https://lucaji.github.io/electrical-power-measurements/" data-title="Data Logger for Electrical Power Measurements"><i class="fa-brands fa-threads" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://lucaji.github.io/electrical-power-measurements/" data-hashtag="Measurements"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://lucaji.github.io/electrical-power-measurements/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://lucaji.github.io/electrical-power-measurements/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Diaspora" data-sharer="diaspora" data-url="https://lucaji.github.io/electrical-power-measurements/" data-title="Data Logger for Electrical Power Measurements" data-description="A logging utility for the GW-Instek GPM8310 AC/DC Power Meter using SCPI over Telnet."><i class="fab fa-diaspora fa-fw" aria-hidden="true"></i></a><a href="https://t.me/share/url?url=https%3a%2f%2flucaji.github.io%2felectrical-power-measurements%2f&amp;text=Data%20Logger%20for%20Electrical%20Power%20Measurements" target="_blank" title="Share on Telegram"><i class="fab fa-telegram fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i><a href="/tags/measurements/">Measurements</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i><a href="/tags/measurements/">Measurements</a>, <a href="/tags/scpi/">SCPI</a>, <a href="/tags/power-meter/">Power Meter</a>, <a href="/tags/data-logging/">Data Logging</a></section>
         <section class="post-back">
             <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>

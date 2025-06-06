@@ -3,6 +3,9 @@
 
 # PiKrellCam Reborn
 
+{{< image src="pikrellcam-ui-01.jpg" caption="Logger UI panel." >}}
+
+
 ## Motion Detection with Sensor Data Logger
 
 > One of the most used motion detection and surveillance software for the Raspberry Pi with additional temperature and humidity logging and graph panel.

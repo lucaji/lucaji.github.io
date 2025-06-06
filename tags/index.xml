@@ -3,8 +3,8 @@
         <title>Tags - Tag - Milletgrain</title>
         <link>https://lucaji.github.io/tags/</link>
         <description>Tags - Tag - Milletgrain</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi()gmail(.)com (Luca Cipressi)</managingEditor>
-            <webMaster>lucacipressi()gmail(.)com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 30 May 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://lucaji.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi@gmail.com (Luca Cipressi)</managingEditor>
+            <webMaster>lucacipressi@gmail.com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 30 May 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://lucaji.github.io/tags/" rel="self" type="application/rss+xml" /><item>
     <title>Music</title>
     <link>https://lucaji.github.io/tags/music/</link>
     <pubDate>Fri, 30 May 2025 00:00:00 &#43;0000</pubDate>
@@ -53,6 +53,14 @@
     <description><![CDATA[]]></description>
 </item>
 <item>
+    <title>Data Logging</title>
+    <link>https://lucaji.github.io/tags/data-logging/</link>
+    <pubDate>Tue, 19 Jan 2021 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/tags/data-logging/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Measurements</title>
     <link>https://lucaji.github.io/tags/measurements/</link>
     <pubDate>Tue, 19 Jan 2021 00:00:00 &#43;0000</pubDate>
@@ -61,27 +69,19 @@
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>3D Modeling</title>
-    <link>https://lucaji.github.io/tags/3d-modeling/</link>
-    <pubDate>Thu, 02 Jul 2020 11:04:49 &#43;0800</pubDate>
+    <title>Power Meter</title>
+    <link>https://lucaji.github.io/tags/power-meter/</link>
+    <pubDate>Tue, 19 Jan 2021 00:00:00 &#43;0000</pubDate>
     <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/tags/3d-modeling/</guid>
+    <guid>https://lucaji.github.io/tags/power-meter/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>Hammond</title>
-    <link>https://lucaji.github.io/tags/hammond/</link>
-    <pubDate>Thu, 02 Jul 2020 11:04:49 &#43;0800</pubDate>
+    <title>SCPI</title>
+    <link>https://lucaji.github.io/tags/scpi/</link>
+    <pubDate>Tue, 19 Jan 2021 00:00:00 &#43;0000</pubDate>
     <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/tags/hammond/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Tube Amps</title>
-    <link>https://lucaji.github.io/tags/tube-amps/</link>
-    <pubDate>Sun, 30 Oct 2016 00:00:00 &#43;0000</pubDate>
-    <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/tags/tube-amps/</guid>
+    <guid>https://lucaji.github.io/tags/scpi/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>
