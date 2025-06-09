@@ -4,7 +4,31 @@
         <link>https://lucaji.github.io/tags/</link>
         <description>Tags - Tag - Milletgrain</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi@gmail.com (Luca Cipressi)</managingEditor>
-            <webMaster>lucacipressi@gmail.com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 30 May 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://lucaji.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>lucacipressi@gmail.com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 06 Jun 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://lucaji.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>About</title>
+    <link>https://lucaji.github.io/tags/about/</link>
+    <pubDate>Fri, 06 Jun 2025 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/tags/about/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Contact</title>
+    <link>https://lucaji.github.io/tags/contact/</link>
+    <pubDate>Fri, 06 Jun 2025 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/tags/contact/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Press Kit</title>
+    <link>https://lucaji.github.io/tags/press-kit/</link>
+    <pubDate>Fri, 06 Jun 2025 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/tags/press-kit/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Music</title>
     <link>https://lucaji.github.io/tags/music/</link>
     <pubDate>Fri, 30 May 2025 00:00:00 &#43;0000</pubDate>
@@ -18,6 +42,22 @@
     <pubDate>Fri, 30 May 2025 00:00:00 &#43;0000</pubDate>
     <author>Luca Cipressi</author>
     <guid>https://lucaji.github.io/tags/releases/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Exhibit</title>
+    <link>https://lucaji.github.io/tags/exhibit/</link>
+    <pubDate>Sat, 25 Jan 2025 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/tags/exhibit/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Pescara</title>
+    <link>https://lucaji.github.io/tags/pescara/</link>
+    <pubDate>Sat, 25 Jan 2025 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/tags/pescara/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
@@ -42,46 +82,6 @@
     <pubDate>Sat, 29 Oct 2022 10:54:54 &#43;0600</pubDate>
     <author>Luca Cipressi</author>
     <guid>https://lucaji.github.io/tags/open-source/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>RaspberryPi</title>
-    <link>https://lucaji.github.io/tags/raspberrypi/</link>
-    <pubDate>Sat, 29 Oct 2022 10:54:54 &#43;0600</pubDate>
-    <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/tags/raspberrypi/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Data Logging</title>
-    <link>https://lucaji.github.io/tags/data-logging/</link>
-    <pubDate>Tue, 19 Jan 2021 00:00:00 &#43;0000</pubDate>
-    <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/tags/data-logging/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Measurements</title>
-    <link>https://lucaji.github.io/tags/measurements/</link>
-    <pubDate>Tue, 19 Jan 2021 00:00:00 &#43;0000</pubDate>
-    <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/tags/measurements/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Power Meter</title>
-    <link>https://lucaji.github.io/tags/power-meter/</link>
-    <pubDate>Tue, 19 Jan 2021 00:00:00 &#43;0000</pubDate>
-    <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/tags/power-meter/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>SCPI</title>
-    <link>https://lucaji.github.io/tags/scpi/</link>
-    <pubDate>Tue, 19 Jan 2021 00:00:00 &#43;0000</pubDate>
-    <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/tags/scpi/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

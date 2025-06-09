@@ -4,7 +4,7 @@
         <link>https://lucaji.github.io/</link>
         <description>indie music artist and producer - software and hardware engineer</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi@gmail.com (Luca Cipressi)</managingEditor>
-            <webMaster>lucacipressi@gmail.com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 30 May 2025 00:00:00 &#43;0000</lastBuildDate>
+            <webMaster>lucacipressi@gmail.com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 06 Jun 2025 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://lucaji.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>🎵 Goats, Tea and Trouble — New Song Out Now 🌙</title>
@@ -14,6 +14,14 @@
     <guid>https://lucaji.github.io/goats-tea-and-trouble/</guid>
     <description><![CDATA[<p>Some stories arrive long before the music does. Goats, Tea and Trouble began as a slow-burning tale told under starlight—a dreamlike fable set on Africa’s western coast, where ancient spells, unruly goats, and firelit music blur the line between myth and memory.</p>
 <p>This song is the echo of that story: a soundscape born from a nomad’s bonfire, a missing cloth, and the quiet resistance of people who still live by rhythms older than time. Before you listen, read the story that inspired it.</p>]]></description>
+</item>
+<item>
+    <title>La Magia e la Storia dei Luoghi siamo Noi</title>
+    <link>https://lucaji.github.io/fotografia-storia-siamo-noi-live/</link>
+    <pubDate>Sat, 25 Jan 2025 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/fotografia-storia-siamo-noi-live/</guid>
+    <description><![CDATA[<p>A live performance of theatre, music and dance along a photographic exhibit where sixteen photographers showcased their themed visual short-stories through their images, lead by the professional photographer <code>Pino Giannini</code>. Each tale begun with a narration by <code>Alessandra Arcieri</code>, with her voice setting the rightful mood, moments before a musical comment by Yours Truly started to engulf the theatre hall, with compelling beats and expressive textures paying hommage to the visual identity. The blindfolded dancer <code>Bruna Cerasa</code> coreographed with her harmonic movements and sudden twitches, thrills and body postures, the physical rendition of the stories.</p>]]></description>
 </item>
 <item>
     <title>🎵 Didjeing outta dog</title>
@@ -99,19 +107,6 @@ I did some research on magnets as well, to have a better understanding of their 
     <guid>https://lucaji.github.io/tube-amps/</guid>
     <description><![CDATA[<p>There are many many ways to build an amplifier, depending on money and time available, choosing the most expensive components, creating (or again, buy) a custom metal chassis (or have a friend that can make many as you want) with the objective to obtain a better build for the same price.</p>
 <p>Building tube amps is very rewarding, and can keep you busy with its fair amount of metalwork and various power tools, like folding machines, press, lathe, milling machines and uncountable hand tools. Finishing the build with spray paint, adding lettering, logos, design elements one can go on forever. Custom shop!</p>]]></description>
-</item>
-<item>
-    <title>Proiezione Origami - Book Cover Design</title>
-    <link>https://lucaji.github.io/proiezione-origami-book-cover-design/</link>
-    <pubDate>Thu, 15 Jan 2015 00:00:00 &#43;0000</pubDate>
-    <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/proiezione-origami-book-cover-design/</guid>
-    <description><![CDATA[<h1 id="proiezione-origami--book-cover-design">Proiezione Origami – Book Cover Design</h1>
-<p>This cover design project began as a collaboration with the Italian author Alessandra Arcieri, who penned a cryptic and futuristic tale titled <em>Proiezione Origami</em>, set in a cyberzen world where consciousness, code, and combat blur into a single stream of unfolding events.</p>
-<h2 id="introduction-to-the-narrative">Introduction to the Narrative</h2>
-<blockquote>
-<p>“Rome, New York, Bombay. What will be the next target?”</p></blockquote>
-<p>Set in a fragmented future, the narrative explores transcontinental power plays, high-stakes psycho-games, and mythic figures recast in digital landscapes. The protagonist, known as Agent Alpha, must decode a layered conspiracy crafted by a corporate demiurge. Her mission is embedded within verses from Walt Whitman’s <em>I Sing the Body Electric</em>—a haunting reference and anthem for the electrified self.</p>]]></description>
 </item>
 </channel>
 </rss>

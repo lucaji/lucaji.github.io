@@ -1943,7 +1943,7 @@ void check_special_values() {
     for (i=0; i < niter; ++i) {                      \
       for (j=0; j < 4; ++j) {                        \
         x += 1e-6f;                                  \
-        y += fn(x+5*(j&1));                                  \
+        y += fn(x+5*(j&1));                          \
       }                                              \
     }                                                \
     if (y == 2.32132323232f) niter--;                \
