@@ -14,6 +14,16 @@
 <p>This blog article gathers a series of <strong>DIY radio experiments</strong>, ranging from early analog detection with <em>Galena crystal receivers</em> to digitally driven AM transmission via <strong>Arduino microcontrollers</strong>. Inspired by a love for vintage radio sets and low-power communication techniques, this collection explores both the simplicity of early unpowered detection and the elegance of amplitude modulation (AM) implemented in modern embedded systems. These are primarily <strong>short-range (QRP)</strong> experiments — ideal for educational settings, hobbyists, and radio tinkerers looking to bridge past and present technologies.</p>]]></description>
 </item>
 <item>
+    <title>DeLorean Time Circuits</title>
+    <link>https://lucaji.github.io/back-to-the-future-clock-replica/</link>
+    <pubDate>Mon, 07 Apr 2014 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/back-to-the-future-clock-replica/</guid>
+    <description><![CDATA[<p>This is a semi-serious rendition of the story behind the making of this project —<br>
+a <strong>replica of the Time Circuits from <em>Back to the Future</em></strong>, turned into a <strong>talking alarm clock</strong>.</p>
+<p>Aside from actual time travel (which may or may not be possible depending on your time zone, ISP, and your ability to construct a <a href="https://backtothefuture.fandom.com/wiki/Flux_capacitor" target="_blank" rel="noopener noreferrer ">flux capacitor</a>), it works beautifully as a nostalgic gadget, delivering iconic quotes from the film.</p>]]></description>
+</item>
+<item>
     <title>Theremin</title>
     <link>https://lucaji.github.io/theremin/</link>
     <pubDate>Sun, 13 Oct 2013 00:00:00 &#43;0000</pubDate>

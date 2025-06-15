@@ -1,8 +1,6 @@
 # DeLorean Time Circuits
 
 
-# Back To The Future
-
 This is a semi-serious rendition of the story behind the making of this project —  
 a **replica of the Time Circuits from *Back to the Future***, turned into a **talking alarm clock**.
 
@@ -39,16 +37,23 @@ Spoiler: *he actually did.*
 
 ---
 
-## Feature List
+## Feature List (2014 prototype)
 
-- Three LED displays matching the film's color scheme and font
+- Three LED display panels matching the film's color scheme and font
 - Keyboard-based input for time configuration
 - Iconic sound FX from the movie
 - Alarm quotes voiced loudly through a speaker system
 
+
+## Feature List (2024 prototype)
+
+> After ten years, a complete rebuild has taken place. The project has been assembled as a **bare-metal** board, using ESP32 micro-controllers with WiFi support, separate I2S audio DAC and miniSD card reader for the webserver root and the audio files.
+
+Updated information will come soon, stay tuned!
+
 ---
 
-## Prototype Design
+## 2014 Prototype Design
 
 This was a **one-off build**, a passion project.  
 No mass production, no scaling issues — just pure, joyful making.
@@ -62,10 +67,10 @@ The mechanical fabrication was made possible with help from a good friend and hi
 Sizing was based loosely on screenshots from the film’s DeLorean dashboard. The real prop likely varied across scenes, but the replica needed to look and feel believable.
 
 Some nerdy notes:
-- The **month indicator** in the film is a backlit plastic plate, not an actual segment display.
-- I needed consistent **color availability** (red, green, amber), **segment types** (7 and 14-segment), and **character sizing**.
+- The **month indicator** in the film is a backlit plastic plate, not fitted with actual 16/14 segment LED display.
+- I needed consistent **color availability** (red, green, amber), **segment types** (7 and 16-segment), and **character sizing**.
 
-After long research, I chose **Sunbright 0.8-inch** LED displays.  
+After long research, I chose **Sunbright 0.8-inch** LED displays.
 This made the device chunkier than the film version — but gave it a great stage presence.
 
 The brains of the build? A **first-generation Raspberry Pi Model A** — ideal for MP3 playback, speaker output, and NTP sync.

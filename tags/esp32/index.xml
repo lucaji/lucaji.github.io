@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Esp32 - Tag - Milletgrain</title>
+        <link>https://lucaji.github.io/tags/esp32/</link>
+        <description>Esp32 - Tag - Milletgrain</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi@gmail.com (Luca Cipressi)</managingEditor>
+            <webMaster>lucacipressi@gmail.com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 07 Apr 2014 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://lucaji.github.io/tags/esp32/" rel="self" type="application/rss+xml" /><item>
+    <title>DeLorean Time Circuits</title>
+    <link>https://lucaji.github.io/back-to-the-future-clock-replica/</link>
+    <pubDate>Mon, 07 Apr 2014 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/back-to-the-future-clock-replica/</guid>
+    <description><![CDATA[<p>This is a semi-serious rendition of the story behind the making of this project —<br>
+a <strong>replica of the Time Circuits from <em>Back to the Future</em></strong>, turned into a <strong>talking alarm clock</strong>.</p>
+<p>Aside from actual time travel (which may or may not be possible depending on your time zone, ISP, and your ability to construct a <a href="https://backtothefuture.fandom.com/wiki/Flux_capacitor" target="_blank" rel="noopener noreferrer ">flux capacitor</a>), it works beautifully as a nostalgic gadget, delivering iconic quotes from the film.</p>]]></description>
+</item>
+</channel>
+</rss>

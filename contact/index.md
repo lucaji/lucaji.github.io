@@ -13,17 +13,17 @@ Email: [lucacipressi@gmail.com](mailto:lucacipressi@gmail.com)
 
 # Social Media:
 
-Instagram: [@milletgrain](https://www.instagram.com/milletgrain/)
+<i class='fab fa-instagram fa-fw' aria-hidden='true'></i> Instagram: [@milletgrain](https://www.instagram.com/milletgrain/)
 
-YouTube: [@milletgrain](https://www.youtube.com/@milletgrain)
+<i class='fab fa-youtube fa-fw' aria-hidden='true'></i> YouTube: [@milletgrain](https://www.youtube.com/@milletgrain)
 
-SoundCloud: [milletgrain](https://soundcloud.com/milletgrain)
+<i class='fab fa-soundcloud fa-fw' aria-hidden='true'></i> SoundCloud: [milletgrain](https://soundcloud.com/milletgrain)
 
-Spotify:  [milletgrain](https://open.spotify.com/artist/0rIIxne9NB0N6bBC62KJ3w)
+<i class='fab fa-spotify fa-fw' aria-hidden='true'></i> Spotify:  [milletgrain](https://open.spotify.com/artist/0rIIxne9NB0N6bBC62KJ3w)
 
-Apple Music: [milletgrain](https://music.apple.com/it/artist/milletgrain/1818500580)
+<i class='fab fa-apple fa-fw' aria-hidden='true'></i> Apple Music: [milletgrain](https://music.apple.com/it/artist/milletgrain/1818500580)
 
-Facebook: [milletgrain](https://www.facebook.com/milletgrain/)
+<i class='fab fa-facebook fa-fw' aria-hidden='true'></i> Facebook: [milletgrain](https://www.facebook.com/milletgrain/)
 
 
 

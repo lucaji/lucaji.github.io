@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Active Preamp - Tag - Milletgrain</title>
+        <link>https://lucaji.github.io/tags/active-preamp/</link>
+        <description>Active Preamp - Tag - Milletgrain</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi@gmail.com (Luca Cipressi)</managingEditor>
+            <webMaster>lucacipressi@gmail.com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 30 May 2023 13:44:23 &#43;0100</lastBuildDate><atom:link href="https://lucaji.github.io/tags/active-preamp/" rel="self" type="application/rss+xml" /><item>
+    <title>Bass Guitar preamps comparison: Bartolini MK-1 vs. MarkBass MB-1</title>
+    <link>https://lucaji.github.io/cort-bass-active-electronics/</link>
+    <pubDate>Tue, 30 May 2023 13:44:23 &#43;0100</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/cort-bass-active-electronics/</guid>
+    <description><![CDATA[A side-by-side teardown and analysis of the Bartolini MK-1 and Markbass MB-1 preamps, highlighting key differences in circuit design, switch behavior, and signal handling.]]></description>
+</item>
+</channel>
+</rss>

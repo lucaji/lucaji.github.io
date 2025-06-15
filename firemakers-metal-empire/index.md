@@ -36,3 +36,10 @@ It was a joy and privilege to work with these musicians. I’d like to extend my
 
 > _"Heavy metal may not be my usual terrain, but it was an unforgettable chapter that taught me the value of raw energy and tight musicianship."_  
 
+
+
+# Cover Design
+
+I devised my version of the CD cover art for *Metal Empire*.
+Soon i will publish the graphics.
+Stay tuned.

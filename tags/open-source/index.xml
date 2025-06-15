@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Open Source - Tag - Milletgrain</title>
+        <title>Open-Source - Tag - Milletgrain</title>
         <link>https://lucaji.github.io/tags/open-source/</link>
-        <description>Open Source - Tag - Milletgrain</description>
+        <description>Open-Source - Tag - Milletgrain</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi@gmail.com (Luca Cipressi)</managingEditor>
             <webMaster>lucacipressi@gmail.com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 29 Oct 2022 10:54:54 &#43;0600</lastBuildDate><atom:link href="https://lucaji.github.io/tags/open-source/" rel="self" type="application/rss+xml" /><item>
     <title>PikrellCam Motion-detection plus temperature Logger</title>
@@ -23,6 +23,17 @@
     </a><figcaption class="image-caption">Sensor Logger UI panel.</figcaption>
     </figure>
 <p>This fork introduces an additional web-dashboard driven by a <em>sqlite</em> database to keep track of temperature and humidity readings coming from a HDC1080 sensor. This dashboard is accessible by the main page of the camera preview bringing in some statistics of the collected data.</p>]]></description>
+</item>
+<item>
+    <title>Mobile Apps</title>
+    <link>https://lucaji.github.io/apps/</link>
+    <pubDate>Mon, 12 Jan 2015 13:44:23 &#43;0100</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/apps/</guid>
+    <description><![CDATA[<p>Over the years, I’ve developed and published a number of mobile apps — primarily for <strong>Apple iOS</strong>, though I’ve also ventured into <strong>Android</strong> using <strong>Java</strong> and <strong>Kotlin</strong>. This post offers a curated list of those projects that I believe are most worth sharing.</p>
+<p>Some of these apps are <strong>open source</strong>, and I’ve linked to their public repositories where available — feel free to explore, fork, or contribute.</p>
+<blockquote>
+<p>What we now call “apps” began as simple, standalone tools. Here are mine — crafted from scratch, designed with care, and sometimes a bit of eccentric joy.</p>]]></description>
 </item>
 </channel>
 </rss>

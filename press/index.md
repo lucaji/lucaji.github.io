@@ -7,13 +7,6 @@ Here you will find press related information and resources offering media outlet
 
 The complete **Press Kit** containing high-resolution images, extended bio, and texts is available upon [request](mailto:lucacipressi@gmail.com).
 
-
-# Notable Features:
-
-    Electronic Sounding Fanzine (June 2025): “Milletgrains’s fusion of traditional instruments with electronic landscapes is a journey through sound.”
-
-    The Sound Explorer Podcast (Episode 42): An in-depth interview discussing Luca's creative process and inspirations [in production].
-
 # Latest Releases:
 
 [Goats, Tea and Trouble (2025)]({{% ref "/posts/goats-tea-and-trouble" %}}) – A fusion of West African rhythms and ambient textures.

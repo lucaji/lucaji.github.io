@@ -4,44 +4,36 @@
         <link>https://lucaji.github.io/categories/</link>
         <description>Categories - Category - Milletgrain</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi@gmail.com (Luca Cipressi)</managingEditor>
-            <webMaster>lucacipressi@gmail.com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 06 Jun 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://lucaji.github.io/categories/" rel="self" type="application/rss+xml" /><item>
-    <title>Milletgrain</title>
-    <link>https://lucaji.github.io/categories/milletgrain/</link>
-    <pubDate>Fri, 06 Jun 2025 00:00:00 &#43;0000</pubDate>
-    <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/categories/milletgrain/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>SONGS</title>
-    <link>https://lucaji.github.io/categories/songs/</link>
+            <webMaster>lucacipressi@gmail.com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 30 May 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://lucaji.github.io/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>Music Projects</title>
+    <link>https://lucaji.github.io/categories/music-projects/</link>
     <pubDate>Fri, 30 May 2025 00:00:00 &#43;0000</pubDate>
     <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/categories/songs/</guid>
+    <guid>https://lucaji.github.io/categories/music-projects/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>Live Performance</title>
-    <link>https://lucaji.github.io/categories/live-performance/</link>
+    <title>Events and Exhibits</title>
+    <link>https://lucaji.github.io/categories/events-and-exhibits/</link>
     <pubDate>Sat, 25 Jan 2025 00:00:00 &#43;0000</pubDate>
     <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/categories/live-performance/</guid>
+    <guid>https://lucaji.github.io/categories/events-and-exhibits/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>Electronics</title>
-    <link>https://lucaji.github.io/categories/electronics/</link>
+    <title>Research and Education</title>
+    <link>https://lucaji.github.io/categories/research-and-education/</link>
     <pubDate>Tue, 30 May 2023 13:44:23 &#43;0100</pubDate>
     <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/categories/electronics/</guid>
+    <guid>https://lucaji.github.io/categories/research-and-education/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>Software</title>
-    <link>https://lucaji.github.io/categories/software/</link>
+    <title>Software and Code</title>
+    <link>https://lucaji.github.io/categories/software-and-code/</link>
     <pubDate>Sat, 29 Oct 2022 10:54:54 &#43;0600</pubDate>
     <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/categories/software/</guid>
+    <guid>https://lucaji.github.io/categories/software-and-code/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
@@ -53,11 +45,27 @@
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>Media</title>
-    <link>https://lucaji.github.io/categories/media/</link>
+    <title>Creative Media</title>
+    <link>https://lucaji.github.io/categories/creative-media/</link>
     <pubDate>Thu, 15 Jan 2015 00:00:00 &#43;0000</pubDate>
     <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/categories/media/</guid>
+    <guid>https://lucaji.github.io/categories/creative-media/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Active Preamp</title>
+    <link>https://lucaji.github.io/categories/active-preamp/</link>
+    <pubDate>Sat, 20 Sep 2014 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/categories/active-preamp/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Audio</title>
+    <link>https://lucaji.github.io/categories/audio/</link>
+    <pubDate>Sat, 20 Sep 2014 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/categories/audio/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

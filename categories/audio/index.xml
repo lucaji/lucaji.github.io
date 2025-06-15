@@ -1,0 +1,28 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Audio - Category - Milletgrain</title>
+        <link>https://lucaji.github.io/categories/audio/</link>
+        <description>Audio - Category - Milletgrain</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi@gmail.com (Luca Cipressi)</managingEditor>
+            <webMaster>lucacipressi@gmail.com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 20 Sep 2014 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://lucaji.github.io/categories/audio/" rel="self" type="application/rss+xml" /><item>
+    <title>Diretta Iniezione</title>
+    <link>https://lucaji.github.io/di-box/</link>
+    <pubDate>Sat, 20 Sep 2014 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/di-box/</guid>
+    <description><![CDATA[<h1 id="di-box">DI Box</h1>
+<p>A handcrafted <strong>direct injection box</strong> — a compact, AC-powered <strong>audio preamplifier</strong> designed for dynamic microphones, capable of cleanly converting mic-level signals to standard <strong>line-level output (-10dBV)</strong>.</p>
+<h3 id="features">Features:</h3>
+<ul>
+<li>Class A <strong>FET input stage</strong> with high linearity and extended bandwidth</li>
+<li>XLR input with adjustable gain</li>
+<li>Balanced or unbalanced <strong>line-level output</strong></li>
+<li>Low noise, low distortion performance</li>
+<li>Wide frequency response</li>
+</ul>
+<hr>
+<h2 id="-motivation--design-approach">🎙️ Motivation &amp; Design Approach</h2>
+<p>While trying to record audio using a <strong>Shure SM58</strong> dynamic microphone directly into a Mac’s line-in jack, I encountered the usual issues: low gain, poor signal-to-noise ratio, and uninspiring tone. So, I decided to build my own solution — a clean, simple <strong>preamplifier</strong> with tone characteristics I personally enjoy.</p>]]></description>
+</item>
+</channel>
+</rss>

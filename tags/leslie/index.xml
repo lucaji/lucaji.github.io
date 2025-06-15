@@ -1,0 +1,20 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Leslie - Tag - Milletgrain</title>
+        <link>https://lucaji.github.io/tags/leslie/</link>
+        <description>Leslie - Tag - Milletgrain</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi@gmail.com (Luca Cipressi)</managingEditor>
+            <webMaster>lucacipressi@gmail.com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 02 Jul 2006 11:04:49 &#43;0800</lastBuildDate><atom:link href="https://lucaji.github.io/tags/leslie/" rel="self" type="application/rss+xml" /><item>
+    <title>The Leslie Speaker</title>
+    <link>https://lucaji.github.io/leslie-speaker/</link>
+    <pubDate>Sun, 02 Jul 2006 11:04:49 &#43;0800</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/leslie-speaker/</guid>
+    <description><![CDATA[<blockquote>
+<p>This article explains the principles behind Leslie-type loudspeakers and goes on to describe the construction of a generously proportioned system intended for use with a home constructed electronic organ. The article could provide the starting point from which individual readers could build up a rotating loudspeaker system to suit their own particular requirements.</p></blockquote>
+<h1 id="rotating-system-loudspeakers-for-electronic-organs">Rotating System Loudspeakers for Electronic Organs</h1>
+<p>The most obvious and the routine method of radiating sound from an electronic organ is by means of one or more loudspeakers, suitably and conventionally baffled. In a single-unit instrument, the loudspeaker(s) are mounted behind cutouts, usually in the front panel below the keyboard and above the pedal clavier.
+While compact and convenient, this arrangement usually suffers some limitation in the effectiveness of the baffling which can be provided and the efficiency with which the sound can be propagated.</p>]]></description>
+</item>
+</channel>
+</rss>

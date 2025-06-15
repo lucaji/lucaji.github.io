@@ -4,7 +4,15 @@
         <link>https://lucaji.github.io/tags/measurements/</link>
         <description>Measurements - Tag - Milletgrain</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi@gmail.com (Luca Cipressi)</managingEditor>
-            <webMaster>lucacipressi@gmail.com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 19 Jan 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://lucaji.github.io/tags/measurements/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>lucacipressi@gmail.com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 30 May 2023 13:44:23 &#43;0100</lastBuildDate><atom:link href="https://lucaji.github.io/tags/measurements/" rel="self" type="application/rss+xml" /><item>
+    <title>Bass Guitar preamps comparison: Bartolini MK-1 vs. MarkBass MB-1</title>
+    <link>https://lucaji.github.io/cort-bass-active-electronics/</link>
+    <pubDate>Tue, 30 May 2023 13:44:23 &#43;0100</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/cort-bass-active-electronics/</guid>
+    <description><![CDATA[A side-by-side teardown and analysis of the Bartolini MK-1 and Markbass MB-1 preamps, highlighting key differences in circuit design, switch behavior, and signal handling.]]></description>
+</item>
+<item>
     <title>Data Logger for Electrical Power Measurements</title>
     <link>https://lucaji.github.io/electrical-power-measurements/</link>
     <pubDate>Tue, 19 Jan 2021 00:00:00 &#43;0000</pubDate>
@@ -13,6 +21,26 @@
     <description><![CDATA[<h1 id="foreword">Foreword</h1>
 <p>Measuring electrical power—whether consumed or supplied—over long durations can be essential for analyzing appliance behavior, validating designs, or performing reliability testing. Some measurement sessions may extend over hours or even days. In such scenarios, having a reliable software tool that can log data continuously, plot graphs, and export datasets becomes invaluable.</p>
 <p>To support this need, I developed a utility named <strong>GPMLink</strong>, which interfaces with the <strong>GW-Instek GPM8310</strong> power meter. The software uses a Telnet-based interface to communicate with the device and periodically queries it using SCPI commands to retrieve integrated power metrics.</p>]]></description>
+</item>
+<item>
+    <title>Digital Tacho for a Scooter</title>
+    <link>https://lucaji.github.io/speedometer/</link>
+    <pubDate>Fri, 19 Jan 1996 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/speedometer/</guid>
+    <description><![CDATA[<h1 id="a-relic-project-from-late-90s">A relic project from late &rsquo;90s</h1>
+<div class="details admonition info open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-info-circle fa-fw" aria-hidden="true"></i>Info<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">This project dates back to my high-school days and albeit it should still be working, the original display board is missing. An effort to restore it to working conditions might be made in the future.</div>
+        </div>
+    </div>
+<h2 id="the-scooter">The Scooter</h2>
+<blockquote>
+<p>&ldquo;Car&rsquo;s got a lot of pickup.&rdquo;</p></blockquote>
+<p>As every teenager could enjoy riding a 50 cubic centimeters (1.7 cubic feet) scooter, I was no exception back in the schooldays. Like others, mine too was almost completely modified and not officially road-worthy anymore.</p>]]></description>
 </item>
 </channel>
 </rss>

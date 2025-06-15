@@ -1,0 +1,64 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Research and Education - Category - Milletgrain</title>
+        <link>https://lucaji.github.io/categories/research-and-education/</link>
+        <description>Research and Education - Category - Milletgrain</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi@gmail.com (Luca Cipressi)</managingEditor>
+            <webMaster>lucacipressi@gmail.com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 30 May 2023 13:44:23 &#43;0100</lastBuildDate><atom:link href="https://lucaji.github.io/categories/research-and-education/" rel="self" type="application/rss+xml" /><item>
+    <title>Bass Guitar preamps comparison: Bartolini MK-1 vs. MarkBass MB-1</title>
+    <link>https://lucaji.github.io/cort-bass-active-electronics/</link>
+    <pubDate>Tue, 30 May 2023 13:44:23 &#43;0100</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/cort-bass-active-electronics/</guid>
+    <description><![CDATA[A side-by-side teardown and analysis of the Bartolini MK-1 and Markbass MB-1 preamps, highlighting key differences in circuit design, switch behavior, and signal handling.]]></description>
+</item>
+<item>
+    <title>AM Radio on Arduino UNO</title>
+    <link>https://lucaji.github.io/analog-radio/</link>
+    <pubDate>Mon, 19 Jan 2015 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/analog-radio/</guid>
+    <description><![CDATA[<h2 id="-introduction">🛠️ Introduction</h2>
+<p>This blog article gathers a series of <strong>DIY radio experiments</strong>, ranging from early analog detection with <em>Galena crystal receivers</em> to digitally driven AM transmission via <strong>Arduino microcontrollers</strong>. Inspired by a love for vintage radio sets and low-power communication techniques, this collection explores both the simplicity of early unpowered detection and the elegance of amplitude modulation (AM) implemented in modern embedded systems. These are primarily <strong>short-range (QRP)</strong> experiments — ideal for educational settings, hobbyists, and radio tinkerers looking to bridge past and present technologies.</p>]]></description>
+</item>
+<item>
+    <title>DIY Tube Amps Builds 🎸</title>
+    <link>https://lucaji.github.io/tube-amps/</link>
+    <pubDate>Mon, 19 Jan 2015 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/tube-amps/</guid>
+    <description><![CDATA[<p>There are many many ways to build an amplifier, depending on money and time available, choosing the most expensive components, creating (or again, buy) a custom metal chassis (or have a friend that can make many as you want) with the objective to obtain a better build for the same price.</p>
+<p>Building tube amps is very rewarding, and can keep you busy with its fair amount of metalwork and various power tools, like folding machines, press, lathe, milling machines and uncountable hand tools. Finishing the build with spray paint, adding lettering, logos, design elements one can go on forever. Custom shop!</p>]]></description>
+</item>
+<item>
+    <title>Theremin</title>
+    <link>https://lucaji.github.io/theremin/</link>
+    <pubDate>Sun, 13 Oct 2013 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/theremin/</guid>
+    <description><![CDATA[<p>A mighty Theremin build from an open source project powered by an Arduino UNO.</p>]]></description>
+</item>
+<item>
+    <title>The Leslie Speaker</title>
+    <link>https://lucaji.github.io/leslie-speaker/</link>
+    <pubDate>Sun, 02 Jul 2006 11:04:49 &#43;0800</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/leslie-speaker/</guid>
+    <description><![CDATA[<blockquote>
+<p>This article explains the principles behind Leslie-type loudspeakers and goes on to describe the construction of a generously proportioned system intended for use with a home constructed electronic organ. The article could provide the starting point from which individual readers could build up a rotating loudspeaker system to suit their own particular requirements.</p></blockquote>
+<h1 id="rotating-system-loudspeakers-for-electronic-organs">Rotating System Loudspeakers for Electronic Organs</h1>
+<p>The most obvious and the routine method of radiating sound from an electronic organ is by means of one or more loudspeakers, suitably and conventionally baffled. In a single-unit instrument, the loudspeaker(s) are mounted behind cutouts, usually in the front panel below the keyboard and above the pedal clavier.
+While compact and convenient, this arrangement usually suffers some limitation in the effectiveness of the baffling which can be provided and the efficiency with which the sound can be propagated.</p>]]></description>
+</item>
+<item>
+    <title>Visual Communication and Video Acquisition</title>
+    <link>https://lucaji.github.io/diploma/</link>
+    <pubDate>Sat, 10 Jun 2000 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/diploma/</guid>
+    <description><![CDATA[<h1 id="foreword">Foreword</h1>
+<p>This is a transcription of my Diploma thesis simply titled &ldquo;<strong>Visual Communication</strong>&rdquo; written in June 2000.</p>
+<p>At the time, visual communication was emerging as a compelling and novel field within computer science. Personal computers were just beginning to gain enough processing power to approach — albeit slowly — the capabilities of the mainframes of the era. Digital signal processing was still out of reach for home computers, but the direction was clear: we were heading into a visual era. A few decades later, the “unthinkable” can now be performed on a standard notebook.</p>]]></description>
+</item>
+</channel>
+</rss>
