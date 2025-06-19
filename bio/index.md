@@ -1,17 +1,11 @@
 # Bio
 
 
-{{< figure src="lucaji-milletgrain-round-logo.png" title="lucaji - the milletgrain" >}}
+{{< figure src="lucaji-milletgrain-round-logo.png" title="the milletgrain" >}}
 
-Luca Cipressi (also known Milletgrain or Lucaji) is an Italian musician, visual artist, and technologist based in Abruzzo. His work seamlessly blends analog warmth with digital innovation, drawing inspiration from global traditions and experimental sounds.
+Luca Cipressi (also known Milletgrain) is a musician, visual artist, and technologist. His work seamlessly blends analog warmth with digital innovation, drawing inspiration from global traditions and experimental sounds.
 
-With a background in electronic engineering and a passion for storytelling, Luca crafts immersive soundscapes that traverse genres and geographies. His projects often intertwine music with visual arts, reflecting a deep appreciation for cultural narratives and technological exploration.
-
-# <i class='fab fa-youtube fa-fw' aria-hidden='true'></i> [YouTube](https://www.youtube.com/@milletgrain)
-
-[<img src="/brand-youtube-transparent.svg" width="512" height="128" alt="YouTube Logo">](https://www.youtube.com/@milletgrain)
-
-Full-featured HD videoclips are available on [@milletgrain's <i class='fab fa-youtube fa-fw' aria-hidden='true'></i> YouTube Channel](https://www.youtube.com/@milletgrain)
+With a background in electronic engineering and a passion for storytelling, Milletgrain crafts immersive soundscapes that traverse genres and geographies. His projects often intertwine music with visual arts, reflecting a deep appreciation for cultural narratives and technological exploration.
 
 # <i class='fab fa-apple fa-fw' aria-hidden='true'></i> [Apple Music](https://music.apple.com/it/artist/milletgrain/1818500580)
 
@@ -21,21 +15,17 @@ Full-featured HD videoclips are available on [@milletgrain's <i class='fab fa-yo
 
 [<img src="/brand-spotify-full-logo-green.png" width="467" height="128" alt="Spotify Logo">](https://open.spotify.com/artist/0rIIxne9NB0N6bBC62KJ3w)
 
-# <i class='fab fa-soundcloud fa-fw' aria-hidden='true'></i> [Soundcloud](https://soundcloud.com/milletgrain)
 
-[<img src="/brand-soundcloud-white.svg" width="284" height="128" alt="Soundcloud Logo">](https://soundcloud.com/milletgrain)
+# <i class='fab fa-youtube fa-fw' aria-hidden='true'></i> [YouTube](https://www.youtube.com/@milletgrain)
 
+[<img src="/brand-youtube-transparent.svg" width="512" height="128" alt="YouTube Logo">](https://www.youtube.com/@milletgrain)
 
+Full-featured HD videoclips are available on [@milletgrain's <i class='fab fa-youtube fa-fw' aria-hidden='true'></i> YouTube Channel](https://www.youtube.com/@milletgrain)
 
-## Audio Quality
-
-The above-average standards and know-how being used during recording, mix and mastering process, provide the maximum dynamic range and transparency almost up to an audiophile level. The distributed audio quality is currently in **LOSSLESS** 48 Khz wave format and soon it will be available as remastered **High-Resolution** and <img src="/brand-dolby-atmos-white-horizontal.svg" width="150" height="16" alt="Dolby Atmos Logo"> where available ... **STAY TUNED!**
-
-<img src="/brand-hires-lossless-logo-white.png" width="150" height="42" alt="Hi-Res-Lossless Audio Logo">
 
 ---
 
-# Discography
+# 🎵 RELEASES
 
 Milletgrain's discography includes:
 
@@ -44,10 +34,44 @@ Milletgrain's discography includes:
 [Didjeing Outta Dog (2024)]({{% ref "/posts/didjeing-outta-dog-relaxing-australian-didgeridoo-yoga-beats" %}}) – An exploration of didgeridoo-infused yoga beats.
 
 
+
+## Audio Mastering Quality
+
+The above-average standards and know-how being used during recording, mix and mastering process, provide the maximum dynamic range and transparency almost up to an audiophile level. The distributed audio quality is currently in **LOSSLESS** 48 Khz wave format and soon it will be available as remastered **High-Resolution** and <img src="/brand-dolby-atmos-white-horizontal.svg" width="150" height="16" alt="Dolby Atmos Logo"> where available ... **STAY TUNED!**
+
+<img src="/brand-hires-lossless-logo-white.png" width="150" height="42" alt="Hi-Res-Lossless Audio Logo">
+
+
 ---
 
-Beyond music, Lucaji engages in DIY electronics, creating custom instruments and sound devices that push the boundaries of conventional music-making.
 
----
+# Social Media
 
-In the [Contact page]({{% ref "/contact" %}}) you will find a comprehensive list of social platforms links.
+<i class='fab fa-instagram fa-fw' aria-hidden='true'></i> Instagram: [@milletgrain](https://www.instagram.com/milletgrain/)
+
+<i class='fab fa-youtube fa-fw' aria-hidden='true'></i> YouTube: [@milletgrain](https://www.youtube.com/@milletgrain)
+
+<i class='fab fa-spotify fa-fw' aria-hidden='true'></i> Spotify:  [milletgrain](https://open.spotify.com/artist/0rIIxne9NB0N6bBC62KJ3w)
+
+<i class='fab fa-apple fa-fw' aria-hidden='true'></i> Apple Music: [milletgrain](https://music.apple.com/it/artist/milletgrain/1818500580)
+
+<i class='fab fa-facebook fa-fw' aria-hidden='true'></i> Facebook: [milletgrain](https://www.facebook.com/themilletgrain/)
+
+<i class='fab fa-soundcloud fa-fw' aria-hidden='true'></i> SoundCloud: [milletgrain](https://soundcloud.com/milletgrain)
+
+<i class='fab fa-soundcloud fa-fw' aria-hidden='true'></i> SoundCloud: [milletgrain](https://soundcloud.com/milletgrain-music)
+
+
+
+# Management
+
+For booking and management inquiries, please contact [lucacipressi@gmail.com](mailto:lucacipressi@gmail.com).
+
+
+# Developer and Tech Enthusiast
+
+Beyond music, using the *Lucaji* moniker, Luca engages in DIY electronics, creating custom instruments and sound devices that push the boundaries of conventional music-making. Below you can find my tech-related profiles.
+
+<i class='fab fa-github fa-fw' aria-hidden='true'></i> GitHub: [lucaji](https://github.com/lucaji)
+
+<i class='fab fa-stack-overflow fa-fw' aria-hidden='true'></i> StackOverflow: [lucaji](https://stackoverflow.com/users/4111774)

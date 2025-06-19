@@ -2,6 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://lucaji.github.io/bio/</loc><lastmod>2025-06-15T00:00:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
             <loc>https://lucaji.github.io/</loc><lastmod>2025-06-15T00:00:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
             <loc>https://lucaji.github.io/goats-tea-and-trouble/</loc><lastmod>2025-05-30T00:00:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url><url>
             <loc>https://lucaji.github.io/tags/apple-music/</loc><lastmod>2025-05-30T00:00:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url><url>

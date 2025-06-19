@@ -3,25 +3,38 @@
 
 Here you will find press related information and resources offering media outlets and industry professionals access to my promotional materials and notable mentions. A comprehensive gear-list with studio equipment, real and software instruments is included at the end of this page.
 
-# Press Kit:
+---
 
-The complete **Press Kit** containing high-resolution images, extended bio, and texts is available upon [request](mailto:lucacipressi@gmail.com).
-
-# Latest Releases:
+# LATEST RELEASES
 
 [Goats, Tea and Trouble (2025)]({{% ref "/posts/goats-tea-and-trouble" %}}) – A fusion of West African rhythms and ambient textures.
 
 [Didjeing Outta Dog (2024)]({{% ref "/posts/didjeing-outta-dog-relaxing-australian-didgeridoo-yoga-beats" %}}) – An exploration of didgeridoo-infused yoga beats.
 
-# Upcoming Events:
+... stay tuned for the next releases!
+
+---
+
+# Upcoming Events
 
     Live at Zebrowsky Farm – July 15, 2025, Ortona, Italy.
 
     Virtual Soundscapes – Online streaming event, August 20, 2025.
 
+---
+
+# Press Kit
+
+The complete **Press Kit** containing high-resolution images, extended bio, and texts is available upon [request](mailto:lucacipressi@gmail.com).
+
+---
+
+# Gear List
 
 
-# Gear List:
+## Instruments
+
+
 
 ### Keyboards and MPE controllers
 
@@ -50,7 +63,7 @@ The complete **Press Kit** containing high-resolution images, extended bio, and 
 - a vintage [Ibanez RG250 (1988)](https://ibanez.fandom.com/wiki/RG250_(1987))
 - an humble Ibanez
 
-# Other sound-generating instruments
+### Other sound-generating instruments
 
 - original australian made [Didgeribone](https://didjeribone.com/) by [Charlie McMahon](https://www.charliemcmahon.com/biography.html)
 - Artigianal wooden didgeridoos from the - sadly now permanently closed - [Alice Springs "The Sound of Starlight Theatre"](https://g.co/kgs/k4BdFfN)
@@ -59,7 +72,7 @@ The complete **Press Kit** containing high-resolution images, extended bio, and 
 - [Kashakas hand percussions](https://www.kashaka.uk/)
 
 
-### Studio Gear
+## Studio Gear
 
 - [RME Fireface UCX II](https://www.rme-audio.de/fireface-ucx-ii.html)
 - [MOTU M4](https://motu.com/en-us/products/m-series/m4/)

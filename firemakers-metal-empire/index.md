@@ -1,4 +1,4 @@
-# Fire Makers - Metal Empire
+# 🎵 Fire Makers - Metal Empire
 
 
 # Fire Makers – Metal Empire
@@ -40,6 +40,7 @@ It was a joy and privilege to work with these musicians. I’d like to extend my
 
 # Cover Design
 
-I devised my version of the CD cover art for *Metal Empire*.
-Soon i will publish the graphics.
-Stay tuned.
+![Metal Empire](firemakers-metal-empire-cover.jpg)
+
+
+

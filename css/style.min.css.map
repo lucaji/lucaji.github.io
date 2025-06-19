@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.min.css",
-	"sourceRoot": "C:/Users/lookaji/Desktop/devo/psit/ljgithub",
+	"sourceRoot": "C:/Users/lookaji/Desktop/_milletgrain-press-kit/_milletgrain-website/ljgithub",
 	"sources": [
 		"themes/LoveIt/assets/css/style.scss",
 		"themes/LoveIt/assets/lib/modern-normalize/modern-normalize.css",
