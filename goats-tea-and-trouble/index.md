@@ -1,4 +1,4 @@
-# 🎵 Goats, Tea and Trouble — New Song Out Now 🌙
+# 🎵 Goats, Tea and Trouble – A Nomadic Folk Tale Told Through AI Video and Original Music 🌙
 
 
 Some stories arrive long before the music does. Goats, Tea and Trouble began as a slow-burning tale told under starlight—a dreamlike fable set on Africa’s western coast, where ancient spells, unruly goats, and firelit music blur the line between myth and memory.

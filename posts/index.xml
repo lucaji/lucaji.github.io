@@ -4,8 +4,17 @@
         <link>https://lucaji.github.io/posts/</link>
         <description>All Posts | Milletgrain</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lucacipressi@gmail.com (Luca Cipressi)</managingEditor>
-            <webMaster>lucacipressi@gmail.com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 30 May 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://lucaji.github.io/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>🎵 Goats, Tea and Trouble — New Song Out Now 🌙</title>
+            <webMaster>lucacipressi@gmail.com (Luca Cipressi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 26 Jun 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://lucaji.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>🎵 Goats, Tea and Trouble – Live Dance Visuals at Teatro Marrucino, Chieti 🌙</title>
+    <link>https://lucaji.github.io/goats-tea-and-trouble-mediterraneo/</link>
+    <pubDate>Thu, 26 Jun 2025 00:00:00 &#43;0000</pubDate>
+    <author>Luca Cipressi</author>
+    <guid>https://lucaji.github.io/goats-tea-and-trouble-mediterraneo/</guid>
+    <description><![CDATA[<p>The song “Goats, Tea and Trouble” by @milletgrain draws from a vivid, whimsical tale of nomadic life, magic, and mischief under the moonlit skies of West Africa. This performance marks the first chapter of an unfolding trilogy rooted in coastal folklore and desert rhythms.</p>
+<p>This excerpt was captured during MEDITERRANEO – I RACCONTI DELL’ACQUA, a special performance celebrating the 25th anniversary of Tiziano Di Muzio’s artistic journey with Centro di Formazione Professionale PROGETTO DANZA a.s.d. in Chieti.</p>]]></description>
+</item>
+<item>
+    <title>🎵 Goats, Tea and Trouble – A Nomadic Folk Tale Told Through AI Video and Original Music 🌙</title>
     <link>https://lucaji.github.io/goats-tea-and-trouble/</link>
     <pubDate>Fri, 30 May 2025 00:00:00 &#43;0000</pubDate>
     <author>Luca Cipressi</author>
@@ -96,15 +105,6 @@ I did some research on magnets as well, to have a better understanding of their 
     <guid>https://lucaji.github.io/analog-radio/</guid>
     <description><![CDATA[<h2 id="-introduction">🛠️ Introduction</h2>
 <p>This blog article gathers a series of <strong>DIY radio experiments</strong>, ranging from early analog detection with <em>Galena crystal receivers</em> to digitally driven AM transmission via <strong>Arduino microcontrollers</strong>. Inspired by a love for vintage radio sets and low-power communication techniques, this collection explores both the simplicity of early unpowered detection and the elegance of amplitude modulation (AM) implemented in modern embedded systems. These are primarily <strong>short-range (QRP)</strong> experiments — ideal for educational settings, hobbyists, and radio tinkerers looking to bridge past and present technologies.</p>]]></description>
-</item>
-<item>
-    <title>DIY Tube Amps Builds 🎸</title>
-    <link>https://lucaji.github.io/tube-amps/</link>
-    <pubDate>Mon, 19 Jan 2015 00:00:00 &#43;0000</pubDate>
-    <author>Luca Cipressi</author>
-    <guid>https://lucaji.github.io/tube-amps/</guid>
-    <description><![CDATA[<p>There are many many ways to build an amplifier, depending on money and time available, choosing the most expensive components, creating (or again, buy) a custom metal chassis (or have a friend that can make many as you want) with the objective to obtain a better build for the same price.</p>
-<p>Building tube amps is very rewarding, and can keep you busy with its fair amount of metalwork and various power tools, like folding machines, press, lathe, milling machines and uncountable hand tools. Finishing the build with spray paint, adding lettering, logos, design elements one can go on forever. Custom shop!</p>]]></description>
 </item>
 </channel>
 </rss>

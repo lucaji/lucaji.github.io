@@ -42,7 +42,7 @@ This verse is repurposed in the book as a **hacked manifesto**, where the electr
 
 To tie it to the book's title, I designed a minimalist **origami butterfly**—a symbol of fragility, transformation, and encoded design. It flutters on the back cover like a totem of nonlinear logic and recursive storytelling.
 
-{{< image src="alessandra-arcieri-proiezione-origami-cover02.jpg" caption="Close-up: the origami butterfly emblem." >}}
+{{< image src="alessandra-arcieri-proiezione-origami-cover01.jpg" caption="Close-up: the origami butterfly emblem." >}}
 
 Origami, after all, is folded language—a perfect metaphor for a plot that reshapes itself with every layer peeled back.
 
@@ -60,6 +60,7 @@ The final cover was printed in full wraparound format with high gloss lamination
 
 You can find *Proiezione Origami* by Alessandra Arcieri at:
 
+- [Proiezione Origami on Amazon.it](https://www.amazon.it/Proiezione-origami-Romanzo-cyberzen-Alessandra/dp/8892305417)
 - [Proiezione Origami on ibs.it](https://www.ibs.it/proiezione-origami-romanzo-cyberzen-libro-alessandra-arcieri/e/9788892305410)
 - [Proiezione Origami on ilmiolibro.it](https://ilmiolibro.kataweb.it/libro/fantascienza/189054/proiezione-origami/)
 

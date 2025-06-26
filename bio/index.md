@@ -3,7 +3,7 @@
 
 {{< figure src="lucaji-milletgrain-round-logo.png" title="the milletgrain" >}}
 
-Luca Cipressi (also known Milletgrain) is a musician, visual artist, and technologist. His work seamlessly blends analog warmth with digital innovation, drawing inspiration from global traditions and experimental sounds.
+Milletgrain is a musician, visual artist, and technologist. His work seamlessly blends analog warmth with digital innovation, drawing inspiration from global traditions and experimental sounds.
 
 With a background in electronic engineering and a passion for storytelling, Milletgrain crafts immersive soundscapes that traverse genres and geographies. His projects often intertwine music with visual arts, reflecting a deep appreciation for cultural narratives and technological exploration.
 
@@ -70,7 +70,7 @@ For booking and management inquiries, please contact [lucacipressi@gmail.com](ma
 
 # Developer and Tech Enthusiast
 
-Beyond music, using the *Lucaji* moniker, Luca engages in DIY electronics, creating custom instruments and sound devices that push the boundaries of conventional music-making. Below you can find my tech-related profiles.
+Beyond music, using the *Lucaji* moniker, he engages in DIY electronics, creating custom instruments and sound devices that push the boundaries of conventional music-making. Below you can find my tech-related profiles.
 
 <i class='fab fa-github fa-fw' aria-hidden='true'></i> GitHub: [lucaji](https://github.com/lucaji)
 
