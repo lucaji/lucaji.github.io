@@ -1,0 +1,12 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Audio - Tag - Milletgrain</title><link>https://lucaji.github.io/tags/audio/</link><description>Audio - Tag - Milletgrain</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2013–2026 Luca Cipressi. Content licensed under CC BY-NC 4.0 unless otherwise stated.</copyright><lastBuildDate>Sat, 20 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://lucaji.github.io/tags/audio/" rel="self" type="application/rss+xml"/><item><title>Diretta Iniezione - DI Box</title><link>https://lucaji.github.io/diy-diretta-iniezione-di-box/</link><pubDate>Sat, 20 Sep 2014 00:00:00 +0000</pubDate><author>Luca Cipressi</author><guid>https://lucaji.github.io/diy-diretta-iniezione-di-box/</guid><description><![CDATA[<p>A handcrafted <strong>direct injection box</strong> — a compact, AC-powered <strong>audio preamplifier</strong> designed for dynamic microphones, capable of cleanly converting mic-level signals to standard <strong>line-level output (-10dBV)</strong>. Despite being AC powered, the small linear power supply has an optimal CMRR thanks to multiple filter stage after the rectifier bridge and the use of an inductance to reduce voltage fluctuations.</p>
+<h1 id="features">Features:</h1>
+<ul>
+<li>Class A <strong>FET input stage</strong> with high linearity and extended bandwidth</li>
+<li>XLR input with adjustable gain</li>
+<li>Balanced or unbalanced <strong>line-level output</strong></li>
+<li>Low noise, low distortion performance</li>
+<li>Wide frequency response</li>
+</ul>
+<hr>
+<h1 id="-motivation--design-approach">🎙️ Motivation &amp; Design Approach</h1>
+<p>While trying to record audio using a <strong>Shure SM58</strong> dynamic microphone directly into a Mac’s line-in jack, I encountered the usual issues: low gain, poor signal-to-noise ratio, and uninspiring tone. So, I decided to build my own solution — a clean, simple <strong>preamplifier</strong> with tone characteristics I personally enjoy.</p>]]></description></item></channel></rss>
