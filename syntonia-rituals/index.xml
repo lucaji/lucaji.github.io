@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>SyntoniaRituals on Milletgrain</title>
+		<link>https://lucaji.github.io/syntonia-rituals/</link>
+		<description>Recent content in SyntoniaRituals on Milletgrain</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+			<copyright>© 2013–2026 Luca Cipressi. Content licensed under CC BY-NC 4.0 unless otherwise stated.</copyright>
+		
+		
+			<lastBuildDate>Wed, 02 Sep 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://lucaji.github.io/syntonia-rituals/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>SyntoniaRituals Privacy Policy</title>
+				<link>https://lucaji.github.io/syntonia-rituals/privacy/</link>
+				<pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>https://lucaji.github.io/syntonia-rituals/privacy/</guid>
+				<description>How SyntoniaRituals handles local app data and protects your privacy.</description>
+			</item>
+			<item>
+				<title>SyntoniaRituals Support</title>
+				<link>https://lucaji.github.io/syntonia-rituals/support/</link>
+				<pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>https://lucaji.github.io/syntonia-rituals/support/</guid>
+				<description>Practical help and contact information for SyntoniaRituals.</description>
+			</item>
+	</channel>
+</rss>
