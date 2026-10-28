@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>MorsettoAudio Support - Milletgrain</title><meta name="Description" content="Setup, pattern editing and troubleshooting for MorsettoAudio in compatible AUv3 hosts on iPhone, iPad and Mac."><meta property="og:url" content="https://lucaji.github.io/morsetto/audio/support/">
+<meta property="og:site_name" content="Milletgrain">
+<meta property="og:title" content="MorsettoAudio Support">
+<meta property="og:description" content="Setup, pattern editing and troubleshooting for MorsettoAudio in compatible AUv3 hosts on iPhone, iPad and Mac.">
+<meta property="og:locale" content="en">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://lucaji.github.io/morsetto/audio/morsettoaudio-appicon-256.png">
+<meta property="og:image:alt" content="MorsettoAudio Support">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MorsettoAudio Support">
+<meta name="twitter:description" content="Setup, pattern editing and troubleshooting for MorsettoAudio in compatible AUv3 hosts on iPhone, iPad and Mac.">
+<meta name="twitter:image" content="https://lucaji.github.io/morsetto/audio/morsettoaudio-appicon-256.png">
+<meta name="twitter:image:alt" content="MorsettoAudio Support">
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site">
+<meta name="referrer" content="no-referrer" /><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://lucaji.github.io/morsetto/audio/support/" /><link rel="stylesheet" href="/css/style.min.a94d8bda17ea873fbc2fc452ca5962c17704558659641eddc1432b2409740c01.css" integrity="sha256-qU2L2hfqhz+8L8RSylliwXcEVYZZZB7dwUMrJAl0DAE="><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">{"@context":"https://schema.org","@id":"https://lucaji.github.io/morsetto/audio/support/#webpage","@type":"WebPage","author":{"@type":"Person","name":"Luca Cipressi","url":"https://lucaji.github.io/bio/"},"copyrightNotice":"© 2013–2026 Luca Cipressi. Content licensed under CC BY-NC 4.0 unless otherwise stated.","dateModified":"2026-10-28T00:00:00Z","datePublished":"2026-10-01T00:00:00Z","description":"Setup, pattern editing and troubleshooting for MorsettoAudio in compatible AUv3 hosts on iPhone, iPad and Mac.","image":[{"@type":"ImageObject","url":"https://lucaji.github.io/morsetto/audio/morsettoaudio-appicon-256.png"}],"inLanguage":"en","isPartOf":{"@id":"https://lucaji.github.io/#website","@type":"WebSite"},"name":"MorsettoAudio Support","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://lucaji.github.io/avatar.png"},"name":"Milletgrain","url":"https://lucaji.github.io/"},"url":"https://lucaji.github.io/morsetto/audio/support/","wordCount":2333}</script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script>
+          const query = window.matchMedia('(prefers-color-scheme: dark)');
+          function applyTheme() {
+            let theme = window.localStorage?.getItem('theme') || 'auto';
+            let isDark = theme === 'dark' || (theme === 'auto' && query.matches);
+            document.body.setAttribute('theme', isDark? 'dark' : 'light');
+            document.body.setAttribute('cfg-theme', theme);
+          }
+
+          applyTheme();
+          query.addEventListener('change', applyTheme);
+        </script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Milletgrain"><span class="header-title-pre"><i class='fa-solid fa-pepper-hot' aria-hidden='true'></i></span>milletgrain</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><details class="menu-dropdown active">
+                            <summary class="menu-item" title="Apps by Milletgrain." aria-haspopup="true"> Apps <i class='fa-solid fa-th-large' aria-hidden='true'></i><i class="fas fa-angle-down menu-dropdown-chevron" aria-hidden="true"></i>
+                            </summary>
+                            <div class="menu-dropdown-content"><a class="menu-dropdown-item" href="/syntonia-rituals/" title="SyntoniaRituals product page."><span>SyntoniaRituals</span><i class='fa-solid fa-circle-notch' aria-hidden='true'></i></a><a class="menu-dropdown-item" href="/tastacalma/" title="TastaCalma product page."><span>TastaCalma</span><i class='fa-solid fa-keyboard' aria-hidden='true'></i></a><a class="menu-dropdown-item active" href="/morsetto/" title="Morsetto audio and MIDI plug-ins."><span>Morsetto</span><i class='fa-solid fa-wave-square' aria-hidden='true'></i></a></div>
+                        </details><a class="menu-item" href="/posts/" title="A blog-like content of my articles, projects, skills and more."> Posts <i class='fa-solid fa-mortar-pestle' aria-hidden='true'></i></a><details class="menu-dropdown">
+                            <summary class="menu-item" title="Explore the site." aria-haspopup="true"> Explore <i class='fa-solid fa-compass' aria-hidden='true'></i><i class="fas fa-angle-down menu-dropdown-chevron" aria-hidden="true"></i>
+                            </summary>
+                            <div class="menu-dropdown-content"><a class="menu-dropdown-item" href="/tags/" title="The list of tags for the articles."><span>Tags</span><i class='fa-solid fa-tag' aria-hidden='true'></i></a><a class="menu-dropdown-item" href="/categories/" title="The list of categories used by the articles."><span>Categories</span><i class='fa-solid fa-table-list' aria-hidden='true'></i></a><a class="menu-dropdown-item" href="/bio/" title="Bio"><span>Bio</span><i class='fa-solid fa-address-card' aria-hidden='true'></i></a><a class="menu-dropdown-item" href="/press/" title="Press"><span>Press</span><i class='fa-solid fa-newspaper' aria-hidden='true'></i></a></div>
+                        </details><a class="menu-item" href="/links/" title="Follow me!"> Links <i class='fa-solid fa-link' aria-hidden='true'></i></a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="Select Language">
+                        <i class="fa fa-globe" aria-hidden="true"></i>
+                        <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/morsetto/audio/support/" selected>English</option></select>
+                    </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Milletgrain"><span class="header-title-pre"><i class='fa-solid fa-pepper-hot' aria-hidden='true'></i></span>milletgrain</a>
+            </div>
+            <button type="button" class="menu-toggle" id="menu-toggle-mobile" aria-label="Open menu" aria-controls="menu-mobile">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><details class="menu-dropdown mobile-menu-dropdown active">
+                        <summary class="menu-item" title="Apps by Milletgrain.">Apps<i class='fa-solid fa-th-large' aria-hidden='true'></i><i class="fas fa-angle-down menu-dropdown-chevron" aria-hidden="true"></i>
+                        </summary>
+                        <div class="menu-dropdown-content"><a class="menu-dropdown-item" href="/syntonia-rituals/" title="SyntoniaRituals product page."><span>SyntoniaRituals</span><i class='fa-solid fa-circle-notch' aria-hidden='true'></i></a><a class="menu-dropdown-item" href="/tastacalma/" title="TastaCalma product page."><span>TastaCalma</span><i class='fa-solid fa-keyboard' aria-hidden='true'></i></a><a class="menu-dropdown-item active" href="/morsetto/" title="Morsetto audio and MIDI plug-ins."><span>Morsetto</span><i class='fa-solid fa-wave-square' aria-hidden='true'></i></a></div>
+                    </details><a class="menu-item" href="/posts/" title="A blog-like content of my articles, projects, skills and more.">Posts<i class='fa-solid fa-mortar-pestle' aria-hidden='true'></i></a><details class="menu-dropdown mobile-menu-dropdown">
+                        <summary class="menu-item" title="Explore the site.">Explore<i class='fa-solid fa-compass' aria-hidden='true'></i><i class="fas fa-angle-down menu-dropdown-chevron" aria-hidden="true"></i>
+                        </summary>
+                        <div class="menu-dropdown-content"><a class="menu-dropdown-item" href="/tags/" title="The list of tags for the articles."><span>Tags</span><i class='fa-solid fa-tag' aria-hidden='true'></i></a><a class="menu-dropdown-item" href="/categories/" title="The list of categories used by the articles."><span>Categories</span><i class='fa-solid fa-table-list' aria-hidden='true'></i></a><a class="menu-dropdown-item" href="/bio/" title="Bio"><span>Bio</span><i class='fa-solid fa-address-card' aria-hidden='true'></i></a><a class="menu-dropdown-item" href="/press/" title="Press"><span>Press</span><i class='fa-solid fa-newspaper' aria-hidden='true'></i></a></div>
+                    </details><a class="menu-item" href="/links/" title="Follow me!">Links<i class='fa-solid fa-link' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="Select Language">
+                    <i class="fa fa-globe" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/morsetto/audio/support/" selected>English</option></select>
+                </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="details toc open" id="toc-auto">
+        <h2 class="toc-title">
+            <button class="details-summary toc-disclosure" type="button" aria-expanded="true" aria-controls="toc-content-auto">
+                <span>Contents</span>
+                <i class="details-icon fas fa-angle-right" aria-hidden="true"></i>
+            </button>
+        </h2>
+        <div class="details-content toc-content always-active" id="toc-content-auto" aria-hidden="false"></div>
+    </div><div class="page single special rituals-page morsetto-page" data-morsetto-palette="audio"><nav class="rituals-section-nav" aria-label="MorsettoAudio pages">
+    <span class="rituals-section-nav__identity" aria-hidden="true">
+        <i class="fas fa-volume-up" aria-hidden="true"></i>
+        <span class="rituals-section-nav__name">MorsettoAudio</span>
+    </span>
+
+    <span class="rituals-section-nav__divider" aria-hidden="true"></span><a
+                class="rituals-section-nav__item"
+                href="/morsetto/audio/">
+                <i class="fas fa-volume-up" aria-hidden="true"></i>
+                <span>Product</span>
+            </a><a
+                class="rituals-section-nav__item is-current"
+                href="/morsetto/audio/support/" aria-current="page">
+                <i class="fas fa-life-ring" aria-hidden="true"></i>
+                <span>Support</span>
+            </a><a
+                class="rituals-section-nav__item"
+                href="/morsetto/privacy/">
+                <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                <span>Privacy</span>
+            </a></nav>
+<h1 class="single-title animate__animated animate__pulse animate__faster">MorsettoAudio Support</h1><h2 class="single-subtitle">Help with audio routing, patterns and modulation</h2><div class="details toc" id="toc-static" data-kept="">
+            <h2 class="toc-title">
+                <button class="details-summary toc-disclosure" type="button" aria-expanded="false" aria-controls="toc-content-static">
+                    <span>Contents</span>
+                    <i class="details-icon fas fa-angle-right" aria-hidden="true"></i>
+                </button>
+            </h2>
+            <div class="details-content toc-content" id="toc-content-static" aria-hidden="true" inert><nav id="TableOfContents">
+  <ul>
+    <li><a href="#open-the-offline-user-manual">Open the offline user manual</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#set-up-the-audio-route">Set up the audio route</a></li>
+    <li><a href="#free-pro-and-restoring-a-purchase">Free, Pro and restoring a purchase</a></li>
+    <li><a href="#the-plug-in-is-missing-from-my-host">The plug-in is missing from my host</a></li>
+    <li><a href="#audio-is-playing-but-the-rhythm-is-missing">Audio is playing but the rhythm is missing</a></li>
+    <li><a href="#there-is-no-sound-or-the-level-is-too-high">There is no sound or the level is too high</a></li>
+    <li><a href="#enter-and-apply-a-pattern">Enter and apply a pattern</a></li>
+    <li><a href="#change-spacing-and-loop-boundaries">Change spacing and loop boundaries</a></li>
+    <li><a href="#playback-starts-partway-through-the-pattern">Playback starts partway through the pattern</a></li>
+    <li><a href="#understand-the-mappings">Understand the mappings</a></li>
+    <li><a href="#audio-envelope-and-sidechain">Audio Envelope and Sidechain</a></li>
+    <li><a href="#shape-controls-and-the-pattern-display">Shape controls and the pattern display</a></li>
+    <li><a href="#save-a-pattern-and-use-automation">Save a pattern and use automation</a></li>
+    <li><a href="#privacy-and-the-other-morsetto-product">Privacy and the other Morsetto product</a></li>
+  </ul>
+</nav></div>
+        </div><div class="content" id="content"><figure><img src="../morsettoaudio-appicon-256.png"
+			alt="MorsettoAudio app icon" width="128"><figcaption>
+			<h4>MorsettoAudio</h4>
+		</figcaption>
+</figure>
+
+<p><strong>MorsettoAudio</strong> shapes stereo audio inside your music host. These notes cover the AUv3 plug-in workflow on iPhone, iPad and Mac.</p>
+<h2 id="open-the-offline-user-manual">Open the offline user manual</h2>
+<p>Open the <strong>MorsettoAudio app</strong> and choose <strong>User Manual</strong> for the complete control reference. The guide is bundled with the app and works offline. On Mac it opens in a separate resizable window; <strong>Help → MorsettoAudio Help</strong> or <strong>Command-?</strong> opens the same guide. On iPhone and iPad it opens in a sheet; choose <strong>Done</strong> to close it.</p>
+<h2 id="contact">Contact</h2>
+<p>For help, email <strong>Luca Cipressi · Milletgrain</strong> at <a href="mailto:lucaji.milletgrain@gmail.com" rel="">lucaji.milletgrain@gmail.com</a>
+.</p>
+<p>Please include:</p>
+<ul>
+<li>your device model and operating-system version;</li>
+<li>the MorsettoAudio version and build number;</li>
+<li>the host name and version, and where the plug-in is inserted;</li>
+<li>the steps that reproduce the problem, including whether host playback is running;</li>
+<li>the relevant pattern and mapping settings, or a screenshot when useful.</li>
+</ul>
+<p>For clicks or timing problems, include the host’s sample rate and buffer size if available. Remove personal information from screenshots and only share audio you have permission to send. Support never needs your App Store password.</p>
+<h2 id="set-up-the-audio-route">Set up the audio route</h2>
+<ol>
+<li>Install MorsettoAudio on your device.</li>
+<li>In a compatible host, insert its AUv3 audio effect on a stereo audio or instrument track.</li>
+<li>Confirm that the track produces sound with the effect bypassed, then enable the effect.</li>
+<li>Start with the free <strong>MORSE</strong> pattern, keep <strong>Morse Envelope → Amplitude</strong> connected, and start the host’s transport. With Pro, you can also apply custom text.</li>
+</ol>
+<p>The host supplies the audio and musical timing. Use its recording or export commands to capture the result. The accompanying app provides version information, the offline manual and Pro purchases/restoration; it can stay closed during music-making.</p>
+<h2 id="free-pro-and-restoring-a-purchase">Free, Pro and restoring a purchase</h2>
+<p><strong>Free · MORSE</strong> gives you unlimited use of the canonical MORSE phrase, its original spacing and full loop from zero. Subdivision, triplets, all five mapping slots and destinations, five modulation sources including the main-input Audio Envelope follower, shaping, automation, grid/zoom navigation and host saving remain available. Sidechain requires Pro.</p>
+<p><strong>Pro</strong> unlocks text, character spacing, leading silence, loop editing and Sidechain through a permanent one-time purchase. MorsettoAudio Pro and MorsettoMidi Pro are separate purchases.</p>
+<ol>
+<li>Open the <strong>MorsettoAudio app</strong> and choose <strong>Get Pro</strong> or <strong>Manage Pro</strong>. In the purchase sheet, buy Pro or choose <strong>Restore Purchases</strong> using the App Store account that purchased it. Restoration may ask you to sign in.</li>
+<li>Check the app’s purchase and sharing messages. If it reports a sharing problem, use <strong>Retry</strong>.</li>
+<li>Return to the plug-in and choose its <strong>Free / Pro</strong> status button to refresh shared access, or close and reopen its editor.</li>
+</ol>
+<p>The status button reads the access shared by the app; it does not purchase or restore through the App Store. If a purchase awaits approval, Free stays available. An unavailable price does not prevent restoring an existing purchase. Include the exact app and plug-in messages when requesting help.</p>
+<p>While Free, <strong>Unlock all features from the app</strong> requests the containing app. On iPhone and iPad, a successfully delivered app link presents the purchase sheet. If the link cannot open it, open MorsettoAudio yourself. Opening the app does not start a purchase.</p>
+<p>Pro labels appear inside Source, Loop and Grid → Letter menus. Free users can inspect those menus, but Pro actions remain locked. Saved custom text, spacing and loops survive Free playback and permitted edits. Saved Sidechain routes keep their source, settings and activation intent while contributing no processing or metering; their active destinations remain reserved. Choosing a Free source in a locked slot remains available, and restoring Pro resumes each route’s saved activation.</p>
+<h2 id="the-plug-in-is-missing-from-my-host">The plug-in is missing from my host</h2>
+<p>Check that your host supports <strong>AUv3 audio effects</strong> on your platform. On Mac, use the host’s documented Audio Unit rescan procedure if the installed plug-in does not appear. Reopen the host after installation if needed.</p>
+<p>A host that only accepts other plug-in formats cannot load this AUv3 version. The current system baseline is <strong>iOS/iPadOS 18 or later and macOS 15 or later</strong>. A host/device compatibility list will be added before release; meeting the OS minimum alone does not establish host compatibility.</p>
+<h2 id="audio-is-playing-but-the-rhythm-is-missing">Audio is playing but the rhythm is missing</h2>
+<p>Check that:</p>
+<ul>
+<li>the host transport is playing and the plug-in is not bypassed;</li>
+<li>the free MORSE pattern is active, or your Pro text has been accepted with <strong>Apply Phrase</strong>;</li>
+<li><strong>Amplitude</strong>, or another audible destination, has <strong>Active Mapping</strong> enabled;</li>
+<li><strong>Depth</strong> is above zero;</li>
+<li>for Morse-derived sources, the selected loop contains the chosen mark type and the audio has sound during those marks.</li>
+</ul>
+<p><strong>Dots only</strong> ignores dashes, and <strong>Dashes only</strong> ignores dots. <strong>Loop Ramp</strong> follows loop position rather than mark openings; <strong>Audio Envelope</strong> and <strong>Sidechain</strong> follow audio dynamics. These sources will not reproduce the full Morse gate.</p>
+<p>An empty pattern, stopped transport, bypass or unavailable host timing returns the original audio, including with an audio follower selected. Very slow note values or a loop with long silent sections can make a Morse treatment difficult to notice immediately.</p>
+<p>Disabling all mappings or setting Depth to zero returns unchanged audio after a short transition. Depth moves each destination toward its neutral behavior; for Filter Cutoff it reduces the filtered contribution while retaining the selected frequency.</p>
+<h2 id="there-is-no-sound-or-the-level-is-too-high">There is no sound or the level is too high</h2>
+<p>First bypass the plug-in and check the source track, output routing and host meters. If the source is audible, check the loop region, active mappings, their ranges and Depth. With the normal Morse envelope driving Amplitude, a loop entirely inside a gap can keep that mapping closed.</p>
+<p>Try one mapping at a time. Drive and increased Stereo Width can raise peaks; MorsettoAudio has no automatic makeup gain or final limiter. Leave headroom and adjust levels with your host’s track controls.</p>
+<p>The filter can remove much of a sound’s upper range. Extreme attack/release offsets can close a short opening or remove a gap. Long fades can keep a short mark from reaching its peak or leave a gap partly open; <strong>Reshape Overlaps</strong> shortens overlapping fades into complete pulses. Zero-duration fades produce exact steps that can click. Return the Shape controls to their defaults when diagnosing an unexpected result.</p>
+<h2 id="enter-and-apply-a-pattern">Enter and apply a pattern</h2>
+<p>Custom text requires <strong>Pro</strong>. It accepts up to <strong>20 characters after ordinary spaces are removed</strong>. Supported characters are A–Z, É/é, digits and the punctuation below:</p>
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-text">
+        <span class="code-title"><i class="arrow fas fa-angle-right" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h" aria-hidden="true"></i></span>
+        <span class="copy" title="Copy to clipboard"><i class="far fa-copy" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">. , : ? &#39; - / ( ) &#34; = + × @</span></span></code></pre></div></div>
+<p>Ordinary spaces are ignored; they do not add word gaps. Other whitespace, unsupported characters and overlength input leave the accepted pattern unchanged.</p>
+<p>Open <strong>Phrase</strong>, then choose <strong>Apply Phrase</strong> to accept edited text or <strong>Revert</strong> to return to the accepted text. Timing and mapping changes apply independently. Replacing text asks before discarding custom spacing or an explicit loop.</p>
+<p>In either tier, one Morse unit can be <strong>1/64, 1/32, 1/16, 1/8, 1/4, 1/2 or a whole note</strong>, with optional triplets. The default is straight 1/16.</p>
+<h2 id="change-spacing-and-loop-boundaries">Change spacing and loop boundaries</h2>
+<p>Spacing and loop authoring require <strong>Pro</strong>. Move the first character, or drag the leading-silence region, to shift the complete phrase while keeping its internal spacing. Move later characters independently; their dots, dashes and internal gaps stay together, and adjacent characters can touch but cannot overlap.</p>
+<p>Choose <strong>Morse Ticks</strong>, <strong>Host Transport</strong>, <strong>Morse Ticks and Host Transport</strong>, or <strong>None</strong>. With <strong>Snap to grid</strong> enabled, new moves snap to the displayed Morse or host-beat grid; with both displayed, the nearest is used. None allows free placement while retaining the Snap preference. Changing grid or snapping never moves existing content. Before host meter observations, host snapping uses a quarter-note reference.</p>
+<p>Move either loop boundary to select the region that repeats. Boundaries can cut through a mark or gap; extending the end beyond the phrase adds silence. Drag the <strong>labelled duration strip</strong> to move both boundaries together without changing loop length or character positions. Content outside the loop stays available for editing.</p>
+<p>Resizing a boundary requires at least <strong>one host beat as defined by the meter’s denominator</strong>: a quarter note in 4/4, or an eighth note in 6/8. Before meter information arrives, a labelled provisional quarter-note minimum applies. Natural and restored loops can be shorter; moving a whole loop preserves its duration. Later timing or meter changes do not silently resize it.</p>
+<p>Completed drags commit the sound change. <strong>Undo/Redo</strong> apply within the open editor; <strong>Reset spacing and loop</strong> removes leading silence and restores original spacing and natural phrase length. Replacing text or restoring state clears that editing history.</p>
+<p>For precise edits, use <strong>Grid → Letter</strong> and the <strong>Loop</strong> menu. Beat/bar duration commands move to the next or previous duration boundary when the loop is off-grid, then apply the current snap setting. New instances use the <strong>Host Transport</strong> grid, <strong>Bars and Beats</strong> ruler and <strong>Snap to grid</strong> enabled. Ruler notation can be changed independently of timing or snapping.</p>
+<p>On iPhone and iPad, Loop, Grid and character menus keep the snapping positions captured when opened while playback continues. Reopen a menu to use the latest grid. An authored pattern change invalidates its old editing commands. The app’s manual explains these controls and the <strong>Beats Only / Bars and Beats</strong> ruler options.</p>
+<h2 id="playback-starts-partway-through-the-pattern">Playback starts partway through the pattern</h2>
+<p>The pattern follows the host’s current musical position, with its repeating cycle anchored to host beat zero. Starting playback in the middle of a song can therefore begin partway through the loop.</p>
+<p>Moving the loop start selects different content; it does not delay playback. Seeking, cycling and accepted pattern edits follow the current host position. Reopening the editor does not restart the rhythm.</p>
+<p>When stopped, a ruler update depends on the host supplying a new timing observation. If a stopped seek is not shown immediately, check again after playback resumes.</p>
+<h2 id="understand-the-mappings">Understand the mappings</h2>
+<p>Five permanent mapping tabs can select <strong>Morse Envelope</strong>, <strong>Dots only</strong>, <strong>Dashes only</strong>, <strong>Loop Ramp</strong>, <strong>Audio Envelope</strong> or <strong>Sidechain</strong>, with their own destination, range and inversion. Sidechain requires Pro; the other sources are Free.</p>
+<p>Select a tab to edit its mapping and view its pattern overlay. <strong>Active Mapping</strong> enables or disables that slot; selecting another tab leaves all active mappings running. Drag the range graph endpoints, or adjust them with accessibility controls. <strong>Invert</strong> reverses direction; <strong>Reset Range</strong> restores only the endpoints. Disabled mappings keep their settings. Saved Sidechain settings remain read-only while Free, although choosing another source in the slot stays available.</p>
+<p>Each active destination can be used once. Choosing another destination resets its range to that destination’s defaults while retaining source, inversion and activation. The processing order is <strong>Drive → Filter → Width → Amplitude/Balance</strong>, regardless of tab order. Stereo Balance attenuates the opposite channel; all mappings act on the complete stereo signal.</p>
+<p><strong>Balance</strong> in Shape changes the relative level of dots and dashes. The <strong>Stereo Balance</strong> destination changes the left/right image. They are separate controls.</p>
+<h2 id="audio-envelope-and-sidechain">Audio Envelope and Sidechain</h2>
+<p><strong>Audio Envelope</strong> is Free and follows the main stereo input before effects. <strong>Sidechain</strong> requires Pro and follows a separate mono or stereo input supplied by your host. Route the desired track or bus to the plug-in’s sidechain input, select Sidechain in a mapping and enable <strong>Active Mapping</strong>. The sidechain signal controls modulation without being mixed into the output.</p>
+<p>Each source has its own <strong>Sensitivity</strong>, <strong>Floor</strong>, <strong>Attack</strong> and <strong>Release</strong>. Sensitivity changes detection without changing audible input gain; Floor sets the level mapped to zero. All mappings using the same follower share its settings; the other follower remains independent.</p>
+<p>If the display says <strong>Waiting for Sidechain input</strong>, check whether your host exposes and has routed that input. Missing sidechain input produces zero source amount; it does not fall back to the main input. Range and inversion still apply, so a normal Amplitude mapping can be silent at zero. Available silence and unavailable input are shown separately.</p>
+<p>The input meter shows level before follower shaping. If the response is weak, check that level, Sensitivity, Floor and the destination range. <strong>Dot Trail</strong> adds optional visual history to the live marker; one setting serves both followers and does not alter the sound. Off and Reduce Motion show a single marker.</p>
+<h2 id="shape-controls-and-the-pattern-display">Shape controls and the pattern display</h2>
+<p>The six controls are <strong>Balance</strong>, <strong>Attack</strong>, <strong>A. Offset</strong>, <strong>Release</strong>, <strong>R. Offset</strong> and <strong>Depth</strong>. Morse balance, fades and offsets shape Morse Envelope, Dots only and Dashes only. They do not reshape Loop Ramp or the audio followers. Controls without a role in the active mappings retain their values while editor adjustment is disabled.</p>
+<p>For Morse Envelope, Dots only, Dashes only and Loop Ramp, the pattern curve previews the selected mapping’s source, range, inversion and Depth behavior even while inactive. Inactive previews use a dimmed dashed line. Audio followers show live observations only while active; inactive follower selections retain the shared Morse reference. The display is not the resulting audio waveform. Morse curves need host tempo, so <strong>Waiting for host tempo</strong> can appear before the host supplies it.</p>
+<h2 id="save-a-pattern-and-use-automation">Save a pattern and use automation</h2>
+<p>Use your host’s project or Audio Unit preset commands to save accepted text, leading silence, spacing, loop, timing, all active and inactive mappings, both follower settings, Dot Trail, Shape controls, overlap reshaping and grid/snap/ruler preferences.</p>
+<p>Unapplied text, drag previews, editor zoom and Undo history are temporary. Apply text you want to keep before saving. If the host restores a preset while a text draft is open, review the draft before applying it.</p>
+<p>The host can automate the six Shape controls. Text, character positions, loops, mappings, follower settings and overlap reshaping are saved patch choices rather than additional automation parameters. Processing and automation continue with the editor closed.</p>
+<p>If <strong>Settings could not be restored</strong> appears, the host supplied missing, invalid or unsupported saved content and the instance has kept its current settings. Unversioned development presets are unsupported. Avoid saving over the original project or preset; reopen it with a compatible build or recover a backup. Dismissing the warning does not recover the rejected settings.</p>
+<h2 id="privacy-and-the-other-morsetto-product">Privacy and the other Morsetto product</h2>
+<p>Read the <a href="../../privacy/" rel="">Morsetto Privacy Policy</a>
+ for audio processing, host-managed project data and platform-specific details.</p>
+<p>Return to <a href="../" rel="">MorsettoAudio</a>
+, or visit <a href="../../midi/support/" rel="">MorsettoMidi Support</a>
+ for help with notes and MIDI expression.</p>
+</div>
+
+    <div id="post-footer" aria-hidden="true"></div>
+</div>
+</div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="https://schema.org/CreativeWork"><i class="far fa-copyright" aria-hidden="true"></i><span itemprop="copyrightYear">2013 - 2026</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/bio/" target="_blank">Luca Cipressi</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div id="fixed-buttons-hidden"><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment" aria-hidden="true"></i>
+            </a>
+        </div><script src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.2/sharer.min.js"></script><script>window.config={"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":12,"noResultsFound":"No results found","snippetLength":45,"type":"lunr"}};</script><script src="/js/theme.bdd7c335e18ce1f2b9504637f94c6e57db2a87a53571aefe1a8b1c7e9d7cedb1.js" integrity="sha256-vdfDNeGM4fK5UEY3+UxuV9sqh6U1ca7+Goscfp187bE="></script></body>
+</html>

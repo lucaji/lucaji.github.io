@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>MorsettoMidi Support - Milletgrain</title><meta name="Description" content="Setup and troubleshooting for MorsettoMidi, covering AUv3 host routing, played notes, Sustain, Retrigger and MIDI expression."><meta property="og:url" content="https://lucaji.github.io/morsetto/midi/support/">
+<meta property="og:site_name" content="Milletgrain">
+<meta property="og:title" content="MorsettoMidi Support">
+<meta property="og:description" content="Setup and troubleshooting for MorsettoMidi, covering AUv3 host routing, played notes, Sustain, Retrigger and MIDI expression.">
+<meta property="og:locale" content="en">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://lucaji.github.io/morsetto/midi/morsettomidi-appicon-256.png">
+<meta property="og:image:alt" content="MorsettoMidi Support">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MorsettoMidi Support">
+<meta name="twitter:description" content="Setup and troubleshooting for MorsettoMidi, covering AUv3 host routing, played notes, Sustain, Retrigger and MIDI expression.">
+<meta name="twitter:image" content="https://lucaji.github.io/morsetto/midi/morsettomidi-appicon-256.png">
+<meta name="twitter:image:alt" content="MorsettoMidi Support">
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site">
+<meta name="referrer" content="no-referrer" /><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://lucaji.github.io/morsetto/midi/support/" /><link rel="stylesheet" href="/css/style.min.a94d8bda17ea873fbc2fc452ca5962c17704558659641eddc1432b2409740c01.css" integrity="sha256-qU2L2hfqhz+8L8RSylliwXcEVYZZZB7dwUMrJAl0DAE="><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">{"@context":"https://schema.org","@id":"https://lucaji.github.io/morsetto/midi/support/#webpage","@type":"WebPage","author":{"@type":"Person","name":"Luca Cipressi","url":"https://lucaji.github.io/bio/"},"copyrightNotice":"© 2013–2026 Luca Cipressi. Content licensed under CC BY-NC 4.0 unless otherwise stated.","dateModified":"2026-10-28T00:00:00Z","datePublished":"2026-10-01T00:00:00Z","description":"Setup and troubleshooting for MorsettoMidi, covering AUv3 host routing, played notes, Sustain, Retrigger and MIDI expression.","image":[{"@type":"ImageObject","url":"https://lucaji.github.io/morsetto/midi/morsettomidi-appicon-256.png"}],"inLanguage":"en","isPartOf":{"@id":"https://lucaji.github.io/#website","@type":"WebSite"},"name":"MorsettoMidi Support","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://lucaji.github.io/avatar.png"},"name":"Milletgrain","url":"https://lucaji.github.io/"},"url":"https://lucaji.github.io/morsetto/midi/support/","wordCount":2523}</script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script>
+          const query = window.matchMedia('(prefers-color-scheme: dark)');
+          function applyTheme() {
+            let theme = window.localStorage?.getItem('theme') || 'auto';
+            let isDark = theme === 'dark' || (theme === 'auto' && query.matches);
+            document.body.setAttribute('theme', isDark? 'dark' : 'light');
+            document.body.setAttribute('cfg-theme', theme);
+          }
+
+          applyTheme();
+          query.addEventListener('change', applyTheme);
+        </script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Milletgrain"><span class="header-title-pre"><i class='fa-solid fa-pepper-hot' aria-hidden='true'></i></span>milletgrain</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><details class="menu-dropdown active">
+                            <summary class="menu-item" title="Apps by Milletgrain." aria-haspopup="true"> Apps <i class='fa-solid fa-th-large' aria-hidden='true'></i><i class="fas fa-angle-down menu-dropdown-chevron" aria-hidden="true"></i>
+                            </summary>
+                            <div class="menu-dropdown-content"><a class="menu-dropdown-item" href="/syntonia-rituals/" title="SyntoniaRituals product page."><span>SyntoniaRituals</span><i class='fa-solid fa-circle-notch' aria-hidden='true'></i></a><a class="menu-dropdown-item" href="/tastacalma/" title="TastaCalma product page."><span>TastaCalma</span><i class='fa-solid fa-keyboard' aria-hidden='true'></i></a><a class="menu-dropdown-item active" href="/morsetto/" title="Morsetto audio and MIDI plug-ins."><span>Morsetto</span><i class='fa-solid fa-wave-square' aria-hidden='true'></i></a></div>
+                        </details><a class="menu-item" href="/posts/" title="A blog-like content of my articles, projects, skills and more."> Posts <i class='fa-solid fa-mortar-pestle' aria-hidden='true'></i></a><details class="menu-dropdown">
+                            <summary class="menu-item" title="Explore the site." aria-haspopup="true"> Explore <i class='fa-solid fa-compass' aria-hidden='true'></i><i class="fas fa-angle-down menu-dropdown-chevron" aria-hidden="true"></i>
+                            </summary>
+                            <div class="menu-dropdown-content"><a class="menu-dropdown-item" href="/tags/" title="The list of tags for the articles."><span>Tags</span><i class='fa-solid fa-tag' aria-hidden='true'></i></a><a class="menu-dropdown-item" href="/categories/" title="The list of categories used by the articles."><span>Categories</span><i class='fa-solid fa-table-list' aria-hidden='true'></i></a><a class="menu-dropdown-item" href="/bio/" title="Bio"><span>Bio</span><i class='fa-solid fa-address-card' aria-hidden='true'></i></a><a class="menu-dropdown-item" href="/press/" title="Press"><span>Press</span><i class='fa-solid fa-newspaper' aria-hidden='true'></i></a></div>
+                        </details><a class="menu-item" href="/links/" title="Follow me!"> Links <i class='fa-solid fa-link' aria-hidden='true'></i></a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="Select Language">
+                        <i class="fa fa-globe" aria-hidden="true"></i>
+                        <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/morsetto/midi/support/" selected>English</option></select>
+                    </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Milletgrain"><span class="header-title-pre"><i class='fa-solid fa-pepper-hot' aria-hidden='true'></i></span>milletgrain</a>
+            </div>
+            <button type="button" class="menu-toggle" id="menu-toggle-mobile" aria-label="Open menu" aria-controls="menu-mobile">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><details class="menu-dropdown mobile-menu-dropdown active">
+                        <summary class="menu-item" title="Apps by Milletgrain.">Apps<i class='fa-solid fa-th-large' aria-hidden='true'></i><i class="fas fa-angle-down menu-dropdown-chevron" aria-hidden="true"></i>
+                        </summary>
+                        <div class="menu-dropdown-content"><a class="menu-dropdown-item" href="/syntonia-rituals/" title="SyntoniaRituals product page."><span>SyntoniaRituals</span><i class='fa-solid fa-circle-notch' aria-hidden='true'></i></a><a class="menu-dropdown-item" href="/tastacalma/" title="TastaCalma product page."><span>TastaCalma</span><i class='fa-solid fa-keyboard' aria-hidden='true'></i></a><a class="menu-dropdown-item active" href="/morsetto/" title="Morsetto audio and MIDI plug-ins."><span>Morsetto</span><i class='fa-solid fa-wave-square' aria-hidden='true'></i></a></div>
+                    </details><a class="menu-item" href="/posts/" title="A blog-like content of my articles, projects, skills and more.">Posts<i class='fa-solid fa-mortar-pestle' aria-hidden='true'></i></a><details class="menu-dropdown mobile-menu-dropdown">
+                        <summary class="menu-item" title="Explore the site.">Explore<i class='fa-solid fa-compass' aria-hidden='true'></i><i class="fas fa-angle-down menu-dropdown-chevron" aria-hidden="true"></i>
+                        </summary>
+                        <div class="menu-dropdown-content"><a class="menu-dropdown-item" href="/tags/" title="The list of tags for the articles."><span>Tags</span><i class='fa-solid fa-tag' aria-hidden='true'></i></a><a class="menu-dropdown-item" href="/categories/" title="The list of categories used by the articles."><span>Categories</span><i class='fa-solid fa-table-list' aria-hidden='true'></i></a><a class="menu-dropdown-item" href="/bio/" title="Bio"><span>Bio</span><i class='fa-solid fa-address-card' aria-hidden='true'></i></a><a class="menu-dropdown-item" href="/press/" title="Press"><span>Press</span><i class='fa-solid fa-newspaper' aria-hidden='true'></i></a></div>
+                    </details><a class="menu-item" href="/links/" title="Follow me!">Links<i class='fa-solid fa-link' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="Select Language">
+                    <i class="fa fa-globe" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/morsetto/midi/support/" selected>English</option></select>
+                </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="details toc open" id="toc-auto">
+        <h2 class="toc-title">
+            <button class="details-summary toc-disclosure" type="button" aria-expanded="true" aria-controls="toc-content-auto">
+                <span>Contents</span>
+                <i class="details-icon fas fa-angle-right" aria-hidden="true"></i>
+            </button>
+        </h2>
+        <div class="details-content toc-content always-active" id="toc-content-auto" aria-hidden="false"></div>
+    </div><div class="page single special rituals-page morsetto-page" data-morsetto-palette="midi"><nav class="rituals-section-nav" aria-label="MorsettoMidi pages">
+    <span class="rituals-section-nav__identity" aria-hidden="true">
+        <i class="fas fa-music" aria-hidden="true"></i>
+        <span class="rituals-section-nav__name">MorsettoMidi</span>
+    </span>
+
+    <span class="rituals-section-nav__divider" aria-hidden="true"></span><a
+                class="rituals-section-nav__item"
+                href="/morsetto/midi/">
+                <i class="fas fa-music" aria-hidden="true"></i>
+                <span>Product</span>
+            </a><a
+                class="rituals-section-nav__item is-current"
+                href="/morsetto/midi/support/" aria-current="page">
+                <i class="fas fa-life-ring" aria-hidden="true"></i>
+                <span>Support</span>
+            </a><a
+                class="rituals-section-nav__item"
+                href="/morsetto/privacy/">
+                <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                <span>Privacy</span>
+            </a></nav>
+<h1 class="single-title animate__animated animate__pulse animate__faster">MorsettoMidi Support</h1><h2 class="single-subtitle">Help with MIDI routing, articulation and expression</h2><div class="details toc" id="toc-static" data-kept="">
+            <h2 class="toc-title">
+                <button class="details-summary toc-disclosure" type="button" aria-expanded="false" aria-controls="toc-content-static">
+                    <span>Contents</span>
+                    <i class="details-icon fas fa-angle-right" aria-hidden="true"></i>
+                </button>
+            </h2>
+            <div class="details-content toc-content" id="toc-content-static" aria-hidden="true" inert><nav id="TableOfContents">
+  <ul>
+    <li><a href="#open-the-offline-user-manual">Open the offline user manual</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#connect-your-first-instrument">Connect your first instrument</a></li>
+    <li><a href="#free-pro-and-restoring-a-purchase">Free, Pro and restoring a purchase</a></li>
+    <li><a href="#my-host-does-not-show-a-midi-effect">My host does not show a MIDI effect</a></li>
+    <li><a href="#there-is-no-sound">There is no sound</a></li>
+    <li><a href="#notes-play-but-the-pattern-has-no-effect">Notes play but the pattern has no effect</a></li>
+    <li><a href="#sustain-and-retrigger-behave-differently">Sustain and Retrigger behave differently</a></li>
+    <li><a href="#velocity-and-output-channel">Velocity and output channel</a></li>
+    <li><a href="#understand-the-mapping-tabs">Understand the mapping tabs</a></li>
+    <li><a href="#choose-an-expression-destination">Choose an expression destination</a></li>
+    <li><a href="#scaling-and-controller-restoration">Scaling and controller restoration</a></li>
+    <li><a href="#velocity-and-expression-are-separate">Velocity and expression are separate</a></li>
+    <li><a href="#channels-and-notes-that-keep-sounding">Channels and notes that keep sounding</a></li>
+    <li><a href="#edit-text-spacing-and-loops">Edit text, spacing and loops</a></li>
+    <li><a href="#timing-and-saved-settings">Timing and saved settings</a></li>
+    <li><a href="#privacy-and-audio-processing">Privacy and audio processing</a></li>
+  </ul>
+</nav></div>
+        </div><div class="content" id="content"><figure><img src="../morsettomidi-appicon-256.png"
+			alt="MorsettoMidi app icon" width="128"><figcaption>
+			<h4>MorsettoMidi</h4>
+		</figcaption>
+</figure>
+
+<p><strong>MorsettoMidi</strong> processes notes and expression messages inside a compatible music host. A receiving instrument turns those messages into sound.</p>
+<h2 id="open-the-offline-user-manual">Open the offline user manual</h2>
+<p>Open the <strong>MorsettoMidi app</strong> and choose <strong>User Manual</strong> for the complete control reference. The guide is bundled with the app and works offline. On Mac it opens in a separate resizable window; <strong>Help → MorsettoMidi Help</strong> or <strong>Command-?</strong> opens the same guide. On iPhone and iPad it opens in a sheet; choose <strong>Done</strong> to close it.</p>
+<h2 id="contact">Contact</h2>
+<p>For help, email <strong>Luca Cipressi · Milletgrain</strong> at <a href="mailto:lucaji.milletgrain@gmail.com" rel="">lucaji.milletgrain@gmail.com</a>
+.</p>
+<p>Please include:</p>
+<ul>
+<li>your device model and operating-system version;</li>
+<li>the MorsettoMidi version and build number;</li>
+<li>the host name and version, receiving instrument and selected patch;</li>
+<li>the MIDI input, output and channel routing;</li>
+<li>whether you use Sustain or Retrigger, and the expression destination;</li>
+<li>the steps that reproduce the problem, including sustain-pedal use if relevant.</li>
+</ul>
+<p>A screenshot of the routing can help. Remove personal information, and only share projects or recordings you have permission to send. Support never needs your App Store password.</p>
+<h2 id="connect-your-first-instrument">Connect your first instrument</h2>
+<ol>
+<li>Load MorsettoMidi in a host that supports <strong>AUv3 MIDI processors</strong> and supplies musical timing.</li>
+<li>Route a keyboard or host MIDI track into MorsettoMidi.</li>
+<li>Route its MIDI output to a receiving instrument and enable that instrument’s audio output.</li>
+<li>Select a patch that responds to <strong>CC11 Expression</strong> for the default setup.</li>
+<li>Start the host transport and play or hold notes.</li>
+</ol>
+<p>The initial free pattern is <strong>MORSE</strong>, using expression to shape incoming sustained notes. MorsettoMidi does not contain the instrument that produces the sound. Use the host to record the result. The accompanying app provides version information, the offline manual and Pro purchase/restoration, and can stay closed while you play.</p>
+<h2 id="free-pro-and-restoring-a-purchase">Free, Pro and restoring a purchase</h2>
+<p><strong>Free · MORSE</strong> gives you unlimited use of the canonical MORSE phrase, original spacing and full natural loop. Articulation, velocity/expression mappings, shaping, subdivision/triplets, automation, grid/zoom navigation and host saving remain available.</p>
+<p><strong>Pro</strong> unlocks custom text, character spacing, leading silence and loop authoring through a permanent one-time purchase. It is separate from MorsettoAudio Pro.</p>
+<ol>
+<li>Open the <strong>MorsettoMidi app</strong> and choose <strong>Get Pro</strong> or <strong>Manage Pro</strong>. In the purchase sheet, buy Pro or choose <strong>Restore Purchases</strong> with the App Store account that purchased it. Restoration may ask you to sign in.</li>
+<li>Check both the verified-purchase status and any sharing message. Use <strong>Retry</strong> if the app reports that access could not be shared.</li>
+<li>Return to the plug-in and choose its <strong>Free / Pro</strong> status button to refresh shared access, or close and reopen its editor.</li>
+</ol>
+<p>The status button only reads the access shared by the app. Pending approval leaves Free available, and an unavailable price does not prevent restoring an existing purchase. Contact support with the exact app and plug-in messages if access does not update.</p>
+<p>While Free, <strong>Unlock all features from the app</strong> requests the companion app. When the app receives that link on iPhone or iPad, it presents the purchase sheet. If the link cannot open it, open MorsettoMidi yourself. Opening the app does not start a purchase. Loop and Grid → Letter menus remain available to inspect in Free, with their Pro editing actions locked.</p>
+<p>A Pro project opened while Free plays MORSE but keeps its authored text, spacing and loop. Free timing/mapping edits and re-saving preserve that material. Restoring access brings it back; restoring a purchase does not recover deleted projects or presets.</p>
+<h2 id="my-host-does-not-show-a-midi-effect">My host does not show a MIDI effect</h2>
+<p>Support for AUv3 audio effects does not necessarily include AUv3 MIDI processors or their output routing. Check your host’s documentation for its MIDI-effect workflow. On Mac, follow its Audio Unit rescan procedure if necessary.</p>
+<p>The AUv3 version cannot be loaded through a VST-only route. The current system baseline is <strong>iOS/iPadOS 18 or later and macOS 15 or later</strong>. A host/routing compatibility list will be added before release. Do not assume MIDI-processor compatibility from OS support or the host’s audio-effect menu alone.</p>
+<blockquote>
+<p><a href="https://help.ableton.com/hc/en-us/articles/209070189-Accessing-the-MIDI-output-of-a-VST-plug-in" target="_blank" rel="noopener noreferrer ">Ableton’s routing guide</a>
+ describes a VST workflow and lists AU MIDI output as unavailable in Live. MorsettoMidi currently supplies AUv3 only, with no VST edition. AU hosts that support MIDI-processor routing can use <a href="https://developer.apple.com/documentation/audiotoolbox/auaudiounit/midioutputeventlistblock" target="_blank" rel="noopener noreferrer ">Apple’s AU MIDI-output APIs</a>
+; AU discovery alone does not establish that a host provides the required route.</p>
+</blockquote>
+<h2 id="there-is-no-sound">There is no sound</h2>
+<p>Test the receiving instrument with the same MIDI source routed directly to it. If that works, restore the route through MorsettoMidi and check the input/output channels, host transport and plug-in bypass state.</p>
+<p>In <strong>Retrigger</strong>, newly played notes wait for the next Morse attack. A loop with long gaps can delay the first note; a loop containing no marks will not provide retrigger attacks.</p>
+<p>Check each active mapping’s range, Scaling and Depth. Some instruments interpret a controller value of zero as silence. Disable continuous mappings temporarily to separate note-routing problems from controller-response problems.</p>
+<h2 id="notes-play-but-the-pattern-has-no-effect">Notes play but the pattern has no effect</h2>
+<p>Ensure that the host is playing and the free MORSE pattern is active, or your Pro text has been accepted with <strong>Apply Phrase</strong>. The plug-in needs host tempo, beat position and moving transport; notes or MIDI clock alone do not start the rhythm.</p>
+<p>For <strong>Sustain</strong>, enable a continuous mapping to a destination that your instrument responds to. With all continuous mappings disabled, sustained notes have no rhythmic expression treatment.</p>
+<p>For <strong>Retrigger</strong>, use the dedicated articulation selector and hold notes across the pattern. Turning off every mapping still allows Retrigger to articulate notes. Select <strong>Sustain</strong> with all mappings disabled to pass played notes without rhythmic treatment. The playhead can still move in that configuration.</p>
+<h2 id="sustain-and-retrigger-behave-differently">Sustain and Retrigger behave differently</h2>
+<p><strong>Sustain:</strong> notes follow your playing without waiting for the next Morse attack, and remain held according to keys and sustain pedal. Continuous expression supplies the rhythmic movement without repeatedly starting the instrument’s attack. An initial note can briefly wait while the plug-in establishes controller values at the destination.</p>
+<p><strong>Retrigger:</strong> eligible held notes start at Morse attacks. New notes wait for the next attack, and sustain-pedal holding can keep them eligible after you release the keys. Each mark stays a distinct retrigger, even when marks touch or the loop contains one dot. Attack duration and offset can move a note’s start before the visible mark boundary.</p>
+<p>Changing notes or chords does not restart the phrase. The rhythm continues at the current host position.</p>
+<h2 id="velocity-and-output-channel">Velocity and output channel</h2>
+<p>Select the <strong>Velocity</strong> tab to choose <strong>Played velocity</strong> or <strong>Fixed velocity</strong>, a response curve and the output channel. Fixed supplies the velocity for incoming notes when the mapping is active; pitches still come from your keyboard or MIDI track.</p>
+<p>Output can preserve incoming channels or use the selected channel. This setting applies independently of whether the Velocity mapping is active.</p>
+<h2 id="understand-the-mapping-tabs">Understand the mapping tabs</h2>
+<p>Five permanent tabs hold <strong>Velocity</strong> and four continuous mappings. Selecting a tab changes its detail controls and pattern overlay; <strong>Active Mapping</strong> enables or disables that slot. All other active mappings keep processing. Disabled slots keep their settings and remain editable.</p>
+<p>Each continuous mapping chooses <strong>Morse Envelope</strong>, <strong>Dots only</strong>, <strong>Dashes only</strong> or <strong>Loop Ramp</strong>. The four default destinations are CC11 Expression, CC1 Modulation, CC74 Brightness and CC7 Channel Volume. Only CC11 starts active, with <strong>Scale Input</strong>; the others begin inactive with <strong>Absolute Range</strong>.</p>
+<h2 id="choose-an-expression-destination">Choose an expression destination</h2>
+<p>Select a continuous mapping tab and choose a controller or <strong>Polyphonic Pressure</strong>. Drag its range graph endpoints, or use their accessibility adjustments. <strong>Invert</strong> reverses direction; <strong>Reset Range</strong> restores the endpoints only.</p>
+<p>Named shortcuts provide <strong>CC1 Modulation</strong>, <strong>CC7 Channel Volume</strong>, <strong>CC10 Pan</strong>, <strong>CC11 Expression</strong> and <strong>CC74 Brightness</strong>. The grouped controller menu offers other assignable 7-bit CC numbers. Choose a destination the receiving instrument and patch implement; a controller name does not guarantee a particular audible result.</p>
+<p>Controller selections apply directly while preserving the mapping’s source, range, inversion and Scaling. Active controller destinations must be distinct, and only one pressure mapping can be active. Conflicting choices are rejected with feedback.</p>
+<p>Sustain, switch, bank-selection, channel-mode and certain other special-purpose controllers are reserved and do not appear as assignable destinations. One expression route controls one CC at a time; choosing a fine-controller number does not enable paired 14-bit output.</p>
+<p>Controller routes act across an output channel. Polyphonic pressure addresses individual notes, subject to instrument support. Full MPE is not part of the first release; output is MIDI 1.0.</p>
+<h2 id="scaling-and-controller-restoration">Scaling and controller restoration</h2>
+<p><strong>Absolute Range</strong> reaches the authored range at full Depth. At lower Depth, the result blends from the latest incoming value, or a destination-specific fallback when no input value is known.</p>
+<p><strong>Scale Input</strong>, the initial CC11 setting, multiplies the incoming baseline by the mapped expression amount. A low incoming value can reduce the result; a received zero is meaningful. Before a value is received, the scaling reference is 127. The range graph represents the authored range; Depth and incoming values can change the emitted result.</p>
+<p>When a CC mapping releases its destination, it automatically restores the latest incoming value. If none has arrived, the fallback is <strong>127 for CC7/CC11</strong>, <strong>64 for CC8/CC10/CC74</strong>, and <strong>0 for other assignable controllers</strong>. These are Morsetto defaults, not universal neutral settings for every instrument. Restoration bypasses range, inversion, Depth and Scaling. Rhythmic gaps keep control of the destination while eligible notes remain; incoming controller-reset messages clear remembered input values.</p>
+<p>Polyphonic pressure follows each note’s received pressure and uses per-note cleanup rather than CC-style restoration. Its input reference starts at 127 until observed.</p>
+<h2 id="velocity-and-expression-are-separate">Velocity and expression are separate</h2>
+<p>The Velocity mapping offers <strong>Linear</strong>, <strong>Lift soft notes</strong>, and <strong>Emphasize strong notes</strong> curves. Disabling it preserves incoming note-on velocities, even when Fixed velocity was selected.</p>
+<p>With continuous mappings active, the envelope does not also multiply the initial velocity. When all continuous mappings are disabled and Velocity remains active, Balance and Depth can shape Retrigger velocity. Attack, Release and their offsets also define Retrigger note windows; they do not extend the lifetime of an incoming Sustain note.</p>
+<p>The six Shape controls are <strong>Balance</strong>, <strong>Attack</strong>, <strong>A. Offset</strong>, <strong>Release</strong>, <strong>R. Offset</strong> and <strong>Depth</strong>. <strong>Reshape Overlaps</strong> shortens overlapping Morse fades when needed. Loop Ramp ignores the Morse fades and Balance. Controls without a role in the current routing retain their values while editor adjustment is disabled.</p>
+<p>Periodic modulation updates use 7-bit values and run at up to 200 Hz, with unchanged values omitted. Polyphonic Pressure can also update when notes start, incoming pressure changes or controllers reset, so this is not an overall pressure-message limit. Very short fades can sound stepped; the receiving instrument’s smoothing also affects the result.</p>
+<h2 id="channels-and-notes-that-keep-sounding">Channels and notes that keep sounding</h2>
+<p>Output can preserve input channels or use a selected channel. If identical pitches from several input channels are merged onto one output channel, MIDI 1.0 cannot keep their release ownership fully separate.</p>
+<p>Release the keys and sustain pedal, then stop the host. If notes continue after the host has suspended the plug-in, use the host or instrument’s <strong>Panic / All Notes Off</strong> facility. Report the route and exact stop or bypass sequence to support.</p>
+<p>Stopping transport or losing host timing releases Morsetto-owned notes without restarting the previously held chord. Fresh notes played while inactive pass through. Explicitly entering bypass forwards held input notes; resumed processing follows the current host position.</p>
+<p>Morsetto retries undelivered cleanup while the host continues rendering. If the host suspends processing before another render, use the host or instrument’s panic facility to stop any remaining notes.</p>
+<h2 id="edit-text-spacing-and-loops">Edit text, spacing and loops</h2>
+<p>Custom text, spacing and loops require <strong>Pro</strong>. Open <strong>Phrase</strong>, enter up to <strong>20 supported characters after ordinary spaces are removed</strong>, then choose <strong>Apply Phrase</strong>. Letters A–Z, É/é, digits and the following punctuation are supported:</p>
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-text">
+        <span class="code-title"><i class="arrow fas fa-angle-right" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h" aria-hidden="true"></i></span>
+        <span class="copy" title="Copy to clipboard"><i class="far fa-copy" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">. , : ? &#39; - / ( ) &#34; = + × @</span></span></code></pre></div></div>
+<p>Spaces do not add word gaps. Invalid text leaves the accepted pattern unchanged; <strong>Revert</strong> restores the accepted text. Timing and mapping adjustments do not apply an unfinished text draft. Replacing text asks before discarding custom spacing or an explicit loop.</p>
+<p>Both tiers offer Morse-unit durations of <strong>1/64, 1/32, 1/16, 1/8, 1/4, 1/2 or a whole note</strong>, with optional triplets.</p>
+<p>Move the first character, or drag the leading-silence region, to shift the complete phrase while preserving its gaps. Move later characters independently without changing their internal marks.</p>
+<p>Choose <strong>Morse Ticks</strong>, <strong>Host Transport</strong>, both or <strong>None</strong>. With <strong>Snap to grid</strong> enabled, moves follow the displayed grid; with both shown, the nearest is used. None allows free placement while retaining the Snap preference. Grid or Snap changes never reposition existing content. Before meter information arrives, host snapping uses a quarter-note reference.</p>
+<p>Set either loop boundary to choose the repeating region. Extending past the phrase adds silence, and boundaries may cut through marks or gaps. Drag the <strong>labelled duration strip</strong> to move the complete loop without changing its length or the phrase positions.</p>
+<p>Boundary resizing requires at least <strong>one host denominator-note beat</strong>: a quarter note in 4/4 or an eighth note in 6/8. Before meter information arrives, a labelled provisional quarter-note minimum applies. Natural and restored loops can be shorter, and moving a whole loop preserves its duration.</p>
+<p><strong>Undo/Redo</strong> work within the open editor. <strong>Reset spacing and loop</strong> removes leading silence and restores canonical spacing and natural phrase length. Replacing text or restoring host state clears editing history.</p>
+<p>For precise edits, use <strong>Grid → Letter</strong> and the <strong>Loop</strong> menu. Beat/bar duration commands move to the next or previous duration boundary when the loop is off-grid, then apply the current snap setting. New instances use the <strong>Host Transport</strong> grid, <strong>Bars and Beats</strong> ruler and <strong>Snap to grid</strong> enabled. Ruler notation can be changed independently of timing or snapping.</p>
+<p>On iPhone and iPad, Loop, Grid and character menus keep the snapping positions captured when opened while playback continues. Reopen a menu to use the latest grid. An authored pattern change invalidates its old editing commands. The app’s manual explains these controls and the <strong>Beats Only / Bars and Beats</strong> ruler options.</p>
+<h2 id="timing-and-saved-settings">Timing and saved settings</h2>
+<p>The pattern follows host tempo and song position, repeating from host beat zero. Starting midway through a project can start midway through the pattern. Moving the loop start selects content without changing that timing origin; opening the editor does not restart playback.</p>
+<p>Save accepted text, leading silence, spacing, loop, timing, articulation, all active and inactive mappings, velocity/channel settings, ranges, Scaling, overlap reshaping and grid/snap/ruler choices with the host’s project or Audio Unit presets. Draft text, selected tab, zoom, drag previews and Undo history are temporary. The six Shape controls support host automation; authored patterns and patch settings do not add automation parameters.</p>
+<p>If <strong>Settings could not be restored</strong> appears, the host supplied missing, invalid or unsupported saved content and the instance has kept its current settings. Unversioned development presets are unsupported. Avoid saving over the original project or preset; reopen it with a compatible build or recover a backup. Dismissing the warning does not recover the rejected settings.</p>
+<p>The stopped playhead retains the last valid host position. A seek made while the host is not sending observations becomes visible when it sends another update. Reopening the editor does not restart processing.</p>
+<h2 id="privacy-and-audio-processing">Privacy and audio processing</h2>
+<p>Read the <a href="../../privacy/" rel="">Morsetto Privacy Policy</a>
+ for MIDI processing and saved host data.</p>
+<p>Return to <a href="../" rel="">MorsettoMidi</a>
+, or visit <a href="../../audio/support/" rel="">MorsettoAudio Support</a>
+ for help processing an audio signal.</p>
+</div>
+
+    <div id="post-footer" aria-hidden="true"></div>
+</div>
+</div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="https://schema.org/CreativeWork"><i class="far fa-copyright" aria-hidden="true"></i><span itemprop="copyrightYear">2013 - 2026</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/bio/" target="_blank">Luca Cipressi</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div id="fixed-buttons-hidden"><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment" aria-hidden="true"></i>
+            </a>
+        </div><script src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.2/sharer.min.js"></script><script>window.config={"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":12,"noResultsFound":"No results found","snippetLength":45,"type":"lunr"}};</script><script src="/js/theme.bdd7c335e18ce1f2b9504637f94c6e57db2a87a53571aefe1a8b1c7e9d7cedb1.js" integrity="sha256-vdfDNeGM4fK5UEY3+UxuV9sqh6U1ca7+Goscfp187bE="></script></body>
+</html>

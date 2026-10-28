@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>MorsettoMidi - Milletgrain</title><meta name="Description" content="Shape played notes with Morse-inspired articulation, velocity and configurable MIDI expression. Start free with MORSE; unlock custom text, spacing and loops with Pro."><meta property="og:url" content="https://lucaji.github.io/morsetto/midi/">
+<meta property="og:site_name" content="Milletgrain">
+<meta property="og:title" content="MorsettoMidi">
+<meta property="og:description" content="Shape played notes with Morse-inspired articulation, velocity and configurable MIDI expression. Start free with MORSE; unlock custom text, spacing and loops with Pro.">
+<meta property="og:locale" content="en">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://lucaji.github.io/morsetto/midi/morsettomidi-appicon-256_hu_c17d86a20312c0db.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="256">
+<meta property="og:image:height" content="256">
+<meta property="og:image:alt" content="MorsettoMidi">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MorsettoMidi">
+<meta name="twitter:description" content="Shape played notes with Morse-inspired articulation, velocity and configurable MIDI expression. Start free with MORSE; unlock custom text, spacing and loops with Pro.">
+<meta name="twitter:image" content="https://lucaji.github.io/morsetto/midi/morsettomidi-appicon-256_hu_c17d86a20312c0db.jpg">
+<meta name="twitter:image:alt" content="MorsettoMidi">
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site">
+<meta name="referrer" content="no-referrer" /><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://lucaji.github.io/morsetto/midi/" /><link rel="alternate" href="/morsetto/midi/index.xml" type="application/rss+xml" title="Milletgrain">
+    <link rel="feed" href="/morsetto/midi/index.xml" type="application/rss+xml" title="Milletgrain"><link rel="stylesheet" href="/css/style.min.a94d8bda17ea873fbc2fc452ca5962c17704558659641eddc1432b2409740c01.css" integrity="sha256-qU2L2hfqhz+8L8RSylliwXcEVYZZZB7dwUMrJAl0DAE="><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script>
+          const query = window.matchMedia('(prefers-color-scheme: dark)');
+          function applyTheme() {
+            let theme = window.localStorage?.getItem('theme') || 'auto';
+            let isDark = theme === 'dark' || (theme === 'auto' && query.matches);
+            document.body.setAttribute('theme', isDark? 'dark' : 'light');
+            document.body.setAttribute('cfg-theme', theme);
+          }
+
+          applyTheme();
+          query.addEventListener('change', applyTheme);
+        </script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Milletgrain"><span class="header-title-pre"><i class='fa-solid fa-pepper-hot' aria-hidden='true'></i></span>milletgrain</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><details class="menu-dropdown active">
+                            <summary class="menu-item" title="Apps by Milletgrain." aria-haspopup="true"> Apps <i class='fa-solid fa-th-large' aria-hidden='true'></i><i class="fas fa-angle-down menu-dropdown-chevron" aria-hidden="true"></i>
+                            </summary>
+                            <div class="menu-dropdown-content"><a class="menu-dropdown-item" href="/syntonia-rituals/" title="SyntoniaRituals product page."><span>SyntoniaRituals</span><i class='fa-solid fa-circle-notch' aria-hidden='true'></i></a><a class="menu-dropdown-item" href="/tastacalma/" title="TastaCalma product page."><span>TastaCalma</span><i class='fa-solid fa-keyboard' aria-hidden='true'></i></a><a class="menu-dropdown-item active" href="/morsetto/" title="Morsetto audio and MIDI plug-ins."><span>Morsetto</span><i class='fa-solid fa-wave-square' aria-hidden='true'></i></a></div>
+                        </details><a class="menu-item" href="/posts/" title="A blog-like content of my articles, projects, skills and more."> Posts <i class='fa-solid fa-mortar-pestle' aria-hidden='true'></i></a><details class="menu-dropdown">
+                            <summary class="menu-item" title="Explore the site." aria-haspopup="true"> Explore <i class='fa-solid fa-compass' aria-hidden='true'></i><i class="fas fa-angle-down menu-dropdown-chevron" aria-hidden="true"></i>
+                            </summary>
+                            <div class="menu-dropdown-content"><a class="menu-dropdown-item" href="/tags/" title="The list of tags for the articles."><span>Tags</span><i class='fa-solid fa-tag' aria-hidden='true'></i></a><a class="menu-dropdown-item" href="/categories/" title="The list of categories used by the articles."><span>Categories</span><i class='fa-solid fa-table-list' aria-hidden='true'></i></a><a class="menu-dropdown-item" href="/bio/" title="Bio"><span>Bio</span><i class='fa-solid fa-address-card' aria-hidden='true'></i></a><a class="menu-dropdown-item" href="/press/" title="Press"><span>Press</span><i class='fa-solid fa-newspaper' aria-hidden='true'></i></a></div>
+                        </details><a class="menu-item" href="/links/" title="Follow me!"> Links <i class='fa-solid fa-link' aria-hidden='true'></i></a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="Select Language">
+                        <i class="fa fa-globe" aria-hidden="true"></i>
+                        <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/morsetto/midi/" selected>English</option></select>
+                    </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Milletgrain"><span class="header-title-pre"><i class='fa-solid fa-pepper-hot' aria-hidden='true'></i></span>milletgrain</a>
+            </div>
+            <button type="button" class="menu-toggle" id="menu-toggle-mobile" aria-label="Open menu" aria-controls="menu-mobile">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><details class="menu-dropdown mobile-menu-dropdown active">
+                        <summary class="menu-item" title="Apps by Milletgrain.">Apps<i class='fa-solid fa-th-large' aria-hidden='true'></i><i class="fas fa-angle-down menu-dropdown-chevron" aria-hidden="true"></i>
+                        </summary>
+                        <div class="menu-dropdown-content"><a class="menu-dropdown-item" href="/syntonia-rituals/" title="SyntoniaRituals product page."><span>SyntoniaRituals</span><i class='fa-solid fa-circle-notch' aria-hidden='true'></i></a><a class="menu-dropdown-item" href="/tastacalma/" title="TastaCalma product page."><span>TastaCalma</span><i class='fa-solid fa-keyboard' aria-hidden='true'></i></a><a class="menu-dropdown-item active" href="/morsetto/" title="Morsetto audio and MIDI plug-ins."><span>Morsetto</span><i class='fa-solid fa-wave-square' aria-hidden='true'></i></a></div>
+                    </details><a class="menu-item" href="/posts/" title="A blog-like content of my articles, projects, skills and more.">Posts<i class='fa-solid fa-mortar-pestle' aria-hidden='true'></i></a><details class="menu-dropdown mobile-menu-dropdown">
+                        <summary class="menu-item" title="Explore the site.">Explore<i class='fa-solid fa-compass' aria-hidden='true'></i><i class="fas fa-angle-down menu-dropdown-chevron" aria-hidden="true"></i>
+                        </summary>
+                        <div class="menu-dropdown-content"><a class="menu-dropdown-item" href="/tags/" title="The list of tags for the articles."><span>Tags</span><i class='fa-solid fa-tag' aria-hidden='true'></i></a><a class="menu-dropdown-item" href="/categories/" title="The list of categories used by the articles."><span>Categories</span><i class='fa-solid fa-table-list' aria-hidden='true'></i></a><a class="menu-dropdown-item" href="/bio/" title="Bio"><span>Bio</span><i class='fa-solid fa-address-card' aria-hidden='true'></i></a><a class="menu-dropdown-item" href="/press/" title="Press"><span>Press</span><i class='fa-solid fa-newspaper' aria-hidden='true'></i></a></div>
+                    </details><a class="menu-item" href="/links/" title="Follow me!">Links<i class='fa-solid fa-link' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="Select Language">
+                    <i class="fa fa-globe" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/morsetto/midi/" selected>English</option></select>
+                </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="details toc open" id="toc-auto">
+        <h2 class="toc-title">
+            <button class="details-summary toc-disclosure" type="button" aria-expanded="true" aria-controls="toc-content-auto">
+                <span>Contents</span>
+                <i class="details-icon fas fa-angle-right" aria-hidden="true"></i>
+            </button>
+        </h2>
+        <div class="details-content toc-content" id="toc-content-auto" aria-hidden="false"></div>
+    </div><div class="page single special rituals-page morsetto-page" data-morsetto-palette="midi"><nav class="rituals-section-nav" aria-label="MorsettoMidi pages">
+    <span class="rituals-section-nav__identity" aria-hidden="true">
+        <i class="fas fa-music" aria-hidden="true"></i>
+        <span class="rituals-section-nav__name">MorsettoMidi</span>
+    </span>
+
+    <span class="rituals-section-nav__divider" aria-hidden="true"></span><a
+                class="rituals-section-nav__item is-current"
+                href="/morsetto/midi/" aria-current="page">
+                <i class="fas fa-music" aria-hidden="true"></i>
+                <span>Product</span>
+            </a><a
+                class="rituals-section-nav__item"
+                href="/morsetto/midi/support/">
+                <i class="fas fa-life-ring" aria-hidden="true"></i>
+                <span>Support</span>
+            </a><a
+                class="rituals-section-nav__item"
+                href="/morsetto/privacy/">
+                <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                <span>Privacy</span>
+            </a></nav>
+<h1 class="single-title animate__animated animate__pulse animate__faster">MorsettoMidi</h1><h2 class="single-subtitle">Your notes. A new rhythmic voice.</h2><div class="details toc" id="toc-static" data-kept="">
+            <h2 class="toc-title">
+                <button class="details-summary toc-disclosure" type="button" aria-expanded="false" aria-controls="toc-content-static">
+                    <span>Contents</span>
+                    <i class="details-icon fas fa-angle-right" aria-hidden="true"></i>
+                </button>
+            </h2>
+            <div class="details-content toc-content" id="toc-content-static" aria-hidden="true" inert><nav id="TableOfContents">
+  <ul>
+    <li><a href="#give-your-playing-a-different-pulse">Give your playing a different pulse</a></li>
+    <li><a href="#two-ways-to-play-the-same-phrase">Two ways to play the same phrase</a></li>
+    <li><a href="#expression-that-suits-your-instrument">Expression that suits your instrument</a></li>
+    <li><a href="#a-phrase-you-can-reshape">A phrase you can reshape</a></li>
+    <li><a href="#set-up-your-first-performance">Set up your first performance</a></li>
+    <li><a href="#free-and-pro">Free and Pro</a></li>
+    <li><a href="#compatibility-and-availability">Compatibility and availability</a></li>
+    <li><a href="#help-and-privacy">Help and privacy</a></li>
+  </ul>
+</nav></div>
+        </div><div class="content" id="content"><figure><img src="/morsetto/midi/morsettomidi-appicon-256.png"
+			alt="MorsettoMidi artwork: a green M divided into dot-and-dash-like sections." width="120"><figcaption>
+			<h4>MorsettoMidi</h4>
+		</figcaption>
+</figure>
+
+<p><strong>MorsettoMidi</strong> turns short text into rhythmic articulation for the notes you play. Hold a chord and let it breathe through expression, or give each mark a fresh attack. Change your harmony while the rhythm keeps its place in the song.</p>
+<p>Your performance supplies the pitches. Your instrument supplies the sound. MorsettoMidi shapes the movement between them.</p>
+<p>Start with the complete <strong>MORSE</strong> pattern for free, with all MIDI mappings and shaping controls. Pro unlocks your own text, spacing and loops.</p>
+<p><strong>Coming soon for iPhone, iPad and Mac as an AUv3 MIDI processor.</strong> Requires a host with compatible MIDI routing and a receiving instrument.</p>
+<figure><img src="/morsetto/midi/morsettomidi-search.jpg"><figcaption>
+			<h4>MorsettoMidi</h4>
+		</figcaption>
+</figure>
+
+<h2 id="give-your-playing-a-different-pulse">Give your playing a different pulse</h2>
+<ul class="rituals-features" role="list">
+<li class="rituals-feature">
+    <span class="rituals-feature__icon" aria-hidden="true"><i class="fas fa-font"></i></span>
+    <h3>Write the rhythmic idea</h3>
+    <div class="rituals-feature__description"><p>Choose a Morse-unit duration from 1/64 to a whole note, with optional triplets. Pro turns your own words into the structure for your performance.</p>
+</div>
+    <dl class="rituals-feature__availability">
+        <div><dt>Free</dt><dd>The complete MORSE pattern, with unlimited use.</dd></div>
+        <div><dt>Pro</dt><dd>Your own text, up to 20 supported characters.</dd></div>
+    </dl>
+</li>
+
+
+<li class="rituals-feature">
+    <span class="rituals-feature__icon" aria-hidden="true"><i class="fas fa-music"></i></span>
+    <h3>Keep your harmony in your hands</h3>
+    <div class="rituals-feature__description"><p>Supply notes from a keyboard or host MIDI track. Incoming pitches and playing dynamics remain the starting point while the pattern follows your host’s tempo and position.</p>
+</div>
+    <dl class="rituals-feature__availability">
+        <div><dt>Free &amp; Pro</dt><dd>Played-note routing and velocity response curves.</dd></div>
+    </dl>
+</li>
+
+
+<li class="rituals-feature">
+    <span class="rituals-feature__icon" aria-hidden="true"><i class="fas fa-water"></i></span>
+    <h3>Sustain with expression</h3>
+    <div class="rituals-feature__description"><p>Let held notes continue while the pattern shapes their expression. Add notes without waiting for the next Morse attack, making space for evolving chords without repeating every instrument attack.</p>
+</div>
+    <dl class="rituals-feature__availability">
+        <div><dt>Free &amp; Pro</dt><dd>Sustain articulation and expression mapping.</dd></div>
+    </dl>
+</li>
+
+
+<li class="rituals-feature">
+    <span class="rituals-feature__icon" aria-hidden="true"><i class="fas fa-bolt"></i></span>
+    <h3>Retrigger the gesture</h3>
+    <div class="rituals-feature__description"><p>Trigger eligible held notes at each Morse attack. Newly played notes enter at the next attack, and sustain-pedal holding can keep notes available for the pattern.</p>
+</div>
+    <dl class="rituals-feature__availability">
+        <div><dt>Free &amp; Pro</dt><dd>Retrigger articulation and sustain-pedal handling.</dd></div>
+    </dl>
+</li>
+
+
+<li class="rituals-feature">
+    <span class="rituals-feature__icon" aria-hidden="true"><i class="fas fa-sliders-h"></i></span>
+    <h3>Connect the right kind of movement</h3>
+    <div class="rituals-feature__description"><p>Send the full Morse envelope, dots, dashes or a loop ramp to assignable MIDI controllers or polyphonic pressure. Set each mapping’s range, direction and response to incoming values.</p>
+</div>
+    <dl class="rituals-feature__availability">
+        <div><dt>Free &amp; Pro</dt><dd>Four continuous mappings with sources, ranges and scaling.</dd></div>
+    </dl>
+</li>
+
+
+<li class="rituals-feature">
+    <span class="rituals-feature__icon" aria-hidden="true"><i class="fas fa-arrows-alt-h"></i></span>
+    <h3>Find the space between notes</h3>
+    <div class="rituals-feature__description"><p>Give the phrase room to breathe, move its loop region and refine the transitions. Save settings with your host and automate the six Shape controls in either tier.</p>
+</div>
+    <dl class="rituals-feature__availability">
+        <div><dt>Free</dt><dd>Original spacing, the full MORSE loop and all shaping controls.</dd></div>
+        <div><dt>Pro</dt><dd>Leading silence, character spacing and loop authoring.</dd></div>
+    </dl>
+</li>
+
+</ul>
+
+<h2 id="two-ways-to-play-the-same-phrase">Two ways to play the same phrase</h2>
+<p>With <strong>Sustain</strong>, your note attacks come from your playing. The pattern moves the expression of those held notes, which can suit long pads, strings and evolving textures.</p>
+<p>With <strong>Retrigger</strong>, each mark can start held notes again. The receiving instrument’s envelope makes those attacks part of the rhythm, opening up more percussive articulations.</p>
+<p>Choose <strong>Sustain</strong> or <strong>Retrigger</strong> with the dedicated articulation selector. It stays independent of the velocity and continuous mappings: disabling those mappings does not turn Retrigger off. Separate marks remain separate retriggers even when their edges touch. Changing chords does not restart the rhythmic phrase.</p>
+<h2 id="expression-that-suits-your-instrument">Expression that suits your instrument</h2>
+<p>Five permanent tabs hold <strong>Velocity</strong> and <strong>four continuous mappings</strong>. Each continuous mapping can use <strong>Morse Envelope</strong>, <strong>Dots only</strong>, <strong>Dashes only</strong> or <strong>Loop Ramp</strong>. Select a tab to edit its settings; use <strong>Active Mapping</strong> to enable it independently of the other tabs.</p>
+<p>The initial <strong>MORSE</strong> pattern uses <strong>CC11 Expression</strong>. The other continuous slots start with <strong>CC1 Modulation</strong>, <strong>CC74 Brightness</strong> and <strong>CC7 Channel Volume</strong>, ready to enable. Choose another assignable controller or <strong>Polyphonic Pressure</strong>, drag the range graph’s endpoints and invert its direction. Active CC destinations must be distinct, with at most one active pressure mapping.</p>
+<p><strong>Absolute Range</strong> follows your authored range at full Depth. <strong>Scale Input</strong> multiplies that movement by the incoming value; it is the initial CC11 setting. When a controller mapping releases its destination, it restores the latest incoming value, or a destination-specific fallback if no value has arrived.</p>
+<p>Controller messages affect the receiving MIDI channel; polyphonic pressure addresses individual notes. The audible result depends on the instrument and its assignments. Full MPE support is outside the first release.</p>
+<p>Velocity shaping stays separate from continuous expression. Choose <strong>Played velocity</strong> or <strong>Fixed velocity</strong> for incoming notes, then keep a linear response, lift softer notes or emphasize stronger ones. Fixed velocity still uses the pitches you play.</p>
+<h2 id="a-phrase-you-can-reshape">A phrase you can reshape</h2>
+<p>With <strong>Pro</strong>, apply up to 20 supported characters, add leading silence and adjust the gaps between characters. Use free placement or snapping to Morse ticks and host beats, then select a loop or move the whole region with its labelled duration strip. Timing, triplets, grid choices and zoom remain available in Free.</p>
+<p><strong>Balance</strong>, <strong>Attack</strong>, <strong>A. Offset</strong>, <strong>Release</strong>, <strong>R. Offset</strong> and <strong>Depth</strong> shape the Morse treatment. <strong>Reshape Overlaps</strong> can shorten overlapping fades to preserve complete pulses. Loop Ramp keeps its own rising shape. Controls with no role in the current routing stay visible but inactive, with their settings retained.</p>
+<h2 id="set-up-your-first-performance">Set up your first performance</h2>
+<ol>
+<li><strong>Choose the route.</strong> Load MorsettoMidi in a host that supports AUv3 MIDI processors and route its output to an instrument.</li>
+<li><strong>Send your notes.</strong> Connect a keyboard or play a MIDI region into MorsettoMidi. Select a receiving patch that responds to CC11 Expression for the initial setup.</li>
+<li><strong>Start the host and play.</strong> Hold notes or chords, listen to the pattern, then explore Sustain, Retrigger and expression mappings.</li>
+</ol>
+<p>The receiving instrument makes the sound. Recording the resulting audio or MIDI uses the facilities available in your host.</p>
+<h2 id="free-and-pro">Free and Pro</h2>
+<p><strong>Free</strong> includes unlimited MORSE processing, Sustain and Retrigger, velocity curves, configurable expression, shaping, subdivision/triplets, host automation and saving. Its text, original spacing and complete natural loop remain fixed.</p>
+<figure><img src="/morsetto/midi/morsettomidi-pro-icon-256.png"
+			alt="MorsettoMidi Pro optional one-time purchase." width="80">
+</figure>
+
+<p><strong>MorsettoMidi Pro</strong> is an optional <strong>one-time purchase</strong> for custom text, spacing, leading silence and loop authoring. In the MorsettoMidi app, choose <strong>Get Pro</strong> or <strong>Manage Pro</strong> to open purchase and restoration details. Back in the plug-in, choose its <strong>Free / Pro</strong> status button to refresh shared access if needed. MorsettoAudio Pro is a separate purchase.</p>
+<p>Opening and re-saving a Pro project without Pro access preserves the custom pattern, while current playback uses MORSE. Restore access to use the saved custom material again.</p>
+<h2 id="compatibility-and-availability">Compatibility and availability</h2>
+<p>The current system baseline is <strong>iOS/iPadOS 18 or later and macOS 15 or later</strong>. The host must support AUv3 MIDI processing, route its output to an instrument and supply tempo, beat position and moving transport. Incoming notes or MIDI clock alone do not start the pattern.</p>
+<blockquote>
+<p><a href="https://help.ableton.com/hc/en-us/articles/209070189-Accessing-the-MIDI-output-of-a-VST-plug-in" target="_blank" rel="noopener noreferrer ">Ableton’s routing guide</a>
+ describes a VST workflow and lists AU MIDI output as unavailable in Live. MorsettoMidi currently supplies AUv3 only, with no VST edition. AU hosts that support MIDI-processor routing can use <a href="https://developer.apple.com/documentation/audiotoolbox/auaudiounit/midioutputeventlistblock" target="_blank" rel="noopener noreferrer ">Apple’s AU MIDI-output APIs</a>
+; AU discovery alone does not establish that a host provides the required route.</p>
+</blockquote>
+<p>To shape an existing audio signal, explore <a href="../audio/" rel="">MorsettoAudio</a>
+. Visit the <a href="../" rel="">Morsetto overview</a>
+ to compare both products.</p>
+<h2 id="help-and-privacy">Help and privacy</h2>
+<p>Visit <a href="support/" rel="">MorsettoMidi Support</a>
+ for MIDI routing, expression and playback guidance. For the complete offline guide, open <strong>User Manual</strong> in the MorsettoMidi app. Read the <a href="../privacy/" rel="">Morsetto Privacy Policy</a>
+ for MIDI processing, host-saved settings and platform-specific details.</p>
+</div>
+
+    <div id="post-footer" aria-hidden="true"></div>
+</div>
+</div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="https://schema.org/CreativeWork"><i class="far fa-copyright" aria-hidden="true"></i><span itemprop="copyrightYear">2013 - 2026</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/bio/" target="_blank">Luca Cipressi</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div id="fixed-buttons-hidden"><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment" aria-hidden="true"></i>
+            </a>
+        </div><script src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.2/sharer.min.js"></script><script>window.config={"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":12,"noResultsFound":"No results found","snippetLength":45,"type":"lunr"}};</script><script src="/js/theme.bdd7c335e18ce1f2b9504637f94c6e57db2a87a53571aefe1a8b1c7e9d7cedb1.js" integrity="sha256-vdfDNeGM4fK5UEY3+UxuV9sqh6U1ca7+Goscfp187bE="></script></body>
+</html>
